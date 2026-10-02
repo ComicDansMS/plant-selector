@@ -678,6 +678,9 @@ dialog {
   background: transparent;
   color: var(--ink);
 }
+dialog:focus {
+  outline: none;
+}
 dialog::backdrop {
   background: var(--backdrop);
 }
@@ -1317,6 +1320,15 @@ dialog::backdrop {
   display: block;
   margin: 0.75rem auto 0;
   font-size: 0.9rem;
+}
+.added--message .added__panel {
+  padding-bottom: 1rem;
+}
+.added--message .added__head {
+  margin-bottom: -0.5rem;
+}
+.added--message :is(.added__item, .added__view, .added__continue) {
+  display: none;
 }
 
 /* List page */

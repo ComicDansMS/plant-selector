@@ -21,7 +21,6 @@
     addToCart,
     removeFromCart,
     clearCart,
-    isFavourite,
     setFavourite,
     consideredPlants,
     storageOk,
@@ -31,9 +30,8 @@
   // Open items are remembered by plant so they stay open across re-renders.
   const expanded = new Set();
   let removedId = null;
-  // Set when the last removal moved the plant to favourites. Holds whether it
-  // was a favourite already, so undo can put that back too.
-  let moved = null;
+  // Whether the last removal moved the plant to favourites.
+  let moved = false;
 
   function itemHTML({ plant, line, sum }) {
     const key = `list-${plant.id}`;
@@ -100,7 +98,7 @@
       "#list-groups [data-remove], #list-groups [data-move-favourite]",
     );
     if (removedId !== null && lines.get(removedId).selected) removedId = null;
-    if (removedId === null) moved = null;
+    if (removedId === null) moved = false;
     const { groups, count, unknown } = cartSummary();
 
     $("#list-groups").innerHTML = groups
@@ -167,7 +165,7 @@
       "[data-remove]",
       (el) => {
         removedId = +el.dataset.remove;
-        moved = null;
+        moved = false;
         expanded.delete(removedId);
         removeFromCart(removedId);
       },
@@ -176,10 +174,9 @@
       "[data-move-favourite]",
       (el) => {
         removedId = +el.dataset.moveFavourite;
-        moved = { wasFavourite: isFavourite(removedId) };
+        moved = true;
         expanded.delete(removedId);
-        // Removed first, so the render in between still shows the undo.
-        removeFromCart(removedId);
+        // Favouriting also takes the plant out of the list.
         setFavourite(removedId, true);
       },
     ],
@@ -187,19 +184,18 @@
       "#list-undo-button",
       () => {
         const id = removedId;
-        const wasMoved = moved;
         removedId = null;
-        moved = null;
+        moved = false;
         if (id === null) return;
+        // Adding to the list also takes the plant back out of favourites.
         addToCart(id);
-        if (wasMoved && !wasMoved.wasFavourite) setFavourite(id, false);
       },
     ],
     [
       "#list-clear",
       () => {
         removedId = null;
-        moved = null;
+        moved = false;
         expanded.clear();
         clearCart();
       },

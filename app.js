@@ -325,6 +325,9 @@
   function showDialog(dialog) {
     if (dialog.open) return;
     dialog.showModal();
+    // Focus the dialog itself rather than its first button. iOS Safari shows
+    // a focus ring on whatever showModal() focuses, even after a tap.
+    dialog.focus();
     dialogStack.push(dialog);
   }
 
@@ -361,12 +364,11 @@
     addedTimer = setTimeout(hideAdded, ADDED_TIMEOUT);
   }
 
-  function showAdded(id, updated = false) {
+  function showAdded(id, title) {
     const plant = byId.get(id);
     const line = lines.get(id);
-    $("#added-title-text").textContent = updated
-      ? "Your list was updated"
-      : "Added to your list";
+    added.classList.remove("added--message");
+    $("#added-title-text").textContent = title;
     $("#added-item").innerHTML =
       `<img class="added__thumb" src="${esc(plant.photos[0].src)}" alt="" width="80" height="80" decoding="async">
       <div>
@@ -374,6 +376,29 @@
         <p class="added__meta">Qty ${line.qty}</p>
         <p class="added__price">${plant.price === null ? "Unpriced" : money(plant.price * line.qty)}</p>
       </div>`;
+    openAdded();
+  }
+
+  function removeFromList(id) {
+    removeFromCart(id);
+    showMessage(`${byId.get(id).name} removed from your list`);
+  }
+
+  // Called before adding, since adding takes the plant out of favourites.
+  function addedTitle(id) {
+    if (lines.get(id).selected) return "Your list was updated";
+    return isFavourite(id) ? "Moved to your list" : "Added to your list";
+  }
+
+  // The same notification with just a title line, for short messages.
+  function showMessage(text) {
+    added.classList.add("added--message");
+    $("#added-title-text").textContent = text;
+    $("#added-item").innerHTML = "";
+    openAdded();
+  }
+
+  function openAdded() {
     hideAdded();
     (dialogStack.at(-1) ?? document.body).append(added);
     added.showPopover();
@@ -650,10 +675,11 @@
       "[data-quick-add]",
       (el) => {
         const id = +el.dataset.quickAdd;
-        if (lines.get(id).selected) removeFromCart(id);
+        if (lines.get(id).selected) removeFromList(id);
         else {
+          const title = addedTitle(id);
           addToCart(id);
-          showAdded(id);
+          showAdded(id, title);
         }
       },
     ],
@@ -661,20 +687,28 @@
       "[data-favourite]",
       (el) => {
         const id = +el.dataset.favourite;
-        setFavourite(id, !isFavourite(id));
+        const { name } = byId.get(id);
+        if (isFavourite(id)) {
+          setFavourite(id, false);
+          showMessage(`${name} removed from favourites`);
+          return;
+        }
+        const inList = lines.get(id).selected;
+        setFavourite(id, true);
+        showMessage(`${name} ${inList ? "moved" : "added"} to favourites`);
       },
     ],
     [
       "[data-qty-step]",
       (el) => stepQuantity(el),
     ],
-    ["[data-remove]", (el) => removeFromCart(+el.dataset.remove)],
+    ["[data-remove]", (el) => removeFromList(+el.dataset.remove)],
     [
       "#plant-add",
       () => {
-        const updated = lines.get(modal.id).selected;
+        const title = addedTitle(modal.id);
         addToCart(modal.id, { qty: modal.qty });
-        showAdded(modal.id, updated);
+        showAdded(modal.id, title);
       },
     ],
     ["[data-step]", (el) => stepPlant(Number(el.dataset.step))],

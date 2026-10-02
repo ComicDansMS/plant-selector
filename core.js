@@ -221,12 +221,16 @@
 
   const favourites = new Set();
 
+  // Adding a plant to the list takes it out of favourites. Older saves can
+  // still have both, so plants in the list are skipped here (restoreCart runs
+  // first).
   function restoreFavourites() {
     favourites.clear();
     try {
       const ids = JSON.parse(localStorage.getItem(FAVOURITES_KEY) || "[]");
       if (Array.isArray(ids))
-        for (const id of ids) if (byId.has(id)) favourites.add(id);
+        for (const id of ids)
+          if (byId.has(id) && !lines.get(id).selected) favourites.add(id);
     } catch {
       /* Invalid or unavailable storage leaves no favourites. */
     }
@@ -243,18 +247,23 @@
 
   const isFavourite = (id) => favourites.has(id);
 
+  // A plant is never both in the list and a favourite, so favouriting a plant
+  // in the list moves it out of the list.
   function setFavourite(id, on) {
     if (on) favourites.add(id);
     else favourites.delete(id);
     saveFavourites();
+    const line = lines.get(id);
+    if (on && line.selected) {
+      line.selected = false;
+      saveCart();
+    }
     notify();
   }
 
-  // Favourited plants that are not in the list yet, in catalogue order.
+  // Favourited plants, in catalogue order.
   const consideredPlants = () =>
-    plants.filter(
-      (plant) => favourites.has(plant.id) && !lines.get(plant.id).selected,
-    );
+    plants.filter((plant) => favourites.has(plant.id));
 
   function cartSummary() {
     let count = 0;
@@ -307,6 +316,7 @@
       const line = lines.get(id);
       line.selected = true;
       if (qty !== undefined) line.qty = clampQty(qty);
+      if (favourites.delete(id)) saveFavourites();
     });
   }
 
