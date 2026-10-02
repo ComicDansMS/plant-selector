@@ -663,8 +663,7 @@ button:disabled {
   height: 1.75rem;
 }
 .gallery__thumb .img-fallback span,
-.list-item__thumb.img-fallback span,
-.added__thumb.img-fallback span {
+.list-item__thumb.img-fallback span {
   display: none;
 }
 
@@ -1284,42 +1283,9 @@ dialog::backdrop {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.added__item {
-  display: grid;
-  grid-template-columns: 4.5rem minmax(0, 1fr);
-  gap: 0.9rem;
-  margin-bottom: 1.25rem;
-}
-.added__item p {
-  margin: 0;
-}
-.added__thumb {
-  width: 4.5rem;
-  height: 4.5rem;
-  border-radius: var(--radius);
-  object-fit: cover;
-  background: var(--thumb);
-}
-.added__name {
-  font: 600 1.05rem/1.25 var(--serif);
-}
-.added__meta {
-  color: var(--muted);
-  font-size: 0.85rem;
-}
-.added__price {
-  font-size: 0.9rem;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-}
 .added__view {
   width: 100%;
   text-decoration: none;
-}
-.added__continue {
-  display: block;
-  margin: 0.75rem auto 0;
-  font-size: 0.9rem;
 }
 .added--message .added__panel {
   padding-bottom: 1rem;
@@ -1327,7 +1293,7 @@ dialog::backdrop {
 .added--message .added__head {
   margin-bottom: -0.5rem;
 }
-.added--message :is(.added__item, .added__view, .added__continue) {
+.added--message .added__view {
   display: none;
 }
 

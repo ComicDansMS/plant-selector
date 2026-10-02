@@ -364,18 +364,9 @@
     addedTimer = setTimeout(hideAdded, ADDED_TIMEOUT);
   }
 
-  function showAdded(id, title) {
-    const plant = byId.get(id);
-    const line = lines.get(id);
+  function showAdded(title) {
     added.classList.remove("added--message");
     $("#added-title-text").textContent = title;
-    $("#added-item").innerHTML =
-      `<img class="added__thumb" src="${esc(plant.photos[0].src)}" alt="" width="80" height="80" decoding="async">
-      <div>
-        <p class="added__name">${esc(plant.name)}</p>
-        <p class="added__meta">Qty ${line.qty}</p>
-        <p class="added__price">${plant.price === null ? "Unpriced" : money(plant.price * line.qty)}</p>
-      </div>`;
     openAdded();
   }
 
@@ -390,11 +381,10 @@
     return isFavourite(id) ? "Moved to your list" : "Added to your list";
   }
 
-  // The same notification with just a title line, for short messages.
+  // The same notification without the View list button, for short messages.
   function showMessage(text) {
     added.classList.add("added--message");
     $("#added-title-text").textContent = text;
-    $("#added-item").innerHTML = "";
     openAdded();
   }
 
@@ -427,6 +417,7 @@
   const modal = { id: null, photo: 0, qty: 1 };
   const plantDialog = $("#plant-dialog");
   const lightbox = $("#lightbox");
+  const pageURL = () => location.pathname + location.search;
 
   // Previous and next follow the grid as currently sorted and filtered. A
   // plant opened from a deep link may be filtered out, so then the full list
@@ -554,21 +545,75 @@
     $('[data-step="-1"]', plantDialog).disabled = index <= 0;
     $('[data-step="1"]', plantDialog).disabled = index >= order.length - 1;
 
-    history.replaceState(history.state, "", `#plant-${id}`);
+    // Opening the modal adds a history entry, so back (including the edge
+    // swipe, which a page can't block) closes it. Moving between plants
+    // replaces that entry. A deep link's own entry loses its hash first, so
+    // back from it lands on the plain page.
+    const url = `#plant-${id}`;
+    if (plantDialog.open || history.state?.plant)
+      history.replaceState(history.state, "", url);
+    else {
+      if (location.hash.startsWith("#plant-"))
+        history.replaceState(history.state, "", pageURL());
+      history.pushState({ ...history.state, plant: true }, "", url);
+    }
     bringToFront(plantDialog);
     $(".product-modal__panel", plantDialog).scrollTop = 0;
   }
 
-  function stepPlant(step) {
+  function stepPlant(step, { focus = true } = {}) {
     const order = visibleOrder();
     const next = order[order.indexOf(modal.id) + step];
     if (next === undefined) return;
     openPlant(next);
+    if (!focus) return;
     // Keep focus on the button that was pressed so repeated presses work;
     // fall back to the other direction once the end is reached.
     const same = $(`[data-step="${step}"]`, plantDialog);
     (same.disabled ? $(`[data-step="${-step}"]`, plantDialog) : same).focus();
   }
+
+  // A sideways swipe anywhere but the photos steps to the previous or next
+  // plant. Swipes from the screen edges are left to the browser, which uses
+  // them for back and forward. The panel only scrolls vertically, so the
+  // browser does nothing else with a sideways swipe and none is prevented.
+  const SWIPE_EDGE = 24;
+  const SWIPE_DISTANCE = 50;
+  let swipeStart = null;
+  plantDialog.addEventListener(
+    "touchstart",
+    (event) => {
+      const [touch] = event.touches;
+      swipeStart =
+        event.touches.length === 1 &&
+        !event.target.closest(".gallery__viewport, input, select, textarea") &&
+        touch.clientX > SWIPE_EDGE &&
+        touch.clientX < innerWidth - SWIPE_EDGE
+          ? { x: touch.clientX, y: touch.clientY }
+          : null;
+    },
+    { passive: true },
+  );
+  plantDialog.addEventListener(
+    "touchend",
+    (event) => {
+      if (!swipeStart) return;
+      const [touch] = event.changedTouches;
+      const dx = touch.clientX - swipeStart.x;
+      const dy = touch.clientY - swipeStart.y;
+      swipeStart = null;
+      // Mostly sideways, so a slightly diagonal scroll doesn't count, and not
+      // the end of a text selection.
+      if (Math.abs(dx) < SWIPE_DISTANCE || Math.abs(dx) < 2 * Math.abs(dy))
+        return;
+      if (!getSelection().isCollapsed) return;
+      stepPlant(dx < 0 ? 1 : -1, { focus: false });
+    },
+    { passive: true },
+  );
+  plantDialog.addEventListener("touchcancel", () => (swipeStart = null), {
+    passive: true,
+  });
 
   /* Gallery and lightbox */
 
@@ -679,7 +724,7 @@
         else {
           const title = addedTitle(id);
           addToCart(id);
-          showAdded(id, title);
+          showAdded(title);
         }
       },
     ],
@@ -708,7 +753,7 @@
       () => {
         const title = addedTitle(modal.id);
         addToCart(modal.id, { qty: modal.qty });
-        showAdded(modal.id, title);
+        showAdded(title);
       },
     ],
     ["[data-step]", (el) => stepPlant(Number(el.dataset.step))],
@@ -841,12 +886,11 @@
     if (lightbox.open) lightbox.close();
     if (plantDialog.contains(added)) hideAdded();
     modal.id = null;
-    if (location.hash.startsWith("#plant-"))
-      history.replaceState(
-        history.state,
-        "",
-        location.pathname + location.search,
-      );
+    // Closed with the button, Escape or the backdrop: step back off the
+    // modal's own entry. Closed by going back: the hash is already gone.
+    if (history.state?.plant) history.back();
+    else if (location.hash.startsWith("#plant-"))
+      history.replaceState(history.state, "", pageURL());
   });
 
   $("#zone-sections").addEventListener("pointerover", (event) => {
@@ -874,6 +918,8 @@
     // #plant-cart was the cart's address in the earlier version of the page;
     // the list page has taken its place.
     else if (location.hash === "#plant-cart") location.replace("list.html");
+    // Back from an open plant.
+    else if (plantDialog.open) plantDialog.close();
   }
   window.addEventListener("hashchange", syncHash);
 
