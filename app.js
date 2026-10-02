@@ -416,6 +416,10 @@
 
   const modal = { id: null, photo: 0, qty: 1 };
   const plantDialog = $("#plant-dialog");
+  const plantBody = $("#plant-dialog-body");
+  const plantPanel = $(".product-modal__panel", plantDialog);
+  const plantTrack = $(".product-modal__track", plantDialog);
+  const peeks = $$(".product-modal__peek", plantDialog);
   const lightbox = $("#lightbox");
   const pageURL = () => location.pathname + location.search;
 
@@ -466,7 +470,11 @@
       ${body}
     </section>`;
 
-  function plantInfoHTML(plant) {
+  const plantBodyHTML = (plant, qty) =>
+    `<div class="product__media">${galleryHTML(plant)}</div>
+    <div class="product__info">${plantInfoHTML(plant, qty)}</div>`;
+
+  function plantInfoHTML(plant, qty) {
     const conditions = `<dl class="conditions">${plant.conditions
       .map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`)
       .join("")}</dl>`;
@@ -480,7 +488,7 @@
       <span class="diff" data-d="${plant.difficulty}">Difficulty: ${plant.difficulty}</span>
       ${plantPriceHTML(plant)}
       <div class="product__form">
-        ${quantityHTML("plant", plant.name, modal.qty)}
+        ${quantityHTML("plant", plant.name, qty)}
         <button type="button" class="button button--secondary product__favourite" data-favourite="${plant.id}" aria-pressed="${isFavourite(plant.id)}">${ICONS.heart}<span>Favourite</span></button>
         <button type="button" class="button product__add" id="plant-add">Add to list</button>
       </div>
@@ -503,10 +511,18 @@
 
   function renderPlantListState() {
     if (modal.id === null) return;
-    const plant = byId.get(modal.id);
-    const line = lines.get(modal.id);
-    $("#plant-add").textContent = line.selected ? "Update list" : "Add to list";
-    const box = $("#plant-in-list");
+    renderLineState(plantBody, modal.id);
+    for (const peek of peeks)
+      if (peek.dataset.id) renderLineState(peek, +peek.dataset.id);
+  }
+
+  function renderLineState(root, id) {
+    const plant = byId.get(id);
+    const line = lines.get(id);
+    $(".product__add", root).textContent = line.selected
+      ? "Update list"
+      : "Add to list";
+    const box = $(".product__in-list", root);
     box.hidden = !line.selected;
     if (!line.selected) {
       box.innerHTML = "";
@@ -519,7 +535,7 @@
 
   function setModalQty(qty) {
     modal.qty = clampQty(qty);
-    const input = $('[data-qty="plant"]', plantDialog);
+    const input = $('[data-qty="plant"]', plantBody);
     input.value = modal.qty;
     input.previousElementSibling.disabled = modal.qty <= 1;
     input.nextElementSibling.disabled = modal.qty >= MAX_QTY;
@@ -528,19 +544,13 @@
   function openPlant(id) {
     const plant = byId.get(id);
     if (!plant) return;
-    const line = lines.get(id);
-    Object.assign(modal, {
-      id,
-      photo: 0,
-      qty: line.selected ? line.qty : 1,
-    });
-    $("#plant-dialog-body").innerHTML =
-      `<div class="product__media">${galleryHTML(plant)}</div>
-      <div class="product__info">${plantInfoHTML(plant)}</div>`;
-    renderPlantListState();
+    Object.assign(modal, { id, photo: 0, qty: startQty(id) });
+    plantBody.innerHTML = plantBodyHTML(plant, modal.qty);
 
     const order = visibleOrder();
     const index = order.indexOf(id);
+    renderPeeks(order, index);
+    renderPlantListState();
     $("#plant-position").textContent = `${index + 1} of ${order.length}`;
     $('[data-step="-1"]', plantDialog).disabled = index <= 0;
     $('[data-step="1"]', plantDialog).disabled = index >= order.length - 1;
@@ -558,7 +568,24 @@
       history.pushState({ ...history.state, plant: true }, "", url);
     }
     bringToFront(plantDialog);
-    $(".product-modal__panel", plantDialog).scrollTop = 0;
+    plantPanel.scrollTop = 0;
+  }
+
+  function startQty(id) {
+    const line = lines.get(id);
+    return line.selected ? line.qty : 1;
+  }
+
+  // The previous and next plants are rendered either side of the current one
+  // so a swipe can drag them into view. They are inert copies with the ids
+  // removed, and their first photos load now so they are ready to show.
+  function renderPeeks(order, index) {
+    for (const peek of peeks) {
+      const plant = byId.get(order[index + +peek.dataset.peek]);
+      peek.dataset.id = plant?.id ?? "";
+      peek.innerHTML = plant ? plantBodyHTML(plant, startQty(plant.id)) : "";
+      for (const el of $$("[id]", peek)) el.removeAttribute("id");
+    }
   }
 
   function stepPlant(step, { focus = true } = {}) {
@@ -573,63 +600,150 @@
     (same.disabled ? $(`[data-step="${-step}"]`, plantDialog) : same).focus();
   }
 
-  // A sideways swipe anywhere but the photos steps to the previous or next
-  // plant. Swipes from the screen edges are left to the browser, which uses
-  // them for back and forward. The panel only scrolls vertically, so the
-  // browser does nothing else with a sideways swipe and none is prevented.
+  // A sideways swipe anywhere but the photos drags the plant aside, with the
+  // previous or next one following it in, and steps once it is let go far
+  // enough or flicked. Swipes from the screen edges are left to the browser,
+  // which uses them for back and forward. The direction is decided on the
+  // first few pixels: a sideways drag stops the panel scrolling, and a
+  // vertical one is left to scroll as usual.
   const SWIPE_EDGE = 24;
-  const SWIPE_DISTANCE = 50;
-  let swipeStart = null;
+  const SWIPE_LOCK = 8;
+  const SWIPE_FLICK = 0.4; // px per ms
+  let swipe = null;
+  let settling = false;
+
+  const peekFor = (step) =>
+    peeks.find((peek) => +peek.dataset.peek === step && peek.dataset.id);
+
   plantDialog.addEventListener(
     "touchstart",
     (event) => {
       const [touch] = event.touches;
-      swipeStart =
+      swipe =
+        !settling &&
         event.touches.length === 1 &&
         !event.target.closest(".gallery__viewport, input, select, textarea") &&
         touch.clientX > SWIPE_EDGE &&
         touch.clientX < innerWidth - SWIPE_EDGE
-          ? { x: touch.clientX, y: touch.clientY }
+          ? { x: touch.clientX, y: touch.clientY, dragging: false }
           : null;
     },
     { passive: true },
   );
+
+  plantDialog.addEventListener(
+    "touchmove",
+    (event) => {
+      if (!swipe) return;
+      const [touch] = event.touches;
+      const dx = touch.clientX - swipe.x;
+      const dy = touch.clientY - swipe.y;
+      if (!swipe.dragging) {
+        if (Math.hypot(dx, dy) < SWIPE_LOCK) return;
+        // Not mostly sideways, already scrolling, or ending a text selection.
+        if (
+          Math.abs(dx) <= Math.abs(dy) ||
+          !event.cancelable ||
+          !getSelection().isCollapsed
+        ) {
+          swipe = null;
+          return;
+        }
+        swipe.dragging = true;
+        startDrag();
+      }
+      event.preventDefault();
+      const now = event.timeStamp;
+      if (swipe.t !== undefined && now > swipe.t)
+        swipe.v = (dx - swipe.dx) / (now - swipe.t);
+      swipe.dx = dx;
+      swipe.t = now;
+      // Resist past the first and last plant.
+      const offset = peekFor(dx < 0 ? 1 : -1) ? dx : dx / 3;
+      plantTrack.style.transform = `translate3d(${offset}px, 0, 0)`;
+    },
+    { passive: false },
+  );
+
   plantDialog.addEventListener(
     "touchend",
-    (event) => {
-      if (!swipeStart) return;
-      const [touch] = event.changedTouches;
-      const dx = touch.clientX - swipeStart.x;
-      const dy = touch.clientY - swipeStart.y;
-      swipeStart = null;
-      // Mostly sideways, so a slightly diagonal scroll doesn't count, and not
-      // the end of a text selection.
-      if (Math.abs(dx) < SWIPE_DISTANCE || Math.abs(dx) < 2 * Math.abs(dy))
+    () => {
+      if (!swipe?.dragging) {
+        swipe = null;
         return;
-      if (!getSelection().isCollapsed) return;
-      stepPlant(dx < 0 ? 1 : -1, { focus: false });
+      }
+      const { dx, v = 0 } = swipe;
+      swipe = null;
+      const step = dx < 0 ? 1 : -1;
+      const width = plantTrack.clientWidth;
+      const go =
+        peekFor(step) &&
+        (Math.abs(dx) > width / 3 ||
+          (Math.abs(v) > SWIPE_FLICK && Math.sign(v) === Math.sign(dx)));
+      settle(go ? -step * width : 0, go ? step : 0);
     },
     { passive: true },
   );
-  plantDialog.addEventListener("touchcancel", () => (swipeStart = null), {
-    passive: true,
-  });
+
+  plantDialog.addEventListener(
+    "touchcancel",
+    () => {
+      if (swipe?.dragging) settle(0, 0);
+      swipe = null;
+    },
+    { passive: true },
+  );
+
+  // The neighbours show their tops in the visible part of the panel, as they
+  // will look once stepped to, however far the current plant is scrolled.
+  function startDrag() {
+    const bar = $(".product-modal__bar", plantDialog).getBoundingClientRect();
+    const track = plantTrack.getBoundingClientRect();
+    const panel = plantPanel.getBoundingClientRect();
+    for (const peek of peeks) {
+      peek.style.top = `${Math.max(0, bar.bottom - track.top)}px`;
+      peek.style.height = `${panel.bottom - Math.max(bar.bottom, track.top)}px`;
+    }
+    plantTrack.classList.add("is-dragging");
+  }
+
+  function settle(offset, step) {
+    settling = true;
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      plantTrack.removeEventListener("transitionend", finish);
+      plantTrack.classList.remove("is-settling", "is-dragging");
+      // Step first, in the same frame as the reset, so the plant that slid
+      // in is simply re-rendered in place.
+      if (step && plantDialog.open) stepPlant(step, { focus: false });
+      plantTrack.style.transform = "";
+      for (const peek of peeks) peek.style.top = peek.style.height = "";
+      settling = false;
+    };
+    if (reducedMotion()) return finish();
+    plantTrack.classList.add("is-settling");
+    plantTrack.addEventListener("transitionend", finish);
+    setTimeout(finish, 400);
+    plantTrack.style.transform = `translate3d(${offset}px, 0, 0)`;
+  }
 
   /* Gallery and lightbox */
 
   function showPhoto(index, { scroll = true } = {}) {
     const count = byId.get(modal.id).photos.length;
     modal.photo = Math.max(0, Math.min(count - 1, index));
-    $(".gallery__counter", plantDialog).textContent =
+    $(".gallery__counter", plantBody).textContent =
       `${modal.photo + 1} / ${count}`;
-    $$(".gallery__thumb", plantDialog).forEach((thumb, i) => {
+    $$(".gallery__thumb", plantBody).forEach((thumb, i) => {
       if (i === modal.photo) thumb.setAttribute("aria-current", "true");
       else thumb.removeAttribute("aria-current");
     });
-    $('[data-photo="-1"]', plantDialog).disabled = modal.photo === 0;
-    $('[data-photo="1"]', plantDialog).disabled = modal.photo === count - 1;
+    $('[data-photo="-1"]', plantBody).disabled = modal.photo === 0;
+    $('[data-photo="1"]', plantBody).disabled = modal.photo === count - 1;
     if (scroll) {
-      const viewport = $(".gallery__viewport", plantDialog);
+      const viewport = $(".gallery__viewport", plantBody);
       viewport.scrollTo({
         left: modal.photo * viewport.clientWidth,
         behavior: reducedMotion() ? "auto" : "smooth",
@@ -857,7 +971,11 @@
     "scroll",
     (event) => {
       const viewport = event.target;
-      if (!viewport.classList?.contains("gallery__viewport")) return;
+      if (
+        !viewport.classList?.contains("gallery__viewport") ||
+        !plantBody.contains(viewport)
+      )
+        return;
       cancelAnimationFrame(scrollFrame);
       scrollFrame = requestAnimationFrame(() => {
         if (!viewport.clientWidth || modal.id === null) return;

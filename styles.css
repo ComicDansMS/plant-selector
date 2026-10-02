@@ -686,13 +686,18 @@ dialog::backdrop {
 
 /* Plant modal (Dawn's quick add modal and product page layout) */
 
+/* Full screen, the dialog itself carries the background: iOS Safari tints
+   its toolbar from a fixed element at the bottom of the screen, and a
+   transparent one comes out white. */
 .product-modal {
   width: 100%;
   height: 100%;
   margin: 0;
+  background: var(--surface);
 }
 .product-modal__panel {
   height: 100%;
+  overflow-x: hidden;
   overflow-y: auto;
   overscroll-behavior: contain;
   background: var(--surface);
@@ -702,6 +707,7 @@ dialog::backdrop {
     width: min(100% - 4rem, 72rem);
     height: fit-content;
     margin: auto;
+    background: transparent;
   }
   .product-modal__panel {
     max-height: calc(100dvh - 4rem);
@@ -736,6 +742,34 @@ dialog::backdrop {
 }
 .product {
   padding-bottom: calc(2rem + env(safe-area-inset-bottom, 0px));
+}
+
+/* The previous and next plants sit either side of the current one and are
+   dragged in by a swipe. Kept to the current plant's height so they never
+   add to the scroll; while dragging they are fitted to the visible part of
+   the panel from JS. */
+.product-modal__track {
+  position: relative;
+}
+.product-modal__track.is-dragging {
+  will-change: transform;
+}
+.product-modal__track.is-settling {
+  transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.product-modal__peek {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.product-modal__peek[data-peek="-1"] {
+  translate: -100% 0;
+}
+.product-modal__peek[data-peek="1"] {
+  translate: 100% 0;
 }
 @media (min-width: 750px) {
   .product {
@@ -1034,6 +1068,7 @@ dialog::backdrop {
   height: 100%;
   margin: 0;
   color: #e3ece6;
+  background: rgb(5 10 8);
 }
 .lightbox__panel {
   display: grid;
