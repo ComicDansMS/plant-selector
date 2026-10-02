@@ -854,7 +854,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Downoi",
           "scientific": "Pogostemon helferi",
           "difficulty": "Moderate",
-          "about": "A Thai plant with crinkled, curling leaves that form small star shaped rosettes. Its texture is unlike anything else in the foreground. It needs a nutrient rich substrate and good iron levels to stay green.",
+          "about": "A Thai plant with crinkled, curling leaves that form small star shaped rosettes. The crinkled texture stands out against flat-leaved carpets. It needs a nutrient rich substrate and good iron levels to stay green.",
           "conditions": [
             [
               "Light",
@@ -989,8 +989,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn11.bigcommerce.com/s-os7lxdwh/images/stencil/original/products/435/1281/3-1-11013_1__62240.1509849982.jpg?c=2",
+              "caption": "Hairgrass lawn growing submerged in an aquascape",
+              "credit": "Z-Aquatics",
+              "creditUrl": "https://www.z-aquatics.com.au/eleocharis-belem/"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/eleocharis-belem-aquatic-farmer-tissue-culture-1243226485.jpg?v=1788285784&width=1200",
+              "caption": "Freshly planted tufts in an aquarium foreground",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/eleocharis-belem-aquatic-farmer-tissue-culture"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/eleocharis-belem-aquatic-farmer-tissue-culture-1243226486.jpg?v=1780964257&width=1200",
+              "caption": "Planted along the front of an aquascape",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/eleocharis-belem-aquatic-farmer-tissue-culture"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/eleocharis-belem-aquatic-farmer-tissue-culture-1227438138.jpg?v=1773691896&width=1200",
+              "caption": "Tissue-culture cup",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/eleocharis-belem-aquatic-farmer-tissue-culture"
             }
           ],
           "offers": [
@@ -1065,8 +1085,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/E644E05D-4477-4AD5-8620-D52AD8C15244.jpg?v=1763793341",
+              "caption": "Carpet growing submerged in an aquascape",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/micranthemum-umbrosum-takashi"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/IMG-8911.jpg?v=1786578516&width=1000",
+              "caption": "Portion held over a planted tank",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/micranthemum-umbrosum-takashi"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/IMG_1082.heic?v=1784563577&width=1200&format=pjpg",
+              "caption": "Tissue-culture cup held over a planted tank",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/tc-micranthemum-umbrosum-takashi-ca"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0608/5771/2849/products/tissue-culture-micranthemum-umbrosum-takashi-carpet-363573.jpg?v=1702330289&width=1200",
+              "caption": "Tissue-culture cup",
+              "credit": "Nano Tanks Australia",
+              "creditUrl": "https://nanotanksaustralia.com.au/products/tissue-culture-micranthemum-umbrosum-takashi-carpet"
             }
           ],
           "offers": [
@@ -1141,8 +1181,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/lilaeopsis-brasiliensis-523fe3ed2bcb7.jpg",
+              "caption": "Submerged in an aquarium beside wood",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/lilaeopsis-brasiliensis"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/50F2C8FB-309C-4033-A223-68779EC9F3D1.jpg?v=1754373300&width=1200",
+              "caption": "Close-up of a submerged lawn",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/micro-sword-lilaeopsis-brasiliensis"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/A5F81A18-D0DD-4652-9880-3EC49628DA94.jpg?v=1754373300&width=1200",
+              "caption": "Dense submerged growth",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/micro-sword-lilaeopsis-brasiliensis"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/lilaeopsis-brasiliensis-1_turbo.webp?v=1763788782&width=800",
+              "caption": "Single portion on a white background",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/lilaeopsis-brasiliensis"
             }
           ],
           "offers": [
@@ -1204,8 +1264,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/010%20TC/5.JPG&crop=resize&class=product",
+              "caption": "Submerged in an aquarium",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Marsileahirsuta(010TC)/4428"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/products/Marsilea-Hirsuta-in-aquarium.jpg?v=1730201702&width=1200",
+              "caption": "Submerged carpet in an aquarium",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/marsilea-hirsuta"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/IMG-4207.jpg?v=1784565993&width=1000",
+              "caption": "Young carpet spreading across the substrate",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/low-tech-carpet-plant-marselia-hirsuta"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/010%20TC/2.png&crop=resize&class=product",
+              "caption": "Tropica 1-2-Grow! tissue-culture cup",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Marsileahirsuta(010TC)/4428"
             }
           ],
           "offers": [
@@ -1280,8 +1360,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/eriocaulon-cinereum-4f7a01aca1832.jpg",
+              "caption": "Submerged rosette in an aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/eriocaulon-cinereum"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/091%20TC/5.JPG&crop=resize&class=product",
+              "caption": "Flowering in an aquascape",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/19547/19547"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/eriocaulon-cinereum-4f7a01ae3d151.jpg",
+              "caption": "Submerged rosette in the foreground",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/eriocaulon-cinereum"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/091%20TC/2.png&crop=resize&class=product",
+              "caption": "Tropica 1-2-Grow! tissue-culture cup",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/19547/19547"
             }
           ],
           "offers": [
@@ -1330,8 +1430,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/mein-anfang-51cebf85f3681.jpg",
+              "caption": "Aquascape: mein anfang (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/mein-anfang"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/nano-silvae-542bcaa869e49.jpg",
+              "caption": "Aquascape: nano silvae (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/nano-silvae"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0608/5771/2849/files/pennywort-creeping-jenny-lysimachia-nummularia-tissue-culture-2124297.png?v=1786977546&width=1000",
+              "caption": "Tissue-culture cup",
+              "credit": "Nano Tanks Australia",
+              "creditUrl": "https://nanotanksaustralia.com.au/products/tissue-culture-lysimachia-nummularia-pennywort"
+            },
+            {
+              "src": "https://greenaqua.hu/media/catalog/product/g/r/green-aqua-noveny-lysimachia-nummularia.jpg",
+              "caption": "Potted plant on a white background",
+              "credit": "Green Aqua",
+              "creditUrl": "https://greenaqua.hu/en/green-aqua-plant-lysimachia-nummularia.html"
             }
           ],
           "offers": [
@@ -1393,8 +1513,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/littorella-uniflora-51b07bd42ccfd.jpg",
+              "caption": "Submerged in an aquascape foreground",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/littorella-uniflora"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/littorella-uniflora-4f7a01d664e9f.jpg",
+              "caption": "Young plants spreading in an aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/littorella-uniflora"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/fffffffggggg.png?v=1720079838&width=800",
+              "caption": "Growing submerged in a planted tank",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/products/litorella-uniflora"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/littorella-uniflora-4f7a01d9dc9bd.jpg",
+              "caption": "Tissue-culture cup",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/littorella-uniflora"
             }
           ],
           "offers": [
@@ -1443,8 +1583,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/107/5.JPG&crop=resize&class=product",
+              "caption": "Submerged group in an aquascape",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/4559/4559"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/cryptocoryne-willisii-1255795009.jpg?v=1787688397&width=1200",
+              "caption": "Submerged between rocks in an aquarium",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/cryptocoryne-willisii"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Layouts/L021/2a.jpg&crop=resize&class=product",
+              "caption": "Tropica layout detail: planted in sand",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/inspiration/layout/Layout21/4918"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/107/2.png&crop=resize&class=product",
+              "caption": "Tropica potted plant",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/4559/4559"
             }
           ],
           "offers": [
@@ -1506,8 +1666,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/132C%20PCS/5.JPG&crop=resize&class=product",
+              "caption": "Submerged lawn in an aquascape",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Eleocharisparvula(132CPCS)/30198"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Layouts/L100/main.jpg&crop=resize&class=product",
+              "caption": "Tropica layout with a hairgrass lawn (plant in the layout's plant list)",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/inspiration/layout/Layout100/10356"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Layouts/L026/main.jpg&crop=resize&class=product",
+              "caption": "Tropica layout: hairgrass on the left (plant in the layout's plant list)",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/inspiration/layout/Layout26/4958"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/132C/2.png&crop=resize&class=product",
+              "caption": "Tropica potted plant",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/4572/4572"
             }
           ],
           "offers": [
@@ -1655,7 +1835,7 @@ globalThis.PLANT_CATALOGUE = {
               "creditUrl": "https://www.flowgrow.de/db/tanks/nannostomus-bay"
             },
             {
-              "src": "http://www.aquariumcoop.com/cdn/shop/files/cryptocoryne-lucens-8430287.jpg?v=1766095149",
+              "src": "https://www.aquariumcoop.com/cdn/shop/files/cryptocoryne-lucens-8430287.jpg?v=1766095149",
               "caption": "Original reference photo.",
               "credit": "aquariumcoop.com",
               "creditUrl": "https://www.aquariumcoop.com/products/cryptocoryne-lucens"
@@ -2232,7 +2412,7 @@ globalThis.PLANT_CATALOGUE = {
               "creditUrl": "https://www.flowgrow.de/db/aquaticplants/bacopa-monnieri"
             },
             {
-              "src": "http://aquafy.com.au/cdn/shop/products/bacopa-monnieri_grande.jpg?v=1730198039",
+              "src": "https://aquafy.com.au/cdn/shop/products/bacopa-monnieri_grande.jpg?v=1730198039",
               "caption": "Original reference photo.",
               "credit": "aquafy.com.au",
               "creditUrl": "https://aquafy.com.au/products/bacopa-monnieri"
@@ -2344,7 +2524,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Micranthemum umbrosum",
           "scientific": "Micranthemum umbrosum",
           "difficulty": "Moderate",
-          "about": "Bright green stem plant with small round leaves, often called Hemianthus umbrosum. Can be trimmed low as a carpet or left as a bush.",
+          "about": "Bright green stem plant with small round leaves, often called Hemianthus umbrosum. It can be trimmed low as a carpet or left to grow as a bush.",
           "conditions": [
             [
               "Light",
@@ -2366,8 +2546,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/048/4.png&crop=resize&class=product",
+              "caption": "Submerged in an aquascape",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Micranthemumumbrosum(048)/4475"
+            },
+            {
+              "src": "https://cdn11.bigcommerce.com/s-os7lxdwh/images/stencil/original/products/2/347/micranthemum-umbrosum-group__22518.1416825233.jpg?c=2",
+              "caption": "Submerged group in an aquarium",
+              "credit": "Z-Aquatics",
+              "creditUrl": "https://www.z-aquatics.com.au/micranthemum-umbrosum/"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/micranthemum-umbrosum-4f7a01f2d1364.jpg",
+              "caption": "Close-up of submerged growth",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/micranthemum-umbrosum"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/048/2.png&crop=resize&class=product",
+              "caption": "Tropica potted plant",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Micranthemumumbrosum(048)/4475"
             }
           ],
           "offers": [
@@ -2429,8 +2629,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/hemianthus-micranthemoides-pearl-weed-aquatic-farmer-tissue-culture-35572136968392.jpg?v=1775665021",
+              "caption": "Dense submerged group in an aquascape",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/pearlweed-aquatic-farmer-tissue-culture"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/hemianthus-micranthemoides-pearl-weed-aquatic-farmer-tissue-culture-35572138180808.jpg?v=1715885504",
+              "caption": "Submerged bush in front of red stem plants",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/pearlweed-aquatic-farmer-tissue-culture"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/0495D51A-6372-4272-B866-7C12B6C689A7.jpg?v=1763793268",
+              "caption": "Trimmed low as a submerged carpet",
+              "credit": "microaquaticshop.com.au",
+              "creditUrl": "https://microaquaticshop.com.au/products/carpet-plant-hemianthus-micranthemoide"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/micranthemum-micranthemoides-aquatic-farmer-tissue-culture-15746058551377.jpg?v=1775665021",
+              "caption": "Tissue-culture cup",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/pearlweed-aquatic-farmer-tissue-culture"
             }
           ],
           "offers": [
@@ -2457,7 +2677,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Cardamine lyrata (Japanese cress)",
           "scientific": "Cardamine lyrata",
           "difficulty": "Easy",
-          "about": "Round, bright green, slightly scalloped leaves on soft stems that grow upright or trail across the surface. It is a swamp plant from East Asia that does best in cooler water, and leaves get smaller and stems stretch if it stays above about 28 C. It trims easily and grows quickly, so cut it back regularly to keep it bushy.",
+          "about": "Round, bright green, slightly scalloped leaves on soft stems that grow upright or trail across the surface. It is a swamp plant from East Asia that does best in cooler water, and leaves get smaller and stems stretch if it stays above about 28°C. It trims easily and grows quickly, so cut it back regularly to keep it bushy.",
           "conditions": [
             [
               "Light",
@@ -2479,8 +2699,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/024/4.png&crop=resize&class=product",
+              "caption": "Submerged in a planted aquarium",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Cardaminelyrata%28024%29/4441"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cardamine-lyrata-4f7a01527416c.jpg",
+              "caption": "Submerged close-up of the kidney-shaped leaves",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cardamine-lyrata"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/swamp-grove-5644dd555b3db.jpg",
+              "caption": "Aquascape: Swamp Grove (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/swamp-grove"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/024/2.png&crop=resize&class=product",
+              "caption": "Tropica product photo (potted).",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Cardaminelyrata%28024%29/4441"
             }
           ],
           "offers": [
@@ -2594,8 +2834,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/2124-large_default/samolus-parviflorus.jpg",
+              "caption": "Grown out above the water in a planted setup, flowering",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/stem-plants/540-samolus-parviflorus.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/2123-large_default/samolus-parviflorus.jpg",
+              "caption": "Stem held over a planted aquarium",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/stem-plants/540-samolus-parviflorus.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/2146-large_default/samolus-parviflorus.jpg",
+              "caption": "Close-up of the small white flowers",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/stem-plants/540-samolus-parviflorus.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/007FBB83-A5F6-4513-B45C-EB652ED3A5B8.webp?v=1763793208",
+              "caption": "Potted rosette on white background",
+              "credit": "microaquaticshop.com.au",
+              "creditUrl": "https://microaquaticshop.com.au/products/samolus-parviflorus"
             }
           ],
           "offers": [
@@ -2657,8 +2917,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/samolus-parviflorus-red-1210794382.jpg?v=1765418786",
+              "caption": "Red rosette planted in the midground of an aquascape",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/samolus-parviflorus-red"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/samolus-parviflorus-red-1202964493.jpg?v=1762334067",
+              "caption": "Submerged on driftwood among moss",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/samolus-parviflorus-red"
+            },
+            {
+              "src": "https://www.aquarzon.com/2721-large_default/red-samolus-parviflorus.jpg",
+              "caption": "Submerged close-up showing red leaf colour",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/stem-plants/568-red-samolus-parviflorus.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/samolus-parviflorus-red-1202964496.jpg?v=1762334071",
+              "caption": "Single plant on white background",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/samolus-parviflorus-red"
             }
           ],
           "offers": [
@@ -2720,8 +3000,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/ludwigia-ovalis-1209749864.jpg?v=1771456351",
+              "caption": "Pink-orange bushes in an aquascape",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/ludwigia-ovalis"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/D8F21D86-DDDF-4CFA-A752-22227966C69E.webp?v=1763795684",
+              "caption": "Submerged bush in an aquarium",
+              "credit": "microaquaticshop.com.au",
+              "creditUrl": "https://microaquaticshop.com.au/products/ludwigia-ovalis"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/ludwigia-ovalis-513ee2cbb728b.jpg",
+              "caption": "Submerged group in a planted aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/ludwigia-ovalis"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/ludwigia-ovalis-1221634889.jpg?v=1771492775",
+              "caption": "Portion on white background",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/ludwigia-ovalis"
             }
           ],
           "offers": [
@@ -2770,8 +3070,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.co2art.eu/cdn/shop/articles/1fab41604d72bef2eb4a78880998.jpg",
+              "caption": "Bright red group among green stem plants",
+              "credit": "co2art.eu",
+              "creditUrl": "https://www.co2art.eu/blogs/blog/say-hello-to-ludwigia-mini-sp-super-red"
+            },
+            {
+              "src": "https://www.aquarzon.com/1590-large_default/ludwigia-mini-super-red.jpg",
+              "caption": "Submerged next to green stem plants",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/stem-plants/234-ludwigia-mini-super-red.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/1336-large_default/ludwigia-mini-super-red.jpg",
+              "caption": "Submerged close-up of the red leaves",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/stem-plants/234-ludwigia-mini-super-red.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0643/3239/8819/products/ludiwigiasuperminired.jpg?v=1660635407",
+              "caption": "Potted bunch on white background",
+              "credit": "aquaticplantsaustralia.com.au",
+              "creditUrl": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/ludwigia-palustris-submersed-bunch-super-mini-red-s053"
             }
           ],
           "offers": [
@@ -2872,8 +3192,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/rotala-indica-51da5e4081a44.jpg",
+              "caption": "Upright submerged group in a planted aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/rotala-indica"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0854/0866/products/RotalaIndica_131f152f-9558-4bba-b6ee-505d9f14225c.jpg?v=1760447907",
+              "caption": "Submerged group in an aquascape",
+              "credit": "aquaristiconline.com.au",
+              "creditUrl": "https://www.aquaristiconline.com.au/collections/plant-background/products/rotala-indica"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/rotala-indica-4f7a032006867.jpg",
+              "caption": "Submerged stems with reddish tips",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/rotala-indica"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/rotala-ammania-bonsai-uns-tissue-culture-34270962778312.jpg?v=1687456843",
+              "caption": "Tissue-culture cup (sold as Rotala 'Bonsai')",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/rotala-ammania-bonsai-uns-tissue-culture"
             }
           ],
           "offers": [
@@ -2922,8 +3262,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/3059-large_default/mini-limnophila-aromatica.jpg",
+              "caption": "Submerged group showing green and red-tipped stems",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/stem-plants/635-mini-limnophila-aromatica.html"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/limnophila-aromatica-mini-4f7a026cb914b.jpg",
+              "caption": "Submerged shoot tip with serrated brown-red leaves",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/limnophila-aromatica-mini"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/markus-130er-56c25cfaa98d3.jpg",
+              "caption": "Aquascape: Markus' 130er (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/markus-130er"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0643/3239/8819/files/Kalmantan.jpg?v=1739937378",
+              "caption": "Submersed-grown bunch on white background",
+              "credit": "aquaticplantsaustralia.com.au",
+              "creditUrl": "https://www.aquaticplantsaustralia.com.au/collections/centrepiece/products/limnophila-aromatica-kalmantan-mini-submersed-bunch"
             }
           ],
           "offers": [
@@ -2981,8 +3341,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/ammannia-senegalensis-6228802058607.jpg",
+              "caption": "Submerged stem in a planted aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/ammannia-senegalensis"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/growing-garden-561a540e1533a.jpg",
+              "caption": "Aquascape: Growing Garden (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/growing-garden"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/pterophyllum-hugel-5349866c1f601.jpg",
+              "caption": "Aquascape: Pterophyllum Hügel (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/pterophyllum-hugel"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0608/5771/2849/files/ammannia-senegalensis-tissue-culture-1232143.png?v=1787231947",
+              "caption": "Tissue-culture cup",
+              "credit": "nanotanksaustralia.com.au",
+              "creditUrl": "https://nanotanksaustralia.com.au/products/tissue-culture-ammannia-senegalensis"
             }
           ],
           "offers": [
@@ -3031,8 +3411,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/045/5.png&crop=resize&class=product",
+              "caption": "Submerged group beside driftwood",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Linderniarotundifolia(045)/4468"
+            },
+            {
+              "src": "https://roxyaquarium.com.au/app/uploads/2026/01/fish-30.webp",
+              "caption": "Submerged stems in an aquarium",
+              "credit": "roxyaquarium.com.au",
+              "creditUrl": "https://roxyaquarium.com.au/product/lindernia-rotundifolia-live-aquarium-plant/"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?width=1200&image=/Layouts/L003/main.jpg&crop=resize&class=product",
+              "caption": "Tropica layout that uses this plant",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/inspiration/layout/Layout3/4384"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/045/2.png&crop=resize&class=product",
+              "caption": "Tropica product photo (potted).",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Linderniarotundifolia(045)/4468"
             }
           ],
           "offers": [
@@ -3098,7 +3498,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Tonina fluviatilis",
           "scientific": "Tonina fluviatilis",
           "difficulty": "Demanding",
-          "about": "Upright stem plant with narrow, pointed, fresh green leaves packed densely around the stem, giving a star-like look from above. It needs soft, acidic water with low KH, strong light and steady CO2. It is easily outgrown by faster neighbours and may rot if conditions are unstable.",
+          "about": "Upright stem plant with narrow, pointed, fresh green leaves packed densely around the stem, so it looks star-like from above. It needs soft, acidic water with low KH, strong light and steady CO2. It is easily outgrown by faster neighbours and may rot if conditions are unstable.",
           "conditions": [
             [
               "Light",
@@ -3120,8 +3520,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/tonina-fluviatilis-4f7a02412447d.jpg",
+              "caption": "Submerged stand of stems (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/tonina-fluviatilis"
+            },
+            {
+              "src": "https://www.tfhmagazine.com/-/media/Project/OneWeb/TFH/US/articles/079_tonina_fluviatilis.jpg",
+              "caption": "Submerged stems in a planted aquarium",
+              "credit": "tfhmagazine.com",
+              "creditUrl": "https://www.tfhmagazine.com/articles/aquatic-plants/tonina-fluviatilis"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/old-amsterdam-691338c101c1a.jpg",
+              "caption": "Aquascape: old amsterdam (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/old-amsterdam"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/tonina-fluviatilis-tissue-culture-34062602109128.jpg?v=1678725231",
+              "caption": "Tissue-culture cup",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/tonina-fluviatilis-tissue-culture"
             }
           ],
           "offers": [
@@ -3183,8 +3603,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cuphea-anagalloidea-513e3f98ce4eb.jpg",
+              "caption": "Submerged, red-tinted stems (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cuphea-anagalloidea"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cuphea-anagalloidea-513de763dee2b.jpg",
+              "caption": "Submerged shoot tips (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cuphea-anagalloidea"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0802/8835/0528/files/Cuphea_anagalloidea_submersed.jpg?v=1724708748",
+              "caption": "Submerged group in an aquascape",
+              "credit": "Liverpool Creek Aquariums",
+              "creditUrl": "https://www.liverpoolcreekaquariums.com.au/products/cuphea-anagalloidea"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cuphea-anagalloidea-4f7a0321ad2e0.jpg",
+              "caption": "Single stem on a black background (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cuphea-anagalloidea"
             }
           ],
           "offers": [
@@ -3233,8 +3673,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/eriocaulon-sp-vietnam-1640342880296.jpg?v=1667423207",
+              "caption": "Planted in an aquascape",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/eriocaulon-sp-vietnam"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0802/8835/0528/files/eriocaulonvietnam.webp?v=1778702604",
+              "caption": "Submerged clump in an aquarium",
+              "credit": "Liverpool Creek Aquariums",
+              "creditUrl": "https://www.liverpoolcreekaquariums.com.au/products/eriocaulon-vietnam"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/1-2-grow-limited-edition-eriocaulon-vietnam-2_grande_5fe41b94-01ff-4b8e-a7a1-8919f248f610.webp?v=1781629791",
+              "caption": "Submerged growth",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/products/eriocaulon-vietnam-premium-aquarium-plant"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/EriocaulonSp.Vietnam-4.jpg?v=1667423376",
+              "caption": "Potted plant from above",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/eriocaulon-sp-vietnam"
             }
           ],
           "offers": [
@@ -3296,8 +3756,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0802/8835/0528/files/eriocaulonbreviscapum.jpg?v=1694572483",
+              "caption": "Submerged rosette in an aquarium",
+              "credit": "Liverpool Creek Aquariums",
+              "creditUrl": "https://www.liverpoolcreekaquariums.com.au/products/eriocaulon-breviscapum"
+            },
+            {
+              "src": "https://cdn11.bigcommerce.com/s-m39bqdjce8/images/stencil/1280x1280/products/7183/11606/Eriocaulon.feather.duster__45213.1781555882.jpg",
+              "caption": "Submerged plants",
+              "credit": "fitzfishponds.com",
+              "creditUrl": "https://fitzfishponds.com/eriocaulon-breviscapum-feather-duster/"
+            },
+            {
+              "src": "https://mcmerwe.co.za/wp-content/uploads/2021/09/ADA-Eriocaulon-breviscapum.jpg",
+              "caption": "Single plant on a white background",
+              "credit": "mcmerwe.co.za",
+              "creditUrl": "https://mcmerwe.co.za/shop/ada-eriocaulon-breviscapum"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0266/5843/9225/files/ada-feather-duster.jpg?v=1752748783",
+              "caption": "Tissue-culture pouch",
+              "credit": "horizonaquatics.co.uk",
+              "creditUrl": "https://www.horizonaquatics.co.uk/products/ada-eriocaulon-breviscapum"
             }
           ],
           "offers": [
@@ -3346,8 +3826,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/Screenshot_2024-06-02_at_10.15.13_pm.png?v=1717330636&width=1200",
+              "caption": "Group of rosettes in an aquascape",
+              "credit": "aquafy.com.au",
+              "creditUrl": "https://aquafy.com.au/products/eriocaulon-ratnagiricum"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/Screenshot_2024-06-02_at_10.15.17_pm.png?v=1717330636&width=1200",
+              "caption": "Submerged rosettes in the foreground",
+              "credit": "aquafy.com.au",
+              "creditUrl": "https://aquafy.com.au/products/eriocaulon-ratnagiricum"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0375/7557/products/EriocaulonRatnagiri.jpg?v=1604627524",
+              "caption": "Submerged rosette from above",
+              "credit": "Nature Aquariums",
+              "creditUrl": "https://natureaquariums.com.au/products/eriocaulon-ratnagiri"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/Screenshot_2024-06-05_at_10.22.44_am.png?v=1717547011&width=1200",
+              "caption": "Two plants held in the hand",
+              "credit": "aquafy.com.au",
+              "creditUrl": "https://aquafy.com.au/products/eriocaulon-ratnagiricum"
             }
           ],
           "offers": [
@@ -3396,8 +3896,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/blyxa-aubertii-4f7a014c1ed94.jpg",
+              "caption": "Submerged clump in an aquarium (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/blyxa-aubertii"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/blyxa-aubertii-53d9e751e4093.jpg",
+              "caption": "Submerged in an aquascape (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/blyxa-aubertii"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0802/8835/0528/products/s825395814821053_p183_i1_w310.png?v=1694422559",
+              "caption": "Submerged in an aquarium",
+              "credit": "Liverpool Creek Aquariums",
+              "creditUrl": "https://www.liverpoolcreekaquariums.com.au/products/blyxa-aubertii"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/blyxa-aubertii-53d9e77e5fc05.jpg",
+              "caption": "Whole plant out of the water (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/blyxa-aubertii"
             }
           ],
           "offers": [
@@ -3446,8 +3966,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/juncus-repens-4f7a01430844b.jpg",
+              "caption": "Submerged, fine curving leaves (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/juncus-repens"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/juncus-repens-513e0841e99cd.jpg",
+              "caption": "Submerged in an aquascape (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/juncus-repens"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/juncus-repens-4f7a0143727c6.jpg",
+              "caption": "Submerged beside a rock (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/juncus-repens"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0643/3239/8819/files/Photoroom_20260722_184051.jpg?v=1786809776",
+              "caption": "Tissue-culture cup",
+              "credit": "Aquatic Plants Australia",
+              "creditUrl": "https://www.aquaticplantsaustralia.com.au/products/tissue-culture-cup-juncus-repens"
             }
           ],
           "offers": [
@@ -3509,8 +4049,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/bacopa-serpyllifolia-521af72ec903f.jpg",
+              "caption": "Submerged stand (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/bacopa-serpyllifolia"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/bacopa-serpyllifolia-521af7390e707.jpg",
+              "caption": "Submerged stems, close-up (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/bacopa-serpyllifolia"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/der-wurfel-51ed2a6eb127e.jpg",
+              "caption": "Aquascape: der Würfel (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/der-wurfel"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0643/3239/8819/files/Bacopa_Japan.jpg?v=1768288279",
+              "caption": "Submersed-grown bunch on a white background",
+              "credit": "Aquatic Plants Australia",
+              "creditUrl": "https://www.aquaticplantsaustralia.com.au/products/bacopa-serpyllifolia-submersed-bunch-bacopa-japan-s064"
             }
           ],
           "offers": [
@@ -3559,8 +4119,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn11.bigcommerce.com/s-os7lxdwh/images/stencil/original/products/38/300/saggitaria-natans-tank__04035.1415798658.jpg?c=2",
+              "caption": "Submerged leaves in an aquarium",
+              "credit": "Z-Aquatics",
+              "creditUrl": "https://www.z-aquatics.com.au/sagittaria-natans/"
+            },
+            {
+              "src": "https://cdn11.bigcommerce.com/s-os7lxdwh/images/stencil/original/products/38/301/sagittaria-natans__05425.1415798659.jpg?c=2",
+              "caption": "Single plant submerged",
+              "credit": "Z-Aquatics",
+              "creditUrl": "https://www.z-aquatics.com.au/sagittaria-natans/"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Sagittaria_natans_33663186.png",
+              "caption": "Growing in shallow water in the wild, with floating leaves and flowers",
+              "credit": "Wikimedia Commons (iNaturalist)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Sagittaria_natans_33663186.png"
+            },
+            {
+              "src": "https://www.bestaquariumfish.com/wp-content/uploads/sagittaria-natans-1749210367.jpg",
+              "caption": "Potted plant on a white background",
+              "credit": "bestaquariumfish.com",
+              "creditUrl": "https://www.bestaquariumfish.com/product/sagittaria-natans/"
             }
           ],
           "offers": [
@@ -3609,8 +4189,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/staurogyne-sp-porto-velho-52f3584aa62ef.jpg",
+              "caption": "Submerged cushion in the foreground (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/staurogyne-sp-porto-velho"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/staurogyne-sp-porto-velho-4f7a02796278b.jpg",
+              "caption": "Submerged group on the substrate (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/staurogyne-sp-porto-velho"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/staurogyne-sp-porto-velho-4f7a027acf147.jpg",
+              "caption": "Submerged plant beside a rock (Flowgrow plant database)",
+              "credit": "flowgrow.de",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/staurogyne-sp-porto-velho"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/e94f17b0-7671-4e5d-bd00-a56093deded2.png?v=1784012832&width=1200",
+              "caption": "Potted plant on a white background",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/products/staurogyne-porto-velho"
             }
           ],
           "offers": [
@@ -3672,8 +4272,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cryptocoryne-beckettii-4f7a015d9f6a2.jpg",
+              "caption": "Submerged in an aquarium",
+              "credit": "Flowgrow aquatic plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cryptocoryne-beckettii"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/amazonas-54a02fb005765.jpg",
+              "caption": "Aquascape: Amazonas (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/amazonas"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/green-planet-58e6358c90599.jpg",
+              "caption": "Aquascape: Green Planet (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/green-planet"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/cryptocoryne-beckettii-1168007564.jpg?v=1747699838",
+              "caption": "Potted plant on white",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/cryptocoryne-becketii"
             }
           ],
           "offers": [
@@ -3774,8 +4394,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/cryptocoryne-lutea-33643531010248.jpg?v=1747693590&width=1200",
+              "caption": "Submerged in a planted aquarium",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/cryptocoryne-lutea"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/fire-in-the-corner-55da35723c40f.jpg",
+              "caption": "Aquascape: Fire in the corner (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/fire-in-the-corner"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/wildscape-55ef6a1bcd698.jpg",
+              "caption": "Aquascape: Wildscape (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/wildscape"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/cryptocoryne-lutea-1168007582.jpg?v=1747700549",
+              "caption": "Potted plant on white",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/cryptocoryne-lutea"
             }
           ],
           "offers": [
@@ -3824,8 +4464,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/110A/4.JPG&crop=resize&class=product",
+              "caption": "Submerged in an aquascape (Tropica sells it as C. undulata 'Broad Leaf', formerly 'Red')",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Cryptocoryneundulata%27BroadLeaf%27(110A)/4566"
+            },
+            {
+              "src": "https://www.garnelio.de/media/image/75/9b/c9/Cryptocoryne-undulatusvsUuDPRUCyZu6_1280x1280.png",
+              "caption": "Submerged in an aquascape",
+              "credit": "garnelio.de",
+              "creditUrl": "https://www.garnelio.de/en/1-2-grow-cryptocoryne-undulatus-red"
+            },
+            {
+              "src": "https://www.garnelio.de/media/image/21/41/85/crypto383rCEHsRzmY86il_1280x1280.jpg",
+              "caption": "Submerged, red-leaved specimen",
+              "credit": "garnelio.de",
+              "creditUrl": "https://www.garnelio.de/en/1-2-grow-cryptocoryne-undulatus-red"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/110A/2.png&crop=resize&class=product",
+              "caption": "Tropica product photo.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Cryptocoryneundulata%27BroadLeaf%27(110A)/4566"
             }
           ],
           "offers": [
@@ -3874,8 +4534,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/cryptocoryne-axelrodi-1260012453.jpg?v=1790366917",
+              "caption": "Submerged in an aquascape",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/cryptocoryne-axelrodii"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/cryptocoryne-axelrodi-1260012454.jpg?v=1790366950",
+              "caption": "Plant lifted from the aquarium",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/cryptocoryne-axelrodii"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/cryptocoryne-axelrodi-1168007573.jpg?v=1747700084",
+              "caption": "Potted plant on white",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/cryptocoryne-axelrodii"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/cryptocoryne-axelrodi-tissue-culture-15512140021841.jpg?v=1753291994&width=1200",
+              "caption": "Tissue-culture cup",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/cryptocoryne-axelrodi-tissue-culture"
             }
           ],
           "offers": [
@@ -3924,8 +4604,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cryptocoryne-wendtii-flamingo-4f7a040368750.jpg",
+              "caption": "Submerged in an aquascape",
+              "credit": "Flowgrow aquatic plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cryptocoryne-wendtii-flamingo"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cryptocoryne-wendtii-flamingo-4f7a04045fd36.jpg",
+              "caption": "Submerged, young plants",
+              "credit": "Flowgrow aquatic plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cryptocoryne-wendtii-flamingo"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cryptocoryne-wendtii-flamingo-56a63783a11f2.jpg",
+              "caption": "Mature plant submerged in an aquascape",
+              "credit": "Flowgrow aquatic plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cryptocoryne-wendtii-flamingo"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/cryptocoryne-pink-flamingo-35268831183048.jpg?v=1712074517",
+              "caption": "Potted plant on white",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/cryptocoryne-pink-flamingo"
             }
           ],
           "offers": [
@@ -3974,8 +4674,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/126B/4.png&crop=resize&class=product",
+              "caption": "Submerged in an aquascape",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Cryptocorynealbida%27Brown%27(126B)/18194"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/126B/5.png&crop=resize&class=product",
+              "caption": "Submerged, close-up",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Cryptocorynealbida%27Brown%27(126B)/18194"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cryptocoryne-albida-4f7a015cece35.jpg",
+              "caption": "Submerged in an aquarium",
+              "credit": "Flowgrow aquatic plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cryptocoryne-albida"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/126B/2.png&crop=resize&class=product",
+              "caption": "Tropica product photo.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Cryptocorynealbida%27Brown%27(126B)/18194"
             }
           ],
           "offers": [
@@ -4024,8 +4744,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": "The Tech Den ships only tissue cultures. Its other live plants are pickup only.",
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0325/1250/7948/products/TrueAquaticEchinodorusbolivianus_Rusby_Holm-NielsLivePlant-TissueCulture.jpg?v=1676258086&width=1200",
+              "caption": "Submerged in an aquarium",
+              "credit": "The Tech Den",
+              "creditUrl": "https://www.thetechden.com.au/products/true-aquatic-echinodorus-bolivianus-rusby-holm-niels-live-plant-tissue-culture"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Helanthium_bolivianum_kz03.jpg/1280px-Helanthium_bolivianum_kz03.jpg",
+              "caption": "Submerged in a botanic garden aquarium",
+              "credit": "Krzysztof Ziarnek, Kenraiz (Wikimedia Commons, CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Helanthium_bolivianum_kz03.jpg"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/childhood-dream-52f611043c31d.jpg",
+              "caption": "Aquascape: Childhood dream (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/childhood-dream"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0325/1250/7948/products/TrueAquaticEchinodorusbolivianus_Rusby_Holm-NielsLivePlant-TissueCultureContainer.jpg?v=1676258087&width=1200",
+              "caption": "Tissue-culture cup",
+              "credit": "The Tech Den",
+              "creditUrl": "https://www.thetechden.com.au/products/true-aquatic-echinodorus-bolivianus-rusby-holm-niels-live-plant-tissue-culture"
             }
           ],
           "offers": [
@@ -4100,8 +4840,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/068/4.png&crop=resize&class=product",
+              "caption": "Submerged in an aquascape (Tropica: Helanthium bolivianum 'Quadricostatus')",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Helanthiumbolivianum%27Quadricostatus%27(068)/4511"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/068/5.png&crop=resize&class=product",
+              "caption": "Submerged in an aquascape",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Helanthiumbolivianum%27Quadricostatus%27(068)/4511"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Echinodorus_quadricostatus.jpg/1280px-Echinodorus_quadricostatus.jpg",
+              "caption": "Submerged in an aquarium (as Echinodorus quadricostatus)",
+              "credit": "Haplochromis (Wikimedia Commons)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Echinodorus_quadricostatus.jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0568/4264/9794/products/image_df77eee4-1863-4498-91b6-50baef241a49.webp?v=1777290519",
+              "caption": "Single plant on white",
+              "credit": "Duthie Aquatics",
+              "creditUrl": "https://duthieaquatics.com.au/products/echinodorus-latifolius-tall-chain-sword"
             }
           ],
           "offers": [
@@ -4176,8 +4936,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/108A/4.png&crop=resize&class=product",
+              "caption": "Submerged in an aquascape",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Cryptocorynebeckettii%27Petchii%27(108A)/4560"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cryptocoryne-beckettii-petchii-51da5e0a3b804.jpg",
+              "caption": "Submerged in an aquarium",
+              "credit": "Flowgrow aquatic plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cryptocoryne-beckettii-petchii"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/108A/5.JPG&crop=resize&class=product",
+              "caption": "Submerged, another angle",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Cryptocorynebeckettii%27Petchii%27(108A)/4560"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/108A/2.png&crop=resize&class=product",
+              "caption": "Tropica product photo.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Cryptocorynebeckettii%27Petchii%27(108A)/4560"
             }
           ],
           "offers": [
@@ -4239,8 +5019,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/didiplis-diandra-4f7a016eaba68.jpg",
+              "caption": "Submerged group in an aquascape",
+              "credit": "Flowgrow aquatic plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/didiplis-diandra"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/aquatic-plant-didiplis-diandra-23590304141.jpg?v=1613044606",
+              "caption": "Submerged, top view of stems",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/didiplis-diandra"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/didiplis-diandra-4f7a016fdeca6.jpg",
+              "caption": "Red-tipped group in an aquascape",
+              "credit": "Flowgrow aquatic plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/didiplis-diandra"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/didiplis-diandra-11720085307473.jpg?v=1613044605",
+              "caption": "Bunch on white",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/didiplis-diandra"
             }
           ],
           "offers": [
@@ -4302,8 +5102,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/bacopa-salzmannii-52f33c11395e7.jpg",
+              "caption": "Submerged group in a planted aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/bacopa-salzmannii"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/bacopa-salzmannii-52f33c0b6d73b.jpg",
+              "caption": "Submerged shoot tip, close-up",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/bacopa-salzmannii"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0643/3239/8819/files/purplebacopa_10b944fc-f58a-4f8f-a4a7-876d258dee3f.jpg?v=1689830732&width=1200",
+              "caption": "Submersed-grown stems",
+              "credit": "Aquatic Plants Australia",
+              "creditUrl": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/bacopa-salzmanni-submersed-bunch-purple-bacopa-1"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/bacopa-salzmannii-4f7a0313a8837.jpg",
+              "caption": "Single shoot on a black background",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/bacopa-salzmannii"
             }
           ],
           "offers": [
@@ -4365,8 +5185,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cryptocoryne-wendtii-tropica-4f7a016cc001b.jpg",
+              "caption": "Submerged in a planted aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cryptocoryne-wendtii-tropica"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/109E/5.png&crop=resize&class=product",
+              "caption": "Tropica photo: in an aquascape",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Cryptocorynewendtii%27Tropica%27(109E)/4564"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cryptocoryne-wendtii-tropica-513de6276e1fc.jpg",
+              "caption": "Submerged, hammered leaves close-up",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cryptocoryne-wendtii-tropica"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/109E/2.png&crop=resize&class=product",
+              "caption": "Tropica product photo: potted plant",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Cryptocorynewendtii%27Tropica%27(109E)/4564"
             }
           ],
           "offers": [
@@ -4428,8 +5268,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cryptocoryne-wendtii-mi-oya-4f7a016b6b60a.jpg",
+              "caption": "Submerged in a planted aquarium",
+              "credit": "Tony Gomez via Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cryptocoryne-wendtii-mi-oya"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cryptocoryne-wendtii-mi-oya-513de58c97980.jpg",
+              "caption": "Submerged in an aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cryptocoryne-wendtii-mi-oya"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/files/pisces-enterprises-5cm-pot-cryptocoryne-mi-oya-submerse-grown-5cm-pot-30897633591431.heic?v=1702760512&width=1200",
+              "caption": "Submerse-grown plant in an aquarium",
+              "credit": "Scapeshop",
+              "creditUrl": "https://scapeshop.com.au/products/cryptocoryne-mi-oya-5cm-pot"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0491/5593/products/image_d4d3b3d3-a245-4483-b4df-7c16f7ef096d.jpg?v=1640935367&width=1200",
+              "caption": "Tissue-culture cup",
+              "credit": "Aquarium Gallery",
+              "creditUrl": "https://www.aquariumgallery.com.au/products/tc-crytp-mioya"
             }
           ],
           "offers": [
@@ -4482,7 +5342,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Cryptocoryne nurii 'Rosen Maiden'",
           "scientific": "Cryptocoryne nurii var. raubensis 'Rosen Maiden'",
           "difficulty": "Moderate",
-          "about": "A Malaysian crypt with ruffled bronze leaves marked by pink veins and spots, forming a flat, spreading rosette. It is a striking accent in the foreground or midground. Colour and pattern are strongest with good light and nutrition, and it is slow to bulk up, so plant it where it can stay undisturbed.",
+          "about": "A Malaysian crypt with ruffled bronze leaves marked by pink veins and spots, forming a flat, spreading rosette. It works as a colour accent in the foreground or midground. Colour and pattern are strongest with good light and nutrition, and it is slow to bulk up, so plant it where it can stay undisturbed.",
           "conditions": [
             [
               "Light",
@@ -4504,8 +5364,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1163/2672/files/IronMaidenCryptedited1.jpg?v=1728487273&width=1005",
+              "caption": "Growing in an aquarium",
+              "credit": "Aquatic Arts",
+              "creditUrl": "https://aquaticarts.com/products/rosen-maiden-crypt-cryptocoryne-nurii-rosen-maiden"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1163/2672/files/IronMaidenCryptedited3.jpg?v=1728487274&width=1005",
+              "caption": "Leaves close-up in an aquarium",
+              "credit": "Aquatic Arts",
+              "creditUrl": "https://aquaticarts.com/products/rosen-maiden-crypt-cryptocoryne-nurii-rosen-maiden"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1163/2672/files/IronMaidenCryptedited4.jpg?v=1728487273&width=1600",
+              "caption": "Rosettes in an aquarium",
+              "credit": "Aquatic Arts",
+              "creditUrl": "https://aquaticarts.com/products/rosen-maiden-crypt-cryptocoryne-nurii-rosen-maiden"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0596/3474/5437/products/PE1_0600Cryptocorynenuriivar.raubensis_RosenMaiden_WM50.jpg?v=1678319157&width=1200",
+              "caption": "Potted plant from above",
+              "credit": "Peter Eggler via Tankquility",
+              "creditUrl": "https://tankquility.com.au/products/cryptocoryne-nurii-var-raubensis-rosen-maiden"
             }
           ],
           "offers": [
@@ -4554,8 +5434,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/BacopaPlatinum.webp?v=1781512602&width=1200",
+              "caption": "Submerged stems in an aquascape",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/collections/livestock-plants/products/rare-bacopa-monnieri-white"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/bacopa-monnieri-platinum-1192398110.jpg?v=1758656830&width=1200",
+              "caption": "Submerged in an aquascape",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/bacopa-monnieri-platinum"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/bacopa-monnieri-platinum-1192479076.jpg?v=1758656830&width=1200",
+              "caption": "Potted plant on white",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/bacopa-monnieri-platinum"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/bacopa-monnieri-platinum-uns-tissue-culture-1158939339.jpg?v=1745604627&width=1200",
+              "caption": "Tissue-culture cup",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/bacopa-monnieri-platinum-uns-tissue-culture"
             }
           ],
           "offers": [
@@ -4604,8 +5504,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/Hygrophila_sp_Chai_1000x_1dffe80c-de91-4e0b-a22f-6bd941a1b5ea.webp?v=1781645672&width=1000",
+              "caption": "Submerged in an aquascape",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/collections/livestock-plants/products/hygrophila-sp-chai-submerged"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/2hrAquaristDSCF3662_1024x1024_bb8df55b-44ad-4df5-9794-485464b98a78.webp?v=1781645678&width=1024",
+              "caption": "Foreground group in an aquascape",
+              "credit": "2Hr Aquarist via School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/collections/livestock-plants/products/hygrophila-sp-chai-submerged"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/hygrophila-lancea-araguaia-sp-chai-1196477974.jpg?v=1773697086&width=1200",
+              "caption": "Submerged in a planted aquarium",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/hygrophila-sp-chai-uns-tissue-culture"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/hygrophila-sp-chai-uns-tissue-culture-1227451256.jpg?v=1773705968&width=1200",
+              "caption": "Tissue-culture cup",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/hygrophila-sp-chai-uns-tissue-culture"
             }
           ],
           "offers": [
@@ -4654,8 +5574,22 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/fffggggg.jpg?v=1720079941",
+              "caption": "Submerged group in an aquascape",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/collections/livestock-plants/products/hyptis-laciniata"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/w800h800.webp?v=1781645943",
+              "caption": "Submerged shoot, close-up",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/collections/livestock-plants/products/hyptis-laciniata"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/IMG-4030_1024x1024_2x_23516ae3-6fa3-46b0-829c-5fe3ace54015.webp?v=1781645971&width=1600",
+              "caption": "Single portions on rockwool, submerged",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/collections/livestock-plants/products/hyptis-laciniata"
             }
           ],
           "offers": [
@@ -4704,8 +5638,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/SOS6-24.jpg?v=1771255285&width=1200",
+              "caption": "Submerged rosette-like shoot in an aquascape",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/collections/livestock-plants/products/ludwigia-sphaerocarpa"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0854/0866/products/Ludwigia-Sphaerocarpa.jpg?v=1760440648&width=1000",
+              "caption": "Submerged shoots, orange tones",
+              "credit": "Aquaristic Online",
+              "creditUrl": "https://www.aquaristiconline.com.au/products/ludwigia-sphaerocarpa"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/SOS6-23.jpg?v=1771255285&width=1200",
+              "caption": "Submerged shoot among foreground plants",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/collections/livestock-plants/products/ludwigia-sphaerocarpa"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/ludwigia-sphaerocarpa-1219909682.jpg?v=1770714727&width=1200",
+              "caption": "Tissue-culture cup",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/ludwigia-sphaerocarpa"
             }
           ],
           "offers": [
@@ -4754,8 +5708,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquagreen.com.au/images/Rotala_mexicana_03.jpg",
+              "caption": "Submerged stems in an aquarium",
+              "credit": "Aquagreen",
+              "creditUrl": "https://www.aquagreen.com.au/plant_data/Rotala_mexicana.html"
+            },
+            {
+              "src": "https://www.aquagreen.com.au/images/Rotala_mexicana_04.jpg",
+              "caption": "Red-tinged submerged stems",
+              "credit": "Aquagreen",
+              "creditUrl": "https://www.aquagreen.com.au/plant_data/Rotala_mexicana.html"
+            },
+            {
+              "src": "https://www.aquagreen.com.au/images/Rotala_mexicana_01.jpg",
+              "caption": "Submerged shoot, top view",
+              "credit": "Aquagreen",
+              "creditUrl": "https://www.aquagreen.com.au/plant_data/Rotala_mexicana.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/rotala-mexicana-33052379152584.jpg?v=1657134228&width=1200",
+              "caption": "Emersed-grown stems on white",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/rotala-mexicana"
             }
           ],
           "offers": [
@@ -4829,7 +5803,7 @@ globalThis.PLANT_CATALOGUE = {
               "creditUrl": "https://www.flowgrow.de/db/aquaticplants/rotala-rotundifolia-colorata"
             },
             {
-              "src": "http://aquafy.com.au/cdn/shop/files/rotala-colorata_grande.jpg?v=1730200944",
+              "src": "https://aquafy.com.au/cdn/shop/files/rotala-colorata_grande.jpg?v=1730200944",
               "caption": "Original reference photo.",
               "credit": "aquafy.com.au",
               "creditUrl": "https://aquafy.com.au/products/rotala-colorata"
@@ -5032,7 +6006,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Rotala macrandra",
           "scientific": "Rotala macrandra",
           "difficulty": "Demanding",
-          "about": "Wavy, deep red leaves on fragile stems. It is one of the most striking red plants but needs stable conditions. Handle stems carefully when trimming.",
+          "about": "Wavy, deep red leaves on fragile stems. Its red is among the deepest of any stem plant, but it needs stable conditions. Handle stems carefully when trimming.",
           "conditions": [
             [
               "Light",
@@ -5146,7 +6120,7 @@ globalThis.PLANT_CATALOGUE = {
               "creditUrl": "https://www.flowgrow.de/db/aquaticplants/ludwigia-arcuata"
             },
             {
-              "src": "http://aquafy.com.au/cdn/shop/products/ludwigia-arcuata-needle-leaf-repens-939683_grande.jpg?v=1667814304",
+              "src": "https://aquafy.com.au/cdn/shop/products/ludwigia-arcuata-needle-leaf-repens-939683_grande.jpg?v=1667814304",
               "caption": "Original reference photo.",
               "credit": "aquafy.com.au",
               "creditUrl": "https://aquafy.com.au/products/narrow"
@@ -5380,7 +6354,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Proserpinaca palustris (Mermaid weed)",
           "scientific": "Proserpinaca palustris",
           "difficulty": "Moderate",
-          "about": "Narrow, comb-like serrated leaves on upright stems, green at first and turning orange to copper-red under good light. It reads as a fine-textured accent in the midground or background. Low nitrate with plenty of phosphate deepens the colour, and new plants take a few weeks to change from the emersed green form to the submerged form.",
+          "about": "Narrow, comb-like serrated leaves on upright stems, green at first and turning orange to copper-red under good light. It makes a fine-textured accent in the midground or background. Low nitrate with plenty of phosphate deepens the colour, and new plants take a few weeks to change from the emersed green form to the submerged form.",
           "conditions": [
             [
               "Light",
@@ -5402,8 +6376,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/proserpinaca-palustris-4f7a013d0466e.jpg",
+              "caption": "Submerged stems in an aquascape",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/proserpinaca-palustris"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/proserpinaca-palustris-52f33bcca5ad1.jpg",
+              "caption": "Submerged stem in a planted aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/proserpinaca-palustris"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0854/0866/products/Proserpinaca-Palustris.jpg?v=1760443523&width=1000",
+              "caption": "Red submerged growth in an aquascape",
+              "credit": "Aquaristic Online",
+              "creditUrl": "https://www.aquaristiconline.com.au/collections/plant-background/products/proserpinaca-palustris-mermaid-weed"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/SHOPIFYPHOTO-2026-08-18T105247.803.png?v=1787025177&width=1000",
+              "caption": "Potted emersed-grown plant on white",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/proserpinaca-palustris-mermaid-weed"
             }
           ],
           "offers": [
@@ -5517,8 +6511,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/ludwigia-inclinata-var-verticillata-cuba-53d9e89d78669.jpg",
+              "caption": "Submerged growth in an aquarium.",
+              "credit": "Flowgrow (© HME)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/ludwigia-inclinata-var-verticillata-cuba"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/ludwigia-inclinata-var-verticillata-cuba-4f7a012beff19.jpg",
+              "caption": "Submerged shoot tip with marbled orange leaves.",
+              "credit": "Flowgrow (Jaap Liefting)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/ludwigia-inclinata-var-verticillata-cuba"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/ludwigia-inclinata-var-verticillata-cuba-4f7a012997c87.jpg",
+              "caption": "Submerged stems in a planted aquarium.",
+              "credit": "Flowgrow (Oliver Knott)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/ludwigia-inclinata-var-verticillata-cuba"
+            },
+            {
+              "src": "https://greenaqua.hu/media/catalog/product/3/3/33-035c.jpeg",
+              "caption": "Tropica pot (emersed-grown) on white.",
+              "credit": "greenaqua.hu",
+              "creditUrl": "https://greenaqua.hu/en/tropica-plant-ludwigia-inclinata-cuba.html"
             }
           ],
           "offers": [
@@ -5580,8 +6594,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/ludwigia-brevipes-513e3c5816fa9.jpg",
+              "caption": "Submerged group in a planted aquarium.",
+              "credit": "Flowgrow (Tobias Coring)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/ludwigia-brevipes"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/ludwigia-brevipes-11720601632849.jpg?v=1783527592",
+              "caption": "Submerged stems in an aquascape.",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/ludwigia-brevipes"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/ludwigia-brevipes-11720600911953.jpg?v=1783531303",
+              "caption": "Submerged clump in an aquarium.",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/ludwigia-brevipes"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/ludwigia-brevipes-11720599437393.jpg?v=1602843941&width=1200",
+              "caption": "Bunch of stems on white.",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/ludwigia-brevipes"
             }
           ],
           "offers": [
@@ -5630,8 +6664,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/032C%20TC/5.png&crop=resize&class=product",
+              "caption": "Submerged in an aquascape.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/19550/19550"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0082/5091/6926/files/rotala-sp-hra-pot-799.webp?v=1746770009",
+              "caption": "Submerged stems in an aquarium.",
+              "credit": "ABquatics",
+              "creditUrl": "https://abquatics.shop/collections/live-aquarium-plants/products/rotala-sp-hra-pot"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0082/5091/6926/files/rotala-sp-hra-pot-667.webp?v=1746770027",
+              "caption": "Submerged stems in an aquascape.",
+              "credit": "ABquatics",
+              "creditUrl": "https://abquatics.shop/collections/live-aquarium-plants/products/rotala-sp-hra-pot"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/032C%20TC/2.png&crop=resize&class=product",
+              "caption": "Tropica 1-2-Grow! tissue-culture cup.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/19550/19550"
             }
           ],
           "offers": [
@@ -5719,8 +6773,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/rotala-rotundifolia-green-4f7a022727746.jpg",
+              "caption": "Submerged in a planted aquarium.",
+              "credit": "Flowgrow (Svennovitch)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/rotala-rotundifolia-green"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/products/il_570xN.1899986763_j77q.jpg-min.jpg?v=1729764618",
+              "caption": "Submerged group beside a red Rotala.",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/rotala-green"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/EBA32790-74F0-49AB-8D87-A6326D2BBA25.jpg?v=1783121653&width=1200",
+              "caption": "Stems growing submerged in a store tank (recently converted, rounder leaves).",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/rotala-green"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/033A/2.png&crop=resize&class=product",
+              "caption": "Tropica pot.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/4448/4448"
             }
           ],
           "offers": [
@@ -5782,8 +6856,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/033/4.JPG&crop=resize&class=product",
+              "caption": "Submerged in an aquascape.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/4447/4447"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/rotala-rotundifolia-4f7a0115d51e3.jpg",
+              "caption": "Submerged shoot tips with orange colouring.",
+              "credit": "Flowgrow (André Skarus)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/rotala-rotundifolia"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/products/Rotala-rotundifolia.jpg?v=1726138081",
+              "caption": "Dense submerged bush in an aquarium.",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/rotala-rotundifolia"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/033/2.png&crop=resize&class=product",
+              "caption": "Tropica pot.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/4447/4447"
             }
           ],
           "offers": [
@@ -5871,8 +6965,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/af3c1180-6c19-4233-b61b-b3ca2fffa1c6.jpg?v=1690454385&width=1200",
+              "caption": "Submerged stems with purple-pink leaves in an aquarium.",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/rotala-florida"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1685/8749/products/Unknown-5_bf9fe7db-f326-4d3f-b84f-003153e2c25f.jpg?v=1586768994&width=1200",
+              "caption": "Potted portion resting on other plants.",
+              "credit": "Green Chapter",
+              "creditUrl": "https://www.gcshop-sg.com/products/rotala-ramosior-florida-2-stems"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/68756692_2327625807292942_7749197110334980096_n.jpg?v=1690454384&width=1200",
+              "caption": "Submerged-grown stems held in the hand.",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/rotala-florida"
+            },
+            {
+              "src": "https://mcmerwe.co.za/wp-content/uploads/2023/10/ADA-Rotala-ramosior-Florida-1.webp",
+              "caption": "ADA tissue-culture cup.",
+              "credit": "mcmerwe.co.za",
+              "creditUrl": "https://mcmerwe.co.za/shop/ada-rotala-ramosior-florida/"
             }
           ],
           "offers": [
@@ -5899,7 +7013,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Rotala tulunadensis",
           "scientific": "Rotala tulunadensis",
           "difficulty": "Moderate",
-          "about": "Narrow leaves stacked densely on the stem, mostly green with a slight red or orange tint under stronger light. It forms a compact, fine-textured group for the mid to background. It is sensitive rather than light-hungry: it does best in soft water with steady, consistent nutrient levels and a rich substrate.",
+          "about": "Narrow leaves stacked densely on the stem, mostly green with a slight red or orange tint under stronger light. It forms a compact, fine-textured group for the mid to background. It is more sensitive to water quality than to light, and does best in soft water with steady, consistent nutrient levels and a rich substrate.",
           "conditions": [
             [
               "Light",
@@ -5921,8 +7035,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0854/0866/products/Rotala-Tulunandesis.jpg?v=1760456944",
+              "caption": "Submerged shoot tips with pink colouring.",
+              "credit": "Aquaristic Online",
+              "creditUrl": "https://www.aquaristiconline.com.au/collections/plant-background/products/rotala-tulunandesis"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0854/0866/files/RotalaTulunandesis01.jpg?v=1760456945",
+              "caption": "Submerged green stems in an aquarium.",
+              "credit": "Aquaristic Online",
+              "creditUrl": "https://www.aquaristiconline.com.au/collections/plant-background/products/rotala-tulunandesis"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1685/8749/files/Rotala-Tulunadensis-1.jpg?v=1727325942",
+              "caption": "Submerged stems with densely stacked leaves.",
+              "credit": "Green Chapter",
+              "creditUrl": "https://www.gcshop-sg.com/collections/ex-vitro-potted/products/rotala-tulunadensis-3-stems-1-pot"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/image_a2205e7e-a584-48ef-a60d-80eeb1dc786b.webp?v=1781688987",
+              "caption": "Submerged in an aquarium.",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/products/rotala-tulunadensis-vibrant-red-aquarium-stem-plant"
             }
           ],
           "offers": [
@@ -5971,8 +7105,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/myriophyllum-sp-guyana-51753b3bc915c.jpg",
+              "caption": "Submerged clump in an aquarium.",
+              "credit": "Flowgrow (Tobias Coring)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/myriophyllum-sp-guyana"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/myriophyllum-sp-guyana-51753b007e247.jpg",
+              "caption": "Submerged stems, close-up.",
+              "credit": "Flowgrow (Tobias Coring)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/myriophyllum-sp-guyana"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0854/0866/files/Myriophyllum-Guyana.jpg?v=1760459979",
+              "caption": "Submerged stems in a planted aquarium.",
+              "credit": "Aquaristic Online",
+              "creditUrl": "https://www.aquaristiconline.com.au/collections/plant-background/products/myriophyllum-guyana"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/037E%20TC/2.png&crop=resize&class=product",
+              "caption": "Tropica 1-2-Grow! tissue-culture cup.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/19549/19549"
             }
           ],
           "offers": [
@@ -6060,8 +7214,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/037/3.png&crop=resize&class=product",
+              "caption": "Submerged behind driftwood in an aquascape.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/4454/4454"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/037/5.png&crop=resize&class=product",
+              "caption": "Submerged in an aquascape.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/4454/4454"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/myriophyllum-mattogrossense-4f7a01ffa5a3a.jpg",
+              "caption": "Submerged shoot tip, close-up.",
+              "credit": "Flowgrow (Nikolay)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/myriophyllum-mattogrossense"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/037/2.png&crop=resize&class=product",
+              "caption": "Tropica pot.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/4454/4454"
             }
           ],
           "offers": [
@@ -6136,8 +7310,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/myriophyllum-simulans-5175362a2c01b.jpg",
+              "caption": "Submerged shoot tips in an aquarium.",
+              "credit": "Flowgrow (Tobias Coring)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/myriophyllum-simulans"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0375/7557/products/Myriophyllum-simulans-Milfoil-1-png.webp?v=1671083586",
+              "caption": "Submerged stems in an aquarium.",
+              "credit": "Nature Aquariums",
+              "creditUrl": "https://natureaquariums.com.au/products/myriophyllum-simulans-milfoil-tissue-culture"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Myriophyllum_simulans_kz01.jpg/1280px-Myriophyllum_simulans_kz01.jpg",
+              "caption": "Growing submerged in a botanical garden display tank.",
+              "credit": "Krzysztof Ziarnek, Kenraiz (Wikimedia Commons)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Myriophyllum_simulans_kz01.jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0608/5771/2849/files/myriophyllum-simulans-milfoil-tissue-culture-9681728.png?v=1787231648",
+              "caption": "Tissue-culture cup.",
+              "credit": "Nano Tanks Australia",
+              "creditUrl": "https://nanotanksaustralia.com.au/products/tissue-culture-myriophyllum-simulans-milfoil"
             }
           ],
           "offers": [
@@ -6199,8 +7393,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/mayaca-fluviatilis-4f7a01fa7a172.jpg",
+              "caption": "Submerged stems in an aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/mayaca-fluviatilis"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/mayaca-fluviatilis-4f7a01f9e49ec.jpg",
+              "caption": "Submerged growth, close-up",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/mayaca-fluviatilis"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/files/scapeshop-bunch-plant-mayaca-bunch-33150975377543.jpg?v=1758190024&width=1200",
+              "caption": "Growing in a planted aquarium",
+              "credit": "Scapeshop",
+              "creditUrl": "https://scapeshop.com.au/products/mayaca"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/products/pisces-enterprises-bunch-plant-mayaca-bunch-28413195288711.jpg?v=1758190024&width=1200",
+              "caption": "Single bunch, out of water",
+              "credit": "Scapeshop",
+              "creditUrl": "https://scapeshop.com.au/products/mayaca"
             }
           ],
           "offers": [
@@ -6275,8 +7489,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/heteranthera-zosterifolia-4f7a01107e30c.jpg",
+              "caption": "Submerged stand in an aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/heteranthera-zosterifolia"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/heteranthera-zosterifolia-4f7a0111183a3.jpg",
+              "caption": "Submerged shoots, close-up",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/heteranthera-zosterifolia"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/products/micro-aquatic-shop-aquarium-plants-5-stems-heter-nther-z-sterif-li-28242663931974.jpg?v=1660630566&width=1200",
+              "caption": "Dense submerged growth in an aquascape",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/star-grass"
+            },
+            {
+              "src": "https://dennerleplants.com/imagegen.ashx?height=800&image=/Files/Plants/30011/1.JPG",
+              "caption": "Dennerle in-vitro cup",
+              "credit": "Dennerle Plants",
+              "creditUrl": "https://dennerleplants.com/en/plants/plantdetails/Heteranthera-zosterifolia-(30011)/23012"
             }
           ],
           "offers": [
@@ -6364,8 +7598,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/ammannia-capitellata-4f7a0357bac57.jpg",
+              "caption": "Submerged stem in an aquarium (listed under the current name Ammannia capitellata)",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/ammannia-capitellata"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/ammannia-capitellata-4f7a035accc5c.jpg",
+              "caption": "Orange-toned submerged growth (listed as Ammannia capitellata)",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/ammannia-capitellata"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0802/8835/0528/files/nesaeatriflora.png?v=1695020887",
+              "caption": "Dense stand of stems",
+              "credit": "Liverpool Creek Aquariums",
+              "creditUrl": "https://www.liverpoolcreekaquariums.com.au/products/nesaea-triflora"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0563/0053/5905/files/nesaea-triflora-potted-810760.jpg?v=1743969394",
+              "caption": "Potted plant on white background",
+              "credit": "Planted Aquaria",
+              "creditUrl": "https://www.plantedaquaria.ca/products/nesaea-triflora-potted"
             }
           ],
           "offers": [
@@ -6392,7 +7646,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Hottonia palustris (water violet)",
           "scientific": "Hottonia palustris",
           "difficulty": "Moderate",
-          "about": "Bright green, finely divided comb-like leaves on upright stems, giving a light, feathery texture. It is a temperate plant that does best below about 22 degrees and often struggles in warm tropical water. It likes good light and a steady supply of nitrate and phosphate, and emersed-grown plants need time to form submerged leaves.",
+          "about": "Bright green, finely divided comb-like leaves on upright stems, with a light, feathery texture. It is a temperate plant that does best below about 22°C and often struggles in warm tropical water. It likes good light and a steady supply of nitrate and phosphate, and emersed-grown plants need time to form submerged leaves.",
           "conditions": [
             [
               "Light",
@@ -6414,8 +7668,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hottonia-palustris-52ef47eef389a.jpg",
+              "caption": "Submerged group in an aquascape",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hottonia-palustris"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hottonia-palustris-4f7a01b77400c.jpg",
+              "caption": "Submerged shoot tip, close-up",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hottonia-palustris"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hottonia-palustris-4f7a01b66fb9d.jpg",
+              "caption": "Submerged stems in an aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hottonia-palustris"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/027%20TC/2.png&crop=resize&class=product",
+              "caption": "Tropica 1-2-Grow! tissue-culture cup",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/28508/28508"
             }
           ],
           "offers": [
@@ -6442,7 +7716,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Eichhornia diversifolia",
           "scientific": "Eichhornia diversifolia",
           "difficulty": "Moderate",
-          "about": "Narrow, light green, strap-like leaves sit alternately along upright stems, giving a soft, palm-like look. It forms a bushy group that suits the background and grows quickly to the surface, so it needs regular trimming. Strong light and CO2 keep the stems sturdy; in shade or with low nitrate and phosphate the leaves turn transparent and drop.",
+          "about": "Narrow, light green, strap-like leaves sit alternately along upright stems, so each stem looks like a small, soft palm. It forms a bushy group that suits the background and grows quickly to the surface, so it needs regular trimming. Strong light and CO2 keep the stems sturdy; in shade or with low nitrate and phosphate the leaves turn transparent and drop.",
           "conditions": [
             [
               "Light",
@@ -6464,8 +7738,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/eichhornia-diversifolia-4f7a01a89d7af.jpg",
+              "caption": "Submerged group in an aquascape",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/eichhornia-diversifolia"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/eichhornia-diversifolia-4f7a01a770889.jpg",
+              "caption": "Submerged stems, close-up",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/eichhornia-diversifolia"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/blau-574b180e925af.jpg",
+              "caption": "Aquascape: blau (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/blau"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/eichhornia-diversifolia-4f7a01a803ae5.jpg",
+              "caption": "Single stem against a black background",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/eichhornia-diversifolia"
             }
           ],
           "offers": [
@@ -6514,8 +7808,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1163/2672/products/Guppy_Grass_5.jpg?v=1571167773",
+              "caption": "Dense submerged growth in an aquarium",
+              "credit": "Aquatic Arts",
+              "creditUrl": "https://aquaticarts.com/products/guppy-grass"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/najas-guadalupensis-4f7a025478e22.jpg",
+              "caption": "Submerged shoots in an aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/najas-guadalupensis"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0881/1810/0284/files/guppy_grass.jpg?v=1745196065&width=1200",
+              "caption": "Floating mass in an aquarium",
+              "credit": "NU Aqua",
+              "creditUrl": "https://nuaquashop.com/products/guppy-grass-portion-buy-one-get-one-free"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/146%20TC/2.PNG&crop=resize&class=product",
+              "caption": "Tropica 1-2-Grow! tissue-culture cup",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Najasguadalupensis'GuppyGrass'(146TC)(1)/30786"
             }
           ],
           "offers": [
@@ -6542,7 +7856,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Hydrilla verticillata",
           "scientific": "Hydrilla verticillata",
           "difficulty": "Easy",
-          "about": "Small, finely toothed leaves grow in whorls along long, branching stems, giving a fine, bright green texture. It is often used in new tanks to take up excess nutrients and compete with algae. It grows quickly to the surface and needs frequent trimming; fragments root easily, so remove loose cuttings.",
+          "about": "Small, finely toothed, bright green leaves grow in whorls along long, branching stems. It is often used in new tanks to take up excess nutrients and compete with algae. It grows quickly to the surface and needs frequent trimming; fragments root easily, so remove loose cuttings.",
           "conditions": [
             [
               "Light",
@@ -6564,8 +7878,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": "Roxy does not state SA shipping. Aquatic Plants Australia excludes Tasmania only. Confirm SA is allowed at checkout.",
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/2658-large_default/hydrilla.jpg",
+              "caption": "Submerged stems in an aquarium",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/stem-plants/615-hydrilla.html"
+            },
+            {
+              "src": "https://roxyaquarium.com.au/app/uploads/2023/04/hydrilla.jpg",
+              "caption": "Planted submerged in a display tank",
+              "credit": "Roxy Aquarium",
+              "creditUrl": "https://roxyaquarium.com.au/product/hydrilla-verticillata-waterthyme/"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hydrilla-verticillata-52fbdbfc76993.jpg",
+              "caption": "Stems laid out to show leaf whorls",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hydrilla-verticillata"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0643/3239/8819/files/Hydrilla2.png?v=1696475550",
+              "caption": "Submersed-grown bunch on black background",
+              "credit": "Aquatic Plants Australia",
+              "creditUrl": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/hydrilla-verticillata-submersed-bunch"
             }
           ],
           "offers": [
@@ -6627,8 +7961,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0082/5091/6926/files/contortionist-vallisneria-1-plant-groundcover-family-people-419.webp?v=1746765764",
+              "caption": "Twisted leaves growing in an aquarium",
+              "credit": "AB Aquatics",
+              "creditUrl": "https://abquatics.shop/products/contortionist-vallisneria-1-plant"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/IMG-9630.webp?v=1784567833",
+              "caption": "Submerged in an aquarium",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/vallisneria-contortionist-bunches"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/A46C62C5-CF4C-44F5-A644-A6F8A999F62C.jpg?v=1784563990&width=1200",
+              "caption": "Bunches out of water",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/vallisneria-contortionist-bunches"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1866/6367/files/Vallisneria-Contortionist-Bunches.jpg?v=1768785949",
+              "caption": "Single plant on white background",
+              "credit": "Melbourne Tropical Fish",
+              "creditUrl": "https://melbournetropicalfish.com.au/collections/aquarium-plants/products/vallisneria-contortionst"
             }
           ],
           "offers": [
@@ -6716,8 +8070,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0854/0866/files/Eleocharis-Vivipara.jpg?v=1760454530",
+              "caption": "Submerged stand in an aquarium",
+              "credit": "Aquaristic Online",
+              "creditUrl": "https://www.aquaristiconline.com.au/collections/plant-background/products/eleocharis-vivipara-umbrella-hair-grass"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0764/6524/2419/files/UmbrellaHairgrasswebsite.jpg?v=1776275420&width=1200",
+              "caption": "Potted plant submerged in a tank",
+              "credit": "Imperial Tropicals",
+              "creditUrl": "https://imperialtropicals.com/products/umbrella-hairgrass-eleocharis-vivipara"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/jungfrau-582c4637b480c.jpg",
+              "caption": "Aquascape: Jungfrau (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/jungfrau"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/eleocharis-vivipara-513e3a2795841.jpg",
+              "caption": "Potted plant on white background",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/eleocharis-vivipara"
             }
           ],
           "offers": [
@@ -6779,8 +8153,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hydrotriche-hottoniiflora-4f7a025961636.jpg",
+              "caption": "Submerged stems in an aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hydrotriche-hottoniiflora"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hydrotriche-hottoniiflora-51447e53e05fa.jpg",
+              "caption": "Bushy clump in an aquascape",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hydrotriche-hottoniiflora"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hydrotriche-hottoniiflora-4f7a0259e05ef.jpg",
+              "caption": "Flower at the water surface of an aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hydrotriche-hottoniiflora"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0854/0866/products/Hydrotriche-Hottoniiflora.jpg?v=1760445246",
+              "caption": "Stems against a black background",
+              "credit": "Aquaristic Online",
+              "creditUrl": "https://www.aquaristiconline.com.au/collections/plant-background/products/hydrotriche-hottoniiflora-pine-needle"
             }
           ],
           "offers": [
@@ -6842,8 +8236,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/SOS6-67.jpg?v=1771254249&width=1200",
+              "caption": "Submerged in an aquascape",
+              "credit": "schoolofscape.com.au",
+              "creditUrl": "https://schoolofscape.com.au/products/rotala-macrandra-type-2"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/SOS6-68.jpg?v=1771254249&width=1200",
+              "caption": "Bushy group submerged in an aquascape",
+              "credit": "schoolofscape.com.au",
+              "creditUrl": "https://schoolofscape.com.au/products/rotala-macrandra-type-2"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/rotala-macrandra-mini-type-2-52d8e2c71ed20.jpg",
+              "caption": "Submerged stem, pearling",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/rotala-macrandra-mini-type-2"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/rotala-macrandra-mini-type-2-4f7a032267b66.jpg",
+              "caption": "Stems on their own, dark background",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/rotala-macrandra-mini-type-2"
             }
           ],
           "offers": [
@@ -7167,7 +8581,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Subwassertang",
           "scientific": "Lomariopsis lineata",
           "difficulty": "Easy",
-          "about": "Small, lacy, dark green fronds grow as flat, branching clumps; it is the juvenile form of a fern and stays in that form underwater. It wedges into crevices and holds on with little help, making it a good filler on wood and rock where moss would look too fine. It is very tolerant and grows slowly, so clumps rarely need trimming.",
+          "about": "Small, lacy, dark green fronds grow as flat, branching clumps. It is the juvenile form of a fern and stays that way underwater. It wedges into crevices and holds on with little help, so it works as a filler on wood and rock where moss would look too fine. It is very tolerant and grows slowly, so clumps rarely need trimming.",
           "conditions": [
             [
               "Light",
@@ -7289,8 +8703,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/files/scapeshop-driftwood-creation-anubias-paco-on-medium-driftwood-creation-1226352383.jpg?v=1772883488&width=1200",
+              "caption": "Mounted on driftwood (out of water)",
+              "credit": "scapeshop.com.au",
+              "creditUrl": "https://scapeshop.com.au/products/anubias-paco-driftwood-creation"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/products/pisces-enterprises-5cm-pot-anubias-paco-5cm-pot-28388560633991.jpg?v=1628245696&width=1200",
+              "caption": "In a 5 cm pot",
+              "credit": "scapeshop.com.au",
+              "creditUrl": "https://scapeshop.com.au/products/anubias-paco-5cm-pot"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0082/5091/6926/files/anubias-paco-plants-moss-114.webp?v=1746761415",
+              "caption": "Product photo",
+              "credit": "abquatics.shop",
+              "creditUrl": "https://abquatics.shop/products/anubias-paco"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/anubias-paco_turbo.webp?v=1763788743",
+              "caption": "Bare-root product photo",
+              "credit": "microaquaticshop.com.au",
+              "creditUrl": "https://microaquaticshop.com.au/products/anubias-paco"
             }
           ],
           "offers": [
@@ -7365,8 +8799,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/files/scapeshop-driftwood-creation-anubias-lucy-on-medium-driftwood-creation-1172855089.jpg?v=1749682144&width=1200",
+              "caption": "Mounted on driftwood (out of water)",
+              "credit": "scapeshop.com.au",
+              "creditUrl": "https://scapeshop.com.au/products/anubias-lucy-on-medium-driftwood"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/products/pisces-enterprises-5cm-pot-anubias-lucy-5cm-pot-28364272992391.jpg?v=1628043190&width=1200",
+              "caption": "In a 5 cm pot",
+              "credit": "scapeshop.com.au",
+              "creditUrl": "https://scapeshop.com.au/products/anubias-lucy-5cm-pot"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0082/5091/6926/files/anubias-lucy-flower-137.webp?v=1746760291",
+              "caption": "Product photo with flower",
+              "credit": "abquatics.shop",
+              "creditUrl": "https://abquatics.shop/products/anubias-lucy"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/anubias-lucy_turbo.webp?v=1763788736",
+              "caption": "Bare-root product photo",
+              "credit": "microaquaticshop.com.au",
+              "creditUrl": "https://microaquaticshop.com.au/products/anubias-lucy"
             }
           ],
           "offers": [
@@ -7428,8 +8882,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn11.bigcommerce.com/s-os7lxdwh/images/stencil/original/products/185/656/anubias_emerald_heart__17154.1425824581.jpg",
+              "caption": "Mounted on rock in an aquarium",
+              "credit": "Z-Aquatics",
+              "creditUrl": "https://www.z-aquatics.com.au/anubias-emerald-heart/"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/products/pisces-enterprises-bare-root-plant-anubias-emerald-heart-bare-root-large-28396987809927.jpg?v=1628326028&width=1200",
+              "caption": "Planted in an aquarium",
+              "credit": "scapeshop.com.au",
+              "creditUrl": "https://scapeshop.com.au/products/anubias-emerald-heart-bare-root-large"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/products/pisces-enterprises-5cm-pot-anubias-emerald-heart-5cm-pot-28395678564487.jpg?v=1628335807&width=1200",
+              "caption": "In a 5 cm pot",
+              "credit": "scapeshop.com.au",
+              "creditUrl": "https://scapeshop.com.au/products/anubias-emerald-heart-5cm-pot"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/anubias-emerald-heart-10-20cm_turbo.webp?v=1763788731",
+              "caption": "Bare-root product photo",
+              "credit": "microaquaticshop.com.au",
+              "creditUrl": "https://microaquaticshop.com.au/products/anubias-emerald-heart-10-20cm"
             }
           ],
           "offers": [
@@ -7504,8 +8978,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/products/scapeshop-com-au-bare-root-plant-anubias-isabelle-bare-root-large-28388587470983.jpg?v=1628247850&width=1200",
+              "caption": "Bare-root plant",
+              "credit": "scapeshop.com.au",
+              "creditUrl": "https://scapeshop.com.au/products/anubias-isabelle-bare-root"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/products/pisces-enterprises-5cm-pot-anubias-isabelle-5cm-pot-28387416309895.jpg?v=1628221570&width=1200",
+              "caption": "In a 5 cm pot",
+              "credit": "scapeshop.com.au",
+              "creditUrl": "https://scapeshop.com.au/products/anubias-isabelle-5cm-pot"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/products/scapeshop-com-au-bare-root-plant-anubias-isabelle-bare-root-large-28285847109767.jpg?v=1748676802&width=1200",
+              "caption": "Leaf close-up",
+              "credit": "scapeshop.com.au",
+              "creditUrl": "https://scapeshop.com.au/products/anubias-isabelle-bare-root"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/anubias-isabelle_turbo.webp?v=1763788746",
+              "caption": "Potted product photo",
+              "credit": "microaquaticshop.com.au",
+              "creditUrl": "https://microaquaticshop.com.au/products/anubias-isabelle"
             }
           ],
           "offers": [
@@ -7554,8 +9048,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/168-large_default/anubias-pangolino.jpg",
+              "caption": "Growing on moss in an aquarium",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/anubias/92-anubias-pangolino.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/166-large_default/anubias-pangolino.jpg",
+              "caption": "Submerged on rock in an aquarium",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/anubias/92-anubias-pangolino.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/anubias-nana-pangolino-on-lava-stone-1243226495.jpg?v=1780963572",
+              "caption": "On lava stone in an aquarium",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/anubias-nana-pangolino-on-lava-stone"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0596/3474/5437/products/PE1_2849Anubias_Pangolino_WM50.jpg?v=1678184380&width=1200",
+              "caption": "Studio photo",
+              "credit": "tankquility.com.au",
+              "creditUrl": "https://tankquility.com.au/products/anubias-pangolino"
             }
           ],
           "offers": [
@@ -7630,8 +9144,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/3904-large_default/anubias-pinto-sale.jpg",
+              "caption": "Submerged in an aquarium",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/anubias/776-anubias-pinto-sale.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/anubias-nana-pinto-1259903600.jpg?v=1790273168",
+              "caption": "In an aquascape, in front of hairgrass",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/anubias-nana-pinto"
+            },
+            {
+              "src": "https://www.aquarzon.com/4630-large_default/anubias-pinto-sale.jpg",
+              "caption": "Submerged clump in an aquarium",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/anubias/776-anubias-pinto-sale.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0596/3474/5437/products/PE1_3064Anubias_Pinto_WM50.jpg?v=1678166245&width=1200",
+              "caption": "Studio photo",
+              "credit": "tankquility.com.au",
+              "creditUrl": "https://tankquility.com.au/products/anubias-pinto"
             }
           ],
           "offers": [
@@ -7719,8 +9253,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/anubias-nana-bonsai-1249543667.jpg?v=1784340367",
+              "caption": "On driftwood in an aquascape",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/anubias-nana-bonsai"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/anubias-barteri-var-nana-petite-bonsai-524e6156a4633.jpg",
+              "caption": "Submerged clump among moss",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/anubias-barteri-var-nana-petite-bonsai"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/anubias-barteri-var-nana-petite-bonsai-4f7a011e72190.jpg",
+              "caption": "Submerged on driftwood",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/anubias-barteri-var-nana-petite-bonsai"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/products/anubias-nana-bonsai.jpg?v=1730197239",
+              "caption": "Product photo",
+              "credit": "aquafy.com.au",
+              "creditUrl": "https://aquafy.com.au/products/anubias-nana-bonsai"
             }
           ],
           "offers": [
@@ -7769,8 +9323,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0802/8835/0528/files/Anubias_minima_dragons_claw.jpg?v=1781381906",
+              "caption": "Mounted on rock",
+              "credit": "liverpoolcreekaquariums.com.au",
+              "creditUrl": "https://www.liverpoolcreekaquariums.com.au/products/anubias-minima-dragon-claw"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0608/5771/2849/files/anubias-minima-dragon-claw-8166632.png?v=1784382128&width=1200",
+              "caption": "Clump on dark background",
+              "credit": "nanotanksaustralia.com.au",
+              "creditUrl": "https://nanotanksaustralia.com.au/products/anubias-minima-dragon-claw"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0082/5091/6926/files/anubias-minima-5-10-leaves-plants-moss-900.webp?v=1772520969",
+              "caption": "Clump held in hand",
+              "credit": "abquatics.shop",
+              "creditUrl": "https://abquatics.shop/products/anubias-minima-4-6-leaves"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/anubias-minima-31235046342856.jpg?v=1633456308",
+              "caption": "Potted studio photo",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/anubias-minima"
             }
           ],
           "offers": [
@@ -7823,7 +9397,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias 'Gold'",
           "scientific": "Anubias barteri var. nana 'Gold'",
           "difficulty": "Easy",
-          "about": "An Anubias nana form whose new leaves open bright lime-yellow and mature to a warmer gold-green, giving a light accent among darker plants. It is as hardy as standard Anubias nana. Moderate light keeps the colour bright, since weak light darkens the leaves, but strong light brings algae, so a gently lit spot with some flow suits it best.",
+          "about": "An Anubias nana form whose new leaves open bright lime-yellow and mature to a warmer gold-green. It makes a light accent among darker plants. It is as hardy as standard Anubias nana. Moderate light keeps the colour bright, since weak light darkens the leaves, but strong light brings algae, so a gently lit spot with some flow suits it best.",
           "conditions": [
             [
               "Light",
@@ -7845,8 +9419,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/66152A44-EBEF-40B2-8838-DB475A45D9E8_700x700_efb22879-0b0e-484e-8a6c-8545b6e8bd38.webp?v=1779378254",
+              "caption": "Submerged in an aquarium",
+              "credit": "schoolofscape.com.au",
+              "creditUrl": "https://schoolofscape.com.au/products/anubias-gold"
+            },
+            {
+              "src": "https://www.aquarzon.com/150-large_default/anubias-gold-mini.jpg",
+              "caption": "Submerged on rock in an aquarium",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/anubias/91-2107-anubias-gold-mini.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/153-large_default/anubias-gold-mini.jpg",
+              "caption": "Submerged among moss in an aquarium",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/anubias/91-2107-anubias-gold-mini.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/rn-image_picker_lib_temp_2bf59ce6-c0d1-407e-909f-8c2d8b32ef5e.png?v=1770005592&width=1200",
+              "caption": "Studio photo",
+              "credit": "schoolofscape.com.au",
+              "creditUrl": "https://schoolofscape.com.au/products/anubias-gold"
             }
           ],
           "offers": [
@@ -7908,8 +9502,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/5bfdaa2a-93f3-4f2c-b4fa-2ec1a7a25474.jpg?v=1778652576&width=1200",
+              "caption": "Submerged on hardscape in a planted aquarium",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/products/anubias-jade"
+            },
+            {
+              "src": "https://www.aquarzon.com/2803-large_default/anubias-jade.jpg",
+              "caption": "Submersed-grown portion, top view",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/anubias/652-anubias-jade.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/4510-large_default/anubias-jade-clump.jpg",
+              "caption": "Submersed-grown clump",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/anubias/823-anubias-jade-clump.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/ProductDetail.jpg?v=1781515869&width=1200",
+              "caption": "Product photo on white background",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/products/anubias-jade"
             }
           ],
           "offers": [
@@ -7971,8 +9585,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/101F/5.png&crop=resize&class=product",
+              "caption": "Growing on stone in a planted aquarium",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Anubiasbarteri%E2%80%99CoinLeaf%E2%80%99(101F)/29447"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/sansibar-of-asia-5a1837780bef5.jpg",
+              "caption": "Aquascape: Sansibar of Asia (plant included in the aquascape’s plant list as A. barteri var. nana ‘Round Leaf’)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/sansibar-of-asia"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/wild-symphony-5e48266a0d8fd.jpg",
+              "caption": "Aquascape: Wild Symphony (plant included in the aquascape’s plant list as A. barteri var. nana ‘Round Leaf’)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/wild-symphony"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/101F/2.png&crop=resize&class=product",
+              "caption": "Tropica product photo, potted",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Anubiasbarteri%E2%80%99CoinLeaf%E2%80%99(101F)/29447"
             }
           ],
           "offers": [
@@ -8021,8 +9655,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/4174-large_default/anubias-glabra.jpg",
+              "caption": "Submersed-grown clump held in hand",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/anubias/798-2035-anubias-glabra.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/4166-large_default/anubias-glabra.jpg",
+              "caption": "Submersed-grown portion showing the narrow, wavy leaves",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/anubias/798-2035-anubias-glabra.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1430/7150/products/anubias-minima-887843.png?v=1631463663&width=1200",
+              "caption": "Potted plant on white background (sold as Anubias minima)",
+              "credit": "Aquarium Plants Factory",
+              "creditUrl": "https://www.aquariumplantsfactory.com/products/anubias-barteri-glabra-minima"
+            },
+            {
+              "src": "https://shop.glassaqua.com/cdn/shop/products/AnubiasMinima-1.jpg?v=1631199579&width=1200",
+              "caption": "Potted plant, studio photo (sold as Anubias minima)",
+              "credit": "Glass Aqua",
+              "creditUrl": "https://shop.glassaqua.com/products/anubias-minima"
             }
           ],
           "offers": [
@@ -8071,8 +9725,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn11.bigcommerce.com/s-m39bqdjce8/images/stencil/1280x1280/products/6721/10835/anubias.congensis.mini__81844.1768340284.jpg",
+              "caption": "Submerged in an aquarium (potted, in a store display tank)",
+              "credit": "Fitz Fish Ponds",
+              "creditUrl": "https://fitzfishponds.com/anubias-congensis-mini/"
+            },
+            {
+              "src": "https://www.aquarzon.com/4681-large_default/anubias-congensis-mini.jpg",
+              "caption": "Submersed-grown portion held in hand",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/anubias/844-anubias-congensis-mini.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1430/7150/products/anubias-congensis-mini-811008.jpg?v=1625013960&width=1200",
+              "caption": "Potted plant on white background",
+              "credit": "Aquarium Plants Factory",
+              "creditUrl": "https://www.aquariumplantsfactory.com/products/anubias-congensis-mini"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/anubias-congensis-mini-31235029565640.jpg?v=1633455945&width=1200",
+              "caption": "Product photo, potted",
+              "credit": "Buce Plant",
+              "creditUrl": "https://buceplant.com/products/anubias-congensis-mini"
             }
           ],
           "offers": [
@@ -8121,8 +9795,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/272-large_default/anubias-panda.jpg",
+              "caption": "Growing submerged in a planted aquarium",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/anubias/98-anubias-panda.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/269-large_default/anubias-panda.jpg",
+              "caption": "Submerged in an aquarium, close-up of the variegated leaves",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/anubias/98-anubias-panda.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/270-large_default/anubias-panda.jpg",
+              "caption": "Submerged leaf close-up",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/anubias/98-anubias-panda.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0596/3474/5437/files/Pic1Anubias_Panda.jpg?v=1707804061&width=1200",
+              "caption": "Studio photo on black background (photo: Peter Eggler)",
+              "credit": "Tankquility",
+              "creditUrl": "https://tankquility.com.au/products/anubias-panda"
             }
           ],
           "offers": [
@@ -8171,8 +9865,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/spoon-leaf-fern-4_turbo.webp?v=1763789012",
+              "caption": "Grown on wood in a planted aquarium",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/spoon-leaf-fern"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/spoon-leaf-fern-3_turbo.webp?v=1763789012",
+              "caption": "Submerged in an aquascape",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/spoon-leaf-fern"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/spoon-leaf-fern-2_turbo.webp?v=1763789010",
+              "caption": "Submerged close-up of the spoon-shaped leaves",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/spoon-leaf-fern"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/spoon-leaf-fern-1_turbo.webp?v=1763789010",
+              "caption": "A single portion held in hand",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/spoon-leaf-fern"
             }
           ],
           "offers": [
@@ -8221,8 +9935,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/microsorum-pteropus-trident-513e5216932c8.jpg",
+              "caption": "Submerged in an aquascape",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/microsorum-pteropus-trident"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/microsorum-pteropus-trident-52d8e2dd1d945.jpg",
+              "caption": "Submerged clump in a planted aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/microsorum-pteropus-trident"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/products/micro-aquatic-shop-aquarium-plants-microsorum-pteropus-trident-java-fern-28740621598790.png?v=1763788161",
+              "caption": "Growing submerged beside a stone",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/trident-fern"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/rn-image_picker_lib_temp_b8e88c59-157a-4779-a9ee-859224fcc52c.png?v=1768876010&width=1200",
+              "caption": "Product photo on white background",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/products/microsorum-pteropus-trident-premium-java-fern-variant"
             }
           ],
           "offers": [
@@ -8288,7 +10022,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Java Fern 'Mini Coral'",
           "scientific": "Microsorum sp. 'Mini Coral'",
           "difficulty": "Easy",
-          "about": "Small java fern with short, forked fronds that resemble a compact 'Trident' with more defined lobes, giving a coral-like outline. The small leaves help create a sense of scale on wood or between stones. Attach it to hardscape and keep the rhizome exposed. It prefers shaded spots and grows slowly.",
+          "about": "Small java fern with short, forked fronds that resemble a compact 'Trident' with more defined lobes, so the plant has a coral-like outline. The small leaves help create a sense of scale on wood or between stones. Attach it to hardscape and keep the rhizome exposed. It prefers shaded spots and grows slowly.",
           "conditions": [
             [
               "Light",
@@ -8310,8 +10044,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://aquapaso.de/wp-content/uploads/2018/12/Mircosorum_Mini_Coral_1_900x900.jpg",
+              "caption": "Submerged in a planted aquarium",
+              "credit": "Aqua-PaSo",
+              "creditUrl": "https://aquapaso.de/microsorum-mini-coral/"
+            },
+            {
+              "src": "https://aquapaso.de/wp-content/uploads/2018/12/Mircosorum_Mini_Coral_2_900x900.jpg",
+              "caption": "Submerged close-up of the forked leaves",
+              "credit": "Aqua-PaSo",
+              "creditUrl": "https://aquapaso.de/microsorum-mini-coral/"
+            },
+            {
+              "src": "https://aquapaso.de/wp-content/uploads/2018/12/Mircosorum_Mini_Coral_3_900x900.jpg",
+              "caption": "Growing on hardscape in an aquascape",
+              "credit": "Aqua-PaSo",
+              "creditUrl": "https://aquapaso.de/microsorum-mini-coral/"
+            },
+            {
+              "src": "https://aquapaso.de/wp-content/uploads/2018/12/Mircosorum_Mini_Coral_Abgabe_1_900x900.jpg",
+              "caption": "A single portion on a white background",
+              "credit": "Aqua-PaSo",
+              "creditUrl": "https://aquapaso.de/microsorum-mini-coral/"
             }
           ],
           "offers": [
@@ -8360,8 +10114,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/338-large_default/rare-true-micro-java-fern-microsorum-pteropus-sp-micro-.jpg",
+              "caption": "Growing on rock in an aquascape",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/ferns/155-rare-true-micro-java-fern-microsorum-pteropus-sp-micro-.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/340-large_default/rare-true-micro-java-fern-microsorum-pteropus-sp-micro-.jpg",
+              "caption": "Submerged on rock, with shrimp for scale",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/ferns/155-rare-true-micro-java-fern-microsorum-pteropus-sp-micro-.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/341-large_default/rare-true-micro-java-fern-microsorum-pteropus-sp-micro-.jpg",
+              "caption": "Submerged in an aquascape",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/ferns/155-rare-true-micro-java-fern-microsorum-pteropus-sp-micro-.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0082/5091/6926/files/micro-java-fern-rare-50-cent-16feet-2-4-932.webp?v=1746765206",
+              "caption": "A portion with a coin and tape measure for scale",
+              "credit": "AB Quatics",
+              "creditUrl": "https://abquatics.shop/products/micro-java-fern-rare"
             }
           ],
           "offers": [
@@ -8423,8 +10197,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/1514-large_default/uncommon-mini-java-fern-microsorum-pteropus-sp-mini-.jpg",
+              "caption": "Submersed-grown portion held in hand",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/ferns/156-uncommon-mini-java-fern-microsorum-pteropus-sp-mini-.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/1515-large_default/uncommon-mini-java-fern-microsorum-pteropus-sp-mini-.jpg",
+              "caption": "Submersed-grown portion on rhizome",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/ferns/156-uncommon-mini-java-fern-microsorum-pteropus-sp-mini-.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/1516-large_default/uncommon-mini-java-fern-microsorum-pteropus-sp-mini-.jpg",
+              "caption": "Close-up of the leaves",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/ferns/156-uncommon-mini-java-fern-microsorum-pteropus-sp-mini-.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/rn-image_picker_lib_temp_737ae69d-e97b-45f2-8d37-70ccbae9ca96.png?v=1768876731&width=1200",
+              "caption": "Product photo on white background",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/products/microsorum-pteropus-mini-compact-java-fern-variant"
             }
           ],
           "offers": [
@@ -8473,8 +10267,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/mini-bolbitis-on-driftwood-1221197601.jpg?v=1772728636",
+              "caption": "Submerged on driftwood in a planted aquarium",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/bolbitis-heteroclita-difformis-on-wood"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/hiking-tour-52aaf06f1b9f4.jpg",
+              "caption": "Aquascape: hiking tour (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/hiking-tour"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/alice-in-wonderland-51b63da0a2568.jpg",
+              "caption": "Aquascape: alice in wonderland (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/alice-in-wonderland"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/bolbitis-heteroclita-difformis-50b68ced4ec56.jpg",
+              "caption": "Potted plant on a white background",
+              "credit": "Flowgrow plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/bolbitis-heteroclita-difformis"
             }
           ],
           "offers": [
@@ -8523,8 +10337,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0082/5091/6926/files/crepidomanes-auriculatum-fern-249.webp?v=1746765320",
+              "caption": "Growing submerged in a tank, seen from above",
+              "credit": "abquatics.shop",
+              "creditUrl": "https://abquatics.shop/collections/live-aquarium-plants/products/crepidomanes-auriculatum-fern"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0082/5091/6926/files/crepidomanes-auriculatum-fern-658.webp?v=1746765314",
+              "caption": "Portion held over a tank where more of it grows submerged",
+              "credit": "abquatics.shop",
+              "creditUrl": "https://abquatics.shop/collections/live-aquarium-plants/products/crepidomanes-auriculatum-fern"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0082/5091/6926/files/crepidomanes-auriculatum-fern-217.webp?v=1746765309",
+              "caption": "Submersed-grown portion held at the tank",
+              "credit": "abquatics.shop",
+              "creditUrl": "https://abquatics.shop/collections/live-aquarium-plants/products/crepidomanes-auriculatum-fern"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0608/5771/2849/files/crepidomanes-auriculatum-bare-root-5209052.jpg?v=1786977366&width=1200",
+              "caption": "Bare-root portion on a black background",
+              "credit": "nanotanksaustralia.com.au",
+              "creditUrl": "https://nanotanksaustralia.com.au/products/crepidomanes-auriculatum"
             }
           ],
           "offers": [
@@ -8586,8 +10420,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/bucephalandra-catherinae-green-31004690743496.jpg?v=1631642987",
+              "caption": "Submerged in a planted aquarium",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/catherinae-green-1"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/bucephalandra-catherinae-green-15632239873.jpg?v=1631642987&width=1200",
+              "caption": "Growing among other Bucephalandra in an aquascape",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/catherinae-green-1"
+            },
+            {
+              "src": "https://www.aquarzon.com/879-large_default/bucephalandra-catherinae-bucephalandra-sp-catherinae-.jpg",
+              "caption": "Close-up of submerged leaves",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/130-bucephalandra-catherinae-bucephalandra-sp-catherinae-.html"
+            },
+            {
+              "src": "https://premiumbuces.com/wp-content/uploads/2019/08/bucephalandra-catherinae.jpg",
+              "caption": "Product photo on a white background",
+              "credit": "premiumbuces.com",
+              "creditUrl": "https://premiumbuces.com/bucephalandra-catherinae/"
             }
           ],
           "offers": [
@@ -8636,8 +10490,10 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/1081-large_default/rare-bucephalandra-gorilla-bucephalandra-sp-gorilla-.jpg",
+              "caption": "Submerged in a planted aquarium",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/138-rare-bucephalandra-gorilla-bucephalandra-sp-gorilla-.html"
             }
           ],
           "offers": [
@@ -8686,8 +10542,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/2286-large_default/bucephalandra-dark-blue.jpg",
+              "caption": "Submersed-grown plant held up to show the leaves",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/564-bucephalandra-dark-blue.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/2288-large_default/bucephalandra-dark-blue.jpg",
+              "caption": "Submersed-grown plant, front view",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/564-bucephalandra-dark-blue.html"
+            },
+            {
+              "src": "https://premiumbuces.com/wp-content/uploads/2019/08/bucephalandra-dark-blue.jpg",
+              "caption": "Product photo on a white background",
+              "credit": "premiumbuces.com",
+              "creditUrl": "https://premiumbuces.com/?p=416"
+            },
+            {
+              "src": "https://aquariumplantsfactory.com/cdn/shop/products/bucephalandra-dark-blue-826973.jpg?v=1625014022&width=1600",
+              "caption": "Single plant on a white background",
+              "credit": "aquariumplantsfactory.com",
+              "creditUrl": "https://aquariumplantsfactory.com/products/bucephalandra-dark-blue"
             }
           ],
           "offers": [
@@ -8736,8 +10612,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/2951-large_default/bucephalandra-brownie-phantom-mini-clump.jpg",
+              "caption": "Clumps growing on hardscape in a planted aquarium",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/525-bucephalandra-brownie-phantom-mini-clump.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/1724-large_default/bucephalandra-brownie-phantom-mini.jpg",
+              "caption": "Close-up of submersed-grown leaves",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/494-bucephalandra-brownie-phantom-mini.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/2127-large_default/bucephalandra-brownie-phantom-mini.jpg",
+              "caption": "Single plant held in front of a planted tank",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/494-bucephalandra-brownie-phantom-mini.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/2793-large_default/bucephalandra-brownie-phantom-mini-clump.jpg",
+              "caption": "Clump held on a dark background",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/525-bucephalandra-brownie-phantom-mini-clump.html"
             }
           ],
           "offers": [
@@ -8786,8 +10682,22 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/3364-large_default/bucephalandra-dark-lamandau-bucephalandra-sp-dark-lamandau-.jpg",
+              "caption": "Submerged on rock in an aquascape",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/377-bucephalandra-dark-lamandau-bucephalandra-sp-dark-lamandau-.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/1327-large_default/bucephalandra-dark-lamandau-bucephalandra-sp-dark-lamandau-.jpg",
+              "caption": "Close-up of a mounted clump",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/377-bucephalandra-dark-lamandau-bucephalandra-sp-dark-lamandau-.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/1326-large_default/bucephalandra-dark-lamandau-bucephalandra-sp-dark-lamandau-.jpg",
+              "caption": "Close-up of the small rounded leaves",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/377-bucephalandra-dark-lamandau-bucephalandra-sp-dark-lamandau-.html"
             }
           ],
           "offers": [
@@ -8836,8 +10746,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/collector-s-buce-theia-buce-plant-private-collection-m8-1510500106280.jpg?v=1602843972",
+              "caption": "Submerged on rock among hairgrass in an aquascape",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/bucephalandra-theia-1"
+            },
+            {
+              "src": "https://www.aquarzon.com/4734-large_default/bucephalandra-theia.jpg",
+              "caption": "Submersed leaves with bluish sheen, held in a planted tank",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/852-bucephalandra-theia.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/files/bucephalandra-theia-farmed-1231626718.jpg?v=1775700368",
+              "caption": "Potted plant held over a planted tank",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/bucephalandra-theia"
+            },
+            {
+              "src": "https://premiumbuces.com/wp-content/uploads/2019/08/bucephalandra-theia.jpg",
+              "caption": "Product photo on a white background",
+              "credit": "premiumbuces.com",
+              "creditUrl": "https://premiumbuces.com/bucephalandra-theia/"
             }
           ],
           "offers": [
@@ -8864,7 +10794,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Wavy Green'",
           "scientific": "Bucephalandra sp. 'Wavy Green'",
           "difficulty": "Easy",
-          "about": "Bright green, elongated leaves with ruffled, wavy edges and fine white spots, held on a thin creeping rhizome. It makes a low, textured clump for wood and rock in the foreground or midground. Attach it rather than burying the rhizome, and expect slow growth that leaves room for patience over trimming.",
+          "about": "Bright green, elongated leaves with ruffled, wavy edges and fine white spots, held on a thin creeping rhizome. It makes a low, textured clump for wood and rock in the foreground or midground. Attach it rather than burying the rhizome. It grows slowly and rarely needs trimming.",
           "conditions": [
             [
               "Light",
@@ -8886,8 +10816,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": "Micro Aquatic Shop restricts several Bucephalandra to SA, but this page notes no SA restriction. Verify at checkout.",
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1163/2672/products/Bucephalandra-sp.-Green-Wavy-1_284a7b3c-72f3-494a-afde-10bc6d4f48e2.jpg?v=1544797653",
+              "caption": "Planted in an aquascape in front of rock",
+              "credit": "aquaticarts.com",
+              "creditUrl": "https://aquaticarts.com/products/green-wavy-buce-plant-tissue-culture"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1163/2672/products/Bucephalandra-sp.-Green-Wavy-2_0c4d513e-71cf-4953-acc5-f35a3538dc4c.jpg?v=1544797653",
+              "caption": "Submerged, close-up of the wavy leaves",
+              "credit": "aquaticarts.com",
+              "creditUrl": "https://aquaticarts.com/products/green-wavy-buce-plant-tissue-culture"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1167/8568/products/bucephalandra-green-wavy-26387579725.jpg?v=1613044590",
+              "caption": "Mounted on wood in a planted aquarium",
+              "credit": "buceplant.com",
+              "creditUrl": "https://buceplant.com/products/green-wavy"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/IMG-9551.jpg?v=1787799763",
+              "caption": "Hand-held portion",
+              "credit": "microaquaticshop.com.au",
+              "creditUrl": "https://microaquaticshop.com.au/products/bucephalandra-wavy-green"
             }
           ],
           "offers": [
@@ -8936,8 +10886,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/products/22267872d8b1d2e9cee7618d2eebe3c1.jpg?v=1665137525",
+              "caption": "Growing among other Bucephalandra in a planted tank",
+              "credit": "aquafy.com.au",
+              "creditUrl": "https://aquafy.com.au/products/bucephalandra-pandora"
+            },
+            {
+              "src": "https://www.aquarzon.com/2156-large_default/bucephalandra-pandora-queen.jpg",
+              "caption": "Submerged under RGB lighting, showing blue-purple sheen",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/410-bucephalandra-pandora-queen.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/2157-large_default/bucephalandra-pandora-queen.jpg",
+              "caption": "Submerged clump under RGB lighting",
+              "credit": "aquarzon.com",
+              "creditUrl": "https://www.aquarzon.com/bucephalandra/410-bucephalandra-pandora-queen.html"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/products/7008f98961268aea8dd83f887c180e5b.jpg?v=1663921538",
+              "caption": "Single hand-held plant",
+              "credit": "aquafy.com.au",
+              "creditUrl": "https://aquafy.com.au/products/bucephalandra-pandora"
             }
           ],
           "offers": [
@@ -8964,7 +10934,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Palm Tree'",
           "scientific": "Bucephalandra sp. 'Palm Tree'",
           "difficulty": "Easy",
-          "about": "Elongated, slightly wavy leaves that arch and curve down at the tips, giving each rosette the look of a tiny palm. It grows a little faster than many Bucephalandra and clumps well on rock or wood. It is undemanding about light and CO2, but the rhizome must stay above the substrate or it may rot.",
+          "about": "Elongated, slightly wavy leaves that arch and curve down at the tips, so each rosette looks like a tiny palm. It grows a little faster than many Bucephalandra and clumps well on rock or wood. It is undemanding about light and CO2, but the rhizome must stay above the substrate or it may rot.",
           "conditions": [
             [
               "Light",
@@ -8986,8 +10956,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://live.staticflickr.com/7177/6783423430_98080a5550_b.jpg",
+              "caption": "Growing in a planted tank",
+              "credit": "Tomasz Wastowski (Vasteq) (Flickr)",
+              "creditUrl": "https://www.flickr.com/photos/62693539@N07/6783423430/"
+            },
+            {
+              "src": "https://live.staticflickr.com/4487/37151613084_6094bee840_b.jpg",
+              "caption": "Close-up of the wavy, palm-like leaves",
+              "credit": "Tomasz Wastowski (Vasteq) (Flickr)",
+              "creditUrl": "https://www.flickr.com/photos/62693539@N07/37151613084/"
+            },
+            {
+              "src": "https://live.staticflickr.com/4447/37812652196_389d69fa76_b.jpg",
+              "caption": "A clump showing reddish stems and new growth",
+              "credit": "Tomasz Wastowski (Vasteq) (Flickr)",
+              "creditUrl": "https://www.flickr.com/photos/62693539@N07/37812652196/"
+            },
+            {
+              "src": "https://www.bucephalandraeu.com/gallery/big/palm_tree.jpg",
+              "caption": "A portion on lava rock, plain background",
+              "credit": "BucephalandraEU",
+              "creditUrl": "https://www.bucephalandraeu.com/en/product/palm-tree"
             }
           ],
           "offers": [
@@ -9036,8 +11026,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://live.staticflickr.com/65535/50056865847_b4f92348ff_b.jpg",
+              "caption": "Attached to driftwood in an aquascape",
+              "credit": "Find The Apex (Flickr)",
+              "creditUrl": "https://www.flickr.com/photos/51973523@N07/50056865847/"
+            },
+            {
+              "src": "https://live.staticflickr.com/65535/50056866197_2702f63ef0_b.jpg",
+              "caption": "Growing on wood in a planted tank",
+              "credit": "Find The Apex (Flickr)",
+              "creditUrl": "https://www.flickr.com/photos/51973523@N07/50056866197/"
+            },
+            {
+              "src": "https://live.staticflickr.com/65535/50152549382_d65cdb12f8_b.jpg",
+              "caption": "Close-up of the red leaves",
+              "credit": "buce2love (Flickr)",
+              "creditUrl": "https://www.flickr.com/photos/188585397@N05/50152549382/"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/products/image_5ad3e960-ea23-47f5-aee6-dc6394b9064c.jpg?v=1665137512",
+              "caption": "Product photo on a white background",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/bucephalandra-kedagang-red"
             }
           ],
           "offers": [
@@ -9086,8 +11096,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://res.cloudinary.com/dhvj8x2nq/image/upload/v1773662218/products/bucephalandra-purple-diamond/main.jpg",
+              "caption": "Being placed underwater in a planted tank",
+              "credit": "Duckaroo",
+              "creditUrl": "https://duckaroo.com.au/products/bucephalandra-purple-diamond"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/products/78711918_2529077377147783_443485674306273280_n_590X668_crop_center.jpg-min.jpg?v=1659782692",
+              "caption": "Held up in front of a planted tank",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/buce-purple-diamond"
+            },
+            {
+              "src": "https://image-cdn-prodv2.fishyhub.com/fit-in/1080x1080/inventory-images/products/prod_0_21681909925893.jpeg",
+              "caption": "Close-up of the iridescent leaves",
+              "credit": "FishyHub",
+              "creditUrl": "https://fishyhub.com/product-detail/bucephalandra-purple-diamond-per-rhyzome-16676"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/products/image_b6e0145c-4cfb-4f1b-ba26-84dc3171707f.heic?v=1658918223&width=1200",
+              "caption": "A single rhizome portion, held in hand",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/buce-purple-diamond"
             }
           ],
           "offers": [
@@ -9136,8 +11166,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://live.staticflickr.com/8529/8555769558_f7fc13a9cd_b.jpg",
+              "caption": "Growing in a planted tank",
+              "credit": "Tomasz Wastowski (Vasteq) (Flickr)",
+              "creditUrl": "https://www.flickr.com/photos/62693539@N07/8555769558/"
+            },
+            {
+              "src": "https://live.staticflickr.com/4393/36851885632_6eb580e2cb_b.jpg",
+              "caption": "Pale leaves on driftwood in an aquarium",
+              "credit": "LSTof (Flickr)",
+              "creditUrl": "https://www.flickr.com/photos/158024505@N07/36851885632/"
+            },
+            {
+              "src": "https://live.staticflickr.com/3827/12269011583_68843d553c_b.jpg",
+              "caption": "Next to a dark Bucephalandra in a tank",
+              "credit": "Tomasz Wastowski (Vasteq) (Flickr)",
+              "creditUrl": "https://www.flickr.com/photos/62693539@N07/12269011583/"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0596/3474/5437/products/PE1_4117Anubias_White_WM50.jpg?v=1678166342&width=1200",
+              "caption": "Potted plant, product photo",
+              "credit": "Tankquility",
+              "creditUrl": "https://tankquility.com.au/products/anubias-white"
             }
           ],
           "offers": [
@@ -9186,8 +11236,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": "The shop does not explicitly confirm plant shipping to SA. Verify at checkout.",
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/Anubias_Jenny_on_Driftwood.png?v=1684939574",
+              "caption": "Attached to a small piece of driftwood",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/anubias-jenny-mini-driftwood"
+            },
+            {
+              "src": "https://i0.wp.com/theonlineaquariumshop.com.au/wp-content/uploads/2024/09/Image-30-9-2024-at-2.30-pm.jpeg",
+              "caption": "Bare-root plant, product photo",
+              "credit": "The Online Aquarium Shop",
+              "creditUrl": "https://www.theonlineaquariumshop.com.au/product/anubias-jenny/"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/products/scapeshop-com-au-bare-root-plant-anubias-jenny-bare-root-large-28376019533959.jpg?v=1628220855&width=1200",
+              "caption": "Bare-root plant standing in water",
+              "credit": "Scapeshop",
+              "creditUrl": "https://scapeshop.com.au/products/anubias-jenny"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0293/2506/6375/products/scapeshop-com-au-bare-root-plant-anubias-jenny-bare-root-large-28286919934087.png?v=1628220855",
+              "caption": "Bare-root plant on a white background",
+              "credit": "Scapeshop",
+              "creditUrl": "https://scapeshop.com.au/products/anubias-jenny"
             }
           ],
           "offers": [
@@ -9426,7 +11496,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Flame moss",
           "scientific": "Taxiphyllum sp. 'Flame'",
           "difficulty": "Easy",
-          "about": "Dark green strands that grow straight up and twist like flickering flames, giving vertical texture on wood and rock. It is slow and stays in neat tufts rather than spreading sideways. Tie it on in small clumps and trim the tops if they start to flop over.",
+          "about": "Dark green strands grow straight up and twist like flickering flames, which adds vertical texture on wood and rock. It is slow and stays in neat tufts rather than spreading sideways. Tie it on in small clumps and trim the tops if they start to flop over.",
           "conditions": [
             [
               "Light",
@@ -10040,7 +12110,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Stringy moss",
           "scientific": "Leptodictyum riparium",
           "difficulty": "Easy",
-          "about": "Fine, light green strands that grow quickly and sway in the current, giving a wild, flowing look. It fills gaps fast and tolerates a wide range of light and temperature. It can spread onto nearby plants, so trim it often and remove stray pieces.",
+          "about": "Fine, light green strands that grow quickly and sway in the current for a wild, flowing look. It fills gaps fast and tolerates a wide range of light and temperature. It can spread onto nearby plants, so trim it often and remove stray pieces.",
           "conditions": [
             [
               "Light",
@@ -10210,7 +12280,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Marimo Moss Ball",
           "scientific": "Aegagropila linnaei",
           "difficulty": "Easy",
-          "about": "A slow-growing green alga that forms soft, velvety balls of dense filaments rather than a moss. Balls can sit loose on the substrate or be pulled apart and spread as a short carpet. It prefers cool water, ideally below about 24 °C, and moderate light; turn it now and then so all sides stay green.",
+          "about": "A slow-growing green alga that forms soft, velvety balls of dense filaments rather than a moss. Balls can sit loose on the substrate or be pulled apart and spread as a short carpet. It prefers cool water, ideally below about 24°C, and moderate light; turn it now and then so all sides stay green.",
           "conditions": [
             [
               "Light",
@@ -10232,8 +12302,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/aegagropila-linnaei-4f7a015a035e1.jpg",
+              "caption": "Several balls among plants in an aquascape",
+              "credit": "Flowgrow plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/aegagropila-linnaei"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/aegagropila-linnaei-4f7a0158862b3.jpg",
+              "caption": "Resting on sand by a stone in an aquarium",
+              "credit": "Flowgrow plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/aegagropila-linnaei"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/aegagropila-linnaei-4f7a01593e1fb.jpg",
+              "caption": "Close-up of the filaments underwater",
+              "credit": "Flowgrow plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/aegagropila-linnaei"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/marimo-moss-ball.jpg?v=1729819367",
+              "caption": "Moss balls on a white background",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/marimo-moss-ball"
             }
           ],
           "offers": [
@@ -10260,7 +12350,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Willow Moss",
           "scientific": "Fontinalis antipyretica",
           "difficulty": "Easy",
-          "about": "A dark green aquatic moss with long, branching strands of small, pointed leaves that trail in the current. It is tied to wood or rock and suits stream-style layouts, and the dense strands give good cover for shrimp and fry. It does best in cool, clean, moving water and slows down above about 24 °C; trim long strands to keep it bushy.",
+          "about": "A dark green aquatic moss with long, branching strands of small, pointed leaves that trail in the current. It is tied to wood or rock and suits stream-style layouts, and the dense strands give good cover for shrimp and fry. It does best in cool, clean, moving water and slows down above about 24°C; trim long strands to keep it bushy.",
           "conditions": [
             [
               "Light",
@@ -10282,8 +12372,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/fontinalis-antipyretica-4f7a029f88cbf.jpg",
+              "caption": "A submerged clump in a planted tank",
+              "credit": "Flowgrow plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/fontinalis-antipyretica"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/fontinalis-antipyretica-52f8822bb2853.jpg",
+              "caption": "Growing over driftwood in an aquascape",
+              "credit": "Flowgrow plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/fontinalis-antipyretica"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/products/DSC-6618-1-1024x576-min-_1.jpg?v=1658361852",
+              "caption": "Covering driftwood in an aquarium",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/willow-moss"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0608/5771/2849/files/willow-moss-55cm-portion-8739710.jpg?v=1786977367&width=1200",
+              "caption": "A portion in a dish",
+              "credit": "Nano Tanks Australia",
+              "creditUrl": "https://nanotanksaustralia.com.au/products/willow-moss"
             }
           ],
           "offers": [
@@ -10358,8 +12468,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/riccia-fluitans-5575da346f171.jpg",
+              "caption": "A dense mat on wood at the water surface",
+              "credit": "Flowgrow plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/riccia-fluitans"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/riccia-fluitans-5194b34fb2b39.jpg",
+              "caption": "A mound of crystalwort in a planted tank",
+              "credit": "Flowgrow plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/riccia-fluitans"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/1E3FD198-D41A-41B6-8CAE-3B5AFD273EDF.jpg?v=1723876288&width=1200",
+              "caption": "Close-up of the fine, forked thalli underwater",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/riccia-fluitans"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/products/IMG-2164-_2.jpg?v=1725441676&width=1200",
+              "caption": "A portion on mesh, held in hand",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/riccia-fluitans"
             }
           ],
           "offers": [
@@ -10447,8 +12577,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/fissidens-fontanus-5194b3092cd02.jpg",
+              "caption": "A cushion of phoenix moss in an aquarium",
+              "credit": "Flowgrow plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/fissidens-fontanus"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/fissidens-fontanus-4f7a025b625ab.jpg",
+              "caption": "Upright tufts growing submerged",
+              "credit": "Flowgrow plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/fissidens-fontanus"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0802/8835/0528/files/phoenixmoss.jpg?v=1695267276",
+              "caption": "A dense carpet of fronds underwater",
+              "credit": "Liverpool Creek Aquariums",
+              "creditUrl": "https://www.liverpoolcreekaquariums.com.au/products/phoenix-moss"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/IMG-7222.jpg?v=1784948145&width=1200",
+              "caption": "A portion on mesh, held in hand",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/phoenix-moss-fissidens-fontanus"
             }
           ],
           "offers": [
@@ -10510,8 +12660,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/taxiphyllum-barbieri-52361a5f8ba78.jpg",
+              "caption": "A dense wall of java moss in an aquarium",
+              "credit": "Flowgrow plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/taxiphyllum-barbieri"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/taxiphyllum-barbieri-51da5db681b34.jpg",
+              "caption": "Growing on a branch in a planted tank",
+              "credit": "Flowgrow plant database",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/taxiphyllum-barbieri"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/java-moss.jpg?v=1729821004",
+              "caption": "Submerged among other plants",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/java-moss"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0608/5771/2849/files/java-moss-taxiphyllum-barbieri-55cm-portion-2363295.png?v=1787327948&width=1200",
+              "caption": "A portion on a black background",
+              "credit": "Nano Tanks Australia",
+              "creditUrl": "https://nanotanksaustralia.com.au/products/java-moss-taxophyllum-barberi-5cmx5cm"
             }
           ],
           "offers": [
@@ -10577,7 +12747,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Pearl Moss",
           "scientific": "Plagiomnium cf. affine",
           "difficulty": "Moderate",
-          "about": "An upright moss with small, rounded, bright green leaves that have a clear midrib, giving the stems a beaded look. It is attached to wood or rock and gives a softer, leafier texture than most mosses. It grows very slowly and needs stable conditions and patience; extra light and CO2 help it fill in faster.",
+          "about": "An upright moss with small, rounded, bright green leaves that have a clear midrib, so the stems look beaded. It is attached to wood or rock and gives a softer, leafier texture than most mosses. It grows very slowly and needs stable conditions and patience; extra light and CO2 help it fill in faster.",
           "conditions": [
             [
               "Light",
@@ -10599,8 +12769,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.aquarzon.com/1071-large_default/rare-pearl-moss-plagiomnium-cf-affine.jpg",
+              "caption": "Submerged in a planted aquarium",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/moss/49-rare-pearl-moss-plagiomnium-cf-affine.html"
+            },
+            {
+              "src": "https://www.aquarzon.com/298-large_default/rare-pearl-moss-plagiomnium-cf-affine.jpg",
+              "caption": "Submerged on a mount, with guppies",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/moss/49-rare-pearl-moss-plagiomnium-cf-affine.html"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/plagiomnium-cf-affine-539062c17847f.jpg",
+              "caption": "Grown submerged on wood",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/plagiomnium-cf-affine"
+            },
+            {
+              "src": "https://www.aquarzon.com/100-large_default/rare-pearl-moss-plagiomnium-cf-affine.jpg",
+              "caption": "Portion in a cup",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/moss/49-rare-pearl-moss-plagiomnium-cf-affine.html"
             }
           ],
           "offers": [
@@ -10674,7 +12864,7 @@ globalThis.PLANT_CATALOGUE = {
               "creditUrl": "https://note.com/mossparadise3055/n/n7390a1fc22d9"
             },
             {
-              "src": "http://www.uprooted.com.au/cdn/shop/files/ficus-pumila-minima-uprooted-buy-plants-online-australia-1222475.jpg?v=1783042570",
+              "src": "https://www.uprooted.com.au/cdn/shop/files/ficus-pumila-minima-uprooted-buy-plants-online-australia-1222475.jpg?v=1783042570",
               "caption": "Original reference photo.",
               "credit": "uprooted.com.au",
               "creditUrl": "https://www.uprooted.com.au/products/ficus-pumila-minima"
@@ -10734,7 +12924,7 @@ globalThis.PLANT_CATALOGUE = {
               "creditUrl": "https://www.aquaplante.fr/plantes-de-terrarium-paludarium/aquaplante/87818-peperomia-prostrata-string-of-turtles-plante-de-terrarium-humide.html"
             },
             {
-              "src": "http://flowerandtwignursery.com.au/cdn/shop/files/peperomia-prostrata-string-of-turtles-366098_1200x1200.jpg?v=1740571908",
+              "src": "https://flowerandtwignursery.com.au/cdn/shop/files/peperomia-prostrata-string-of-turtles-366098_1200x1200.jpg?v=1740571908",
               "caption": "Original reference photo.",
               "credit": "flowerandtwignursery.com.au",
               "creditUrl": "https://flowerandtwignursery.com.au/products/peperomia-prostrata-string-of-turtles"
@@ -10794,7 +12984,7 @@ globalThis.PLANT_CATALOGUE = {
               "creditUrl": "https://terrariumtribe.com/terrarium-plants/pilea-glauca/"
             },
             {
-              "src": "http://flowerandtwignursery.com.au/cdn/shop/files/pilea-glauca-silver-sprinkles-177178_1200x1200.jpg?v=1717505893",
+              "src": "https://flowerandtwignursery.com.au/cdn/shop/files/pilea-glauca-silver-sprinkles-177178_1200x1200.jpg?v=1717505893",
               "caption": "Original reference photo.",
               "credit": "flowerandtwignursery.com.au",
               "creditUrl": "https://flowerandtwignursery.com.au/products/pilea-glauca-silver-sprinkles"
@@ -10956,8 +13146,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Cryptanthus_bivittatus_kz01.jpg/1280px-Cryptanthus_bivittatus_kz01.jpg",
+              "caption": "Planted among moss in a glasshouse bed",
+              "credit": "Wikimedia Commons",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Cryptanthus_bivittatus_kz01.jpg"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Cryptanthus_bivittatus_1zz.jpg/1280px-Cryptanthus_bivittatus_1zz.jpg",
+              "caption": "Planted as dense ground cover",
+              "credit": "Wikimedia Commons",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Cryptanthus_bivittatus_1zz.jpg"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Earth_Star_%28Cryptanthus_bivittatus%29.jpg/1280px-Earth_Star_%28Cryptanthus_bivittatus%29.jpg",
+              "caption": "Clump of rosettes growing together",
+              "credit": "Wikimedia Commons",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Earth_Star_(Cryptanthus_bivittatus).jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0596/3474/5437/files/Image1Cryptanthusbivittatus.jpg?v=1735003921&width=1200",
+              "caption": "Single rosette on a black background",
+              "credit": "Tankquility",
+              "creditUrl": "https://tankquility.com.au/products/cryptanthus-bivittatus"
             }
           ],
           "offers": [
@@ -11006,8 +13216,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Cryptanthus_acaulis_var_ruber_kz03.jpg/1280px-Cryptanthus_acaulis_var_ruber_kz03.jpg",
+              "caption": "Planted rosette growing in substrate",
+              "credit": "Wikimedia Commons",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Cryptanthus_acaulis_var_ruber_kz03.jpg"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Cryptanthus_acaulis_var_ruber_kz04.jpg/1280px-Cryptanthus_acaulis_var_ruber_kz04.jpg",
+              "caption": "Planted rosette in flower",
+              "credit": "Wikimedia Commons",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Cryptanthus_acaulis_var_ruber_kz04.jpg"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Cryptanthus_acaulis_var_ruber_kz01.jpg/1280px-Cryptanthus_acaulis_var_ruber_kz01.jpg",
+              "caption": "Close-up of a flowering rosette",
+              "credit": "Wikimedia Commons",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Cryptanthus_acaulis_var_ruber_kz01.jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0596/3474/5437/files/Image1Cryptanthusacaulisvar.ruber.jpg?v=1735027430&width=1200",
+              "caption": "Single rosette on a black background",
+              "credit": "Tankquility",
+              "creditUrl": "https://tankquility.com.au/products/cryptanthus-acaulis-var-ruber"
             }
           ],
           "offers": [
@@ -11081,7 +13311,7 @@ globalThis.PLANT_CATALOGUE = {
               "creditUrl": "https://www.etsy.com/listing/1681860023/tropical-fittonia-terrarium-ready-made"
             },
             {
-              "src": "http://flowerandtwignursery.com.au/cdn/shop/files/fittonia-skeleton-819173_1200x1200.jpg?v=1717506172",
+              "src": "https://flowerandtwignursery.com.au/cdn/shop/files/fittonia-skeleton-819173_1200x1200.jpg?v=1717506172",
               "caption": "Original reference photo.",
               "credit": "flowerandtwignursery.com.au",
               "creditUrl": "https://flowerandtwignursery.com.au/products/fittonia-skeleton"
@@ -11141,7 +13371,7 @@ globalThis.PLANT_CATALOGUE = {
               "creditUrl": "https://www.flowgrow.de/db/aquaticplants/acorus-gramineus"
             },
             {
-              "src": "http://www.nurserywarehouse.com.au/cdn/shop/files/Acorus_Gramineus_Ogon_Golden_Sweet_Flag_1.jpg?v=1774351062",
+              "src": "https://www.nurserywarehouse.com.au/cdn/shop/files/Acorus_Gramineus_Ogon_Golden_Sweet_Flag_1.jpg?v=1774351062",
               "caption": "Original reference photo. Acorus gramineus 'Ogon' cultivar.",
               "credit": "nurserywarehouse.com.au",
               "creditUrl": "https://www.nurserywarehouse.com.au/products/acorus-gramineus-ogon-golden-sweet-flag"
@@ -11161,7 +13391,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bacopa caroliniana",
           "scientific": "Bacopa caroliniana (grown out of water)",
           "difficulty": "Easy",
-          "about": "An aquarium stem plant that keeps growing once it reaches the surface and produces small blue flowers above water. It links the underwater planting to the plants above the waterline.",
+          "about": "An aquarium stem plant that keeps growing once it reaches the surface and produces small blue flowers above water. Left to grow out, it carries the planting up past the waterline.",
           "conditions": [
             [
               "Light",
@@ -11257,8 +13487,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/red-root-floaters-sideview.jpg?v=1729818195&width=1200",
+              "caption": "Underwater view of the red roots, with fish",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/red-root-floaters"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/red-root-floaters-floating-plant.jpg?v=1729817553&width=1200",
+              "caption": "Floating at the surface of an aquarium",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/red-root-floaters"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/phyllanthus-fluitans-5308cb6d83fc8.jpg",
+              "caption": "Red leaves and roots in an aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/phyllanthus-fluitans"
+            },
+            {
+              "src": "https://www.aquarzon.com/1109-large_default/red-root-floater-phyllanthus-fluitans.jpg",
+              "caption": "Portion on a white background",
+              "credit": "Aquarzon",
+              "creditUrl": "https://www.aquarzon.com/home/366-red-root-floater-phyllanthus-fluitans.html"
             }
           ],
           "offers": [
@@ -11359,8 +13609,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/402105A6-0432-4E1B-9AA4-75D430358C80.jpg?v=1725933265&width=1200",
+              "caption": "Underwater view of a duckweed mat, with a guppy",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/duckweed"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Wasserlinsenteppich.jpg/1280px-Wasserlinsenteppich.jpg",
+              "caption": "Duckweed carpet seen from below in an aquarium",
+              "credit": "Wikimedia Commons",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Wasserlinsenteppich.jpg"
+            },
+            {
+              "src": "https://www.garnelio.de/media/image/db/db/02/Wasserlinsen127n6YFNoJn2c4s_1280x1280.jpg",
+              "caption": "Floating among plants in an aquarium",
+              "credit": "Garnelio",
+              "creditUrl": "https://www.garnelio.de/en/garnelio-duckweed-lemna-minor-portion"
+            },
+            {
+              "src": "https://www.garnelio.de/media/image/f2/26/ec/Wasserlinsen334qFwpH9lOg6hO3_1280x1280.jpg",
+              "caption": "Close-up of the fronds on their own",
+              "credit": "Garnelio",
+              "creditUrl": "https://www.garnelio.de/en/garnelio-duckweed-lemna-minor-portion"
             }
           ],
           "offers": [
@@ -11435,8 +13705,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/IMG-8680.jpg?v=1784565258&width=1200",
+              "caption": "Underwater view of the fronds and roots",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/giant-duckweed"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/IMG-8681.webp?v=1784568131&width=1200",
+              "caption": "Covering the surface of an aquarium",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/giant-duckweed"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/spirodela-polyrhiza-4f7a03bad4f46.jpg",
+              "caption": "Floating in an aquarium with smaller duckweed",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/spirodela-polyrhiza"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/1020/9995/files/IMG-9134.jpg?v=1786773139&width=1000",
+              "caption": "Portion in a cup",
+              "credit": "Micro Aquatic Shop",
+              "creditUrl": "https://microaquaticshop.com.au/products/giant-duckweed"
             }
           ],
           "offers": [
@@ -11485,8 +13775,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://cdn.shopify.com/s/files/1/0802/8835/0528/files/azolla.webp?v=1694307844",
+              "caption": "Red-tinged fronds floating in an aquarium",
+              "credit": "Liverpool Creek Aquariums",
+              "creditUrl": "https://www.liverpoolcreekaquariums.com.au/products/azolla-filiculoides"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/Azolla.jpg?v=1724139349&width=1200",
+              "caption": "Floating mat on open water",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/azolla"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Azolla_filiculoides_kz01.jpg/1280px-Azolla_filiculoides_kz01.jpg",
+              "caption": "Close-up of fronds floating with duckweed",
+              "credit": "Wikimedia Commons",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Azolla_filiculoides_kz01.jpg"
+            },
+            {
+              "src": "https://www.garnelio.de/media/image/92/3a/21/Azolla-filiculoides5xVClwByrAc42_1280x1280.jpg",
+              "caption": "Portion in a cup",
+              "credit": "Garnelio",
+              "creditUrl": "https://www.garnelio.de/en/garnelio-algae-fern-azolla-filiculoides-portion"
             }
           ],
           "offers": [
@@ -11561,8 +13871,28 @@ globalThis.PLANT_CATALOGUE = {
           "saNote": null,
           "photos": [
             {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/utricularia-gibba-4f7a02cd3120f.jpg",
+              "caption": "Fine strands tangled in an aquarium",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/utricularia-gibba"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/utricularia-gibba-4f7a02cdbb9af.jpg",
+              "caption": "Mass of strands in an aquarium, with fish",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/utricularia-gibba"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/utricularia-gibba-4f7a02ce56871.jpg",
+              "caption": "Close-up of a stem with bladder traps",
+              "credit": "Flowgrow",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/utricularia-gibba"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Utricularia_gibba_stolons_and_insect_trap.jpg/1280px-Utricularia_gibba_stolons_and_insect_trap.jpg",
+              "caption": "Stolons and a trap on their own, in a container",
+              "credit": "Wikimedia Commons",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Utricularia_gibba_stolons_and_insect_trap.jpg"
             }
           ],
           "offers": [
