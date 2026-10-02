@@ -13263,8 +13263,8 @@ globalThis.PLANT_CATALOGUE = {
     },
     {
       "id": "waterline",
-      "name": "Along the waterline",
-      "intro": "Roots in the water, leaves above it. Most are houseplants sold through general nurseries, so buy them in SA rather than from Queensland.",
+      "name": "Waterline",
+      "intro": "Roots in the water, leaves above it.",
       "plants": [
         {
           "id": 52,
