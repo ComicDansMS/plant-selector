@@ -1,84 +1,34 @@
 (() => {
   "use strict";
 
-  const { zones } = globalThis.PLANT_CATALOGUE;
+  const {
+    zones,
+    plants,
+    byId,
+    DIFFICULTY,
+    LIGHT_LEVELS,
+    $,
+    $$,
+    esc,
+    money,
+    plural,
+    clampQty,
+    formatChecked,
+    MAX_QTY,
+    ICONS,
+    external,
+    credit,
+    wasPrice,
+    quantityHTML,
+    stepQuantity,
+    lines,
+    onCartChange,
+    addToCart,
+    removeFromCart,
+  } = globalThis.PLANT_CORE;
 
-  // Both keys and the per control state shape come from the earlier static
-  // page; keeping them means carts saved by that version still load.
-  const STORAGE_KEY = "plant-shortlist-native-cart-v1";
-  const LEGACY_STORAGE_KEY = "plant-shortlist-cart-v1";
-  const MAX_QTY = 99;
-  const DIFFICULTY = ["Easy", "Moderate", "Demanding"];
-  const LIGHT_LEVELS = ["Low", "Medium", "High"];
-
-  const $ = (selector, root = document) => root.querySelector(selector);
-  const $$ = (selector, root = document) => [
-    ...root.querySelectorAll(selector),
-  ];
-  const ESCAPES = {
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    '"': "&quot;",
-    "'": "&#39;",
-  };
-  const esc = (value) => String(value).replace(/[&<>"']/g, (c) => ESCAPES[c]);
-  const money = (cents) => `$${(cents / 100).toFixed(2)}`;
-  const plural = (n, one, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
-  const clampQty = (value) => {
-    const n = Number(value);
-    return Number.isFinite(n)
-      ? Math.max(1, Math.min(MAX_QTY, Math.trunc(n)))
-      : 1;
-  };
   const reducedMotion = () =>
     window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ?? true;
-
-  function formatChecked(value) {
-    const [year, month, day] = value.split("-").map(Number);
-    return new Intl.DateTimeFormat("en-AU", {
-      timeZone: "UTC",
-      year: "numeric",
-      month: "long",
-      ...(day ? { day: "numeric" } : {}),
-    }).format(new Date(Date.UTC(year, month - 1, day || 1)));
-  }
-
-  // Light is free text ("Low to medium", "Bright, indirect"), so it is mapped
-  // onto three levels to make it filterable. A range covers every level
-  // between its ends, and the emersed plants' "bright" counts as high.
-  function lightLevels(text) {
-    const found = [
-      ...text.toLowerCase().matchAll(/low|medium|high|bright/g),
-    ].map(([word]) =>
-      word === "bright" ? 2 : ["low", "medium", "high"].indexOf(word),
-    );
-    if (!found.length) return [];
-    return LIGHT_LEVELS.slice(Math.min(...found), Math.max(...found) + 1);
-  }
-
-  const plants = zones.flatMap((zone) =>
-    zone.plants.map((plant) => {
-      const inStock = plant.offers.filter((offer) => !offer.soldOut);
-      const pool = inStock.length ? inStock : plant.offers;
-      const best = pool.length
-        ? pool.reduce((a, b) => (b.price < a.price ? b : a))
-        : null;
-      const conditions = Object.fromEntries(plant.conditions);
-      return {
-        ...plant,
-        zone,
-        conditionMap: conditions,
-        searchText: `${plant.name} ${plant.scientific}`.toLowerCase(),
-        best,
-        fromPrice: best ? best.price : null,
-        inStock: inStock.length > 0,
-        light: lightLevels(conditions.Light ?? ""),
-      };
-    }),
-  );
-  plants.forEach((plant, index) => (plant.order = index));
-  const byId = new Map(plants.map((plant) => [plant.id, plant]));
 
   const FACETS = [
     {
@@ -166,36 +116,10 @@
 
   /* Markup */
 
-  const ICONS = {
-    leaf: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 5-13 14-14 0 9-5 14-13 14Z"/><path d="M5 19 13 11"/></svg>',
-    close:
-      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>',
-    prev: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg>',
-    next: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg>',
-    zoom: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5M11 8v6M8 11h6"/></svg>',
-  };
-
-  const external = (url, label) =>
-    `<a href="${esc(url)}" target="_blank" rel="noopener">${label}</a>`;
-  const credit = (photo) =>
-    `${esc(photo.caption)}${photo.credit ? ` ${external(photo.creditUrl, esc(photo.credit))}` : ""}`;
-  const wasPrice = (cents) =>
-    cents
-      ? ` <s class="price__was"><span class="visually-hidden">was </span>${money(cents)}</s>`
-      : "";
-
   function cardPriceHTML(plant) {
     if (!plant.best) return '<span class="price__none">No price</span>';
     const prefix = plant.offers.length > 1 ? "From " : "";
     return `<span class="price__current">${prefix}${money(plant.best.price)}</span>${wasPrice(plant.best.was)}`;
-  }
-
-  function quantityHTML(key, name, qty) {
-    return `<div class="quantity">
-      <button type="button" class="quantity__button" data-qty-step="-1" data-focus-key="${key}-dec" aria-label="Decrease quantity of ${esc(name)}"${qty <= 1 ? " disabled" : ""}>&minus;</button>
-      <input class="quantity__input" type="number" inputmode="numeric" min="1" max="${MAX_QTY}" step="1" value="${qty}" data-qty="${key}" data-focus-key="${key}" aria-label="Quantity of ${esc(name)}">
-      <button type="button" class="quantity__button" data-qty-step="1" data-focus-key="${key}-inc" aria-label="Increase quantity of ${esc(name)}"${qty >= MAX_QTY ? " disabled" : ""}>+</button>
-    </div>`;
   }
 
   function cardHTML(plant) {
@@ -221,8 +145,8 @@
           <span class="diff" data-d="${plant.difficulty}">${plant.difficulty}</span>
           <p class="price">${cardPriceHTML(plant)}</p>
         </div>
-        <button type="button" class="card__add" data-quick-add="${plant.id}" aria-pressed="false" aria-label="Add ${esc(plant.name)} to cart">
-          <span class="card__add-label">Add to cart</span>
+        <button type="button" class="card__add" data-quick-add="${plant.id}" aria-pressed="false" aria-label="Add ${esc(plant.name)} to list">
+          <span class="card__add-label">Add to list</span>
         </button>
       </div>
     </li>`;
@@ -357,14 +281,21 @@
     }
     renderedSort = view.sort;
 
-    $("#result-count").textContent =
+    const active = activeFacets();
+    // The count only shows while something narrows the list, but stays in the
+    // accessibility tree so changes are still announced.
+    const resultCount = $("#result-count");
+    resultCount.textContent =
       total === plants.length
         ? plural(total, "plant")
         : `${total} of ${plural(plants.length, "plant")}`;
+    resultCount.classList.toggle(
+      "visually-hidden",
+      !view.query && !active.length,
+    );
     $("#empty").hidden = total > 0;
     $("#filters-apply").textContent = `Show ${plural(total, "plant")}`;
 
-    const active = activeFacets();
     const badge = $("#filter-count");
     badge.hidden = !active.length;
     badge.textContent = active.length;
@@ -389,285 +320,6 @@
     view.facets.forEach((set) => set.clear());
     view.min = view.max = null;
     writeFacetForm();
-  }
-
-  /* Cart state */
-
-  // Every plant keeps a line in or out of the cart, so a plant added again
-  // comes back with its last quantity and shop, and the saved state keeps the
-  // same shape as the earlier version's form controls.
-  const freshLine = (plant) => ({
-    selected: false,
-    qty: 1,
-    offer: plant.defaultOffer,
-  });
-  const lines = new Map(plants.map((plant) => [plant.id, freshLine(plant)]));
-  let removedId = null;
-
-  function migrateLegacy(raw) {
-    const legacy = JSON.parse(raw || "[]");
-    if (!Array.isArray(legacy) || !legacy.length) return null;
-    const state = {};
-    for (const entry of legacy) {
-      const plant = byId.get(entry?.id);
-      if (
-        !plant ||
-        !Number.isInteger(entry.quantity) ||
-        entry.quantity < 1 ||
-        entry.quantity > MAX_QTY
-      )
-        continue;
-      state[`native-selected-${plant.id}`] = true;
-      state[`native-quantity-${plant.id}`] = String(entry.quantity);
-      if (plant.offers[entry.offerId])
-        plant.offers.forEach((_, i) => {
-          state[`native-shop-${plant.id}-${i}`] = i === entry.offerId;
-        });
-    }
-    return state;
-  }
-
-  function restoreCart() {
-    let state = null;
-    try {
-      state =
-        JSON.parse(localStorage.getItem(STORAGE_KEY) || "null") ??
-        migrateLegacy(localStorage.getItem(LEGACY_STORAGE_KEY));
-    } catch {
-      /* Invalid or unavailable storage leaves the default cart usable. */
-    }
-    if (!state || typeof state !== "object" || Array.isArray(state)) return;
-    for (const plant of plants) {
-      const line = lines.get(plant.id);
-      const selected = state[`native-selected-${plant.id}`];
-      if (typeof selected === "boolean") line.selected = selected;
-      const qty = Number(state[`native-quantity-${plant.id}`]);
-      if (Number.isInteger(qty) && qty >= 1 && qty <= MAX_QTY) line.qty = qty;
-      const offer = plant.offers.findIndex(
-        (_, i) => state[`native-shop-${plant.id}-${i}`] === true,
-      );
-      if (offer >= 0) line.offer = offer;
-    }
-  }
-
-  function saveCart() {
-    const state = {};
-    for (const plant of plants) {
-      const line = lines.get(plant.id);
-      state[`native-selected-${plant.id}`] = line.selected;
-      state[`native-quantity-${plant.id}`] = String(line.qty);
-      plant.offers.forEach((_, i) => {
-        state[`native-shop-${plant.id}-${i}`] = i === line.offer;
-      });
-    }
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-      $("#cart-save-note").textContent =
-        "Your selections are saved on this device.";
-    } catch {
-      $("#cart-save-note").textContent =
-        "Selections cannot be saved on this device.";
-    }
-  }
-
-  function updateCart(change) {
-    change();
-    renderCart();
-    saveCart();
-    renderPlantCartState();
-  }
-
-  function addToCart(id, { qty, offer } = {}) {
-    updateCart(() => {
-      const line = lines.get(id);
-      line.selected = true;
-      if (qty !== undefined) line.qty = clampQty(qty);
-      if (offer !== undefined && offer !== null) line.offer = offer;
-      if (removedId === id) removedId = null;
-    });
-  }
-
-  function removeFromCart(id) {
-    updateCart(() => {
-      lines.get(id).selected = false;
-      removedId = id;
-    });
-  }
-
-  function cartSummary() {
-    let count = 0;
-    let total = 0;
-    let unknown = 0;
-    const groups = [];
-    for (const zone of zones) {
-      const entries = zone.plants
-        .map(({ id }) => ({ plant: byId.get(id), line: lines.get(id) }))
-        .filter(({ line }) => line.selected)
-        .map((entry) => {
-          const offer = entry.plant.offers[entry.line.offer] ?? null;
-          const sum = offer ? offer.price * entry.line.qty : 0;
-          return { ...entry, offer, sum };
-        });
-      if (!entries.length) continue;
-      const subtotal = entries.reduce((sum, entry) => sum + entry.sum, 0);
-      for (const entry of entries) {
-        count += entry.line.qty;
-        if (!entry.offer) unknown += entry.line.qty;
-      }
-      total += subtotal;
-      groups.push({ zone, entries, subtotal });
-    }
-    return { groups, count, total, unknown };
-  }
-
-  function checkedNote(entries) {
-    const dates = entries
-      .filter((entry) => entry.offer)
-      .map((entry) => entry.offer.checked)
-      .sort();
-    if (!dates.length) return "";
-    const first = formatChecked(dates[0]);
-    const last = formatChecked(dates.at(-1));
-    return first === last
-      ? `Prices checked ${first}.`
-      : `Prices checked between ${first} and ${last}.`;
-  }
-
-  function cartLineHTML({ plant, line, offer, sum }) {
-    const key = `cart-${plant.id}`;
-    const shop = offer
-      ? `<label class="cart-line__shop">
-          <span class="visually-hidden">Shop for ${esc(plant.name)}</span>
-          <select data-shop="${plant.id}" data-focus-key="${key}-shop">
-            ${plant.offers
-              .map(
-                (o, i) =>
-                  `<option value="${i}"${i === line.offer ? " selected" : ""}>${esc(o.shop)}, ${money(o.price)}${o.soldOut ? ", sold out" : ""}</option>`,
-              )
-              .join("")}
-          </select>
-        </label>
-        <p class="cart-line__detail">${offer.unit ? `${esc(offer.unit)}. ` : ""}${external(offer.url, `Visit ${esc(offer.shop)} ↗`)}</p>
-        <p class="cart-line__detail">Price checked ${formatChecked(offer.checked)}</p>`
-      : '<p class="cart-line__detail">Price not listed</p>';
-    const warning = !offer
-      ? "No price was listed. This plant is excluded from the total."
-      : offer.soldOut
-        ? "This listing was sold out when checked. Check stock before buying."
-        : "";
-    return `<article class="cart-line" data-line="${plant.id}">
-      <img class="cart-line__thumb" src="${esc(plant.photos[0].src)}" alt="" width="80" height="80" loading="lazy" decoding="async">
-      <div class="cart-line__main">
-        <div class="cart-line__top">
-          <div>
-            <h4 class="cart-line__name"><a href="#plant-${plant.id}" data-open-plant="${plant.id}">${esc(plant.name)}</a></h4>
-            <p class="cart-line__sub">${esc(plant.scientific)}</p>
-          </div>
-          <p class="cart-line__each">${offer ? money(offer.price) : "Unpriced"}<small>each</small></p>
-        </div>
-        ${shop}
-        ${warning ? `<p class="cart-line__warning">${warning}</p>` : ""}
-        <div class="cart-line__controls">
-          ${quantityHTML(key, plant.name, line.qty)}
-          <span class="cart-line__sum">${offer ? money(sum) : "Unpriced"}</span>
-          <button type="button" class="link-button" data-remove="${plant.id}" aria-label="Remove ${esc(plant.name)}">Remove</button>
-        </div>
-      </div>
-    </article>`;
-  }
-
-  function renderCart() {
-    // The cart is re-rendered on every change, so focus is carried across by
-    // a stable key instead of being lost to the replaced nodes.
-    const focusKey = document.activeElement?.dataset?.focusKey;
-    const removeFocused = document.activeElement?.matches?.(
-      "#cart [data-remove]",
-    );
-    const { groups, count, total, unknown } = cartSummary();
-
-    $("#cart-groups").innerHTML = groups
-      .map(
-        ({ zone, entries, subtotal }) => `<section class="cart-group" aria-label="${esc(zone.name)}">
-          <h3>${esc(zone.name)}<span>${money(subtotal)}</span></h3>
-          ${entries.map(cartLineHTML).join("")}
-        </section>`,
-      )
-      .join("");
-
-    $$("[data-cart-count]").forEach((el) => (el.textContent = count));
-    $$("[data-cart-total]").forEach((el) => (el.textContent = money(total)));
-    $("#cart-empty").hidden = count > 0;
-    $("#cart-foot").hidden = count === 0;
-    const unknownNote = $("#cart-unknown");
-    unknownNote.hidden = unknown === 0;
-    unknownNote.textContent = `Unpriced items: ${unknown}. Excluded from the total.`;
-    $("#cart-checked").textContent = checkedNote(
-      groups.flatMap((group) => group.entries),
-    );
-
-    const undo = $("#cart-undo");
-    undo.hidden = removedId === null;
-    if (removedId !== null)
-      $("#cart-undo-text").textContent = `${byId.get(removedId).name} removed.`;
-
-    for (const button of $$("[data-quick-add]")) {
-      const selected = lines.get(+button.dataset.quickAdd).selected;
-      button.setAttribute("aria-pressed", String(selected));
-      $(".card__add-label", button).textContent = selected
-        ? "In cart"
-        : "Add to cart";
-    }
-
-    const target = focusKey && $(`#cart [data-focus-key="${focusKey}"]`);
-    if (target) target.focus({ preventScroll: true });
-    else if (removeFocused && !undo.hidden)
-      $("#cart-undo-button").focus({ preventScroll: true });
-  }
-
-  function cartText() {
-    const { groups, total, unknown } = cartSummary();
-    const out = ["Plant shortlist", ""];
-    for (const { zone, entries, subtotal } of groups) {
-      out.push(`${zone.name} (${money(subtotal)})`);
-      for (const { plant, line, offer, sum } of entries) {
-        out.push(`- ${plant.name} (${plant.scientific}) x ${line.qty}`);
-        if (offer) {
-          const unit = offer.unit ? `, ${offer.unit}` : "";
-          const soldOut = offer.soldOut ? " (sold out when checked)" : "";
-          out.push(
-            `  ${offer.shop}${unit}: ${money(offer.price)} each, ${money(sum)}${soldOut}`,
-            `  ${offer.url}`,
-          );
-        } else out.push("  No price listed");
-      }
-      out.push("");
-    }
-    out.push(`Estimated total: ${money(total)} AUD, shipping not included.`);
-    if (unknown)
-      out.push(`Unpriced items: ${unknown}. Excluded from the total.`);
-    const checked = checkedNote(groups.flatMap((group) => group.entries));
-    if (checked) out.push(checked);
-    return out.join("\n");
-  }
-
-  async function copyCart() {
-    const text = cartText();
-    const fallback = $("#cart-copy-fallback");
-    const status = $("#cart-status");
-    try {
-      await navigator.clipboard.writeText(text);
-      fallback.hidden = true;
-      status.textContent = "Cart copied as text.";
-    } catch {
-      // Clipboard access needs a secure context and permission, so show the
-      // text where it can still be copied by hand.
-      fallback.value = text;
-      fallback.hidden = false;
-      fallback.focus();
-      fallback.select();
-      status.textContent =
-        "Copying is not available here. The list is selected below for copying.";
-    }
   }
 
   /* Dialogs */
@@ -700,10 +352,56 @@
     showDialog(dialog);
   }
 
-  function openCart() {
-    $("#cart-status").textContent = "";
-    $("#cart-copy-fallback").hidden = true;
-    bringToFront($("#cart"));
+  /* Added to list notification (Dawn's cart notification) */
+
+  // A popover rather than a dialog, so the page behind keeps scrolling. Over
+  // the plant modal it has to live inside that dialog, because everything
+  // outside a modal dialog is inert.
+  const added = $("#added");
+  const ADDED_TIMEOUT = 3000;
+  let addedTimer;
+
+  function hideAdded() {
+    clearTimeout(addedTimer);
+    if (added.matches(":popover-open")) added.hidePopover();
+  }
+
+  // Hovering or focusing the notification pauses the timer; leaving it
+  // starts it again.
+  function hideAddedLater() {
+    clearTimeout(addedTimer);
+    addedTimer = setTimeout(hideAdded, ADDED_TIMEOUT);
+  }
+
+  function showAdded(id, updated = false) {
+    const plant = byId.get(id);
+    const line = lines.get(id);
+    const offer = plant.offers[line.offer];
+    $("#added-title-text").textContent = updated
+      ? "Your list was updated"
+      : "Added to your list";
+    $("#added-item").innerHTML =
+      `<img class="added__thumb" src="${esc(plant.photos[0].src)}" alt="" width="80" height="80" decoding="async">
+      <div>
+        <p class="added__name">${esc(plant.name)}</p>
+        <p class="added__meta">Qty ${line.qty}${offer ? `, ${esc(offer.shop)}` : ""}</p>
+        <p class="added__price">${offer ? money(offer.price * line.qty) : "Unpriced"}</p>
+      </div>`;
+    hideAdded();
+    (dialogStack.at(-1) ?? document.body).append(added);
+    added.showPopover();
+    hideAddedLater();
+  }
+
+  function renderListState() {
+    for (const button of $$("[data-quick-add]")) {
+      const selected = lines.get(+button.dataset.quickAdd).selected;
+      button.setAttribute("aria-pressed", String(selected));
+      $(".card__add-label", button).textContent = selected
+        ? "In list"
+        : "Add to list";
+    }
+    renderPlantListState();
   }
 
   /* Plant modal */
@@ -730,7 +428,6 @@
         (photo, i) => `<figure class="gallery__slide" role="group" aria-label="Photo ${i + 1} of ${count}">
           <button type="button" class="gallery__zoom" data-zoom="${i}" aria-label="View photo ${i + 1} full screen">
             <img src="${esc(photo.src)}" alt="${esc(`${plant.name}: ${photo.caption}`)}" width="720" height="720" loading="${i ? "lazy" : "eager"}" decoding="async">
-            <span class="gallery__zoom-icon">${ICONS.zoom}</span>
           </button>
           <figcaption class="gallery__caption">${credit(photo)}</figcaption>
         </figure>`,
@@ -754,11 +451,11 @@
     </div>`;
   }
 
-  const accordion = (title, body, open = false) =>
-    `<details class="accordion"${open ? " open" : ""}>
-      <summary>${title}</summary>
-      <div class="accordion__content">${body}</div>
-    </details>`;
+  const section = (title, body) =>
+    `<section class="product__section">
+      <h3>${title}</h3>
+      ${body}
+    </section>`;
 
   function plantInfoHTML(plant) {
     const pills = plant.offers.length
@@ -777,9 +474,6 @@
     const conditions = `<dl class="conditions">${plant.conditions
       .map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`)
       .join("")}</dl>`;
-    const credits = `<ol class="credits">${plant.photos
-      .map((photo) => `<li>${credit(photo)}</li>`)
-      .join("")}</ol>`;
     const sources = `<ul class="link-list">${plant.sources
       .map((source) => `<li>${external(source.url, esc(source.label))}</li>`)
       .join("")}</ul>`;
@@ -793,16 +487,13 @@
       <div class="product__offer" id="plant-offer" aria-live="polite"></div>
       <div class="product__form">
         ${quantityHTML("plant", plant.name, modal.qty)}
-        <button type="button" class="button product__add" id="plant-add">Add to cart</button>
+        <button type="button" class="button product__add" id="plant-add">Add to list</button>
       </div>
-      <div class="product__in-cart" id="plant-in-cart" hidden></div>
+      <div class="product__in-list" id="plant-in-list" hidden></div>
       <p class="product__about">${esc(plant.about)}</p>
-      <div class="accordions">
-        ${accordion("Growing conditions", conditions, true)}
-        ${plant.saNote ? accordion("South Australia", `<p>${esc(plant.saNote)}</p>`) : ""}
-        ${accordion("Sources", sources)}
-        ${accordion("Photo credits", credits)}
-      </div>`;
+      ${section("Growing conditions", conditions)}
+      ${plant.saNote ? section("South Australia", `<p>${esc(plant.saNote)}</p>`) : ""}
+      ${section("Sources", sources)}`;
   }
 
   function renderPlantOffer() {
@@ -826,21 +517,21 @@
       <p class="product__checked">Price checked ${formatChecked(offer.checked)}</p>`;
   }
 
-  function renderPlantCartState() {
+  function renderPlantListState() {
     if (modal.id === null) return;
     const plant = byId.get(modal.id);
     const line = lines.get(modal.id);
-    $("#plant-add").textContent = line.selected ? "Update cart" : "Add to cart";
-    const box = $("#plant-in-cart");
+    $("#plant-add").textContent = line.selected ? "Update list" : "Add to list";
+    const box = $("#plant-in-list");
     box.hidden = !line.selected;
     if (!line.selected) {
       box.innerHTML = "";
       return;
     }
     const offer = plant.offers[line.offer];
-    box.innerHTML = `<p>In your cart: ${line.qty}${offer ? ` from ${esc(offer.shop)}` : ""}.</p>
-      <button type="button" class="link-button" data-remove="${plant.id}" aria-label="Remove ${esc(plant.name)} from cart">Remove from cart</button>
-      <button type="button" class="link-button" data-open-cart>View cart</button>`;
+    box.innerHTML = `<p>In your list: ${line.qty}${offer ? ` from ${esc(offer.shop)}` : ""}.</p>
+      <button type="button" class="link-button" data-remove="${plant.id}" aria-label="Remove ${esc(plant.name)} from list">Remove from list</button>
+      <a href="list.html">View list</a>`;
   }
 
   function setModalQty(qty) {
@@ -865,7 +556,7 @@
       `<div class="product__media">${galleryHTML(plant)}</div>
       <div class="product__info">${plantInfoHTML(plant)}</div>`;
     renderPlantOffer();
-    renderPlantCartState();
+    renderPlantListState();
 
     const order = visibleOrder();
     const index = order.indexOf(id);
@@ -924,24 +615,6 @@
       modal.photo === plant.photos.length - 1;
   }
 
-  /* Image fallbacks */
-
-  function imageFallback(img) {
-    // A missing hover photo just means no hover swap.
-    if (img.classList.contains("card__hover")) {
-      img.remove();
-      return;
-    }
-    const fallback = document.createElement("span");
-    fallback.className = `img-fallback ${img.className}`.trim();
-    if (img.alt) {
-      fallback.setAttribute("role", "img");
-      fallback.setAttribute("aria-label", `${img.alt} (photo unavailable)`);
-    } else fallback.setAttribute("aria-hidden", "true");
-    fallback.innerHTML = `${ICONS.leaf}<span>Photo unavailable</span>`;
-    img.replaceWith(fallback);
-  }
-
   /* Events */
 
   const isPlainClick = (event) =>
@@ -952,7 +625,16 @@
     !event.altKey;
 
   const CLICK_ACTIONS = [
-    ["#open-cart, [data-open-cart]", () => openCart()],
+    [
+      "#zones a",
+      (el, event) => {
+        const target = $(el.hash);
+        if (!target || !isPlainClick(event)) return;
+        event.preventDefault();
+        jumpTo(target);
+        history.replaceState(history.state, "", el.hash);
+      },
+    ],
     [
       "#open-filters",
       () => {
@@ -1006,39 +688,21 @@
         if (lines.get(id).selected) removeFromCart(id);
         else {
           addToCart(id);
-          openCart();
+          showAdded(id);
         }
       },
     ],
     [
       "[data-qty-step]",
-      (el) => {
-        const input = $(".quantity__input", el.parentElement);
-        input.value = clampQty(Number(input.value) + Number(el.dataset.qtyStep));
-        input.dispatchEvent(new Event("change", { bubbles: true }));
-      },
+      (el) => stepQuantity(el),
     ],
     ["[data-remove]", (el) => removeFromCart(+el.dataset.remove)],
     [
-      "#cart-undo-button",
-      () => {
-        if (removedId !== null) addToCart(removedId);
-      },
-    ],
-    [
-      "#cart-clear",
-      () =>
-        updateCart(() => {
-          for (const plant of plants) lines.set(plant.id, freshLine(plant));
-          removedId = null;
-        }),
-    ],
-    ["#cart-copy", () => copyCart()],
-    [
       "#plant-add",
       () => {
+        const updated = lines.get(modal.id).selected;
         addToCart(modal.id, { qty: modal.qty, offer: modal.offer });
-        openCart();
+        showAdded(modal.id, updated);
       },
     ],
     ["[data-step]", (el) => stepPlant(Number(el.dataset.step))],
@@ -1088,7 +752,7 @@
     for (const [selector, action] of CLICK_ACTIONS) {
       const el = target.closest(selector);
       if (el) {
-        action(el);
+        action(el, event);
         return;
       }
     }
@@ -1096,17 +760,8 @@
 
   document.addEventListener("change", (event) => {
     const target = event.target;
-    if (target.matches("[data-qty]")) {
-      const key = target.dataset.qty;
-      if (key === "plant") setModalQty(target.value);
-      else {
-        const id = Number(key.slice("cart-".length));
-        updateCart(() => (lines.get(id).qty = clampQty(target.value)));
-      }
-    } else if (target.matches("[data-shop]")) {
-      const id = +target.dataset.shop;
-      updateCart(() => (lines.get(id).offer = Number(target.value)));
-    } else if (target.name === "plant-shop") {
+    if (target.matches('[data-qty="plant"]')) setModalQty(target.value);
+    else if (target.name === "plant-shop") {
       modal.offer = Number(target.value);
       renderPlantOffer();
     }
@@ -1125,6 +780,7 @@
   });
   $("#sort").addEventListener("change", (event) => {
     view.sort = SORTS[event.target.value] ? event.target.value : "featured";
+    $("#sort-control").classList.toggle("is-active", view.sort !== "featured");
     applyView();
   });
 
@@ -1168,9 +824,20 @@
   lightbox.addEventListener("close", () => {
     if (modal.id !== null) showPhoto(modal.photo);
   });
+  added.addEventListener("pointerenter", () => clearTimeout(addedTimer));
+  added.addEventListener("pointerleave", hideAddedLater);
+  added.addEventListener("focusin", () => clearTimeout(addedTimer));
+  added.addEventListener("focusout", (event) => {
+    if (!added.contains(event.relatedTarget)) hideAddedLater();
+  });
+  added.addEventListener("toggle", (event) => {
+    if (event.newState === "closed") clearTimeout(addedTimer);
+  });
+
   plantDialog.addEventListener("close", () => {
     if (plantDialog.open || "reopening" in plantDialog.dataset) return;
     if (lightbox.open) lightbox.close();
+    if (plantDialog.contains(added)) hideAdded();
     modal.id = null;
     if (location.hash.startsWith("#plant-"))
       history.replaceState(
@@ -1189,8 +856,8 @@
     img.src = img.dataset.src;
     img.removeAttribute("data-src");
   });
-  // Image load and error events do not bubble, so both listen in the capture
-  // phase to cover images added after start up.
+  // Image load events do not bubble, so this listens in the capture phase to
+  // cover images added after start up.
   document.addEventListener(
     "load",
     (event) => {
@@ -1199,44 +866,72 @@
     },
     true,
   );
-  document.addEventListener(
-    "error",
-    (event) => {
-      if (event.target instanceof HTMLImageElement) imageFallback(event.target);
-    },
-    true,
-  );
-
   function syncHash() {
     const match = /^#plant-(\d+)$/.exec(location.hash);
     if (match && byId.has(+match[1])) openPlant(+match[1]);
-    // #plant-cart was the cart's address in the earlier version of the page.
-    else if (location.hash === "#plant-cart") {
-      history.replaceState(
-        history.state,
-        "",
-        location.pathname + location.search,
-      );
-      openCart();
-    }
+    // #plant-cart was the cart's address in the earlier version of the page;
+    // the list page has taken its place.
+    else if (location.hash === "#plant-cart") location.replace("list.html");
   }
   window.addEventListener("hashchange", syncHash);
 
-  // Group links must land below the sticky toolbar, whose height changes as
+  // Anchor jumps must land below the sticky toolbar, whose height changes as
   // it wraps and as filter chips come and go.
   const toolbar = $(".toolbar");
   if ("ResizeObserver" in window)
-    new ResizeObserver(() =>
-      document.documentElement.style.setProperty(
-        "--toolbar-height",
-        `${toolbar.offsetHeight + 16}px`,
-      ),
-    ).observe(toolbar);
+    new ResizeObserver(() => {
+      const { style } = document.documentElement;
+      style.setProperty("--toolbar-height", `${toolbar.offsetHeight + 16}px`);
+      // Where the group headings stick while the toolbar is showing.
+      style.setProperty("--toolbar-bottom", `${toolbar.offsetHeight}px`);
+    }).observe(toolbar);
+
+  // Like Dawn's header, the toolbar hides while scrolling down and comes back
+  // on any scroll up. It stays while a search or sort control has focus.
+  let lastY = scrollY;
+  let toolbarFrame;
+  window.addEventListener(
+    "scroll",
+    () => {
+      cancelAnimationFrame(toolbarFrame);
+      toolbarFrame = requestAnimationFrame(() => {
+        const y = Math.max(0, scrollY);
+        if (Math.abs(y - lastY) < 5) return;
+        const editing = document.activeElement?.matches?.(
+          ".toolbar input, .toolbar select",
+        );
+        toolbar.classList.toggle(
+          "is-hidden",
+          y > lastY && y > toolbar.offsetHeight && !editing,
+        );
+        lastY = y;
+      });
+    },
+    { passive: true },
+  );
+  toolbar.addEventListener("focusin", () =>
+    toolbar.classList.remove("is-hidden"),
+  );
+
+  // Lands the group's heading where it sticks. A jump down hides the toolbar,
+  // so only a jump up has to clear it. The heading's own position can't be
+  // used, since it may be stuck, so it is worked out from its section.
+  function jumpTo(section) {
+    const head =
+      section.getBoundingClientRect().top +
+      scrollY +
+      parseFloat(getComputedStyle(section).paddingTop);
+    const offset = head > scrollY ? 0 : toolbar.offsetHeight;
+    scrollTo({
+      top: head - offset,
+      behavior: reducedMotion() ? "auto" : "smooth",
+    });
+  }
 
   renderZones();
   renderFacetForm();
-  restoreCart();
-  renderCart();
+  onCartChange(renderListState);
+  renderListState();
   applyView();
   syncHash();
 })();

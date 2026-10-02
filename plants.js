@@ -4116,7 +4116,7 @@ globalThis.PLANT_CATALOGUE = {
     },
     {
       "id": "lily",
-      "name": "Around the peace lily",
+      "name": "Along the waterline",
       "intro": "Roots in the water, leaves above it. Most are houseplants sold through general nurseries, so buy them in SA rather than from Queensland.",
       "plants": [
         {

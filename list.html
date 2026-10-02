@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Your list: plant shortlist for the 2420</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Public+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="plants.js" defer></script>
+    <script src="core.js" defer></script>
+    <script src="list.js" defer></script>
+  </head>
+  <body>
+    <header class="page-width top">
+      <a class="back-link" href="index.html">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m14 6-6 6 6 6" />
+        </svg>
+        Back to plants
+      </a>
+      <h1>
+        Your list
+        <span class="list-page__count">(<span data-cart-count>0</span>)</span>
+      </h1>
+      <p id="list-save-note">Choose a shop and quantity for each plant.</p>
+    </header>
+
+    <main class="page-width list-page">
+      <noscript>
+        <p class="notice">This page needs JavaScript to show your list.</p>
+      </noscript>
+      <div class="cart__undo" id="list-undo" hidden>
+        <span id="list-undo-text"></span>
+        <button type="button" class="link-button" id="list-undo-button">
+          Undo
+        </button>
+      </div>
+      <div class="list-empty" id="list-empty" hidden>
+        <h2>Your list is empty</h2>
+        <p>
+          Add plants from the plant list, then choose quantities and shops
+          here.
+        </p>
+        <a class="button" href="index.html">Browse plants</a>
+      </div>
+      <div class="list-layout" id="list-content" hidden>
+        <div>
+          <div class="list-tools">
+            <button type="button" class="link-button" id="list-expand">
+              Expand all
+            </button>
+          </div>
+          <div id="list-groups"></div>
+        </div>
+        <aside class="list-summary" aria-labelledby="list-summary-title">
+          <h2 id="list-summary-title">Summary</h2>
+          <p class="cart__total">
+            <span>Estimated total</span>
+            <strong data-cart-total>$0.00</strong>
+          </p>
+          <p class="cart__note">AUD. Shipping not included.</p>
+          <p class="cart__note" id="list-unknown" hidden></p>
+          <p class="cart__note" id="list-checked"></p>
+          <p class="cart__status" id="list-status" role="status"></p>
+          <div class="cart__actions">
+            <button type="button" class="button" id="list-copy">
+              Copy list
+            </button>
+            <button
+              type="button"
+              class="button button--secondary"
+              id="list-clear"
+            >
+              Clear list
+            </button>
+          </div>
+          <label class="visually-hidden" for="list-copy-fallback"
+            >List as text</label
+          >
+          <textarea
+            id="list-copy-fallback"
+            class="cart__fallback"
+            readonly
+            hidden
+          ></textarea>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>

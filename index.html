@@ -15,17 +15,11 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <script src="plants.js" defer></script>
+    <script src="core.js" defer></script>
     <script src="app.js" defer></script>
   </head>
   <body>
-    <header class="page-width top">
-      <h1>Plant shortlist for the 2420</h1>
-      <p>
-        Plants confirmed as sold by Australian stores that ship to South
-        Australia, grouped by where they go in the tank. Select a plant for
-        growing conditions, notes and sources.
-      </p>
-    </header>
+    <h1 class="visually-hidden">Plant shortlist for the 2420</h1>
 
     <div class="toolbar">
       <div class="page-width">
@@ -35,42 +29,25 @@
             id="q"
             class="search"
             type="search"
-            placeholder="Search by name, for example rotala, moss, crypt"
+            placeholder="Search plants"
             autocomplete="off"
           />
-          <button type="button" class="cart-button" id="open-cart">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.6"
-              aria-hidden="true"
-            >
-              <path d="M5 7h14l1 14H4L5 7Z" />
-              <path d="M8 8V6a4 4 0 0 1 8 0v2" />
-            </svg>
-            <span class="visually-hidden">Open cart,</span>
-            <span class="cart-button__count" data-cart-count>0</span>
-            <span class="visually-hidden">items,</span>
-            <span class="cart-button__total" data-cart-total>$0.00</span>
-          </button>
-        </div>
-        <div class="toolbar__row toolbar__row--facets">
-          <button type="button" class="facet-button" id="open-filters">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.6"
-              aria-hidden="true"
-            >
+          <button
+            type="button"
+            class="facet-button"
+            id="open-filters"
+            aria-label="Filter"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M4 7h16M7 12h10M10 17h4" />
             </svg>
-            Filter
             <span class="facet-button__count" id="filter-count" hidden></span>
           </button>
-          <label class="sort">
-            <span>Sort by</span>
+          <label class="sort" id="sort-control">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 4v16M4 8l4-4 4 4M16 20V4M12 16l4 4 4-4" />
+            </svg>
+            <span class="visually-hidden">Sort by</span>
             <select id="sort">
               <option value="featured">Featured</option>
               <option value="name-asc">Name, A to Z</option>
@@ -81,14 +58,26 @@
               <option value="price-desc">Price, high to low</option>
             </select>
           </label>
-          <p class="result-count" id="result-count" aria-live="polite"></p>
+          <a class="cart-button" href="list.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 6h11M9 12h11M9 18h11" />
+              <path d="M4 6h.01M4 12h.01M4 18h.01" />
+            </svg>
+            <span class="visually-hidden">View your list,</span>
+            <span class="cart-button__count" data-cart-count>0</span>
+            <span class="visually-hidden">items,</span>
+            <span class="cart-button__total" data-cart-total>$0.00</span>
+          </a>
         </div>
-        <ul class="active-facets" id="active-facets" hidden></ul>
+        <div class="toolbar__meta">
+          <p class="result-count" id="result-count" aria-live="polite"></p>
+          <ul class="active-facets" id="active-facets" hidden></ul>
+        </div>
         <nav class="zones" id="zones" aria-label="Jump to a group"></nav>
       </div>
     </div>
 
-    <main class="page-width" id="list">
+    <main class="page-width catalogue" id="list">
       <noscript>
         <p class="notice">This page needs JavaScript to show the plant list.</p>
       </noscript>
@@ -102,66 +91,6 @@
       </div>
     </main>
 
-    <footer class="page-width">
-      <h2>About this list</h2>
-      <p>
-        Each plant has four reference photos. Hover over a plant to see a
-        second photo, or open it to browse all four; select a photo to view it
-        full screen. Photos load from the original websites and require an
-        internet connection. Each photo includes its source. Full aquascapes
-        show settings whose plant lists include the featured plant.
-      </p>
-      <p>
-        Prices are in AUD as listed by Australian stores in early October 2026,
-        including any sale prices running at the time. Stores sell different
-        amounts (a tissue culture cup, a moss portion, a bunch of stems), so the
-        price shown in the list is the cheapest in stock option rather than a
-        like for like comparison. A price marked sold out is shown only when no
-        listing found had stock. Plants with no price had no retail listing with
-        a price; sorting by price puts them last.
-      </p>
-      <p>
-        Growing conditions are typical ranges for submerged growth under strong
-        light with injected CO2. Store pages linked under each plant show
-        availability at the time of checking; stock changes often.
-      </p>
-      <h2>Rules that apply in South Australia</h2>
-      <ul>
-        <li>
-          <a
-            href="https://pir.sa.gov.au/__data/assets/pdf_file/0009/471744/list-declared-plants.pdf"
-            target="_blank"
-            rel="noopener"
-            >PIRSA: list of declared plants</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://pir.sa.gov.au/crops-and-plants/market-access-for-plants-and-produce/plant-quarantine-standard-and-updated-conditions"
-            target="_blank"
-            rel="noopener"
-            >PIRSA: Plant Quarantine Standard (entry rules for interstate
-            plants)</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.environment.gov.au/biodiversity/wildlife-trade/live-import-list"
-            target="_blank"
-            rel="noopener"
-            >DCCEEW: Live Import List</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.sawater.com.au/water-and-the-environment/safe-and-clean-drinking-water/your-drinking-water-profile"
-            target="_blank"
-            rel="noopener"
-            >SA Water: drinking water profile by area</a
-          >
-        </li>
-      </ul>
-    </footer>
 
 
 
@@ -285,74 +214,40 @@
       </div>
     </dialog>
 
-    <dialog class="drawer drawer--right" id="cart" aria-labelledby="cart-title">
-      <div class="drawer__panel">
-        <div class="drawer__head">
-          <div>
-            <h2 id="cart-title">
-              Your cart <span class="drawer__count">(<span data-cart-count>0</span>)</span>
-            </h2>
-            <p class="cart__save-note" id="cart-save-note">
-              Choose a shop for each plant.
-            </p>
-          </div>
+    <div class="added" id="added" popover role="region" aria-labelledby="added-title">
+      <div class="added__panel">
+        <div class="added__head">
+          <p class="added__title" id="added-title" role="status">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m5 12 5 5 9-10" />
+            </svg>
+            <span id="added-title-text">Added to your list</span>
+          </p>
           <button
             type="button"
             class="icon-button"
-            data-close
-            aria-label="Close cart"
+            popovertarget="added"
+            popovertargetaction="hide"
+            aria-label="Close"
           >
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M6 6l12 12M18 6 6 18" />
             </svg>
           </button>
         </div>
-        <div class="drawer__body">
-          <div class="cart__undo" id="cart-undo" hidden>
-            <span id="cart-undo-text"></span>
-            <button type="button" class="link-button" id="cart-undo-button">
-              Undo
-            </button>
-          </div>
-          <div class="cart__empty" id="cart-empty">
-            <h3>Your cart is empty</h3>
-            <p>
-              Add plants from the list or from a plant&rsquo;s page, then choose
-              quantities and shops here.
-            </p>
-          </div>
-          <div id="cart-groups"></div>
-        </div>
-        <div class="drawer__foot cart__foot" id="cart-foot">
-          <p class="cart__total">
-            <span>Estimated total</span>
-            <strong id="cart-total" data-cart-total>$0.00</strong>
-          </p>
-          <p class="cart__note">AUD. Shipping not included.</p>
-          <p class="cart__note" id="cart-unknown" hidden></p>
-          <p class="cart__note" id="cart-checked"></p>
-          <p class="cart__status" id="cart-status" role="status"></p>
-          <div class="cart__actions">
-            <button type="button" class="button" id="cart-copy">
-              Copy list
-            </button>
-            <button
-              type="button"
-              class="button button--secondary"
-              id="cart-clear"
-            >
-              Clear cart
-            </button>
-          </div>
-          <button type="button" class="link-button cart__continue" data-close>
-            Continue browsing
-          </button>
-          <label class="visually-hidden" for="cart-copy-fallback"
-            >Cart as text</label
-          >
-          <textarea id="cart-copy-fallback" class="cart__fallback" readonly hidden></textarea>
-        </div>
+        <div class="added__item" id="added-item"></div>
+        <a class="button added__view" href="list.html">
+          <span>View list (<span data-cart-count>0</span>)</span>
+        </a>
+        <button
+          type="button"
+          class="link-button added__continue"
+          popovertarget="added"
+          popovertargetaction="hide"
+        >
+          Continue browsing
+        </button>
       </div>
-    </dialog>
+    </div>
   </body>
 </html>

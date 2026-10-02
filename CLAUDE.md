@@ -1,0 +1,43 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## What this is
+
+A static, dependency-free single page that shortlists aquarium plants for a planted tank (the "2420") from Australian stores that ship to South Australia. Users browse plants by tank zone, filter and sort them, open a detail dialog, and build a list (the code calls it the cart) that is managed on a separate page and can be copied as text. There is no build step, package manager, linter or test suite in the repo.
+
+## Running
+
+Open `index.html` directly in a browser, or serve the directory with any static server (e.g. `python3 -m http.server`). All scripts are classic scripts loaded with `defer`, not ES modules, so the page still works from `file://`. Keep it that way: `plants.js` notes that jsdom-based tests run these scripts, and jsdom skips module scripts.
+
+## Architecture
+
+- `plants.js` sets `globalThis.PLANT_CATALOGUE = { zones: [...] }`. It is pure JSON-style data. Each zone (`fore`, `mid`, `back`, `wood`, `moss`, `emersed`, `lily`) has `plants`. Each plant has `id`, `name`, `scientific`, `difficulty`, `about`, `conditions` (array of `[label, value]` pairs such as Light/CO2/Growth/Height), `saNote`, `photos`, `offers`, `defaultOffer` and `sources`.
+- `core.js` is shared by both pages and exposes `globalThis.PLANT_CORE`:
+  - **Derived plant model**: it flattens the zones into `plants` and adds `zone`, `conditionMap`, `searchText`, `best`/`fromPrice` (cheapest in-stock offer, or cheapest overall if all are sold out), `inStock`, `light` (free-text Light parsed into Low/Medium/High levels by `lightLevels`) and `order`. `byId` maps id to plant.
+  - Helpers (`esc`, `money`, `quantityHTML`, ...) and the image error fallback.
+  - **List state**: `lines` (one per plant), persistence, `cartSummary`/`cartText`, and mutations (`updateCart`, `addToCart`, `removeFromCart`, `clearCart`) that save and then call listeners registered with `onCartChange`. It reloads on `storage` and back/forward cache `pageshow`, so a page stays in sync with changes made on the other page.
+- `app.js` (on `index.html`) is a single IIFE for the catalogue:
+  - **View state** (`view`: query, sort, facet sets, min/max price) drives `applyView()`, which re-filters and re-sorts the rendered cards. Facets are declared in `FACETS` (key, options, `test` fn) and sorts in `SORTS`. Add new filters or sorts there.
+  - **Rendering** builds HTML strings and assigns them to `innerHTML`. Every interpolated value must go through `esc()`.
+  - **Events** are delegated at `document` level. Clicks go through `[data-open-plant]`, then dialog backdrop/`[data-close]` handling, then the `CLICK_ACTIONS` table of `[selector, handler]` pairs. Use that table for new buttons rather than adding per-element listeners.
+  - **Dialogs**: the plant modal, lightbox and filter drawer are native `<dialog>` elements in `index.html`, managed via `showDialog`/`dialogStack` so they stack correctly.
+  - **Added notification**: `#added` (modelled on Dawn's cart notification) is a `popover`, not a dialog, so the page keeps scrolling. It hides after 3 seconds unless hovered or focused. `showAdded` moves it into the topmost open dialog first, because content outside a modal dialog is inert.
+  - **Deep links**: `#plant-<id>` opens a plant; the legacy `#plant-cart` redirects to `list.html` (`syncHash`).
+- `list.js` (on `list.html`) renders the list grouped by zone as `<details>` items: collapsed shows photo, name, quantity and price; expanded shows shop, quantity controls, links and warnings. Open items are kept in `expanded` so they survive re-renders. It also has its own `CLICK_ACTIONS` table, undo for removals, copy and clear.
+- `styles.css` holds all styling. `--toolbar-height` is set from JS by a ResizeObserver so anchor jumps clear the sticky toolbar. The toolbar hides on scroll down and returns on scroll up (`is-hidden`), so group links scroll via `jumpTo`, which only leaves room for the toolbar when jumping up. Group headings (`.zone__head`) are sticky at `--toolbar-bottom` (also set by the ResizeObserver), or at the top while the toolbar is hidden.
+
+## Compatibility constraints (don't break saved carts)
+
+The cart persists to `localStorage` under `plant-shortlist-native-cart-v1`, and the older `plant-shortlist-cart-v1` key is migrated on load. The saved shape is a flat object keyed `native-selected-<id>`, `native-quantity-<id>` and `native-shop-<id>-<offerIndex>`, which mirrors an earlier version's form controls. So:
+
+- Never renumber or reuse a plant `id`. New plants get the next unused number.
+- Never reorder or remove existing `offers`. Append new ones, since offer indexes are stored.
+- Keep both storage keys and the `#plant-cart` hash (now a redirect to `list.html`) working.
+
+## Data conventions in `plants.js`
+
+- Prices are integer cents. `null` means no listed price. `was` is the pre-sale price, or `null`.
+- `checked` is when the listing was last verified, formatted `YYYY-MM` or `YYYY-MM-DD`.
+- `defaultOffer` is the offer index a plant starts with in the list: the cheapest in-stock option at the time of checking.
+- Filters match condition values exactly (`CO2`: Optional/Recommended/Required; `Growth`: Very slow/Slow/Medium/Fast; `difficulty`: Easy/Moderate/Demanding). New data must use the same vocabulary, or it won't show up under those filters.
