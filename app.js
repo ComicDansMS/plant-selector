@@ -375,9 +375,12 @@
     showMessage(`${byId.get(id).name} removed from your list`);
   }
 
-  // Called before adding, since adding takes the plant out of favourites.
-  function addedTitle(id) {
-    if (lines.get(id).selected) return "Your list was updated";
+  // Called before adding, since adding takes the plant out of favourites
+  // and updating changes the quantity.
+  function addedTitle(id, qty) {
+    const line = lines.get(id);
+    if (line.selected)
+      return `${byId.get(id).name} changed from ${line.qty} to ${qty} in your list`;
     return isFavourite(id) ? "Moved to your list" : "Added to your list";
   }
 
@@ -511,17 +514,27 @@
 
   function renderPlantListState() {
     if (modal.id === null) return;
-    renderLineState(plantBody, modal.id);
+    if (!lines.get(modal.id).selected && modal.qty < 1) modal.qty = 1;
+    renderLineState(plantBody, modal.id, modal.qty);
     for (const peek of peeks)
-      if (peek.dataset.id) renderLineState(peek, +peek.dataset.id);
+      if (peek.dataset.id)
+        renderLineState(peek, +peek.dataset.id, startQty(+peek.dataset.id));
   }
 
-  function renderLineState(root, id) {
+  // A plant in the list can go down to 0, which removes it on update, and
+  // updating is only offered once the quantity differs from the list's.
+  function renderLineState(root, id, qty) {
     const plant = byId.get(id);
     const line = lines.get(id);
-    $(".product__add", root).textContent = line.selected
-      ? "Update list"
-      : "Add to list";
+    const min = line.selected ? 0 : 1;
+    const input = $(".quantity__input", root);
+    input.min = min;
+    input.value = qty;
+    input.previousElementSibling.disabled = qty <= min;
+    input.nextElementSibling.disabled = qty >= MAX_QTY;
+    const add = $(".product__add", root);
+    add.textContent = line.selected ? "Update list" : "Add to list";
+    add.disabled = line.selected && qty === line.qty;
     const box = $(".product__in-list", root);
     box.hidden = !line.selected;
     if (!line.selected) {
@@ -534,11 +547,11 @@
   }
 
   function setModalQty(qty) {
-    modal.qty = clampQty(qty);
-    const input = $('[data-qty="plant"]', plantBody);
-    input.value = modal.qty;
-    input.previousElementSibling.disabled = modal.qty <= 1;
-    input.nextElementSibling.disabled = modal.qty >= MAX_QTY;
+    modal.qty =
+      Math.trunc(Number(qty)) <= 0 && lines.get(modal.id).selected
+        ? 0
+        : clampQty(qty);
+    renderPlantListState();
   }
 
   function openPlant(id) {
@@ -743,19 +756,42 @@
     $('[data-photo="-1"]', plantBody).disabled = modal.photo === 0;
     $('[data-photo="1"]', plantBody).disabled = modal.photo === count - 1;
     if (scroll) {
+      // Behind the lightbox the gallery jumps, so it is already on the
+      // right photo when the lightbox closes.
       const viewport = $(".gallery__viewport", plantBody);
       viewport.scrollTo({
         left: modal.photo * viewport.clientWidth,
-        behavior: reducedMotion() ? "auto" : "smooth",
+        behavior: reducedMotion() || lightbox.open ? "auto" : "smooth",
       });
     }
   }
 
-  function renderLightbox() {
+  const lightboxFrame = $(".lightbox__frame", lightbox);
+
+  function openLightbox(index) {
+    const plant = byId.get(modal.id);
+    showPhoto(index, { scroll: false });
+    lightboxFrame.innerHTML = plant.photos
+      .map(
+        (photo, i) => `<div class="lightbox__slide" role="group" aria-label="Photo ${i + 1} of ${plant.photos.length}">
+          <img src="${esc(photo.src)}" alt="${esc(`${plant.name}: ${photo.caption}`)}" decoding="async"${i === modal.photo ? "" : ' loading="lazy"'}>
+        </div>`,
+      )
+      .join("");
+    showDialog(lightbox);
+    renderLightbox({ smooth: false });
+  }
+
+  // Updates the caption and controls, and scrolls the strip to the current
+  // photo unless the strip's own scrolling got it there.
+  function renderLightbox({ scroll = true, smooth = true } = {}) {
     const plant = byId.get(modal.id);
     const photo = plant.photos[modal.photo];
-    $(".lightbox__frame", lightbox).innerHTML =
-      `<img src="${esc(photo.src)}" alt="${esc(`${plant.name}: ${photo.caption}`)}" decoding="async">`;
+    if (scroll)
+      lightboxFrame.scrollTo({
+        left: modal.photo * lightboxFrame.clientWidth,
+        behavior: smooth && !reducedMotion() ? "smooth" : "auto",
+      });
     $(".lightbox__caption", lightbox).innerHTML = credit(photo);
     $(".lightbox__counter", lightbox).textContent =
       `${modal.photo + 1} / ${plant.photos.length}`;
@@ -865,7 +901,11 @@
     [
       "#plant-add",
       () => {
-        const title = addedTitle(modal.id);
+        if (modal.qty === 0) {
+          removeFromList(modal.id);
+          return;
+        }
+        const title = addedTitle(modal.id, modal.qty);
         addToCart(modal.id, { qty: modal.qty });
         showAdded(title);
       },
@@ -875,18 +915,12 @@
     ["[data-goto]", (el) => showPhoto(Number(el.dataset.goto))],
     [
       "[data-zoom]",
-      (el) => {
-        showPhoto(Number(el.dataset.zoom), { scroll: false });
-        renderLightbox();
-        showDialog(lightbox);
-      },
+      (el) => openLightbox(Number(el.dataset.zoom)),
     ],
     [
       "[data-photo-step]",
       (el) => {
-        showPhoto(modal.photo + Number(el.dataset.photoStep), {
-          scroll: false,
-        });
+        showPhoto(modal.photo + Number(el.dataset.photoStep));
         renderLightbox();
       },
     ],
@@ -960,7 +994,7 @@
         : event.key === "End"
           ? last
           : modal.photo + (event.key === "ArrowRight" ? 1 : -1);
-    showPhoto(index, { scroll: !inLightbox });
+    showPhoto(index);
     if (inLightbox) renderLightbox();
   });
 
@@ -986,9 +1020,23 @@
     { capture: true, passive: true },
   );
 
-  lightbox.addEventListener("close", () => {
-    if (modal.id !== null) showPhoto(modal.photo);
-  });
+  let lightboxFrameScroll;
+  lightboxFrame.addEventListener(
+    "scroll",
+    () => {
+      cancelAnimationFrame(lightboxFrameScroll);
+      lightboxFrameScroll = requestAnimationFrame(() => {
+        if (!lightboxFrame.clientWidth || modal.id === null) return;
+        const index = Math.round(
+          lightboxFrame.scrollLeft / lightboxFrame.clientWidth,
+        );
+        if (index === modal.photo) return;
+        showPhoto(index);
+        renderLightbox({ scroll: false });
+      });
+    },
+    { passive: true },
+  );
   added.addEventListener("pointerenter", () => clearTimeout(addedTimer));
   added.addEventListener("pointerleave", hideAddedLater);
   added.addEventListener("focusin", () => clearTimeout(addedTimer));

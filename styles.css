@@ -1097,9 +1097,22 @@ dialog::backdrop {
   margin: 0;
 }
 .lightbox__frame {
+  display: flex;
+  min-height: 0;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+}
+.lightbox__frame::-webkit-scrollbar {
+  display: none;
+}
+.lightbox__slide {
   display: grid;
+  flex: 0 0 100%;
   place-items: center;
   min-height: 0;
+  scroll-snap-align: start;
 }
 .lightbox__frame img,
 .lightbox__frame .img-fallback {

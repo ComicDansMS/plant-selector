@@ -130,10 +130,10 @@
   }
 
   // The stepper buttons change the input and then let the page's change
-  // handler deal with the new value.
+  // handler clamp and apply the new value, since the plant modal allows 0.
   function stepQuantity(button) {
     const input = $(".quantity__input", button.parentElement);
-    input.value = clampQty(Number(input.value) + Number(button.dataset.qtyStep));
+    input.value = Number(input.value) + Number(button.dataset.qtyStep);
     input.dispatchEvent(new Event("change", { bubbles: true }));
   }
 
