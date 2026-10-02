@@ -35,12 +35,6 @@
 
   const FACETS = [
     {
-      key: "availability",
-      label: "Availability",
-      options: [["priced", "Has a price"]],
-      test: (plant) => plant.price !== null,
-    },
-    {
       key: "difficulty",
       label: "Difficulty",
       options: DIFFICULTY.map((d) => [d, d]),

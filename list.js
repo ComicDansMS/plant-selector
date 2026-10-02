@@ -21,14 +21,19 @@
     addToCart,
     removeFromCart,
     clearCart,
+    isFavourite,
     setFavourite,
     consideredPlants,
     storageOk,
+    ICONS,
   } = globalThis.PLANT_CORE;
 
   // Open items are remembered by plant so they stay open across re-renders.
   const expanded = new Set();
   let removedId = null;
+  // Set when the last removal moved the plant to favourites. Holds whether it
+  // was a favourite already, so undo can put that back too.
+  let moved = null;
 
   function itemHTML({ plant, line, sum }) {
     const key = `list-${plant.id}`;
@@ -43,6 +48,8 @@
           <span class="list-item__name">${esc(plant.name)}</span>
           <span class="list-item__qty">Qty ${line.qty}</span>
         </span>
+        <button type="button" class="list-item__action" data-move-favourite="${plant.id}" aria-label="Move ${esc(plant.name)} to favourites" title="Move to favourites">${ICONS.heart}</button>
+        <button type="button" class="list-item__action" data-remove="${plant.id}" aria-label="Remove ${esc(plant.name)}" title="Remove">${ICONS.bin}</button>
         <span class="list-item__price">${priced ? money(sum) : "Unpriced"}</span>
       </summary>
       <div class="list-item__body">
@@ -54,7 +61,6 @@
         <div class="cart-line__controls">
           ${quantityHTML(key, plant.name, line.qty)}
           <a href="index.html#plant-${plant.id}">Plant details</a>
-          <button type="button" class="link-button" data-remove="${plant.id}" aria-label="Remove ${esc(plant.name)}">Remove</button>
         </div>
       </div>
     </details>`;
@@ -68,8 +74,8 @@
         <span class="list-item__qty">${plant.price === null ? "Unpriced" : `About ${money(plant.price)} each`}</span>
       </span>
       <span class="favourite__actions">
+        <button type="button" class="list-item__action" data-unfavourite="${plant.id}" aria-label="Remove ${esc(plant.name)} from favourites" title="Remove from favourites">${ICONS.bin}</button>
         <button type="button" class="button favourite__add" data-add-favourite="${plant.id}" aria-label="Add ${esc(plant.name)} to list">Add to list</button>
-        <button type="button" class="link-button" data-unfavourite="${plant.id}" aria-label="Remove ${esc(plant.name)} from favourites">Remove</button>
       </span>
     </li>`;
   }
@@ -91,9 +97,10 @@
     // a stable key instead of being lost to the replaced nodes.
     const focusKey = document.activeElement?.dataset?.focusKey;
     const removeFocused = document.activeElement?.matches?.(
-      "#list-groups [data-remove]",
+      "#list-groups [data-remove], #list-groups [data-move-favourite]",
     );
     if (removedId !== null && lines.get(removedId).selected) removedId = null;
+    if (removedId === null) moved = null;
     const { groups, count, unknown } = cartSummary();
 
     $("#list-groups").innerHTML = groups
@@ -122,7 +129,9 @@
     const undo = $("#list-undo");
     undo.hidden = removedId === null;
     if (removedId !== null)
-      $("#list-undo-text").textContent = `${byId.get(removedId).name} removed.`;
+      $("#list-undo-text").textContent = `${byId.get(removedId).name} ${
+        moved ? "moved to favourites" : "removed"
+      }.`;
 
     const target = focusKey && $(`#list-groups [data-focus-key="${focusKey}"]`);
     if (target) target.focus({ preventScroll: true });
@@ -158,22 +167,39 @@
       "[data-remove]",
       (el) => {
         removedId = +el.dataset.remove;
+        moved = null;
         expanded.delete(removedId);
         removeFromCart(removedId);
+      },
+    ],
+    [
+      "[data-move-favourite]",
+      (el) => {
+        removedId = +el.dataset.moveFavourite;
+        moved = { wasFavourite: isFavourite(removedId) };
+        expanded.delete(removedId);
+        // Removed first, so the render in between still shows the undo.
+        removeFromCart(removedId);
+        setFavourite(removedId, true);
       },
     ],
     [
       "#list-undo-button",
       () => {
         const id = removedId;
+        const wasMoved = moved;
         removedId = null;
-        if (id !== null) addToCart(id);
+        moved = null;
+        if (id === null) return;
+        addToCart(id);
+        if (wasMoved && !wasMoved.wasFavourite) setFavourite(id, false);
       },
     ],
     [
       "#list-clear",
       () => {
         removedId = null;
+        moved = null;
         expanded.clear();
         clearCart();
       },

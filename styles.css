@@ -1400,7 +1400,7 @@ dialog::backdrop {
 }
 .list-item__summary {
   display: grid;
-  grid-template-columns: 3.5rem minmax(0, 1fr) auto 1rem;
+  grid-template-columns: 3.5rem minmax(0, 1fr) auto auto auto 1rem;
   align-items: center;
   gap: 0.9rem;
   padding: 0.75rem 0;
@@ -1442,6 +1442,46 @@ dialog::backdrop {
 .list-item__qty {
   color: var(--muted);
   font-size: 0.85rem;
+}
+/* These sit inside the summary so they are there while the item is collapsed.
+   Clicking one does not toggle the item, as the button takes the activation. */
+.list-item__action {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  margin-right: -0.4rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+.list-item__action:hover,
+.list-item__action:focus-visible {
+  background: var(--thumb);
+  color: var(--ink);
+}
+.list-item__action svg {
+  width: 0.95rem;
+  height: 0.95rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+/* Only shown on hover where hovering is possible, and always to keyboard
+   focus. Touch screens keep them visible. */
+@media (hover: hover) {
+  .list-item__summary .list-item__action {
+    opacity: 0;
+  }
+  .list-item__summary:hover .list-item__action,
+  .list-item__action:focus-visible {
+    opacity: 1;
+  }
 }
 .list-item__price {
   font-weight: 600;

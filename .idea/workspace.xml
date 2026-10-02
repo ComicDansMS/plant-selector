@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28e62453-6f13-472d-b75c-864ab2dbbfee" name="Changes" comment="remove plants file that had big plants too">
-      <change beforePath="$PROJECT_DIR$/plants.js" beforeDir="false" afterPath="$PROJECT_DIR$/plants.js" afterDir="false" />
+    <list default="true" id="28e62453-6f13-472d-b75c-864ab2dbbfee" name="Changes" comment="update plants">
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +88,7 @@
     <MESSAGE value="updates" />
     <MESSAGE value="updates and new plants" />
     <MESSAGE value="remove plants file that had big plants too" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove plants file that had big plants too" />
+    <MESSAGE value="update plants" />
+    <option name="LAST_COMMIT_MESSAGE" value="update plants" />
   </component>
 </project>
