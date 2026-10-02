@@ -30,7 +30,7 @@
         Your list
         <span class="list-page__count">(<span data-cart-count>0</span>)</span>
       </h1>
-      <p id="list-save-note">Choose a shop and quantity for each plant.</p>
+      <p id="list-save-note">Choose a quantity for each plant.</p>
     </header>
 
     <main class="page-width list-page">
@@ -46,8 +46,7 @@
       <div class="list-empty" id="list-empty" hidden>
         <h2>Your list is empty</h2>
         <p>
-          Add plants from the plant list, then choose quantities and shops
-          here.
+          Add plants from the plant list, then choose quantities here.
         </p>
         <a class="button" href="index.html">Browse plants</a>
       </div>
@@ -66,7 +65,7 @@
             <span>Estimated total</span>
             <strong data-cart-total>$0.00</strong>
           </p>
-          <p class="cart__note">AUD. Shipping not included.</p>
+          <p class="cart__note">AUD, from average online store prices.</p>
           <p class="cart__note" id="list-unknown" hidden></p>
           <p class="cart__note" id="list-checked"></p>
           <p class="cart__status" id="list-status" role="status"></p>
@@ -93,6 +92,18 @@
           ></textarea>
         </aside>
       </div>
+      <section
+        class="favourites"
+        id="favourites"
+        aria-labelledby="favourites-title"
+        hidden
+      >
+        <h2 id="favourites-title">Favourites</h2>
+        <p class="favourites__note">
+          Plants you are considering. They are not in your list or its total.
+        </p>
+        <ul class="favourites__items" id="favourites-items" role="list"></ul>
+      </section>
     </main>
   </body>
 </html>

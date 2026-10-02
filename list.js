@@ -8,8 +8,8 @@
     esc,
     money,
     clampQty,
-    formatChecked,
-    external,
+    storesHTML,
+    averageLabel,
     quantityHTML,
     stepQuantity,
     lines,
@@ -21,6 +21,8 @@
     addToCart,
     removeFromCart,
     clearCart,
+    setFavourite,
+    consideredPlants,
     storageOk,
   } = globalThis.PLANT_CORE;
 
@@ -28,28 +30,12 @@
   const expanded = new Set();
   let removedId = null;
 
-  function itemHTML({ plant, line, offer, sum }) {
+  function itemHTML({ plant, line, sum }) {
     const key = `list-${plant.id}`;
-    const shop = offer
-      ? `<label class="cart-line__shop">
-          <span class="visually-hidden">Shop for ${esc(plant.name)}</span>
-          <select data-shop="${plant.id}" data-focus-key="${key}-shop">
-            ${plant.offers
-              .map(
-                (o, i) =>
-                  `<option value="${i}"${i === line.offer ? " selected" : ""}>${esc(o.shop)}, ${money(o.price)}${o.soldOut ? ", sold out" : ""}</option>`,
-              )
-              .join("")}
-          </select>
-        </label>
-        <p class="cart-line__detail">${offer.unit ? `${esc(offer.unit)}. ` : ""}${external(offer.url, `Visit ${esc(offer.shop)} ↗`)}</p>
-        <p class="cart-line__detail">Price checked ${formatChecked(offer.checked)}</p>`
-      : '<p class="cart-line__detail">Price not listed</p>';
-    const warning = !offer
-      ? "No price was listed. This plant is excluded from the total."
-      : offer.soldOut
-        ? "This listing was sold out when checked. Check stock before buying."
-        : "";
+    const priced = plant.price !== null;
+    const stores = priced
+      ? `<p class="cart-line__detail">${esc(averageLabel(plant))}</p>${storesHTML(plant)}`
+      : '<p class="cart-line__warning">No price was listed. This plant is excluded from the total.</p>';
     return `<details class="list-item" data-line="${plant.id}"${expanded.has(plant.id) ? " open" : ""}>
       <summary class="list-item__summary">
         <img class="list-item__thumb" src="${esc(plant.photos[0].src)}" alt="" width="80" height="80" loading="lazy" decoding="async">
@@ -57,15 +43,14 @@
           <span class="list-item__name">${esc(plant.name)}</span>
           <span class="list-item__qty">Qty ${line.qty}</span>
         </span>
-        <span class="list-item__price">${offer ? money(sum) : "Unpriced"}</span>
+        <span class="list-item__price">${priced ? money(sum) : "Unpriced"}</span>
       </summary>
       <div class="list-item__body">
         <div class="cart-line__top">
           <p class="cart-line__sub">${esc(plant.scientific)}</p>
-          <p class="cart-line__each">${offer ? money(offer.price) : "Unpriced"}<small>each</small></p>
+          <p class="cart-line__each">${priced ? money(plant.price) : "Unpriced"}<small>each</small></p>
         </div>
-        ${shop}
-        ${warning ? `<p class="cart-line__warning">${warning}</p>` : ""}
+        ${stores}
         <div class="cart-line__controls">
           ${quantityHTML(key, plant.name, line.qty)}
           <a href="index.html#plant-${plant.id}">Plant details</a>
@@ -73,6 +58,26 @@
         </div>
       </div>
     </details>`;
+  }
+
+  function favouriteHTML(plant) {
+    return `<li class="favourite">
+      <img class="list-item__thumb" src="${esc(plant.photos[0].src)}" alt="" width="80" height="80" loading="lazy" decoding="async">
+      <span class="list-item__heading">
+        <a class="list-item__name" href="index.html#plant-${plant.id}">${esc(plant.name)}</a>
+        <span class="list-item__qty">${plant.price === null ? "Unpriced" : `About ${money(plant.price)} each`}</span>
+      </span>
+      <span class="favourite__actions">
+        <button type="button" class="button favourite__add" data-add-favourite="${plant.id}" aria-label="Add ${esc(plant.name)} to list">Add to list</button>
+        <button type="button" class="link-button" data-unfavourite="${plant.id}" aria-label="Remove ${esc(plant.name)} from favourites">Remove</button>
+      </span>
+    </li>`;
+  }
+
+  function renderFavourites() {
+    const considered = consideredPlants();
+    $("#favourites").hidden = considered.length === 0;
+    $("#favourites-items").innerHTML = considered.map(favouriteHTML).join("");
   }
 
   function renderExpandButton() {
@@ -112,6 +117,7 @@
       groups.flatMap((group) => group.entries),
     );
     renderExpandButton();
+    renderFavourites();
 
     const undo = $("#list-undo");
     undo.hidden = removedId === null;
@@ -172,6 +178,8 @@
         clearCart();
       },
     ],
+    ["[data-add-favourite]", (el) => addToCart(+el.dataset.addFavourite)],
+    ["[data-unfavourite]", (el) => setFavourite(+el.dataset.unfavourite, false)],
     ["#list-copy", () => copyList()],
     [
       "#list-expand",
@@ -205,9 +213,6 @@
     if (target.matches("[data-qty]")) {
       const id = Number(target.dataset.qty.slice("list-".length));
       updateCart(() => (lines.get(id).qty = clampQty(target.value)));
-    } else if (target.matches("[data-shop]")) {
-      const id = +target.dataset.shop;
-      updateCart(() => (lines.get(id).offer = Number(target.value)));
     }
   });
 

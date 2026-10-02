@@ -13,18 +13,21 @@
     money,
     plural,
     clampQty,
-    formatChecked,
     MAX_QTY,
     ICONS,
     external,
     credit,
-    wasPrice,
+    storesHTML,
+    averageLabel,
     quantityHTML,
     stepQuantity,
     lines,
+    checkedNote,
     onCartChange,
     addToCart,
     removeFromCart,
+    isFavourite,
+    setFavourite,
   } = globalThis.PLANT_CORE;
 
   const reducedMotion = () =>
@@ -34,12 +37,8 @@
     {
       key: "availability",
       label: "Availability",
-      options: [
-        ["in-stock", "In stock"],
-        ["priced", "Has a price"],
-      ],
-      test: (plant, value) =>
-        value === "in-stock" ? plant.inStock : plant.fromPrice !== null,
+      options: [["priced", "Has a price"]],
+      test: (plant) => plant.price !== null,
     },
     {
       key: "difficulty",
@@ -79,12 +78,9 @@
     a.name.localeCompare(b.name, "en", { sensitivity: "base" });
   function comparePrice(a, b, sign) {
     // Unpriced plants stay last in both directions.
-    if (a.fromPrice === null || b.fromPrice === null)
-      return (
-        Number(a.fromPrice === null) - Number(b.fromPrice === null) ||
-        byName(a, b)
-      );
-    return sign * (a.fromPrice - b.fromPrice) || byName(a, b);
+    if (a.price === null || b.price === null)
+      return Number(a.price === null) - Number(b.price === null) || byName(a, b);
+    return sign * (a.price - b.price) || byName(a, b);
   }
   const difficultyRank = (plant) => DIFFICULTY.indexOf(plant.difficulty);
   const SORTS = {
@@ -107,9 +103,9 @@
         return false;
     }
     if (view.min !== null || view.max !== null) {
-      if (plant.fromPrice === null) return false;
-      if (view.min !== null && plant.fromPrice < view.min) return false;
-      if (view.max !== null && plant.fromPrice > view.max) return false;
+      if (plant.price === null) return false;
+      if (view.min !== null && plant.price < view.min) return false;
+      if (view.max !== null && plant.price > view.max) return false;
     }
     return true;
   }
@@ -117,9 +113,8 @@
   /* Markup */
 
   function cardPriceHTML(plant) {
-    if (!plant.best) return '<span class="price__none">No price</span>';
-    const prefix = plant.offers.length > 1 ? "From " : "";
-    return `<span class="price__current">${prefix}${money(plant.best.price)}</span>${wasPrice(plant.best.was)}`;
+    if (plant.price === null) return '<span class="price__none">No price</span>';
+    return `<span class="price__current">${money(plant.price)}</span>`;
   }
 
   function cardHTML(plant) {
@@ -129,15 +124,11 @@
     const hover = second
       ? `<img class="card__hover" data-src="${esc(second.src)}" alt="" width="600" height="600" decoding="async">`
       : "";
-    const soldOut =
-      plant.best && !plant.inStock
-        ? '<span class="badge badge--sold-out">Sold out</span>'
-        : "";
     return `<li class="product-grid__item" data-id="${plant.id}">
       <div class="card">
         <div class="card__media">
           <img src="${esc(first.src)}" alt="" width="600" height="600" loading="lazy" decoding="async">
-          ${hover}${soldOut}
+          ${hover}
         </div>
         <div class="card__info">
           <h3 class="card__heading"><a class="card__link" href="#plant-${plant.id}" data-open-plant="${plant.id}">${esc(plant.name)}</a></h3>
@@ -145,9 +136,12 @@
           <span class="diff" data-d="${plant.difficulty}">${plant.difficulty}</span>
           <p class="price">${cardPriceHTML(plant)}</p>
         </div>
-        <button type="button" class="card__add" data-quick-add="${plant.id}" aria-pressed="false" aria-label="Add ${esc(plant.name)} to list">
-          <span class="card__add-label">Add to list</span>
-        </button>
+        <div class="card__actions">
+          <button type="button" class="card__add" data-quick-add="${plant.id}" aria-pressed="false" aria-label="Add ${esc(plant.name)} to list">
+            <span class="card__add-label">Add to list</span>
+          </button>
+          <button type="button" class="card__favourite" data-favourite="${plant.id}" aria-pressed="false" aria-label="Favourite ${esc(plant.name)}" title="Favourite">${ICONS.heart}</button>
+        </div>
       </div>
     </li>`;
   }
@@ -175,7 +169,7 @@
   function renderFacetForm() {
     const count = (facet, value) =>
       plants.filter((plant) => facet.test(plant, value)).length;
-    const highest = Math.max(...plants.map((p) => p.fromPrice ?? 0));
+    const highest = Math.max(...plants.map((p) => p.price ?? 0));
     $("#filter-form").innerHTML =
       FACETS.map(
         (facet) => `<fieldset class="facet">
@@ -193,7 +187,7 @@
       ).join("") +
       `<fieldset class="facet">
         <legend>Price</legend>
-        <p class="facet__hint">Uses the lowest price shown for each plant. Plants without a price are hidden while a price is set.</p>
+        <p class="facet__hint">Uses the average store price for each plant. Plants without a price are hidden while a price is set.</p>
         <div class="facet__range">
           <label><span>From $</span><input type="number" name="min" min="0" step="1" inputmode="decimal" placeholder="0"></label>
           <label><span>To $</span><input type="number" name="max" min="0" step="1" inputmode="decimal" placeholder="${Math.ceil(highest / 100)}"></label>
@@ -376,7 +370,6 @@
   function showAdded(id, updated = false) {
     const plant = byId.get(id);
     const line = lines.get(id);
-    const offer = plant.offers[line.offer];
     $("#added-title-text").textContent = updated
       ? "Your list was updated"
       : "Added to your list";
@@ -384,8 +377,8 @@
       `<img class="added__thumb" src="${esc(plant.photos[0].src)}" alt="" width="80" height="80" decoding="async">
       <div>
         <p class="added__name">${esc(plant.name)}</p>
-        <p class="added__meta">Qty ${line.qty}${offer ? `, ${esc(offer.shop)}` : ""}</p>
-        <p class="added__price">${offer ? money(offer.price * line.qty) : "Unpriced"}</p>
+        <p class="added__meta">Qty ${line.qty}</p>
+        <p class="added__price">${plant.price === null ? "Unpriced" : money(plant.price * line.qty)}</p>
       </div>`;
     hideAdded();
     (dialogStack.at(-1) ?? document.body).append(added);
@@ -401,12 +394,18 @@
         ? "In list"
         : "Add to list";
     }
+    for (const button of $$("[data-favourite]")) {
+      button.setAttribute(
+        "aria-pressed",
+        String(isFavourite(+button.dataset.favourite)),
+      );
+    }
     renderPlantListState();
   }
 
   /* Plant modal */
 
-  const modal = { id: null, photo: 0, qty: 1, offer: null };
+  const modal = { id: null, photo: 0, qty: 1 };
   const plantDialog = $("#plant-dialog");
   const lightbox = $("#lightbox");
 
@@ -458,19 +457,6 @@
     </section>`;
 
   function plantInfoHTML(plant) {
-    const pills = plant.offers.length
-      ? `<fieldset class="pills">
-          <legend>Shop</legend>
-          <div class="pills__list">
-            ${plant.offers
-              .map(
-                (offer, i) => `<input class="pills__input visually-hidden" type="radio" name="plant-shop" id="plant-shop-${i}" value="${i}"${i === modal.offer ? " checked" : ""}>
-                <label class="pills__pill${offer.soldOut ? " is-sold-out" : ""}" for="plant-shop-${i}">${esc(offer.shop)} <span class="pills__price">${money(offer.price)}</span>${offer.soldOut ? '<span class="visually-hidden">, sold out when checked</span>' : ""}</label>`,
-              )
-              .join("")}
-          </div>
-        </fieldset>`
-      : "";
     const conditions = `<dl class="conditions">${plant.conditions
       .map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`)
       .join("")}</dl>`;
@@ -482,39 +468,27 @@
       <h2 class="product__title" id="plant-dialog-title">${esc(plant.name)}</h2>
       <p class="product__sub">${esc(plant.scientific)}</p>
       <span class="diff" data-d="${plant.difficulty}">Difficulty: ${plant.difficulty}</span>
-      <div class="product__price" id="plant-price"></div>
-      ${pills}
-      <div class="product__offer" id="plant-offer" aria-live="polite"></div>
+      ${plantPriceHTML(plant)}
       <div class="product__form">
         ${quantityHTML("plant", plant.name, modal.qty)}
+        <button type="button" class="button button--secondary product__favourite" data-favourite="${plant.id}" aria-pressed="${isFavourite(plant.id)}">${ICONS.heart}<span>Favourite</span></button>
         <button type="button" class="button product__add" id="plant-add">Add to list</button>
       </div>
       <div class="product__in-list" id="plant-in-list" hidden></div>
       <p class="product__about">${esc(plant.about)}</p>
+      ${plant.offers.length ? section("Where to buy", `${storesHTML(plant)}<p class="product__checked">${checkedNote([{ plant }])}</p>`) : ""}
       ${section("Growing conditions", conditions)}
       ${plant.saNote ? section("South Australia", `<p>${esc(plant.saNote)}</p>`) : ""}
       ${section("Sources", sources)}`;
   }
 
-  function renderPlantOffer() {
-    const plant = byId.get(modal.id);
-    const offer = plant.offers[modal.offer];
-    if (!offer) {
-      $("#plant-price").innerHTML =
-        '<span class="price__none">No Australian store listing with a price was found.</span>';
-      $("#plant-offer").innerHTML = "";
-      return;
-    }
-    const soldOutBadge = offer.soldOut
-      ? ' <span class="badge badge--sold-out">Sold out when checked</span>'
-      : "";
-    $("#plant-price").innerHTML =
-      `<span class="price__current">${money(offer.price)}</span>${wasPrice(offer.was)}${soldOutBadge}`;
-    $("#plant-offer").innerHTML = `
-      ${offer.unit ? `<p>${esc(offer.unit)} from ${esc(offer.shop)}</p>` : ""}
-      ${offer.soldOut ? '<p class="product__warning">This listing was sold out when checked. Check stock before buying.</p>' : ""}
-      <p>${external(offer.url, `View at ${esc(offer.shop)} ↗`)}</p>
-      <p class="product__checked">Price checked ${formatChecked(offer.checked)}</p>`;
+  function plantPriceHTML(plant) {
+    if (plant.price === null)
+      return '<div class="product__price"><span class="price__none">No Australian store listing with a price was found.</span></div>';
+    return `<div class="product__price">
+        <span class="price__current">${money(plant.price)}</span>
+        <p class="product__price-note">${esc(averageLabel(plant))}</p>
+      </div>`;
   }
 
   function renderPlantListState() {
@@ -528,8 +502,7 @@
       box.innerHTML = "";
       return;
     }
-    const offer = plant.offers[line.offer];
-    box.innerHTML = `<p>In your list: ${line.qty}${offer ? ` from ${esc(offer.shop)}` : ""}.</p>
+    box.innerHTML = `<p>In your list: ${line.qty}.</p>
       <button type="button" class="link-button" data-remove="${plant.id}" aria-label="Remove ${esc(plant.name)} from list">Remove from list</button>
       <a href="list.html">View list</a>`;
   }
@@ -550,12 +523,10 @@
       id,
       photo: 0,
       qty: line.selected ? line.qty : 1,
-      offer: line.offer,
     });
     $("#plant-dialog-body").innerHTML =
       `<div class="product__media">${galleryHTML(plant)}</div>
       <div class="product__info">${plantInfoHTML(plant)}</div>`;
-    renderPlantOffer();
     renderPlantListState();
 
     const order = visibleOrder();
@@ -693,6 +664,13 @@
       },
     ],
     [
+      "[data-favourite]",
+      (el) => {
+        const id = +el.dataset.favourite;
+        setFavourite(id, !isFavourite(id));
+      },
+    ],
+    [
       "[data-qty-step]",
       (el) => stepQuantity(el),
     ],
@@ -701,7 +679,7 @@
       "#plant-add",
       () => {
         const updated = lines.get(modal.id).selected;
-        addToCart(modal.id, { qty: modal.qty, offer: modal.offer });
+        addToCart(modal.id, { qty: modal.qty });
         showAdded(modal.id, updated);
       },
     ],
@@ -761,10 +739,6 @@
   document.addEventListener("change", (event) => {
     const target = event.target;
     if (target.matches('[data-qty="plant"]')) setModalQty(target.value);
-    else if (target.name === "plant-shop") {
-      modal.offer = Number(target.value);
-      renderPlantOffer();
-    }
   });
 
   $("#filter-form").addEventListener("input", () => {

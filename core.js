@@ -9,6 +9,9 @@
   // page; keeping them means lists saved by that version still load.
   const STORAGE_KEY = "plant-shortlist-native-cart-v1";
   const LEGACY_STORAGE_KEY = "plant-shortlist-cart-v1";
+  // Favourites are plants being considered but not yet in the list, saved as
+  // an array of plant ids.
+  const FAVOURITES_KEY = "plant-shortlist-favourites-v1";
   const MAX_QTY = 99;
   const DIFFICULTY = ["Easy", "Moderate", "Demanding"];
   const LIGHT_LEVELS = ["Low", "Medium", "High"];
@@ -57,22 +60,25 @@
     return LIGHT_LEVELS.slice(Math.min(...found), Math.max(...found) + 1);
   }
 
+  // The price shown for a plant is the average of every store's listed
+  // price, as a rough guide to what a local shop will charge. Stock is left
+  // out, since a sold out listing still says what the plant costs.
+  const averagePrice = (offers) =>
+    offers.length
+      ? Math.round(
+          offers.reduce((sum, offer) => sum + offer.price, 0) / offers.length,
+        )
+      : null;
+
   const plants = zones.flatMap((zone) =>
     zone.plants.map((plant) => {
-      const inStock = plant.offers.filter((offer) => !offer.soldOut);
-      const pool = inStock.length ? inStock : plant.offers;
-      const best = pool.length
-        ? pool.reduce((a, b) => (b.price < a.price ? b : a))
-        : null;
       const conditions = Object.fromEntries(plant.conditions);
       return {
         ...plant,
         zone,
         conditionMap: conditions,
         searchText: `${plant.name} ${plant.scientific}`.toLowerCase(),
-        best,
-        fromPrice: best ? best.price : null,
-        inStock: inStock.length > 0,
+        price: averagePrice(plant.offers),
         light: lightLevels(conditions.Light ?? ""),
       };
     }),
@@ -88,16 +94,31 @@
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>',
     prev: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg>',
     next: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg>',
+    heart:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>',
   };
 
   const external = (url, label) =>
     `<a href="${esc(url)}" target="_blank" rel="noopener">${label}</a>`;
   const credit = (photo) =>
     `${esc(photo.caption)}${photo.credit ? ` ${external(photo.creditUrl, esc(photo.credit))}` : ""}`;
-  const wasPrice = (cents) =>
-    cents
-      ? ` <s class="price__was"><span class="visually-hidden">was </span>${money(cents)}</s>`
-      : "";
+
+  // Every store listing a plant, with its price and a link.
+  function storesHTML(plant) {
+    return `<ul class="stores" role="list">${plant.offers
+      .map(
+        (offer) => `<li class="stores__item">
+          <span>${external(offer.url, `${esc(offer.shop)} ↗`)}${offer.unit ? `<span class="stores__unit">${esc(offer.unit)}</span>` : ""}</span>
+          <span class="stores__price">${money(offer.price)}</span>
+        </li>`,
+      )
+      .join("")}</ul>`;
+  }
+
+  const averageLabel = (plant) =>
+    plant.offers.length > 1
+      ? `Average of ${plant.offers.length} stores`
+      : `From ${plant.offers[0].shop}`;
 
   function quantityHTML(key, name, qty) {
     return `<div class="quantity">
@@ -119,7 +140,8 @@
 
   // Every plant keeps a line in or out of the list, so a plant added again
   // comes back with its last quantity and shop, and the saved state keeps the
-  // same shape as the earlier version's form controls.
+  // same shape as the earlier version's form controls. Lines no longer pick
+  // a shop, since prices are averaged, but the saved shop is kept as is.
   const freshLine = (plant) => ({
     selected: false,
     qty: 1,
@@ -194,6 +216,45 @@
     }
   }
 
+  /* Favourites */
+
+  const favourites = new Set();
+
+  function restoreFavourites() {
+    favourites.clear();
+    try {
+      const ids = JSON.parse(localStorage.getItem(FAVOURITES_KEY) || "[]");
+      if (Array.isArray(ids))
+        for (const id of ids) if (byId.has(id)) favourites.add(id);
+    } catch {
+      /* Invalid or unavailable storage leaves no favourites. */
+    }
+  }
+
+  function saveFavourites() {
+    try {
+      localStorage.setItem(FAVOURITES_KEY, JSON.stringify([...favourites]));
+      storageOk = true;
+    } catch {
+      storageOk = false;
+    }
+  }
+
+  const isFavourite = (id) => favourites.has(id);
+
+  function setFavourite(id, on) {
+    if (on) favourites.add(id);
+    else favourites.delete(id);
+    saveFavourites();
+    notify();
+  }
+
+  // Favourited plants that are not in the list yet, in catalogue order.
+  const consideredPlants = () =>
+    plants.filter(
+      (plant) => favourites.has(plant.id) && !lines.get(plant.id).selected,
+    );
+
   function cartSummary() {
     let count = 0;
     let total = 0;
@@ -203,16 +264,15 @@
       const entries = zone.plants
         .map(({ id }) => ({ plant: byId.get(id), line: lines.get(id) }))
         .filter(({ line }) => line.selected)
-        .map((entry) => {
-          const offer = entry.plant.offers[entry.line.offer] ?? null;
-          const sum = offer ? offer.price * entry.line.qty : 0;
-          return { ...entry, offer, sum };
-        });
+        .map((entry) => ({
+          ...entry,
+          sum: (entry.plant.price ?? 0) * entry.line.qty,
+        }));
       if (!entries.length) continue;
       const subtotal = entries.reduce((sum, entry) => sum + entry.sum, 0);
       for (const entry of entries) {
         count += entry.line.qty;
-        if (!entry.offer) unknown += entry.line.qty;
+        if (entry.plant.price === null) unknown += entry.line.qty;
       }
       total += subtotal;
       groups.push({ zone, entries, subtotal });
@@ -241,12 +301,11 @@
     notify();
   }
 
-  function addToCart(id, { qty, offer } = {}) {
+  function addToCart(id, { qty } = {}) {
     updateCart(() => {
       const line = lines.get(id);
       line.selected = true;
       if (qty !== undefined) line.qty = clampQty(qty);
-      if (offer !== undefined && offer !== null) line.offer = offer;
     });
   }
 
@@ -264,10 +323,16 @@
   // coming back to a page kept in the back/forward cache.
   function reload() {
     restoreCart();
+    restoreFavourites();
     notify();
   }
   window.addEventListener("storage", (event) => {
-    if (event.key === null || event.key === STORAGE_KEY) reload();
+    if (
+      event.key === null ||
+      event.key === STORAGE_KEY ||
+      event.key === FAVOURITES_KEY
+    )
+      reload();
   });
   window.addEventListener("pageshow", (event) => {
     if (event.persisted) reload();
@@ -275,8 +340,7 @@
 
   function checkedNote(entries) {
     const dates = entries
-      .filter((entry) => entry.offer)
-      .map((entry) => entry.offer.checked)
+      .flatMap((entry) => entry.plant.offers.map((offer) => offer.checked))
       .sort();
     if (!dates.length) return "";
     const first = formatChecked(dates[0]);
@@ -291,20 +355,17 @@
     const out = ["Plant shortlist", ""];
     for (const { zone, entries, subtotal } of groups) {
       out.push(`${zone.name} (${money(subtotal)})`);
-      for (const { plant, line, offer, sum } of entries) {
+      for (const { plant, line, sum } of entries) {
         out.push(`- ${plant.name} (${plant.scientific}) x ${line.qty}`);
-        if (offer) {
-          const unit = offer.unit ? `, ${offer.unit}` : "";
-          const soldOut = offer.soldOut ? " (sold out when checked)" : "";
-          out.push(
-            `  ${offer.shop}${unit}: ${money(offer.price)} each, ${money(sum)}${soldOut}`,
-            `  ${offer.url}`,
-          );
-        } else out.push("  No price listed");
+        out.push(
+          plant.price === null
+            ? "  No price listed"
+            : `  About ${money(plant.price)} each (${averageLabel(plant).toLowerCase()}), ${money(sum)}`,
+        );
       }
       out.push("");
     }
-    out.push(`Estimated total: ${money(total)} AUD, shipping not included.`);
+    out.push(`Estimated total: ${money(total)} AUD, based on average online prices.`);
     if (unknown)
       out.push(`Unpriced items: ${unknown}. Excluded from the total.`);
     const checked = checkedNote(groups.flatMap((group) => group.entries));
@@ -341,6 +402,7 @@
   );
 
   restoreCart();
+  restoreFavourites();
   renderBadges();
 
   globalThis.PLANT_CORE = {
@@ -360,7 +422,8 @@
     ICONS,
     external,
     credit,
-    wasPrice,
+    storesHTML,
+    averageLabel,
     quantityHTML,
     stepQuantity,
     lines,
@@ -373,6 +436,9 @@
     addToCart,
     removeFromCart,
     clearCart,
+    isFavourite,
+    setFavourite,
+    consideredPlants,
     storageOk: () => storageOk,
   };
 })();
