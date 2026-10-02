@@ -1,3 +1,8 @@
+// Plants with small leaves and a compact habit, chosen so a planted tank keeps
+// its sense of scale. Filtered from plants-2420.js, the original full
+// catalogue, which the pages no longer load. Ids and offers match it, so saved
+// lists and deep links still work.
+//
 // Plant catalogue rendered by app.js.
 //
 // Plant ids key saved carts in localStorage and deep links (#plant-12), so an
@@ -450,6 +455,24 @@ globalThis.PLANT_CATALOGUE = {
               "was": null,
               "soldOut": false,
               "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/aquadepot-tissue-culture-utricularia-graminifolia",
+              "unit": "Tissue culture cup",
+              "price": 5000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "The Tech Den",
+              "url": "https://www.thetechden.com.au/collections/tissue-culture-plants/products/aquadepot-utricularia-graminifolia-live-plant-tissue-culture",
+              "unit": "Tissue culture cup",
+              "price": 1595,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
             }
           ],
           "defaultOffer": 0,
@@ -615,6 +638,24 @@ globalThis.PLANT_CATALOGUE = {
               "price": 2100,
               "was": 2500,
               "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/echinodorus-tenellus-3-chains/",
+              "unit": "3 chains",
+              "price": 1495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "The Tech Den",
+              "url": "https://www.thetechden.com.au/collections/tissue-culture-plants/products/copy-of-echinodorus-tenellus-tissue-culture",
+              "unit": "Tissue culture cup",
+              "price": 1595,
+              "was": null,
+              "soldOut": false,
               "checked": "2026-10"
             }
           ],
@@ -918,6 +959,673 @@ globalThis.PLANT_CATALOGUE = {
             {
               "label": "Photo source: tropica.com",
               "url": "https://tropica.com/en/plants/plantdetails/Pogostemonhelferi(053HTC)/19680"
+            }
+          ]
+        },
+        {
+          "id": 90,
+          "name": "Hairgrass 'Belem'",
+          "scientific": "Eleocharis sp. 'Belem'",
+          "difficulty": "Moderate",
+          "about": "Fine, grassy carpeting plant that spreads by runners. Needs good light and nutrients to carpet.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "5-10 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/dwarf-hairgrass-tissue-hair-grass",
+              "unit": "portion",
+              "price": 1495,
+              "was": 1800,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Z-Aquatics",
+              "url": "https://www.z-aquatics.com.au/eleocharis-belem/",
+              "unit": "portion",
+              "price": 1000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/eleocharis-acicularis-tissue-culture/",
+              "unit": "tissue culture cup",
+              "price": 1695,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/dwarf-hairgrass-tissue-hair-grass"
+            },
+            {
+              "label": "Z-Aquatics: product page",
+              "url": "https://www.z-aquatics.com.au/eleocharis-belem/"
+            },
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/eleocharis-acicularis-tissue-culture/"
+            }
+          ]
+        },
+        {
+          "id": 91,
+          "name": "Micranthemum 'Takashi'",
+          "scientific": "Micranthemum sp. 'Takashi'",
+          "difficulty": "Moderate",
+          "about": "Carpeting baby tears with larger, rounder leaves than HC. Easier than HC but still wants good light.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "2-5 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/micranthemum-umbrosum-takashi",
+              "unit": "portion",
+              "price": 1495,
+              "was": 1800,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/micranthemum-takashi-carpet-tissue-culture",
+              "unit": "tissue culture cup",
+              "price": 1595,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "The Online Aquarium Shop",
+              "url": "https://www.theonlineaquariumshop.com.au/product/micranthemum-takashi-carpet/",
+              "unit": "pot",
+              "price": 1080,
+              "was": 1690,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/micranthemum-umbrosum-takashi"
+            },
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/micranthemum-takashi-carpet-tissue-culture"
+            },
+            {
+              "label": "The Online Aquarium Shop: product page",
+              "url": "https://www.theonlineaquariumshop.com.au/product/micranthemum-takashi-carpet/"
+            }
+          ]
+        },
+        {
+          "id": 94,
+          "name": "Brazilian Micro Sword",
+          "scientific": "Lilaeopsis brasiliensis",
+          "difficulty": "Moderate",
+          "about": "Short, grass-like carpeting plant spreading by runners. Wants decent light and CO2 to stay low and dense.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "3-8 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/lilaeopsis-brasiliensis",
+              "unit": "portion",
+              "price": 1295,
+              "was": 1800,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/micro-sword-lilaeopsis-brasiliensis",
+              "unit": "portion",
+              "price": 1195,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/lilaeopsis-brasiliensis"
+            },
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/micro-sword-lilaeopsis-brasiliensis"
+            }
+          ]
+        },
+        {
+          "id": 95,
+          "name": "Marsilea hirsuta",
+          "scientific": "Marsilea hirsuta",
+          "difficulty": "Moderate",
+          "about": "Tiny four-leaf clover-like carpeting fern. Stays low under strong light and CO2.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "2-5 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/marsilea-hirsuta",
+              "unit": "portion",
+              "price": 995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/marsilea-hirsute-loose",
+              "unit": "emersed bunch",
+              "price": 895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/marsliea-hirsute",
+              "unit": "per portion",
+              "price": 1000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/marsilea-hirsuta"
+            },
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/marsilea-hirsute-loose"
+            },
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/marsliea-hirsute"
+            }
+          ]
+        },
+        {
+          "id": 174,
+          "name": "Eriocaulon cinereum",
+          "scientific": "Eriocaulon cinereum",
+          "difficulty": "Demanding",
+          "about": "Tiny pincushion rosette plant. Needs soft water, strong light and CO2.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "3-8 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/eriocaulon-cinereum",
+              "unit": "pot",
+              "price": 4995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/eriocaulon-cinereum"
+            }
+          ]
+        },
+        {
+          "id": 176,
+          "name": "Eriocaulon breviscapum",
+          "scientific": "Eriocaulon breviscapum",
+          "difficulty": "Demanding",
+          "about": "Short, grassy Eriocaulon that makes pincushion clumps. Needs soft water and strong light.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "5-10 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/eriocaulon-breviscapum",
+              "unit": "pot",
+              "price": 2995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/eriocaulon-breviscapum"
+            }
+          ]
+        },
+        {
+          "id": 181,
+          "name": "Creeping Jenny",
+          "scientific": "Lysimachia nummularia",
+          "difficulty": "Easy",
+          "about": "Round-leaved creeper that does better emersed than fully submerged long term. Easy and spreading.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "5-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/tissue-culture-lysimachia-nummularia-pennywort",
+              "unit": "tissue culture cup",
+              "price": 1495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Z-Aquatics",
+              "url": "https://www.z-aquatics.com.au/lysimachia-nummularia/",
+              "unit": "bunch",
+              "price": 800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/tissue-culture-lysimachia-nummularia-pennywort"
+            },
+            {
+              "label": "Z-Aquatics: product page",
+              "url": "https://www.z-aquatics.com.au/lysimachia-nummularia/"
+            }
+          ]
+        },
+        {
+          "id": 186,
+          "name": "Littorella uniflora",
+          "scientific": "Littorella uniflora",
+          "difficulty": "Moderate",
+          "about": "Short, grassy carpeting plant with stiff leaves. Spreads slowly by runners under good light.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "3-8 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/litorella-uniflora",
+              "unit": "portion",
+              "price": 1200,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/litorella-uniflora"
+            }
+          ]
+        },
+        {
+          "id": 210,
+          "name": "Crypt willisii",
+          "scientific": "Cryptocoryne willisii",
+          "difficulty": "Easy",
+          "about": "Small crypt with narrow, wavy leaves that forms a low carpet. Slow and easy.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "8-15 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/crypt-willisii-5cm-pot",
+              "unit": "5cm pot",
+              "price": 1695,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/crypts-willisii-pot-plant/",
+              "unit": "pot",
+              "price": 1995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/crypt-willisii-5cm-pot"
+            },
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/crypts-willisii-pot-plant/"
+            }
+          ]
+        },
+        {
+          "id": 221,
+          "name": "Green Rush (Eleocharis parvula)",
+          "scientific": "Eleocharis parvula",
+          "difficulty": "Easy",
+          "about": "Fine, grass-like plant that spreads by runners into a lawn in the foreground and midground.",
+          "conditions": [
+            [
+              "Light",
+              "Moderate to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "Foreground/midground"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/green-rush-bunches-live-aquarium-plant/",
+              "unit": "bunch",
+              "price": 1295,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/green-rush-bunches-live-aquarium-plant/"
+            }
+          ]
+        },
+        {
+          "id": 250,
+          "name": "Cryptocoryne nevillii",
+          "scientific": "Cryptocoryne nevillii",
+          "difficulty": "Easy",
+          "about": "Low, narrow-leaved crypt that spreads by runners into a foreground carpet.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Scapeshop",
+              "url": "https://scapeshop.com.au/products/cryptocoryne-nevillii-terracotta-pot",
+              "unit": "3cm terracotta pot",
+              "price": 1600,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Scapeshop: product page",
+              "url": "https://scapeshop.com.au/products/cryptocoryne-nevillii-terracotta-pot"
             }
           ]
         }
@@ -1730,13 +2438,2464 @@ globalThis.PLANT_CATALOGUE = {
               "url": "https://tropica.com/en/plants/plantdetails/Sagittariasubulata(079TC)/18270"
             }
           ]
+        },
+        {
+          "id": 92,
+          "name": "Micranthemum umbrosum",
+          "scientific": "Micranthemum umbrosum",
+          "difficulty": "Moderate",
+          "about": "Bright green stem plant with small round leaves, often called Hemianthus umbrosum. Can be trimmed low as a carpet or left as a bush.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Z-Aquatics",
+              "url": "https://www.z-aquatics.com.au/micranthemum-umbrosum/",
+              "unit": "bunch",
+              "price": 800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/hemianthus-umbrosum",
+              "unit": "bunch",
+              "price": 1800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Z-Aquatics: product page",
+              "url": "https://www.z-aquatics.com.au/micranthemum-umbrosum/"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/hemianthus-umbrosum"
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "name": "Pearlweed (Hemianthus micranthemoides)",
+          "scientific": "Hemianthus micranthemoides",
+          "difficulty": "Moderate",
+          "about": "Fine-leaved bushy stem plant, similar to baby tears but taller. Currently sold out at the one shop listing it.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/carpet-plant-hemianthus-micranthemoide",
+              "unit": "portion",
+              "price": 1495,
+              "was": 1800,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/carpet-plant-hemianthus-micranthemoide"
+            }
+          ]
+        },
+        {
+          "id": 96,
+          "name": "Cardamine lyrata (Japanese cress)",
+          "scientific": "Cardamine lyrata",
+          "difficulty": "Easy",
+          "about": "Fast, bright green stem plant with rounded leaves. Prefers cooler water and trims easily.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "10-30 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/cardamine-lyrata",
+              "unit": "bunch",
+              "price": 695,
+              "was": 995,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/cardamine-lyrata-emersed-bunch",
+              "unit": "emersed bunch",
+              "price": 597,
+              "was": 895,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/stem-plants/697-cardamine-lyrata.html",
+              "unit": "bunch",
+              "price": 990,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Scapeshop",
+              "url": "https://scapeshop.com.au/products/cardamine-lyrata",
+              "unit": "bunch",
+              "price": 800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Z-Aquatics",
+              "url": "https://www.z-aquatics.com.au/cardamine-lyrata/",
+              "unit": "bunch",
+              "price": 800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/cardamine-lyrata01",
+              "unit": "bunch",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/cardamine-lyrata"
+            },
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/cardamine-lyrata-emersed-bunch"
+            },
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/stem-plants/697-cardamine-lyrata.html"
+            },
+            {
+              "label": "Scapeshop: product page",
+              "url": "https://scapeshop.com.au/products/cardamine-lyrata"
+            },
+            {
+              "label": "Z-Aquatics: product page",
+              "url": "https://www.z-aquatics.com.au/cardamine-lyrata/"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/cardamine-lyrata01"
+            }
+          ]
+        },
+        {
+          "id": 97,
+          "name": "Water Rose (Samolus parviflorus)",
+          "scientific": "Samolus parviflorus",
+          "difficulty": "Easy",
+          "about": "Rosette-forming stem plant with soft green leaves. Easy and compact.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/samolus-parviflorus",
+              "unit": "portion",
+              "price": 1495,
+              "was": 1600,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/stem-plants/540-samolus-parviflorus.html",
+              "unit": "bunch",
+              "price": 990,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/samolus-parviflorus"
+            },
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/stem-plants/540-samolus-parviflorus.html"
+            }
+          ]
+        },
+        {
+          "id": 98,
+          "name": "Samolus 'Red'",
+          "scientific": "Samolus parviflorus 'Red'",
+          "difficulty": "Moderate",
+          "about": "Red-leaved form of Samolus, also sold as Red Lysimachia. Needs more light for good colour.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/stem-plants/568-red-samolus-parviflorus.html",
+              "unit": "bunch",
+              "price": 2900,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/samolus-parviflorus-red/",
+              "unit": "plant",
+              "price": 3500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/stem-plants/568-red-samolus-parviflorus.html"
+            },
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/samolus-parviflorus-red/"
+            }
+          ]
+        },
+        {
+          "id": 116,
+          "name": "Ludwigia ovalis",
+          "scientific": "Ludwigia ovalis",
+          "difficulty": "Easy",
+          "about": "Low-growing Ludwigia with oval leaves. Easy stem plant for the midground.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/ludwigia-ovalis",
+              "unit": "bunch",
+              "price": 1495,
+              "was": 1600,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/ludwigia-ovalis"
+            }
+          ]
+        },
+        {
+          "id": 122,
+          "name": "Ludwigia 'Super Mini Red'",
+          "scientific": "Ludwigia palustris 'Super Red Mini'",
+          "difficulty": "Moderate",
+          "about": "Short, compact red Ludwigia for the midground. Needs strong light for colour.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "10-25 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/ludwigia-palustris-submersed-bunch-super-mini-red-s053",
+              "unit": "submersed bunch",
+              "price": 1200,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/stem-plants/234-ludwigia-mini-super-red.html",
+              "unit": "5 stems",
+              "price": 990,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/ludwigia-sp-mini-super-red",
+              "unit": "5 stems ~10cm",
+              "price": 1000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/ludwigia-pantanal-verticillata-e142-copy",
+              "unit": "bunch",
+              "price": 1000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/ludwigia-sp-super-red",
+              "unit": "bunch",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/ludwigia-palustris-submersed-bunch-super-mini-red-s053"
+            },
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/stem-plants/234-ludwigia-mini-super-red.html"
+            },
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/ludwigia-sp-mini-super-red"
+            },
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/ludwigia-pantanal-verticillata-e142-copy"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/ludwigia-sp-super-red"
+            }
+          ]
+        },
+        {
+          "id": 129,
+          "name": "Rotala indica",
+          "scientific": "Rotala indica",
+          "difficulty": "Easy",
+          "about": "Small, rounded-leaf Rotala that stays fairly compact. Easy under medium light.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "20-30 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/rotala-indica",
+              "unit": "bunch",
+              "price": 1800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/rotala-indica"
+            }
+          ]
+        },
+        {
+          "id": 158,
+          "name": "Limnophila aromatica 'Kalimantan Mini'",
+          "scientific": "Limnophila aromatica",
+          "difficulty": "Easy",
+          "about": "Compact Limnophila that goes purple underneath in strong light. Easy.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "15-30 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/centrepiece/products/limnophila-aromatica-kalmantan-mini-submersed-bunch",
+              "unit": "submersed bunch",
+              "price": 1200,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/aromatica-limnophilia",
+              "unit": "bunch of 6-10 stems, emersed",
+              "price": 895,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/centrepiece/products/limnophila-aromatica-kalmantan-mini-submersed-bunch"
+            }
+          ]
+        },
+        {
+          "id": 161,
+          "name": "Ammannia senegalensis",
+          "scientific": "Ammannia senegalensis",
+          "difficulty": "Demanding",
+          "about": "Red-leaved Ammannia that needs strong light and nutrients. Sold as tissue culture.",
+          "conditions": [
+            [
+              "Light",
+              "High"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/tissue-culture-ammannia-senegalensis",
+              "unit": "tissue culture cup",
+              "price": 1495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/tissue-culture-ammannia-senegalensis"
+            }
+          ]
+        },
+        {
+          "id": 164,
+          "name": "Lindernia rotundifolia",
+          "scientific": "Lindernia rotundifolia",
+          "difficulty": "Easy",
+          "about": "Compact stem plant with small round leaves, pink-tinged in good light. Easy midground filler.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "10-25 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/lindernia-rotundifolia",
+              "unit": "bunch",
+              "price": 1195,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/lindernia-rotundifolia-live-aquarium-plant/",
+              "unit": "bunch",
+              "price": 1295,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/lindernia-rotundifolia",
+              "unit": "bunch",
+              "price": 500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/stem-plants/462-lindernia-rotundifolia-variegated.html",
+              "unit": "bunch",
+              "price": 990,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 2,
+          "sources": [
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/lindernia-rotundifolia"
+            },
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/lindernia-rotundifolia-live-aquarium-plant/"
+            },
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/lindernia-rotundifolia"
+            },
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/stem-plants/462-lindernia-rotundifolia-variegated.html"
+            }
+          ]
+        },
+        {
+          "id": 165,
+          "name": "Tonina fluviatilis",
+          "scientific": "Tonina fluviatilis",
+          "difficulty": "Moderate",
+          "about": "Unusual rosette-like stem plant with round, pale green leaves. Needs decent light and stable conditions.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "10-25 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/tonina-fluviatilis-5cm-pot",
+              "unit": "5cm pot",
+              "price": 1495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nature Aquariums",
+              "url": "https://natureaquariums.com.au/products/tonina-fluvitilis",
+              "unit": "per plant",
+              "price": 2495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/tonina-fluviatilis-5cm-pot"
+            },
+            {
+              "label": "Nature Aquariums: product page",
+              "url": "https://natureaquariums.com.au/products/tonina-fluvitilis"
+            }
+          ]
+        },
+        {
+          "id": 172,
+          "name": "Cuphea anagalloidea",
+          "scientific": "Cuphea anagalloidea",
+          "difficulty": "Moderate",
+          "about": "Compact stem plant with small rounded leaves. Wants good light.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "10-25 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/cuphea-anagalloidea",
+              "unit": "pot",
+              "price": 1995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/cuphea-anagalloidea"
+            }
+          ]
+        },
+        {
+          "id": 175,
+          "name": "Eriocaulon 'Vietnam'",
+          "scientific": "Eriocaulon sp. 'Vietnam'",
+          "difficulty": "Demanding",
+          "about": "Grassy Eriocaulon with a pincushion look. Needs soft, acidic water, good light and CO2.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "10-15 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/eriocaulon-vietnam",
+              "unit": "pot",
+              "price": 2995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/eriocaulon-vietnam-premium-aquarium-plant",
+              "unit": "portion",
+              "price": 2500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/eriocaulon-vietnam"
+            },
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/eriocaulon-vietnam-premium-aquarium-plant"
+            }
+          ]
+        },
+        {
+          "id": 177,
+          "name": "Eriocaulon 'Ratnagiri'",
+          "scientific": "Eriocaulon sp. 'Ratnagiri'",
+          "difficulty": "Demanding",
+          "about": "Rare Eriocaulon from India with a tight rosette. Needs soft water, strong light and CO2.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "5-12 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Nature Aquariums",
+              "url": "https://natureaquariums.com.au/products/eriocaulon-ratnagiri",
+              "unit": "1 plant",
+              "price": 4995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Nature Aquariums: product page",
+              "url": "https://natureaquariums.com.au/products/eriocaulon-ratnagiri"
+            }
+          ]
+        },
+        {
+          "id": 178,
+          "name": "Blyxa aubertii",
+          "scientific": "Blyxa aubertii",
+          "difficulty": "Moderate",
+          "about": "Grassy rosette plant with long, soft leaves. Likes soft water and good light.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "15-30 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/blyxa-aubertii",
+              "unit": "portion",
+              "price": 1295,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/blyxa-aubertii"
+            }
+          ]
+        },
+        {
+          "id": 182,
+          "name": "Juncus repens",
+          "scientific": "Juncus repens",
+          "difficulty": "Easy",
+          "about": "Creeping rush with upright green blades. Easy and slow to spread.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "5-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/tissue-culture/products/tissue-culture-cup-juncus-repens",
+              "unit": "tissue culture cup",
+              "price": 2400,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarium Gallery",
+              "url": "https://www.aquariumgallery.com.au/products/tc-juncus-repens",
+              "unit": "TC cup",
+              "price": 2595,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/tissue-culture/products/tissue-culture-cup-juncus-repens"
+            },
+            {
+              "label": "Aquarium Gallery: product page",
+              "url": "https://www.aquariumgallery.com.au/products/tc-juncus-repens"
+            }
+          ]
+        },
+        {
+          "id": 183,
+          "name": "Umbrella Hair Grass (Eleocharis vivipara)",
+          "scientific": "Eleocharis vivipara",
+          "difficulty": "Easy",
+          "about": "Taller hairgrass with arching, umbrella-like stems. Easy and spreads by runners.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "15-30 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/eleocharis-vivipara-emersed-bunch-umbrella-hair-grass",
+              "unit": "emersed bunch",
+              "price": 895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/eleocharis-vivipara-umbrella-hair-grass",
+              "unit": "portion",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/eleocharis-vivipara-emersed-bunch-umbrella-hair-grass"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/eleocharis-vivipara-umbrella-hair-grass"
+            }
+          ]
+        },
+        {
+          "id": 184,
+          "name": "Bacopa 'Japan'",
+          "scientific": "Bacopa sp. 'Japan'",
+          "difficulty": "Easy",
+          "about": "Small-leaved Bacopa that grows as a creeping or upright stem. Easy.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "10-25 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/bacopa-serpyllifolia-japan-live-aquarium-plant/",
+              "unit": "bunch",
+              "price": 1295,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/bacopa-serpyllifolia-japan-live-aquarium-plant/"
+            }
+          ]
+        },
+        {
+          "id": 185,
+          "name": "Sagittaria natans",
+          "scientific": "Sagittaria natans",
+          "difficulty": "Easy",
+          "about": "Narrow-leaved Sagittaria that stays smaller than giant types. Easy root feeder.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "15-30 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Z-Aquatics",
+              "url": "https://www.z-aquatics.com.au/sagittaria-natans/",
+              "unit": "plant",
+              "price": 800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Z-Aquatics: product page",
+              "url": "https://www.z-aquatics.com.au/sagittaria-natans/"
+            }
+          ]
+        },
+        {
+          "id": 187,
+          "name": "Staurogyne 'Porto Velho'",
+          "scientific": "Staurogyne sp. 'Porto Velho'",
+          "difficulty": "Easy",
+          "about": "Compact Staurogyne with slightly larger leaves than S. repens. Easy and forms a dense bush.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Z-Aquatics",
+              "url": "https://www.z-aquatics.com.au/staurogyne-sp-porto-velho/",
+              "unit": "portion",
+              "price": 900,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/staurogyne-porto-velho",
+              "unit": "portion",
+              "price": 1800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Z-Aquatics: product page",
+              "url": "https://www.z-aquatics.com.au/staurogyne-sp-porto-velho/"
+            },
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/staurogyne-porto-velho"
+            }
+          ]
+        },
+        {
+          "id": 207,
+          "name": "Cryptocoryne beckettii",
+          "scientific": "Cryptocoryne beckettii",
+          "difficulty": "Easy",
+          "about": "Easy crypt with olive green, wavy leaves. Slow, root feeding, and may melt when moved.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/tissue-culture/products/tissue-culture-cryptocoryne-beckettii",
+              "unit": "tissue culture cup",
+              "price": 2400,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/cryptocoryne-beckettii-petchii",
+              "unit": "pot (Petchii)",
+              "price": 1295,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/cryptocoryne-beckettii-tissue-culture",
+              "unit": "tissue culture cup",
+              "price": 1695,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/cryptocoryne-beckettii/",
+              "unit": "plant",
+              "price": 1495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarium Gallery",
+              "url": "https://www.aquariumgallery.com.au/products/tc-cryptocoryne-beckettii",
+              "unit": "TC cup",
+              "price": 2495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 3,
+          "sources": [
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/tissue-culture/products/tissue-culture-cryptocoryne-beckettii"
+            },
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/cryptocoryne-beckettii-petchii"
+            },
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/cryptocoryne-beckettii-tissue-culture"
+            },
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/cryptocoryne-beckettii/"
+            },
+            {
+              "label": "Aquarium Gallery: product page",
+              "url": "https://www.aquariumgallery.com.au/products/tc-cryptocoryne-beckettii"
+            }
+          ]
+        },
+        {
+          "id": 208,
+          "name": "Crypt 'Lutea'",
+          "scientific": "Cryptocoryne x willisii 'Lutea'",
+          "difficulty": "Easy",
+          "about": "Easy crypt with yellowish-green narrow leaves. Slow and root feeding.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/crypt-lutea-5cm-pot",
+              "unit": "5cm pot",
+              "price": 1695,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/crypt-lutea-5cm-pot"
+            }
+          ]
+        },
+        {
+          "id": 209,
+          "name": "Crypt undulata 'Red'",
+          "scientific": "Cryptocoryne undulata 'Red'",
+          "difficulty": "Easy",
+          "about": "Crypt with ruffled, reddish-brown leaves. Slow and root feeding.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "15-30 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/crypt-undulatus-red-5cm-pot",
+              "unit": "5cm pot",
+              "price": 1696,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/crypt-undulatus-red-5cm-pot"
+            }
+          ]
+        },
+        {
+          "id": 211,
+          "name": "Cryptocoryne axelrodi",
+          "scientific": "Cryptocoryne axelrodi",
+          "difficulty": "Easy",
+          "about": "Crypt with long, narrow, dark green leaves. Slow and easy.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "15-25 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/cryptocoryne-axelrodi-tissue-culture",
+              "unit": "tissue culture cup",
+              "price": 1895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/cryptocoryne-axelrodi-tissue-culture"
+            }
+          ]
+        },
+        {
+          "id": 212,
+          "name": "Crypt wendtii 'Flamingo'",
+          "scientific": "Cryptocoryne wendtii 'Flamingo'",
+          "difficulty": "Easy",
+          "about": "Pink-tinged wendtii form. Currently sold out.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Tankquility",
+              "url": "https://tankquility.com.au/products/cryptocoryne-wendtii-flamingo",
+              "unit": "portion (from price)",
+              "price": 2995,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Tankquility: product page",
+              "url": "https://tankquility.com.au/products/cryptocoryne-wendtii-flamingo"
+            }
+          ]
+        },
+        {
+          "id": 213,
+          "name": "Crypt crispatula var. albida 'Brown'",
+          "scientific": "Cryptocoryne crispatula var. albida",
+          "difficulty": "Moderate",
+          "about": "Tall crypt with narrow, rippled leaves. Slow and fussier about stable conditions.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "15-30 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Tankquility",
+              "url": "https://tankquility.com.au/products/cryptocoryne-crispatula-var-albida-brown",
+              "unit": "plant (from)",
+              "price": 3995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Tankquility: product page",
+              "url": "https://tankquility.com.au/products/cryptocoryne-crispatula-var-albida-brown"
+            }
+          ]
+        },
+        {
+          "id": 223,
+          "name": "Echinodorus bolivianus",
+          "scientific": "Echinodorus bolivianus (Helanthium bolivianum)",
+          "difficulty": "Easy",
+          "about": "Narrow-leaved chain sword that spreads by runners and suits the foreground or midground. Sold as tissue culture cups.",
+          "conditions": [
+            [
+              "Light",
+              "Moderate to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "10-15cm"
+            ]
+          ],
+          "saNote": "The Tech Den ships only tissue cultures. Its other live plants are pickup only.",
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/echinodorus-bolivianus-tissue-culture/",
+              "unit": "TC cup",
+              "price": 1695,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "The Tech Den",
+              "url": "https://www.thetechden.com.au/collections/tissue-culture-plants/products/true-aquatic-echinodorus-bolivianus-rusby-holm-niels-live-plant-tissue-culture",
+              "unit": "tissue culture cup",
+              "price": 1595,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarium Gallery",
+              "url": "https://www.aquariumgallery.com.au/products/tc-echinodorus-bolivianus-rusby",
+              "unit": "TC cup",
+              "price": 1895,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/echinodorus-bolivianus-tissue-culture/"
+            },
+            {
+              "label": "The Tech Den: product page",
+              "url": "https://www.thetechden.com.au/collections/tissue-culture-plants/products/true-aquatic-echinodorus-bolivianus-rusby-holm-niels-live-plant-tissue-culture"
+            },
+            {
+              "label": "Aquarium Gallery: product page",
+              "url": "https://www.aquariumgallery.com.au/products/tc-echinodorus-bolivianus-rusby"
+            }
+          ]
+        },
+        {
+          "id": 225,
+          "name": "Chain Sword, broad (Echinodorus latifolius)",
+          "scientific": "Echinodorus latifolius",
+          "difficulty": "Easy",
+          "about": "Broader-leaved chain sword that carpets the foreground or midground by runners.",
+          "conditions": [
+            [
+              "Light",
+              "Moderate"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "15cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/chain-sword-broad-live-aquarium-plant/",
+              "unit": "pot",
+              "price": 1495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Duthie Aquatics",
+              "url": "https://duthieaquatics.com.au/products/echinodorus-latifolius-tall-chain-sword",
+              "unit": "pot",
+              "price": 999,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "AB Quatics",
+              "url": "https://abquatics.shop/products/echin-latifolius-10-15cm",
+              "unit": "10-15cm plant",
+              "price": 995,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/chain-sword-broad-live-aquarium-plant/"
+            },
+            {
+              "label": "Duthie Aquatics: product page",
+              "url": "https://duthieaquatics.com.au/products/echinodorus-latifolius-tall-chain-sword"
+            },
+            {
+              "label": "AB Quatics: product page",
+              "url": "https://abquatics.shop/products/echin-latifolius-10-15cm"
+            }
+          ]
+        },
+        {
+          "id": 228,
+          "name": "Cryptocoryne beckettii 'Petchii' (Dragons Flame)",
+          "scientific": "Cryptocoryne beckettii 'Petchii'",
+          "difficulty": "Easy",
+          "about": "Compact crypt with olive leaves and a reddish underside. It is slow to start but hardy.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "Midground"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/dragons-flame-live-aquarium-plant/",
+              "unit": "pot",
+              "price": 1295,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Scapeshop",
+              "url": "https://scapeshop.com.au/products/cryptocoryne-petchii-5cm-pot",
+              "unit": "5cm pot",
+              "price": 1900,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/dragons-flame-live-aquarium-plant/"
+            },
+            {
+              "label": "Scapeshop: product page",
+              "url": "https://scapeshop.com.au/products/cryptocoryne-petchii-5cm-pot"
+            }
+          ]
+        },
+        {
+          "id": 232,
+          "name": "Didiplis diandra (Water Hedge)",
+          "scientific": "Didiplis diandra",
+          "difficulty": "Easy",
+          "about": "Fine-leaved stem plant that forms a bushy hedge.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "Background"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/didiplis-diandra-emersed-bunch",
+              "unit": "bunch of 6-10 stems, emersed",
+              "price": 895,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/didiplis-diandra",
+              "unit": "each",
+              "price": 1500,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/didiplis-diandra-emersed-bunch"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/didiplis-diandra"
+            }
+          ]
+        },
+        {
+          "id": 233,
+          "name": "Purple Bacopa (Bacopa salzmannii)",
+          "scientific": "Bacopa salzmannii",
+          "difficulty": "Moderate",
+          "about": "Stem plant with purple-bronze leaves under good light.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "Midground"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/bacopa-salzmanni-submersed-bunch-purple-bacopa-1",
+              "unit": "pot of 8-12 stems, emersed",
+              "price": 895,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/bacopa-salzmanii-purple",
+              "unit": "3-5 stems",
+              "price": 600,
+              "was": 1000,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/bacopa-salzmanni-submersed-bunch-purple-bacopa-1"
+            },
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/bacopa-salzmanii-purple"
+            }
+          ]
+        },
+        {
+          "id": 246,
+          "name": "Cryptocoryne wendtii 'Tropica'",
+          "scientific": "Cryptocoryne wendtii 'Tropica'",
+          "difficulty": "Easy",
+          "about": "Hardy crypt with brownish-green leaves. It is slow to settle after planting.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "About 12cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Scapeshop",
+              "url": "https://scapeshop.com.au/products/cryptocoryne-wendtii-tropica-5cm-pot",
+              "unit": "5cm pot",
+              "price": 1900,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Tankquility",
+              "url": "https://tankquility.com.au/products/cryptocoryne-wendtii-tropica",
+              "unit": "each",
+              "price": 1495,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Scapeshop: product page",
+              "url": "https://scapeshop.com.au/products/cryptocoryne-wendtii-tropica-5cm-pot"
+            },
+            {
+              "label": "Tankquility: product page",
+              "url": "https://tankquility.com.au/products/cryptocoryne-wendtii-tropica"
+            }
+          ]
+        },
+        {
+          "id": 249,
+          "name": "Cryptocoryne 'Mi Oya'",
+          "scientific": "Cryptocoryne sp. 'Mi Oya'",
+          "difficulty": "Easy",
+          "about": "Crypt with textured, bubbly leaves.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "Midground"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Scapeshop",
+              "url": "https://scapeshop.com.au/products/cryptocoryne-mi-oya-5cm-pot",
+              "unit": "5cm pot",
+              "price": 2600,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarium Gallery",
+              "url": "https://www.aquariumgallery.com.au/products/tc-crytp-mioya",
+              "unit": "TC cup",
+              "price": 2495,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Melbourne Tropical Fish",
+              "url": "https://melbournetropicalfish.com.au/collections/aquarium-plants/products/cryptmioya",
+              "unit": "each",
+              "price": 1500,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 2,
+          "sources": [
+            {
+              "label": "Scapeshop: product page",
+              "url": "https://scapeshop.com.au/products/cryptocoryne-mi-oya-5cm-pot"
+            },
+            {
+              "label": "Aquarium Gallery: product page",
+              "url": "https://www.aquariumgallery.com.au/products/tc-crytp-mioya"
+            },
+            {
+              "label": "Melbourne Tropical Fish: product page",
+              "url": "https://melbournetropicalfish.com.au/collections/aquarium-plants/products/cryptmioya"
+            }
+          ]
+        },
+        {
+          "id": 251,
+          "name": "Cryptocoryne nurii 'Rosen Maiden'",
+          "scientific": "Cryptocoryne nurii 'Rosen Maiden'",
+          "difficulty": "Moderate",
+          "about": "Pink-toned form of C. nurii. It is slow to establish.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "Midground"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/crypt/342-rare-crypt-nurii-rosen-maiden-quality-aquarium-grown-cryptocoryne.html",
+              "unit": "approx 5 leaves",
+              "price": 2900,
+              "was": 3500,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/crypt/342-rare-crypt-nurii-rosen-maiden-quality-aquarium-grown-cryptocoryne.html"
+            }
+          ]
+        },
+        {
+          "id": 259,
+          "name": "Bacopa monnieri 'White'",
+          "scientific": "Bacopa monnieri 'White'",
+          "difficulty": "Demanding",
+          "about": "Rare white-leaved bacopa that needs high light and CO2. It is expensive.",
+          "conditions": [
+            [
+              "Light",
+              "High"
+            ],
+            [
+              "CO2",
+              "Required"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "Mid to back"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/rare-bacopa-monnieri-white",
+              "unit": "1 stem portion",
+              "price": 9000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/rare-bacopa-monnieri-white"
+            }
+          ]
+        },
+        {
+          "id": 260,
+          "name": "Hygrophila sp. 'Chai'",
+          "scientific": "Hygrophila sp. 'Chai'",
+          "difficulty": "Demanding",
+          "about": "Rare, slow hygrophila for high-tech tanks.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Required"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "15-20cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/hygrophila-sp-chai-submerged",
+              "unit": "2 stems",
+              "price": 10000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/hygrophila-sp-chai-submerged"
+            }
+          ]
+        },
+        {
+          "id": 262,
+          "name": "Hyptis laciniata",
+          "scientific": "Hyptis laciniata",
+          "difficulty": "Moderate",
+          "about": "Fine-leaved stem plant for the foreground to midground.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "Fore to mid"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/hyptis-laciniata",
+              "unit": "3-5 stems",
+              "price": 1800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/hyptis-laciniata"
+            }
+          ]
+        },
+        {
+          "id": 263,
+          "name": "Ludwigia sphaerocarpa",
+          "scientific": "Ludwigia sphaerocarpa",
+          "difficulty": "Moderate",
+          "about": "Compact Ludwigia that colours up red under high light.",
+          "conditions": [
+            [
+              "Light",
+              "High"
+            ],
+            [
+              "CO2",
+              "Required"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "10-20cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/ludwigia-sphaerocarpa",
+              "unit": "3-5 stems",
+              "price": 1800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/ludwigia-sphaerocarpa"
+            }
+          ]
+        },
+        {
+          "id": 264,
+          "name": "Rotala mexicana",
+          "scientific": "Rotala mexicana",
+          "difficulty": "Moderate",
+          "about": "Fine-leaved Rotala for the midground.",
+          "conditions": [
+            [
+              "Light",
+              "High"
+            ],
+            [
+              "CO2",
+              "Required"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "Midground"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/rotala-mexicana",
+              "unit": "3-5 stems",
+              "price": 1200,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/rotala-mexicana"
+            }
+          ]
         }
       ]
     },
     {
       "id": "back",
       "name": "Background",
-      "intro": "Stem plants and tall ribbons for the rear. Most need regular trimming in a tank this height.",
+      "intro": "Stem plants and tall ribbons for the rear. Most need regular trimming once they reach the surface.",
       "plants": [
         {
           "id": 20,
@@ -2328,6 +5487,1522 @@ globalThis.PLANT_CATALOGUE = {
               "url": "https://www.aquagreen.com.au/plant_data/Vallisneria_nana.html"
             }
           ]
+        },
+        {
+          "id": 115,
+          "name": "Proserpinaca palustris (Mermaid weed)",
+          "scientific": "Proserpinaca palustris",
+          "difficulty": "Moderate",
+          "about": "Feathery, serrated leaves on upright stems, turning orange-red in strong light. Trim regularly.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/proserpinaca-palustris-mermaid-weed",
+              "unit": "bunch",
+              "price": 1495,
+              "was": 1600,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/proserpinaca-palustris-mermaid-weed",
+              "unit": "bunch",
+              "price": 1450,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/stem-plants/228-proserpinaca-palustris-orange-red-mermaid-weed.html",
+              "unit": "bunch",
+              "price": 990,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/proserpinaca-palustris-mermaid-weed/",
+              "unit": "bunch",
+              "price": 1295,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "The Online Aquarium Shop",
+              "url": "https://www.theonlineaquariumshop.com.au/product/proserpinaca-palustris-mermaid-weed/",
+              "unit": "bunch",
+              "price": 1290,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/proserpinaca-palustris-mermaid-weed",
+              "unit": "bunch",
+              "price": 1800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 2,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/proserpinaca-palustris-mermaid-weed"
+            },
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/proserpinaca-palustris-mermaid-weed"
+            },
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/stem-plants/228-proserpinaca-palustris-orange-red-mermaid-weed.html"
+            },
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/proserpinaca-palustris-mermaid-weed/"
+            },
+            {
+              "label": "The Online Aquarium Shop: product page",
+              "url": "https://www.theonlineaquariumshop.com.au/product/proserpinaca-palustris-mermaid-weed/"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/proserpinaca-palustris-mermaid-weed"
+            }
+          ]
+        },
+        {
+          "id": 120,
+          "name": "Ludwigia 'Super Red' (inclinata 'Cuba')",
+          "scientific": "Ludwigia inclinata var. verticillata 'Cuba'",
+          "difficulty": "Easy",
+          "about": "Strongly red Ludwigia with a bushy habit. Easy under good light.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/ludwigia-inclinata-cuba",
+              "unit": "bunch",
+              "price": 1450,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/ludwigia-verticilliata-cuba",
+              "unit": "bunch",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/ludwigia-inclinata-cuba"
+            },
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/ludwigia-verticilliata-cuba"
+            }
+          ]
+        },
+        {
+          "id": 123,
+          "name": "Ludwigia brevipes",
+          "scientific": "Ludwigia brevipes",
+          "difficulty": "Easy",
+          "about": "Easy green Ludwigia with a tidy habit. Good filler stem.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/ludwigia-brevipes",
+              "unit": "bunch",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/ludwigia-brevipes"
+            }
+          ]
+        },
+        {
+          "id": 125,
+          "name": "Rotala 'H'ra'",
+          "scientific": "Rotala sp. 'H'ra'",
+          "difficulty": "Moderate",
+          "about": "Green to bronze Rotala with narrow, upright leaves. Shows best colour under strong light.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "15-35 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/rotala-sp-hra",
+              "unit": "bunch",
+              "price": 1495,
+              "was": 1800,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/stem-plants/235-rotala-hra-gia-lai.html",
+              "unit": "6 stems",
+              "price": 990,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/rotala-sp-hra-green-leaves-nbsp",
+              "unit": "per bunch",
+              "price": 1000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "AB Quatics",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/rotala-sp-hra-pot",
+              "unit": "pot",
+              "price": 1295,
+              "was": 1500,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/rotala-sp-hra"
+            },
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/stem-plants/235-rotala-hra-gia-lai.html"
+            },
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/rotala-sp-hra-green-leaves-nbsp"
+            },
+            {
+              "label": "AB Quatics: product page",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/rotala-sp-hra-pot"
+            }
+          ]
+        },
+        {
+          "id": 126,
+          "name": "Rotala 'Green'",
+          "scientific": "Rotala sp. 'Green'",
+          "difficulty": "Easy",
+          "about": "Easy green Rotala for filling out the background. Fast and forgiving.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "20-30 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/rotala-green",
+              "unit": "bunch",
+              "price": 895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/rotala-species-green-submersed-bunch",
+              "unit": "submersed bunch",
+              "price": 1200,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/rotala-green"
+            },
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/rotala-species-green-submersed-bunch"
+            }
+          ]
+        },
+        {
+          "id": 127,
+          "name": "Rotala rotundifolia",
+          "scientific": "Rotala rotundifolia",
+          "difficulty": "Easy",
+          "about": "Classic easy Rotala with round leaves, going pink-red in strong light. Fast, trim often.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/rotala-rotundifolia",
+              "unit": "bunch",
+              "price": 999,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Z-Aquatics",
+              "url": "https://www.z-aquatics.com.au/rotala-rotundifolia/",
+              "unit": "bunch",
+              "price": 800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/rotala-rotundifolia-orange-juice-5-stems-10cm",
+              "unit": "5 stems ~10cm",
+              "price": 1000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/rotala-rotundifolia-laos",
+              "unit": "portion",
+              "price": 2995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/rotala-rotundifolia"
+            },
+            {
+              "label": "Z-Aquatics: product page",
+              "url": "https://www.z-aquatics.com.au/rotala-rotundifolia/"
+            },
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/rotala-rotundifolia-orange-juice-5-stems-10cm"
+            },
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/rotala-rotundifolia-laos"
+            }
+          ]
+        },
+        {
+          "id": 128,
+          "name": "Rotala ramosior 'Florida'",
+          "scientific": "Rotala ramosior",
+          "difficulty": "Moderate",
+          "about": "Bushy Rotala with thin leaves that colour up red-orange. Likes strong light.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "20-30 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/rotala-florida",
+              "unit": "bunch",
+              "price": 1495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/rotala-florida"
+            }
+          ]
+        },
+        {
+          "id": 130,
+          "name": "Rotala tulunadensis",
+          "scientific": "Rotala tulunadensis",
+          "difficulty": "Moderate",
+          "about": "Red Rotala with fine leaves. Needs strong light to colour up.",
+          "conditions": [
+            [
+              "Light",
+              "High"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "20-30 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/rotala-tulunadensis-vibrant-red-aquarium-stem-plant",
+              "unit": "bunch",
+              "price": 2000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/rotala-tulunadensis-vibrant-red-aquarium-stem-plant"
+            }
+          ]
+        },
+        {
+          "id": 132,
+          "name": "Myriophyllum 'Roraima'",
+          "scientific": "Myriophyllum sp. 'Roraima'",
+          "difficulty": "Moderate",
+          "about": "Bronze-red feathery milfoil. Fast and likes strong light.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/myriophyllum-sp-roraima",
+              "unit": "bunch",
+              "price": 1295,
+              "was": 1500,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/myriophyllum-sp-roraimi-bronze-milfoil",
+              "unit": "bunch",
+              "price": 1450,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/stem-plants/539-myriophyllum-roraima.html",
+              "unit": "bunch",
+              "price": 990,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "The Online Aquarium Shop",
+              "url": "https://www.theonlineaquariumshop.com.au/product/milfoil-bronze-myriophyllum-sp-roraimi/",
+              "unit": "bunch",
+              "price": 980,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 3,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/myriophyllum-sp-roraima"
+            },
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/myriophyllum-sp-roraimi-bronze-milfoil"
+            },
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/stem-plants/539-myriophyllum-roraima.html"
+            },
+            {
+              "label": "The Online Aquarium Shop: product page",
+              "url": "https://www.theonlineaquariumshop.com.au/product/milfoil-bronze-myriophyllum-sp-roraimi/"
+            }
+          ]
+        },
+        {
+          "id": 133,
+          "name": "Myriophyllum 'Guyana'",
+          "scientific": "Myriophyllum sp. 'Guyana'",
+          "difficulty": "Moderate",
+          "about": "Fine-leaved green-red milfoil. Fast and wants good light.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/centrepiece/products/myriophyllum-guyana-submersed-bunch",
+              "unit": "submersed bunch",
+              "price": 1200,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/myriophyllum-guyana/",
+              "unit": "bunch",
+              "price": 1095,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/myriophyllum-guyana",
+              "unit": "bunch",
+              "price": 1800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarium Gallery",
+              "url": "https://www.aquariumgallery.com.au/products/tc-myriophyllum-guyana",
+              "unit": "TC cup",
+              "price": 2495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/centrepiece/products/myriophyllum-guyana-submersed-bunch"
+            },
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/myriophyllum-guyana/"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/myriophyllum-guyana"
+            },
+            {
+              "label": "Aquarium Gallery: product page",
+              "url": "https://www.aquariumgallery.com.au/products/tc-myriophyllum-guyana"
+            }
+          ]
+        },
+        {
+          "id": 134,
+          "name": "Myriophyllum mattogrossense",
+          "scientific": "Myriophyllum mattogrossense",
+          "difficulty": "Moderate",
+          "about": "Bushy, feathery milfoil with green to reddish stems. Fast grower.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "30-50 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Z-Aquatics",
+              "url": "https://www.z-aquatics.com.au/myriophyllum-mattogrossense/",
+              "unit": "bunch",
+              "price": 800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/myriophyllum-mattogrossense",
+              "unit": "bunch",
+              "price": 1800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/rare-myriophyllum-mattogrossense-golden",
+              "unit": "bunch",
+              "price": 7500,
+              "was": 9000,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Z-Aquatics: product page",
+              "url": "https://www.z-aquatics.com.au/myriophyllum-mattogrossense/"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/myriophyllum-mattogrossense"
+            },
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/rare-myriophyllum-mattogrossense-golden"
+            }
+          ]
+        },
+        {
+          "id": 135,
+          "name": "Myriophyllum simulans",
+          "scientific": "Myriophyllum simulans",
+          "difficulty": "Moderate",
+          "about": "Australian native milfoil with fine leaves. Sold as tissue culture.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/tissue-culture-myriophyllum-simulans-milfoil",
+              "unit": "tissue culture cup",
+              "price": 1495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/filigree-milfoil-live-aquarium-plant/",
+              "unit": "plant",
+              "price": 1095,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/tissue-culture-myriophyllum-simulans-milfoil"
+            },
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/filigree-milfoil-live-aquarium-plant/"
+            }
+          ]
+        },
+        {
+          "id": 166,
+          "name": "Mayaca fluviatilis",
+          "scientific": "Mayaca fluviatilis",
+          "difficulty": "Moderate",
+          "about": "Soft, moss-like fine-leaved stem plant. Fast but can melt if conditions swing.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Scapeshop",
+              "url": "https://scapeshop.com.au/products/mayaca",
+              "unit": "1 bunch",
+              "price": 900,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Sydney Aquascapes",
+              "url": "https://sydney-aquascapes.com.au/products/mayaca",
+              "unit": "bunch",
+              "price": 1400,
+              "was": 1500,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/mayaca-fluviatilis",
+              "unit": "bunch",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Scapeshop: product page",
+              "url": "https://scapeshop.com.au/products/mayaca"
+            },
+            {
+              "label": "Sydney Aquascapes: product page",
+              "url": "https://sydney-aquascapes.com.au/products/mayaca"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/mayaca-fluviatilis"
+            }
+          ]
+        },
+        {
+          "id": 168,
+          "name": "Stargrass",
+          "scientific": "Heteranthera zosterifolia",
+          "difficulty": "Easy",
+          "about": "Easy, grassy-leaved stem plant that grows fast. Bends and sprawls if light is low.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/heteranthera-zosterifolia",
+              "unit": "bunch (from price)",
+              "price": 795,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/heteranthera-zosterifolia-5-stems-around-10cm-each",
+              "unit": "5 stems ~10cm",
+              "price": 995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/star-grass",
+              "unit": "bunch",
+              "price": 1095,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/heteranthera-zosterfolia-submersed-bunch-waterhedge-s012",
+              "unit": "bunch",
+              "price": 1200,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/heteranthera-zosterifolia"
+            },
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/heteranthera-zosterifolia-5-stems-around-10cm-each"
+            },
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/star-grass"
+            },
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/heteranthera-zosterfolia-submersed-bunch-waterhedge-s012"
+            }
+          ]
+        },
+        {
+          "id": 173,
+          "name": "Nesaea triflora",
+          "scientific": "Nesaea triflora",
+          "difficulty": "Moderate",
+          "about": "Fast, bushy stem plant with red-tinged leaves. Likes good light and CO2.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/nesaea-triflora",
+              "unit": "stem (from price)",
+              "price": 595,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/nesaea-triflora"
+            }
+          ]
+        },
+        {
+          "id": 188,
+          "name": "Hottonia palustris (water violet)",
+          "scientific": "Hottonia palustris",
+          "difficulty": "Moderate",
+          "about": "Feathery temperate stem plant that likes cooler water. Can struggle in warm tanks.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/hottonia-palustris",
+              "unit": "bunch",
+              "price": 1200,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/hottonia-palustris"
+            }
+          ]
+        },
+        {
+          "id": 189,
+          "name": "Eichhornia diversifolia",
+          "scientific": "Eichhornia diversifolia",
+          "difficulty": "Easy",
+          "about": "Submerged stem plant relative of water hyacinth. Easy and fast.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "20-40 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/eichhornia-diversifolia",
+              "unit": "bunch",
+              "price": 1800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/eichhornia-diversifolia"
+            }
+          ]
+        },
+        {
+          "id": 206,
+          "name": "Guppy Grass",
+          "scientific": "Najas guadalupensis",
+          "difficulty": "Easy",
+          "about": "Fine, bushy, fast-growing stem plant that floats or is planted. Good cover for fry.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "30-60 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "AB Quatics",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/golf-ball-size-guppy-grass",
+              "unit": "portion",
+              "price": 1395,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "AB Quatics: product page",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/golf-ball-size-guppy-grass"
+            }
+          ]
+        },
+        {
+          "id": 220,
+          "name": "Hydrilla verticillata",
+          "scientific": "Hydrilla verticillata",
+          "difficulty": "Easy",
+          "about": "Fast-growing, tall stem plant that is good for soaking up nutrients in a new tank. It needs regular trimming.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "Tall"
+            ]
+          ],
+          "saNote": "Roxy does not state SA shipping. Aquatic Plants Australia excludes Tasmania only. Confirm SA is allowed at checkout.",
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/hydrilla-verticillata-waterthyme/",
+              "unit": "bunch",
+              "price": 995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/hydrilla-verticillata-submersed-bunch",
+              "unit": "bunch, submersed",
+              "price": 1200,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/hydrilla-verticillata-waterthyme/"
+            },
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/hydrilla-verticillata-submersed-bunch"
+            }
+          ]
+        },
+        {
+          "id": 224,
+          "name": "Corkscrew Vallisneria (Contortionist)",
+          "scientific": "Vallisneria spiralis 'Contortionist'",
+          "difficulty": "Easy",
+          "about": "Vallisneria with twisted, corkscrew leaves. It spreads by runners into a tall background screen.",
+          "conditions": [
+            [
+              "Light",
+              "Low to moderate"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "Tall"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/corkscrew-vallisneria-live-aquarium-plant/",
+              "unit": "bunch",
+              "price": 1895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/vallisneria-contortionist-bunches",
+              "unit": "bunch of 5-10 leaves",
+              "price": 1800,
+              "was": 1900,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "AB Quatics",
+              "url": "https://abquatics.shop/products/contortionist-vallisneria-1-plant",
+              "unit": "1 plant",
+              "price": 895,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Melbourne Tropical Fish",
+              "url": "https://melbournetropicalfish.com.au/collections/aquarium-plants/products/vallisneria-contortionst",
+              "unit": "each",
+              "price": 1999,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/corkscrew-vallisneria-live-aquarium-plant/"
+            },
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/vallisneria-contortionist-bunches"
+            },
+            {
+              "label": "AB Quatics: product page",
+              "url": "https://abquatics.shop/products/contortionist-vallisneria-1-plant"
+            },
+            {
+              "label": "Melbourne Tropical Fish: product page",
+              "url": "https://melbournetropicalfish.com.au/collections/aquarium-plants/products/vallisneria-contortionst"
+            }
+          ]
+        },
+        {
+          "id": 226,
+          "name": "Pine Needle (Hydrotriche)",
+          "scientific": "Hydrotriche hottoniiflora",
+          "difficulty": "Moderate",
+          "about": "Feathery, needle-leaved stem plant. It needs clean water and good light.",
+          "conditions": [
+            [
+              "Light",
+              "Moderate to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "20-30cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/pine-needle-hydrotriche-hottoniiflora/",
+              "unit": "bunch",
+              "price": 895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/hydrotriche-hottoniiflora-pine-needle",
+              "unit": "each",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/pine-needle-hydrotriche-hottoniiflora/"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/hydrotriche-hottoniiflora-pine-needle"
+            }
+          ]
+        },
+        {
+          "id": 261,
+          "name": "Rotala macrandra 'Mini Type 2'",
+          "scientific": "Rotala macrandra 'Mini Type 2'",
+          "difficulty": "Demanding",
+          "about": "Compact, curled-leaf Rotala macrandra with red colour under strong light.",
+          "conditions": [
+            [
+              "Light",
+              "High"
+            ],
+            [
+              "CO2",
+              "Required"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "15-20cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/rotala-macrandra-type-2",
+              "unit": "3-5 stems",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/rotala-macrandra-type-2"
+            }
+          ]
         }
       ]
     },
@@ -2553,89 +7228,6 @@ globalThis.PLANT_CATALOGUE = {
           ]
         },
         {
-          "id": 31,
-          "name": "Java fern 'Windelov'",
-          "scientific": "Microsorum pteropus 'Windelov'",
-          "difficulty": "Easy",
-          "about": "A Java fern whose frond tips split into lacy ends. It is a bushy, medium height fern for the midground area of the wood.",
-          "conditions": [
-            [
-              "Light",
-              "Low to medium"
-            ],
-            [
-              "CO2",
-              "Optional"
-            ],
-            [
-              "Growth",
-              "Slow"
-            ],
-            [
-              "Height",
-              "10 to 20 cm"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/microsorum-pteropus-windelov-4f7a01f7e04db.jpg",
-              "caption": "Microsorum pteropus 'Windeløv', submerged",
-              "credit": "© Svennovitch (2004)",
-              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/microsorum-pteropus-windelov"
-            },
-            {
-              "src": "https://www.flowgrow.de/db/images/tanks/detail/am-waldrand-5bce34f512795.jpg",
-              "caption": "Aquascape: am waldrand (plant included in the aquascape’s plant list)",
-              "credit": "Flowgrow community",
-              "creditUrl": "https://www.flowgrow.de/db/tanks/am-waldrand"
-            },
-            {
-              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/microsorum-pteropus-windelov-4f7a01f90f1a9.jpg",
-              "caption": "Microsorum pteropus 'Windeløv'",
-              "credit": "© Oliver Knott (2005)",
-              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/microsorum-pteropus-windelov"
-            },
-            {
-              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/008B%20TC/4.PNG&crop=resize&class=product",
-              "caption": "Original reference photo.",
-              "credit": "tropica.com",
-              "creditUrl": "https://tropica.com/en/plants/plantdetails/Microsorumpteropus'Windeløv'(008BTC)/31249"
-            }
-          ],
-          "offers": [
-            {
-              "shop": "Aquarzon",
-              "url": "https://www.aquarzon.com/ferns/154-crested-java-fern-microsorum-pteropus-sp-windelov-.html",
-              "unit": "Plant, 4 to 5 leaves",
-              "price": 990,
-              "was": 1500,
-              "soldOut": true,
-              "checked": "2026-10"
-            },
-            {
-              "shop": "Aquafy",
-              "url": "https://aquafy.com.au/collections/tissue-culture/products/windelov-java-fern-tissue-culture",
-              "unit": "Tissue culture cup",
-              "price": 1795,
-              "was": null,
-              "soldOut": true,
-              "checked": "2026-10"
-            }
-          ],
-          "defaultOffer": 0,
-          "sources": [
-            {
-              "label": "Aquarzon: Windelov Java fern",
-              "url": "https://www.aquarzon.com/ferns/154-crested-java-fern-microsorum-pteropus-sp-windelov-.html"
-            },
-            {
-              "label": "Photo source: tropica.com",
-              "url": "https://tropica.com/en/plants/plantdetails/Microsorumpteropus'Windeløv'(008BTC)/31249"
-            }
-          ]
-        },
-        {
           "id": 32,
           "name": "Hygrophila pinnatifida",
           "scientific": "Hygrophila pinnatifida",
@@ -2806,6 +7398,1953 @@ globalThis.PLANT_CATALOGUE = {
             {
               "label": "Photo source: aquarzon.com",
               "url": "https://www.aquarzon.com/moss/334-subwassertang.html"
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "name": "Anubias 'Paco'",
+          "scientific": "Anubias barteri 'Paco'",
+          "difficulty": "Easy",
+          "about": "Small Anubias with narrow, pointed leaves on a compact rhizome. Good for tying onto hardscape.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "10-15 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/anubias-paco",
+              "unit": "plant",
+              "price": 2495,
+              "was": 2995,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/anubias-paco",
+              "unit": "plant",
+              "price": 2495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "AB Quatics",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/anubias-paco",
+              "unit": "plant",
+              "price": 2995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/anubias-paco"
+            },
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/anubias-paco"
+            },
+            {
+              "label": "AB Quatics: product page",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/anubias-paco"
+            }
+          ]
+        },
+        {
+          "id": 60,
+          "name": "Anubias 'Lucy'",
+          "scientific": "Anubias barteri 'Lucy'",
+          "difficulty": "Easy",
+          "about": "Compact Anubias with rounded, glossy leaves. A tough shade plant for wood and rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "10-15 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/anubias-lucy",
+              "unit": "plant",
+              "price": 3500,
+              "was": 4500,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "AB Quatics",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/anubias-lucy",
+              "unit": "plant",
+              "price": 2695,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/anubias-lucy"
+            },
+            {
+              "label": "AB Quatics: product page",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/anubias-lucy"
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "name": "Anubias 'Emerald Heart'",
+          "scientific": "Anubias barteri var. nana 'Emerald Heart'",
+          "difficulty": "Easy",
+          "about": "Heart-shaped bright green Anubias leaves on a small rhizome. Tie to hardscape and keep the rhizome above the substrate.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/anubias-emerald-heart-10-20cm",
+              "unit": "plant 10-20cm",
+              "price": 3500,
+              "was": 4500,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/anubias-emerald-heart-10-20cm",
+              "unit": "plant",
+              "price": 2895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Z-Aquatics",
+              "url": "https://www.z-aquatics.com.au/anubias-emerald-heart/",
+              "unit": "plant",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 2,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/anubias-emerald-heart-10-20cm"
+            },
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/anubias-emerald-heart-10-20cm"
+            },
+            {
+              "label": "Z-Aquatics: product page",
+              "url": "https://www.z-aquatics.com.au/anubias-emerald-heart/"
+            }
+          ]
+        },
+        {
+          "id": 62,
+          "name": "Anubias 'Isabelle'",
+          "scientific": "Anubias sp. 'Isabelle'",
+          "difficulty": "Easy",
+          "about": "Small Anubias with rounded leaves that suits nano tanks. Attach to wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "10-15 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/anubias-isabelle",
+              "unit": "plant",
+              "price": 3900,
+              "was": 4500,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/anubias-isabelle"
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "name": "Anubias 'Pangolino'",
+          "scientific": "Anubias barteri var. nana 'Pangolino'",
+          "difficulty": "Easy",
+          "about": "Compact Anubias with narrow, pointed leaves. Slow and easy on hardscape.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "10-15 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/anubias-pangolino",
+              "unit": "plant",
+              "price": 1895,
+              "was": 2495,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/anubias/92-anubias-pangolino.html",
+              "unit": "portion",
+              "price": 2900,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Tankquility",
+              "url": "https://tankquility.com.au/products/anubias-pangolino",
+              "unit": "portion",
+              "price": 2495,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/anubias-pangolino"
+            },
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/anubias/92-anubias-pangolino.html"
+            },
+            {
+              "label": "Tankquility: product page",
+              "url": "https://tankquility.com.au/products/anubias-pangolino"
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "name": "Anubias 'Pinto'",
+          "scientific": "Anubias barteri var. nana 'Pinto'",
+          "difficulty": "Easy",
+          "about": "Anubias with white and green marbled new leaves. Slow growing and easy on wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "10-15 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/anubias-pinto",
+              "unit": "plant",
+              "price": 3495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/anubias/776-anubias-pinto-sale.html",
+              "unit": "portion",
+              "price": 1900,
+              "was": 4900,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/anubias-nana-pinto-on-rock/",
+              "unit": "on rock",
+              "price": 3000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Tankquility",
+              "url": "https://tankquility.com.au/products/anubias-pinto",
+              "unit": "plant",
+              "price": 4995,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/anubias-pinto"
+            },
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/anubias/776-anubias-pinto-sale.html"
+            },
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/anubias-nana-pinto-on-rock/"
+            },
+            {
+              "label": "Tankquility: product page",
+              "url": "https://tankquility.com.au/products/anubias-pinto"
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "name": "Anubias nana 'Bonsai'",
+          "scientific": "Anubias barteri var. nana 'Bonsai'",
+          "difficulty": "Easy",
+          "about": "Very small Anubias for nano tanks and tight hardscape. Attach to wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "5-10 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/anubias-nana-bonsai",
+              "unit": "plant",
+              "price": 1695,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/anubias-nana-bonsai"
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "name": "Anubias minima 'Dragon Claw'",
+          "scientific": "Anubias minima",
+          "difficulty": "Easy",
+          "about": "Tiny Anubias with narrow, claw-like leaves. Suits nano scapes on wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "5-10 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/anubias-minima-dragon-claw",
+              "unit": "portion",
+              "price": 1995,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/anubias-minima-dragon-claw",
+              "unit": "per plant",
+              "price": 4495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "AB Quatics",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/anubias-minima-4-6-leaves",
+              "unit": "plant",
+              "price": 2995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 2,
+          "sources": [
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/anubias-minima-dragon-claw"
+            },
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/anubias-minima-dragon-claw"
+            },
+            {
+              "label": "AB Quatics: product page",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/anubias-minima-4-6-leaves"
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "name": "Anubias 'Gold'",
+          "scientific": "Anubias barteri var. nana 'Gold'",
+          "difficulty": "Easy",
+          "about": "Anubias with yellow-green new leaves that brighten with light. Slow and hardy on hardscape.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "10-15 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/anubias/91-2107-anubias-gold-mini.html",
+              "unit": "5-10 leaves",
+              "price": 950,
+              "was": 1750,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/anubias-gold",
+              "unit": "plant",
+              "price": 3500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/anubias/91-2107-anubias-gold-mini.html"
+            },
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/anubias-gold"
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "name": "Anubias 'Jade'",
+          "scientific": "Anubias barteri 'Jade'",
+          "difficulty": "Easy",
+          "about": "Compact Anubias with dark, rounded leaves. Hardy shade plant for hardscape.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "10-15 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/anubias/652-anubias-jade.html",
+              "unit": "5 leaves",
+              "price": 1900,
+              "was": 3500,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/anubias-jade",
+              "unit": "portion",
+              "price": 6000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/anubias/652-anubias-jade.html"
+            },
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/anubias-jade"
+            }
+          ]
+        },
+        {
+          "id": 70,
+          "name": "Anubias 'Coin'",
+          "scientific": "Anubias barteri 'Coin'",
+          "difficulty": "Easy",
+          "about": "Small Anubias with round, coin-shaped leaves. Attach to wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "5-10 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/anubias/641-2109-anubias-coin.html",
+              "unit": "4-5 leaves",
+              "price": 1900,
+              "was": 3500,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/anubias/641-2109-anubias-coin.html"
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "name": "Anubias glabra Micro",
+          "scientific": "Anubias barteri var. glabra",
+          "difficulty": "Easy",
+          "about": "Small form of Anubias glabra with smooth, narrow leaves. Tie to wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "5-10 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/anubias/798-2035-anubias-glabra.html",
+              "unit": "portion",
+              "price": 750,
+              "was": 1500,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/anubias/798-2035-anubias-glabra.html"
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "name": "Anubias congensis Mini",
+          "scientific": "Anubias congensis",
+          "difficulty": "Easy",
+          "about": "Anubias with lance-shaped leaves, a bit more upright than nana types. Attach to hardscape.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/anubias/844-anubias-congensis-mini.html",
+              "unit": "portion",
+              "price": 1900,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/anubias/844-anubias-congensis-mini.html"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "name": "Anubias 'Panda'",
+          "scientific": "Anubias barteri 'Panda'",
+          "difficulty": "Easy",
+          "about": "Variegated Anubias with white-splashed leaves. Currently sold out; the shop takes pre-orders.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Tankquility",
+              "url": "https://tankquility.com.au/products/anubias-panda",
+              "unit": "plant",
+              "price": 4495,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Tankquility: product page",
+              "url": "https://tankquility.com.au/products/anubias-panda"
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "name": "Spoon Leaf Java Fern",
+          "scientific": "Microsorum pteropus 'Spoon Leaf'",
+          "difficulty": "Easy",
+          "about": "Java fern with rounded, spoon-shaped fronds. Tie to hardscape and leave the rhizome uncovered.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/spoon-leaf-fern",
+              "unit": "plant",
+              "price": 3500,
+              "was": 4500,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/spoon-leaf-fern"
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "name": "Java Fern 'Trident'",
+          "scientific": "Microsorum pteropus 'Trident'",
+          "difficulty": "Easy",
+          "about": "Java fern with fronds that split into three tips. Tough and slow on wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "15-25 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/trident-fern",
+              "unit": "plant",
+              "price": 1800,
+              "was": 3500,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/ferns/152-uncommon-trident-java-fern-microsorum-pteropus-sp-trident-.html",
+              "unit": "portion",
+              "price": 1490,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/trident-java-fern",
+              "unit": "mounted on hardscape piece",
+              "price": 4000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/microsorum-pteropus-trident-premium-java-fern-variant",
+              "unit": "plant (sale)",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/trident-fern"
+            },
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/ferns/152-uncommon-trident-java-fern-microsorum-pteropus-sp-trident-.html"
+            },
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/trident-java-fern"
+            },
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/microsorum-pteropus-trident-premium-java-fern-variant"
+            }
+          ]
+        },
+        {
+          "id": 78,
+          "name": "Java Fern 'Mini Coral'",
+          "scientific": "Microsorum sp. 'Mini Coral'",
+          "difficulty": "Easy",
+          "about": "Small, finely divided java fern with a coral-like look. Good for nano scapes.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "5-10 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/mini-coral",
+              "unit": "plant",
+              "price": 3500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/mini-coral"
+            }
+          ]
+        },
+        {
+          "id": 83,
+          "name": "Java Fern 'Micro'",
+          "scientific": "Microsorum pteropus 'Micro'",
+          "difficulty": "Easy",
+          "about": "Very compact java fern with small leaves. Suits nano tanks on wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "5-8 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/ferns/155-rare-true-micro-java-fern-microsorum-pteropus-sp-micro-.html",
+              "unit": "portion",
+              "price": 990,
+              "was": 1500,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "AB Quatics",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/micro-java-fern-rare",
+              "unit": "plant",
+              "price": 2495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/ferns/155-rare-true-micro-java-fern-microsorum-pteropus-sp-micro-.html"
+            },
+            {
+              "label": "AB Quatics: product page",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/micro-java-fern-rare"
+            }
+          ]
+        },
+        {
+          "id": 84,
+          "name": "Java Fern 'Mini'",
+          "scientific": "Microsorum pteropus 'Mini'",
+          "difficulty": "Easy",
+          "about": "Compact java fern, a little larger than 'Micro'. Attach to wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "5-10 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/microsorum-pteropus-mini-compact-java-fern-variant",
+              "unit": "portion",
+              "price": 2500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/collections/livestock-plants/products/microsorum-pteropus-mini-compact-java-fern-variant"
+            }
+          ]
+        },
+        {
+          "id": 86,
+          "name": "Mini Bolbitis (Baby Leaf)",
+          "scientific": "Bolbitis heteroclita 'Difformis'",
+          "difficulty": "Moderate",
+          "about": "Small bolbitis with delicate fronds. Attach to wood or rock in flow, and avoid burying the rhizome.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "10-20 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/mini-bolbitis-baby-leaf-bolbitis-heteroclita-difformis",
+              "unit": "plant",
+              "price": 3500,
+              "was": 4500,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/mini-bolbitis-baby-leaf-bolbitis-heteroclita-difformis"
+            }
+          ]
+        },
+        {
+          "id": 89,
+          "name": "Filmy Fern (Crepidomanes auriculatum)",
+          "scientific": "Crepidomanes auriculatum",
+          "difficulty": "Moderate",
+          "about": "Small filmy fern that carpets wood and rock. Likes steady, low to moderate light.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "5-10 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/crepidomanes-auriculatum",
+              "unit": "bare root",
+              "price": 5000,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "AB Quatics",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/crepidomanes-auriculatum-fern",
+              "unit": "plant",
+              "price": 2995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/crepidomanes-auriculatum"
+            },
+            {
+              "label": "AB Quatics: product page",
+              "url": "https://abquatics.shop/collections/live-aquarium-plants/products/crepidomanes-auriculatum-fern"
+            }
+          ]
+        },
+        {
+          "id": 235,
+          "name": "Bucephalandra 'Catherinae'",
+          "scientific": "Bucephalandra sp. 'Catherinae'",
+          "difficulty": "Easy",
+          "about": "Slow rhizome plant for attaching to wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/bucephalandra/130-bucephalandra-catherinae-bucephalandra-sp-catherinae-.html",
+              "unit": "approx 5-6 leaves",
+              "price": 1900,
+              "was": 2900,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/bucephalandra/130-bucephalandra-catherinae-bucephalandra-sp-catherinae-.html"
+            }
+          ]
+        },
+        {
+          "id": 236,
+          "name": "Bucephalandra 'Gorilla'",
+          "scientific": "Bucephalandra sp. 'Gorilla'",
+          "difficulty": "Easy",
+          "about": "Slow rhizome plant for attaching to wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/bucephalandra/138-rare-bucephalandra-gorilla-bucephalandra-sp-gorilla-.html",
+              "unit": "approx 5 leaves",
+              "price": 2900,
+              "was": 3500,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/bucephalandra/138-rare-bucephalandra-gorilla-bucephalandra-sp-gorilla-.html"
+            }
+          ]
+        },
+        {
+          "id": 237,
+          "name": "Bucephalandra 'Dark Blue'",
+          "scientific": "Bucephalandra sp. 'Dark Blue'",
+          "difficulty": "Easy",
+          "about": "Slow rhizome plant with dark, blue-tinted leaves.",
+          "conditions": [
+            [
+              "Light",
+              "Low"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/bucephalandra/564-bucephalandra-dark-blue.html",
+              "unit": "approx 5 leaves",
+              "price": 3900,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/bucephalandra/564-bucephalandra-dark-blue.html"
+            }
+          ]
+        },
+        {
+          "id": 238,
+          "name": "Bucephalandra 'Brownie Phantom Mini'",
+          "scientific": "Bucephalandra sp. 'Brownie Phantom Mini'",
+          "difficulty": "Easy",
+          "about": "Small, slow rhizome plant for wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/bucephalandra/494-bucephalandra-brownie-phantom-mini.html",
+              "unit": "1 rhizome, ~5 leaves",
+              "price": 990,
+              "was": 1500,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/bucephalandra/494-bucephalandra-brownie-phantom-mini.html"
+            }
+          ]
+        },
+        {
+          "id": 239,
+          "name": "Bucephalandra 'Dark Lamandau'",
+          "scientific": "Bucephalandra sp. 'Dark Lamandau'",
+          "difficulty": "Easy",
+          "about": "Slow rhizome plant for attaching to wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/bucephalandra/377-bucephalandra-dark-lamandau-bucephalandra-sp-dark-lamandau-.html",
+              "unit": "approx 5 leaves",
+              "price": 990,
+              "was": 1190,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/bucephalandra/377-bucephalandra-dark-lamandau-bucephalandra-sp-dark-lamandau-.html"
+            }
+          ]
+        },
+        {
+          "id": 240,
+          "name": "Bucephalandra 'Theia'",
+          "scientific": "Bucephalandra sp. 'Theia'",
+          "difficulty": "Easy",
+          "about": "Slow rhizome plant for attaching to wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/bucephalandra/852-bucephalandra-theia.html",
+              "unit": "4-5 leaves per rhizome",
+              "price": 3900,
+              "was": 5000,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/bucephalandra/852-bucephalandra-theia.html"
+            }
+          ]
+        },
+        {
+          "id": 241,
+          "name": "Bucephalandra 'Wavy Green'",
+          "scientific": "Bucephalandra sp. 'Wavy Green'",
+          "difficulty": "Easy",
+          "about": "Slow rhizome plant with wavy leaves.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": "Micro Aquatic Shop restricts several Bucephalandra to SA, but this page notes no SA restriction. Verify at checkout.",
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/bucephalandra-wavy-green",
+              "unit": "1 stem",
+              "price": 1495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/bucephalandra-wavy-green"
+            }
+          ]
+        },
+        {
+          "id": 242,
+          "name": "Bucephalandra 'Pandora'",
+          "scientific": "Bucephalandra sp. 'Pandora'",
+          "difficulty": "Easy",
+          "about": "Slow rhizome plant, grown emersed.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/bucephalandra-pandora",
+              "unit": "3-6 leaves, emersed grown",
+              "price": 2795,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/bucephalandra-pandora"
+            }
+          ]
+        },
+        {
+          "id": 243,
+          "name": "Bucephalandra 'Palm Tree'",
+          "scientific": "Bucephalandra sp. 'Palm Tree'",
+          "difficulty": "Easy",
+          "about": "Slow rhizome plant, grown emersed.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/bucephalandra-palm-tree",
+              "unit": "3-6 leaves, emersed grown",
+              "price": 1995,
+              "was": 2095,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/bucephalandra-palm-tree"
+            }
+          ]
+        },
+        {
+          "id": 244,
+          "name": "Bucephalandra 'Kedagang Red'",
+          "scientific": "Bucephalandra sp. 'Kedagang Red'",
+          "difficulty": "Easy",
+          "about": "Slow rhizome plant with reddish tones, grown emersed.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/bucephalandra-kedagang-red",
+              "unit": "3-6 leaves, emersed grown",
+              "price": 2495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/bucephalandra-kedagang-red"
+            }
+          ]
+        },
+        {
+          "id": 245,
+          "name": "Bucephalandra 'Purple Diamond'",
+          "scientific": "Bucephalandra sp. 'Purple Diamond'",
+          "difficulty": "Easy",
+          "about": "Slow rhizome plant with purple-tinted leaves, grown emersed.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/buce-purple-diamond",
+              "unit": "3-6 leaves, emersed grown",
+              "price": 2495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/buce-purple-diamond"
+            }
+          ]
+        },
+        {
+          "id": 257,
+          "name": "Anubias 'White'",
+          "scientific": "Anubias barteri 'White'",
+          "difficulty": "Moderate",
+          "about": "Anubias with white-variegated leaves. It is slow and best attached to wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "Short"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Tankquility",
+              "url": "https://tankquility.com.au/products/anubias-white",
+              "unit": "each",
+              "price": 5995,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Tankquility: product page",
+              "url": "https://tankquility.com.au/products/anubias-white"
+            }
+          ]
+        },
+        {
+          "id": 258,
+          "name": "Anubias 'Jenny'",
+          "scientific": "Anubias barteri 'Jenny'",
+          "difficulty": "Easy",
+          "about": "Compact anubias for attaching to wood or rock, up to about 20cm.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "Up to 20cm"
+            ]
+          ],
+          "saNote": "The shop does not explicitly confirm plant shipping to SA. Verify at checkout.",
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "The Online Aquarium Shop",
+              "url": "https://www.theonlineaquariumshop.com.au/product/anubias-jenny/",
+              "unit": "bare root 10-20cm",
+              "price": 2990,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "The Online Aquarium Shop: product page",
+              "url": "https://www.theonlineaquariumshop.com.au/product/anubias-jenny/"
             }
           ]
         }
@@ -3804,13 +10343,430 @@ globalThis.PLANT_CATALOGUE = {
               "url": "https://tropica.com/en/plants/plantdetails/Riccardiachamedryfolia(003DTC)/30334"
             }
           ]
+        },
+        {
+          "id": 140,
+          "name": "Marimo Moss Ball",
+          "scientific": "Aegagropila linnaei",
+          "difficulty": "Easy",
+          "about": "Slow-growing spherical algae. Roll occasionally and keep out of strong light.",
+          "conditions": [
+            [
+              "Light",
+              "Low"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ],
+            [
+              "Height",
+              "3-5 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/marimo-moss-ball",
+              "unit": "ball (from price)",
+              "price": 595,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/marimo-moss-ball"
+            }
+          ]
+        },
+        {
+          "id": 141,
+          "name": "Willow Moss",
+          "scientific": "Fontinalis antipyretica",
+          "difficulty": "Easy",
+          "about": "Dark green, branching aquatic moss that likes cooler water and flow. Tie to wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "5-15 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/willow-moss",
+              "unit": "portion",
+              "price": 1095,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/moss/23-willow-moss-fontinalis-antipyretica.html",
+              "unit": "portion",
+              "price": 900,
+              "was": 1500,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/willow-moss",
+              "unit": "5x5cm portion",
+              "price": 1495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/willow-moss"
+            },
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/moss/23-willow-moss-fontinalis-antipyretica.html"
+            },
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/willow-moss"
+            }
+          ]
+        },
+        {
+          "id": 143,
+          "name": "Crystalwort (Riccia fluitans)",
+          "scientific": "Riccia fluitans",
+          "difficulty": "Easy",
+          "about": "Floating or pinned-down liverwort that forms dense mats. Can be tied to hardscape or mesh.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "Floating or mat"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/riccia-fluitans",
+              "unit": "portion",
+              "price": 1295,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/tc-riccia",
+              "unit": "tissue culture cup",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Sydney Aquascapes",
+              "url": "https://sydney-aquascapes.com.au/products/riccia-fluitans",
+              "unit": "portion",
+              "price": 600,
+              "was": 700,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "The Online Aquarium Shop",
+              "url": "https://www.theonlineaquariumshop.com.au/product/riccia-fluitans-tissue-culture-pot-2/",
+              "unit": "TC pot",
+              "price": 1295,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 2,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/riccia-fluitans"
+            },
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/tc-riccia"
+            },
+            {
+              "label": "Sydney Aquascapes: product page",
+              "url": "https://sydney-aquascapes.com.au/products/riccia-fluitans"
+            },
+            {
+              "label": "The Online Aquarium Shop: product page",
+              "url": "https://www.theonlineaquariumshop.com.au/product/riccia-fluitans-tissue-culture-pot-2/"
+            }
+          ]
+        },
+        {
+          "id": 144,
+          "name": "Phoenix Moss",
+          "scientific": "Fissidens fontanus",
+          "difficulty": "Easy",
+          "about": "Low, fern-like Fissidens moss that forms neat cushions. Slow, attach to wood or rock.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "2-5 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/phoenix-moss-6cm-diameter",
+              "unit": "6cm portion",
+              "price": 2195,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/phoenix-moss",
+              "unit": "portion",
+              "price": 3495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/phoenix-moss-6cm-diameter"
+            },
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/phoenix-moss"
+            }
+          ]
+        },
+        {
+          "id": 145,
+          "name": "Java Moss",
+          "scientific": "Taxiphyllum barbieri",
+          "difficulty": "Easy",
+          "about": "The classic easy aquarium moss. Tie to wood or rock and trim to shape.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ],
+            [
+              "Height",
+              "2-5 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/moss/88-java-moss-taxiphyllum-barbieri.html",
+              "unit": "portion",
+              "price": 950,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/java-moss-taxophyllum-barberi-5cmx5cm",
+              "unit": "5x5cm portion",
+              "price": 1295,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/java-moss",
+              "unit": "portion (from)",
+              "price": 995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/java-moss-vesicularia-dubyana",
+              "unit": "portion",
+              "price": 1400,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/moss/88-java-moss-taxiphyllum-barbieri.html"
+            },
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/java-moss-taxophyllum-barberi-5cmx5cm"
+            },
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/java-moss"
+            },
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/java-moss-vesicularia-dubyana"
+            }
+          ]
+        },
+        {
+          "id": 146,
+          "name": "Pearl Moss",
+          "scientific": "Plagiomnium cf. affine",
+          "difficulty": "Moderate",
+          "about": "Upright, leafy moss with larger rounded leaves. Slow to establish; attach to hardscape.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "3-6 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/moss/49-rare-pearl-moss-plagiomnium-cf-affine.html",
+              "unit": "portion",
+              "price": 1500,
+              "was": 3000,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/moss/49-rare-pearl-moss-plagiomnium-cf-affine.html"
+            }
+          ]
         }
       ]
     },
     {
       "id": "emersed",
       "name": "Emersed wood",
-      "intro": "For the wood above the waterline. The wet zone near the water can also use the mosses, Bucephalandra, Anubias, Java ferns and Hydrocotyle tripartita listed above.",
+      "intro": "For wood that rises above the waterline. The wet zone near the water can also use the mosses, Bucephalandra, Anubias, Java ferns and Hydrocotyle tripartita listed above.",
       "plants": [
         {
           "id": 44,
@@ -4111,194 +11067,114 @@ globalThis.PLANT_CATALOGUE = {
               "url": "https://www.nurseriesonline.com.au/plant-index/ferns/pyrrosia-rupestris/"
             }
           ]
+        },
+        {
+          "id": 217,
+          "name": "Earth Star (Cryptanthus bivittatus)",
+          "scientific": "Cryptanthus bivittatus",
+          "difficulty": "Easy",
+          "about": "Terrestrial bromeliad with striped, wavy leaves. For emersed or paludarium use only, not submerged.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "10-15 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Tankquility",
+              "url": "https://tankquility.com.au/products/cryptanthus-bivittatus",
+              "unit": "plant",
+              "price": 1295,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Tankquility: product page",
+              "url": "https://tankquility.com.au/products/cryptanthus-bivittatus"
+            }
+          ]
+        },
+        {
+          "id": 218,
+          "name": "Cryptanthus acaulis var. ruber",
+          "scientific": "Cryptanthus acaulis var. ruber",
+          "difficulty": "Easy",
+          "about": "Red-toned terrestrial bromeliad. For emersed or paludarium use only.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "8-15 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Tankquility",
+              "url": "https://tankquility.com.au/products/cryptanthus-acaulis-var-ruber",
+              "unit": "plant",
+              "price": 1295,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Tankquility: product page",
+              "url": "https://tankquility.com.au/products/cryptanthus-acaulis-var-ruber"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "lily",
+      "id": "waterline",
       "name": "Along the waterline",
       "intro": "Roots in the water, leaves above it. Most are houseplants sold through general nurseries, so buy them in SA rather than from Queensland.",
       "plants": [
-        {
-          "id": 49,
-          "name": "Pothos",
-          "scientific": "Epipremnum aureum (small leaved forms)",
-          "difficulty": "Easy",
-          "about": "A trailing vine that roots readily in water and uses a lot of nitrate. Small leaved cultivars such as 'Pearls and Jade' keep the scale down.",
-          "conditions": [
-            [
-              "Light",
-              "Medium to bright"
-            ],
-            [
-              "Roots",
-              "Grows in water"
-            ],
-            [
-              "Humidity",
-              "Any"
-            ],
-            [
-              "Growth",
-              "Fast"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "https://pds.exblog.jp/pds/1/202005/18/79/f0238779_19203525.jpg",
-              "caption": "Pothos Hydroponics in a Shrimp Aquarium",
-              "credit": "hacchannt.exblog.jp",
-              "creditUrl": "https://hacchannt.exblog.jp/31191150/"
-            },
-            {
-              "src": "https://cdn.shopify.com/s/files/1/0311/3149/files/pothos_plant_in_rectangle_glass_vase.jpg?v=1581455564",
-              "caption": "pothos plant in rectangle glass vase",
-              "credit": "www.aquariumcoop.com",
-              "creditUrl": "https://www.aquariumcoop.com/blogs/aquarium/pothos"
-            },
-            {
-              "src": "https://www.aquariumcoop.com/cdn/shop/articles/how-to-use-pothos-as-a-natural-aquarium-filter-6938729.jpg?v=1766094769&width=3840",
-              "caption": "How to Use Pothos as a Natural Aquarium Filter - Aquarium Co-Op",
-              "credit": "www.aquariumcoop.com",
-              "creditUrl": "https://www.aquariumcoop.com/blogs/aquarium/pothos"
-            },
-            {
-              "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Money_Plant_%28Epipremnum_aureum%29_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-              "caption": "Original reference photo. Species reference photo.",
-              "credit": "en.wikipedia.org",
-              "creditUrl": "https://en.wikipedia.org/wiki/Epipremnum_aureum"
-            }
-          ],
-          "offers": [],
-          "defaultOffer": null,
-          "sources": [
-            {
-              "label": "Photo source: en.wikipedia.org",
-              "url": "https://en.wikipedia.org/wiki/Epipremnum_aureum"
-            }
-          ]
-        },
-        {
-          "id": 50,
-          "name": "Heartleaf philodendron",
-          "scientific": "Philodendron hederaceum ('Micans', 'Brasil')",
-          "difficulty": "Easy",
-          "about": "Heart shaped leaves on trailing stems. 'Micans' has velvety bronze leaves and 'Brasil' has yellow variegation. Both trail neatly over the rim.",
-          "conditions": [
-            [
-              "Light",
-              "Medium"
-            ],
-            [
-              "Roots",
-              "Grows in water"
-            ],
-            [
-              "Humidity",
-              "Any"
-            ],
-            [
-              "Growth",
-              "Medium"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "https://cdn.shopify.com/s/files/1/0228/9192/1472/files/il_fullxfull.4316229525_100z.jpg?v=1712471991",
-              "caption": "Mature trailing Philodendron micans",
-              "credit": "Dose of Succulents",
-              "creditUrl": "https://doseofsucculents.com/products/8-philodendron-micans-long-and-64570"
-            },
-            {
-              "src": "https://cdn.shopify.com/s/files/1/0228/9192/1472/files/il_fullxfull.4268826762_tva8.jpg?v=1712471991",
-              "caption": "Mature trailing Philodendron micans",
-              "credit": "Dose of Succulents",
-              "creditUrl": "https://doseofsucculents.com/products/8-philodendron-micans-long-and-64570"
-            },
-            {
-              "src": "https://cdn.shopify.com/s/files/1/0228/9192/1472/files/il_fullxfull.4268826822_nuel.jpg?v=1712471991",
-              "caption": "Mature trailing Philodendron micans",
-              "credit": "Dose of Succulents",
-              "creditUrl": "https://doseofsucculents.com/products/8-philodendron-micans-long-and-64570"
-            },
-            {
-              "src": "http://www.uprooted.com.au/cdn/shop/files/philodendron-hederaceum-micans-uprooted-buy-plants-online-australia-602583.jpg?v=1757644060",
-              "caption": "Original reference photo. Philodendron hederaceum 'Micans' cultivar.",
-              "credit": "uprooted.com.au",
-              "creditUrl": "https://www.uprooted.com.au/products/philodendron-micans"
-            }
-          ],
-          "offers": [],
-          "defaultOffer": null,
-          "sources": [
-            {
-              "label": "Photo source: uprooted.com.au",
-              "url": "https://www.uprooted.com.au/products/philodendron-micans"
-            }
-          ]
-        },
-        {
-          "id": 51,
-          "name": "Arrowhead plant",
-          "scientific": "Syngonium podophyllum (compact cultivars)",
-          "difficulty": "Easy",
-          "about": "Arrow shaped leaves, often in pink or cream tones. Compact cultivars such as 'Mini Pixie' suit a tank corner.",
-          "conditions": [
-            [
-              "Light",
-              "Medium"
-            ],
-            [
-              "Roots",
-              "Grows in water"
-            ],
-            [
-              "Humidity",
-              "Any"
-            ],
-            [
-              "Growth",
-              "Medium"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "https://img.gogoshop.cloud/bd8c5546/km5A4j2fMrZ.jpg",
-              "caption": "Miniature Indoor Garden",
-              "credit": "www.friendrabbit.com.tw",
-              "creditUrl": "https://www.friendrabbit.com.tw/categories/%E6%A4%8D%E6%A0%BD%E8%A8%AD%E8%A8%88?page=2"
-            },
-            {
-              "src": "https://cdn.togetherv.com/beauteous-syngonium-terrarium-2_1709875338.webp",
-              "caption": "Beauteous Syngonium Terrarium",
-              "credit": "www.togetherv.com",
-              "creditUrl": "https://www.togetherv.com/delhi-ncr/plants/beauteous-syngonium-terrarium"
-            },
-            {
-              "src": "https://www.fnp.com/images/pr/x/v20190828113614/syngonium-plant-4-glass-terrarium_2.jpg",
-              "caption": "Syngonium Plant in Glass Terrarium",
-              "credit": "www.fnp.com",
-              "creditUrl": "https://www.fnp.com/gift/syngonium-plant-4-glass-terrarium"
-            },
-            {
-              "src": "http://www.nurserywarehouse.com.au/cdn/shop/files/Syngonium_Pixie.png?v=1773890325",
-              "caption": "Original reference photo. Syngonium 'Pixie' compact cultivar.",
-              "credit": "nurserywarehouse.com.au",
-              "creditUrl": "https://www.nurserywarehouse.com.au/products/syngonium-pixie"
-            }
-          ],
-          "offers": [],
-          "defaultOffer": null,
-          "sources": [
-            {
-              "label": "Photo source: nurserywarehouse.com.au",
-              "url": "https://www.nurserywarehouse.com.au/products/syngonium-pixie"
-            }
-          ]
-        },
         {
           "id": 52,
           "name": "Nerve plant",
@@ -4364,7 +11240,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Japanese sweet flag",
           "scientific": "Acorus gramineus",
           "difficulty": "Easy",
-          "about": "Short, grassy tufts that contrast with the broad peace lily leaves. It is a bog plant, not a true aquatic, so the crown must stay above the water or it rots.",
+          "about": "Short, grassy tufts that add fine texture at the waterline. It is a bog plant, not a true aquatic, so the crown must stay above the water or it rots.",
           "conditions": [
             [
               "Light",
@@ -4420,71 +11296,11 @@ globalThis.PLANT_CATALOGUE = {
           ]
         },
         {
-          "id": 54,
-          "name": "Curly spider plant",
-          "scientific": "Chlorophytum comosum 'Bonnie'",
-          "difficulty": "Easy",
-          "about": "Curled, grassy leaves and small plantlets on arching stems. It is tough and roots well in water.",
-          "conditions": [
-            [
-              "Light",
-              "Medium to bright"
-            ],
-            [
-              "Roots",
-              "Grows in water"
-            ],
-            [
-              "Humidity",
-              "Any"
-            ],
-            [
-              "Growth",
-              "Medium"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "https://cdn.shopify.com/s/files/1/0671/9697/7440/files/IMG_4873.jpg?v=1773315543",
-              "caption": "Curly spider plant Bonnie: mature foliage and plantlets",
-              "credit": "Plant Studio",
-              "creditUrl": "https://plant.studio/products/chlorophytum-comosum-bonnie-curly-spider-plant"
-            },
-            {
-              "src": "https://cdn.shopify.com/s/files/1/0671/9697/7440/files/IMG_4874.jpg?v=1773315542",
-              "caption": "Curly spider plant Bonnie: mature foliage and plantlets",
-              "credit": "Plant Studio",
-              "creditUrl": "https://plant.studio/products/chlorophytum-comosum-bonnie-curly-spider-plant"
-            },
-            {
-              "src": "https://cdn.shopify.com/s/files/1/0671/9697/7440/files/IMG_4875.jpg?v=1773315543",
-              "caption": "Curly spider plant Bonnie: mature foliage and plantlets",
-              "credit": "Plant Studio",
-              "creditUrl": "https://plant.studio/products/chlorophytum-comosum-bonnie-curly-spider-plant"
-            },
-            {
-              "src": "http://theplantboys.au/cdn/shop/files/IMG_8441.jpg?v=1729910644",
-              "caption": "Original reference photo.",
-              "credit": "theplantboys.au",
-              "creditUrl": "https://theplantboys.au/products/chlorophytum-bonnie-curly-spider-plant"
-            }
-          ],
-          "offers": [],
-          "defaultOffer": null,
-          "sources": [
-            {
-              "label": "Photo source: theplantboys.au",
-              "url": "https://theplantboys.au/products/chlorophytum-bonnie-curly-spider-plant"
-            }
-          ]
-        },
-        {
           "id": 55,
           "name": "Bacopa caroliniana",
           "scientific": "Bacopa caroliniana (grown out of water)",
           "difficulty": "Easy",
-          "about": "An aquarium stem plant that keeps growing once it reaches the surface and produces small blue flowers above water. It links the underwater planting to the plants outside the tank.",
+          "about": "An aquarium stem plant that keeps growing once it reaches the surface and produces small blue flowers above water. It links the underwater planting to the plants above the waterline.",
           "conditions": [
             [
               "Light",
@@ -4554,127 +11370,221 @@ globalThis.PLANT_CATALOGUE = {
           ]
         },
         {
-          "id": 56,
-          "name": "Anubias barteri",
-          "scientific": "Anubias barteri (grown out of water)",
+          "id": 139,
+          "name": "Red Root Floater",
+          "scientific": "Phyllanthus fluitans",
           "difficulty": "Easy",
-          "about": "Grows easily out of water with thick, arrow shaped leaves and occasionally flowers. Keep the rhizome at or just above the waterline.",
+          "about": "Floating plant with roots that turn red in strong light. Shades the tank and soaks up nutrients.",
           "conditions": [
             [
               "Light",
-              "Medium"
+              "Medium to high"
             ],
             [
-              "Roots",
-              "Rhizome at waterline"
-            ],
-            [
-              "Humidity",
-              "Medium"
+              "CO2",
+              "Optional"
             ],
             [
               "Growth",
-              "Slow"
+              "Medium"
+            ],
+            [
+              "Height",
+              "Floating"
             ]
           ],
           "saNote": null,
           "photos": [
             {
-              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/anubias-barteri-var-barteri-4f7a011a00450.jpg",
-              "caption": "Anubias barteri var. barteri",
-              "credit": "Bjarne Sætrang (2004)",
-              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/anubias-barteri-var-barteri"
-            },
-            {
-              "src": "https://www.flowgrow.de/db/images/tanks/detail/hidden-valleys-545d3a0a42cc1.jpg",
-              "caption": "Aquascape: hidden valleys (plant included in the aquascape’s plant list)",
-              "credit": "Flowgrow community",
-              "creditUrl": "https://www.flowgrow.de/db/tanks/hidden-valleys"
-            },
-            {
-              "src": "https://www.flowgrow.de/db/images/tanks/detail/hidden-valleys-545d4f0a7c4bc.jpg",
-              "caption": "Aquascape: hidden valleys (plant included in the aquascape’s plant list)",
-              "credit": "Flowgrow community",
-              "creditUrl": "https://www.flowgrow.de/db/tanks/hidden-valleys"
-            },
-            {
-              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/101A/4.png&crop=resize&class=product",
-              "caption": "Original reference photo.",
-              "credit": "tropica.com",
-              "creditUrl": "https://tropica.com/en/plants/plantdetails/Anubiasbarterivar.barteri(101A)/4551"
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
             }
           ],
-          "offers": [],
-          "defaultOffer": null,
-          "sources": [
+          "offers": [
             {
-              "label": "Aquarium Industries: tissue culture range",
-              "url": "https://www.aquariumindustries.com.au/product-category/freshwater-plants/tissue_culture_plants/"
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/red-root-floaters",
+              "unit": "portion",
+              "price": 595,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
             },
             {
-              "label": "Photo source: tropica.com",
-              "url": "https://tropica.com/en/plants/plantdetails/Anubiasbarterivar.barteri(101A)/4551"
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/phyllanthus-fluitans-red-root-floater",
+              "unit": "15 plants",
+              "price": 1495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarzon",
+              "url": "https://www.aquarzon.com/home/366-red-root-floater-phyllanthus-fluitans.html",
+              "unit": "5-6cm plant",
+              "price": 990,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Beyond Aquatics",
+              "url": "https://www.beyondaquatics.com.au/product-page/phyllanthus-fluitans-red-root-floaters",
+              "unit": "portion",
+              "price": 1400,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Sydney Aquascapes",
+              "url": "https://sydney-aquascapes.com.au/products/red-root-floaters",
+              "unit": "portion",
+              "price": 400,
+              "was": 500,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 4,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/red-root-floaters"
+            },
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/phyllanthus-fluitans-red-root-floater"
+            },
+            {
+              "label": "Aquarzon: product page",
+              "url": "https://www.aquarzon.com/home/366-red-root-floater-phyllanthus-fluitans.html"
+            },
+            {
+              "label": "Beyond Aquatics: product page",
+              "url": "https://www.beyondaquatics.com.au/product-page/phyllanthus-fluitans-red-root-floaters"
+            },
+            {
+              "label": "Sydney Aquascapes: product page",
+              "url": "https://sydney-aquascapes.com.au/products/red-root-floaters"
             }
           ]
         },
         {
-          "id": 57,
-          "name": "Shield pennywort",
-          "scientific": "Hydrocotyle verticillata",
+          "id": 200,
+          "name": "Duckweed",
+          "scientific": "Lemna minor",
           "difficulty": "Easy",
-          "about": "Round, umbrella shaped leaves on tall stalks that rise above the water. It spreads by runners and needs regular thinning.",
+          "about": "Tiny, fast floating plant that covers the surface quickly. Hard to remove once added.",
           "conditions": [
             [
               "Light",
-              "Medium to bright"
+              "Low to high"
             ],
             [
-              "Roots",
-              "Grows in water"
-            ],
-            [
-              "Humidity",
-              "Any"
+              "CO2",
+              "Optional"
             ],
             [
               "Growth",
               "Fast"
+            ],
+            [
+              "Height",
+              "Floating"
             ]
           ],
           "saNote": null,
           "photos": [
             {
-              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hydrocotyle-verticillata-4f7a01c0ce2fc.jpg",
-              "caption": "Hydrocotyle verticillata, submerged",
-              "credit": "Bjarne Sætrang (2004)",
-              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hydrocotyle-verticillata"
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/duckweed-lemna-minor",
+              "unit": "100g",
+              "price": 895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
             },
             {
-              "src": "https://www.flowgrow.de/db/images/tanks/detail/bommerholz-58ceb7baeeca5.jpg",
-              "caption": "Aquascape: bommerholz (plant included in the aquascape’s plant list)",
-              "credit": "Flowgrow community",
-              "creditUrl": "https://www.flowgrow.de/db/tanks/bommerholz"
+              "shop": "Sydney Aquascapes",
+              "url": "https://sydney-aquascapes.com.au/products/lemna-minor-duck-weed",
+              "unit": "portion",
+              "price": 500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
             },
             {
-              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hydrocotyle-verticillata-51da5df501d8b.jpg",
-              "caption": "Shield pennywort growing detail",
-              "credit": "© stern_nbg",
-              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hydrocotyle-verticillata"
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/duckweed",
+              "unit": "portion",
+              "price": 495,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 2,
+          "sources": [
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/duckweed-lemna-minor"
             },
             {
-              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/039/4.png&crop=resize&class=product",
-              "caption": "Original reference photo.",
-              "credit": "tropica.com",
-              "creditUrl": "https://tropica.com/en/plants/plantdetails/Hydrocotyleverticillata(039)/4457"
+              "label": "Sydney Aquascapes: product page",
+              "url": "https://sydney-aquascapes.com.au/products/lemna-minor-duck-weed"
+            },
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/duckweed"
+            }
+          ]
+        },
+        {
+          "id": 201,
+          "name": "Giant Duckweed",
+          "scientific": "Spirodela polyrhiza",
+          "difficulty": "Easy",
+          "about": "Larger floating duckweed with bigger, rounder fronds. Fast but easier to net out than Lemna.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "Floating"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
             }
           ],
           "offers": [
             {
               "shop": "Micro Aquatic Shop",
-              "url": "https://microaquaticshop.com.au/products/rare-tc-hydrocotyle-verticillata",
-              "unit": "Tissue culture cup",
-              "price": 1800,
-              "was": 2100,
+              "url": "https://microaquaticshop.com.au/products/giant-duckweed",
+              "unit": "portion of 20 leaves",
+              "price": 795,
+              "was": null,
               "soldOut": false,
               "checked": "2026-10"
             }
@@ -4682,12 +11592,193 @@ globalThis.PLANT_CATALOGUE = {
           "defaultOffer": 0,
           "sources": [
             {
-              "label": "Nature Aquariums: tissue culture range",
-              "url": "https://www.natureaquariums.com.au/collections/tissue-culture"
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/giant-duckweed"
+            }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Azolla",
+          "scientific": "Azolla filiculoides",
+          "difficulty": "Easy",
+          "about": "Tiny floating fern that turns red in strong light. Fast and spreads across the surface.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "Floating"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/azolla-filiculoides",
+              "unit": "portion",
+              "price": 795,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
             },
             {
-              "label": "Photo source: tropica.com",
-              "url": "https://tropica.com/en/plants/plantdetails/Hydrocotyleverticillata(039)/4457"
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/azolla",
+              "unit": "portion",
+              "price": 895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/azolla-floating-plant/",
+              "unit": "portion",
+              "price": 399,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 2,
+          "sources": [
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/azolla-filiculoides"
+            },
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/azolla"
+            },
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/azolla-floating-plant/"
+            }
+          ]
+        },
+        {
+          "id": 203,
+          "name": "Frogbit",
+          "scientific": "Limnobium laevigatum",
+          "difficulty": "Easy",
+          "about": "Floating plant with round leaves and long dangling roots. Fast and good for shading.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "Floating"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/frogbit-floating-plant/",
+              "unit": "plant (from)",
+              "price": 199,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Roxy Aquarium",
+              "url": "https://roxyaquarium.com.au/product/amazonian-frogbit/",
+              "unit": "portion (bulk discounts)",
+              "price": 500,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Roxy Aquarium: product page",
+              "url": "https://roxyaquarium.com.au/product/frogbit-floating-plant/"
+            }
+          ]
+        },
+        {
+          "id": 205,
+          "name": "Bladderwort",
+          "scientific": "Utricularia gibba",
+          "difficulty": "Easy",
+          "about": "Floating, thread-like carnivorous plant with tiny bladder traps. Easy and fast in still water.",
+          "conditions": [
+            [
+              "Light",
+              "Medium"
+            ],
+            [
+              "CO2",
+              "Optional"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "Floating"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/utricularia-gibba",
+              "unit": "portion",
+              "price": 1095,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/utricularia-gibba"
             }
           ]
         }
