@@ -967,7 +967,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Hairgrass 'Belem'",
           "scientific": "Eleocharis sp. 'Belem'",
           "difficulty": "Moderate",
-          "about": "Fine, grassy carpeting plant that spreads by runners. Needs good light and nutrients to carpet.",
+          "about": "The shortest of the dwarf hairgrasses, with very fine, bright green blades that arch over at a few centimetres. It spreads by runners into a low, even lawn that rarely needs mowing. Plant it in small tufts spaced apart in a rich substrate. Good light and CO2 make it spread much faster and thicker.",
           "conditions": [
             [
               "Light",
@@ -983,7 +983,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "5-10 cm"
+              "3 to 5 cm"
             ]
           ],
           "saNote": null,
@@ -1041,9 +1041,9 @@ globalThis.PLANT_CATALOGUE = {
         {
           "id": 91,
           "name": "Micranthemum 'Takashi'",
-          "scientific": "Micranthemum sp. 'Takashi'",
+          "scientific": "Micranthemum umbrosum 'Takashi'",
           "difficulty": "Moderate",
-          "about": "Carpeting baby tears with larger, rounder leaves than HC. Easier than HC but still wants good light.",
+          "about": "Small, round, bright green leaves on creeping stems that root as they go and knit into a soft, dense mat. The leaves are larger than HC, and it is more forgiving and roots more readily, so it suits a first carpet. It needs good light at the substrate to stay flat. Thin the mat once it starts to stack up, or the lower layers rot.",
           "conditions": [
             [
               "Light",
@@ -1059,7 +1059,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "2-5 cm"
+              "2 to 5 cm"
             ]
           ],
           "saNote": null,
@@ -1119,7 +1119,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Brazilian Micro Sword",
           "scientific": "Lilaeopsis brasiliensis",
           "difficulty": "Moderate",
-          "about": "Short, grass-like carpeting plant spreading by runners. Wants decent light and CO2 to stay low and dense.",
+          "about": "Narrow, flat, bright green leaves, slightly widened at the tip, rise from creeping runners to form a grassy lawn. It is slow to establish but hardy once settled, and tolerates a little salt. It stays low and dense only under strong light with no shading from taller plants, so plant small clumps a few centimetres apart in an open spot.",
           "conditions": [
             [
               "Light",
@@ -1131,11 +1131,11 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Growth",
-              "Medium"
+              "Slow"
             ],
             [
               "Height",
-              "3-8 cm"
+              "3 to 7 cm"
             ]
           ],
           "saNote": null,
@@ -1181,16 +1181,16 @@ globalThis.PLANT_CATALOGUE = {
           "id": 95,
           "name": "Marsilea hirsuta",
           "scientific": "Marsilea hirsuta",
-          "difficulty": "Moderate",
-          "about": "Tiny four-leaf clover-like carpeting fern. Stays low under strong light and CO2.",
+          "difficulty": "Easy",
+          "about": "A small aquatic fern that arrives with four-lobed, clover-like leaves on creeping rhizomes. Submerged, it often switches to single rounded leaves that form a low carpet, or a mix of one- to four-lobed leaves. It grows under low light without CO2, but more light keeps it compact and CO2 makes it denser and faster.",
           "conditions": [
             [
               "Light",
-              "Medium to high"
+              "Low to medium"
             ],
             [
               "CO2",
-              "Recommended"
+              "Optional"
             ],
             [
               "Growth",
@@ -1198,7 +1198,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "2-5 cm"
+              "2 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -1258,7 +1258,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Eriocaulon cinereum",
           "scientific": "Eriocaulon cinereum",
           "difficulty": "Demanding",
-          "about": "Tiny pincushion rosette plant. Needs soft water, strong light and CO2.",
+          "about": "A small rosette of narrow, pale green leaves that grows into a pincushion-like clump and often sends up white flower heads. Flowering drains the plant, but with enough light and CO2 it regrows from the base. Soft water is best, though it copes with medium hardness. Divide side rosettes to propagate.",
           "conditions": [
             [
               "Light",
@@ -1266,7 +1266,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "CO2",
-              "Recommended"
+              "Required"
             ],
             [
               "Growth",
@@ -1274,7 +1274,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "3-8 cm"
+              "3 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -1304,61 +1304,11 @@ globalThis.PLANT_CATALOGUE = {
           ]
         },
         {
-          "id": 176,
-          "name": "Eriocaulon breviscapum",
-          "scientific": "Eriocaulon breviscapum",
-          "difficulty": "Demanding",
-          "about": "Short, grassy Eriocaulon that makes pincushion clumps. Needs soft water and strong light.",
-          "conditions": [
-            [
-              "Light",
-              "Medium to high"
-            ],
-            [
-              "CO2",
-              "Recommended"
-            ],
-            [
-              "Growth",
-              "Slow"
-            ],
-            [
-              "Height",
-              "5-10 cm"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
-            }
-          ],
-          "offers": [
-            {
-              "shop": "Liverpool Creek Aquariums",
-              "url": "https://www.liverpoolcreekaquariums.com.au/products/eriocaulon-breviscapum",
-              "unit": "pot",
-              "price": 2995,
-              "was": null,
-              "soldOut": false,
-              "checked": "2026-10"
-            }
-          ],
-          "defaultOffer": 0,
-          "sources": [
-            {
-              "label": "Liverpool Creek Aquariums: product page",
-              "url": "https://www.liverpoolcreekaquariums.com.au/products/eriocaulon-breviscapum"
-            }
-          ]
-        },
-        {
           "id": 181,
           "name": "Creeping Jenny",
           "scientific": "Lysimachia nummularia",
           "difficulty": "Easy",
-          "about": "Round-leaved creeper that does better emersed than fully submerged long term. Easy and spreading.",
+          "about": "Round, bright green leaves in opposite pairs on upright stems that branch little and grow straight towards the surface. It handles soft or hard water and suits cool and subtropical tanks best. In warm tropical water, growth often slows or stops. Trim and replant the tops to keep a bushier group.",
           "conditions": [
             [
               "Light",
@@ -1374,7 +1324,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "5-20 cm"
+              "10 to 30 cm"
             ]
           ],
           "saNote": null,
@@ -1420,16 +1370,16 @@ globalThis.PLANT_CATALOGUE = {
           "id": 186,
           "name": "Littorella uniflora",
           "scientific": "Littorella uniflora",
-          "difficulty": "Moderate",
-          "about": "Short, grassy carpeting plant with stiff leaves. Spreads slowly by runners under good light.",
+          "difficulty": "Easy",
+          "about": "Small rosettes of fat, fleshy, awl-shaped leaves, 2 to 5 cm long, that spread by runners into a short, grassy lawn. It copes with cooler water. Plant single rosettes a few centimetres apart. Low light works, but leaves grow longer, so stronger light keeps the lawn short.",
           "conditions": [
             [
               "Light",
-              "Medium to high"
+              "Medium"
             ],
             [
               "CO2",
-              "Recommended"
+              "Optional"
             ],
             [
               "Growth",
@@ -1437,7 +1387,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "3-8 cm"
+              "3 to 8 cm"
             ]
           ],
           "saNote": null,
@@ -1471,7 +1421,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Crypt willisii",
           "scientific": "Cryptocoryne willisii",
           "difficulty": "Easy",
-          "about": "Small crypt with narrow, wavy leaves that forms a low carpet. Slow and easy.",
+          "about": "A small, hardy crypt with narrow, lance-shaped green leaves that spreads by runners into a low group or loose lawn. It is a good choice for shaded spots and low-tech tanks. Like most crypts, it may melt after planting and then regrow. It feeds through its roots, so give it a rich substrate or root tabs and leave it undisturbed.",
           "conditions": [
             [
               "Light",
@@ -1487,7 +1437,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "8-15 cm"
+              "5 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -1534,11 +1484,11 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Green Rush (Eleocharis parvula)",
           "scientific": "Eleocharis parvula",
           "difficulty": "Easy",
-          "about": "Fine, grass-like plant that spreads by runners into a lawn in the foreground and midground.",
+          "about": "Fine, needle-like light green stalks that arch over as they grow, spreading by runners close to the parent plant into a dense lawn. Plant small clusters a few centimetres apart and they slowly join up. It grows in modest light without CO2, but brighter light and CO2 keep it shorter and help it spread faster.",
           "conditions": [
             [
               "Light",
-              "Moderate to high"
+              "Medium"
             ],
             [
               "CO2",
@@ -1550,7 +1500,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Foreground/midground"
+              "3 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -1576,56 +1526,6 @@ globalThis.PLANT_CATALOGUE = {
             {
               "label": "Roxy Aquarium: product page",
               "url": "https://roxyaquarium.com.au/product/green-rush-bunches-live-aquarium-plant/"
-            }
-          ]
-        },
-        {
-          "id": 250,
-          "name": "Cryptocoryne nevillii",
-          "scientific": "Cryptocoryne nevillii",
-          "difficulty": "Easy",
-          "about": "Low, narrow-leaved crypt that spreads by runners into a foreground carpet.",
-          "conditions": [
-            [
-              "Light",
-              "Low to medium"
-            ],
-            [
-              "CO2",
-              "Optional"
-            ],
-            [
-              "Growth",
-              "Slow"
-            ],
-            [
-              "Height",
-              "Short"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
-            }
-          ],
-          "offers": [
-            {
-              "shop": "Scapeshop",
-              "url": "https://scapeshop.com.au/products/cryptocoryne-nevillii-terracotta-pot",
-              "unit": "3cm terracotta pot",
-              "price": 1600,
-              "was": null,
-              "soldOut": true,
-              "checked": "2026-10"
-            }
-          ],
-          "defaultOffer": 0,
-          "sources": [
-            {
-              "label": "Scapeshop: product page",
-              "url": "https://scapeshop.com.au/products/cryptocoryne-nevillii-terracotta-pot"
             }
           ]
         }
@@ -2196,7 +2096,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Lobelia 'Mini'",
           "scientific": "Lobelia cardinalis 'Mini'",
           "difficulty": "Easy",
-          "about": "A compact form of cardinal flower with small round leaves on short stems. Underwater it stays green and tidy.",
+          "about": "A dwarf cardinal flower with rounded to oval leaves, fresh green above and reddish-purple below, on short, freely branching stems. It rarely sends up the long shoots of the species, so it forms a low, dense clump. It grows without CO2, but bright light and CO2 keep it compact and deepen the purple.",
           "conditions": [
             [
               "Light",
@@ -2208,11 +2108,11 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Growth",
-              "Slow"
+              "Medium"
             ],
             [
               "Height",
-              "5 to 10 cm"
+              "3 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -2507,7 +2407,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Pearlweed (Hemianthus micranthemoides)",
           "scientific": "Hemianthus micranthemoides",
           "difficulty": "Moderate",
-          "about": "Fine-leaved bushy stem plant, similar to baby tears but taller. Currently sold out at the one shop listing it.",
+          "about": "Tiny, light green, oval to lance-shaped leaves, usually in whorls of three, on thin, branching stems that build a fine, airy bush. It suits the midground or background of small layouts and can be trimmed into dense mounds. Trim often so the lower stems keep their light. Strong light and CO2 keep it compact.",
           "conditions": [
             [
               "Light",
@@ -2523,7 +2423,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -2557,7 +2457,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Cardamine lyrata (Japanese cress)",
           "scientific": "Cardamine lyrata",
           "difficulty": "Easy",
-          "about": "Fast, bright green stem plant with rounded leaves. Prefers cooler water and trims easily.",
+          "about": "Round, bright green, slightly scalloped leaves on soft stems that grow upright or trail across the surface. It is a swamp plant from East Asia that does best in cooler water, and leaves get smaller and stems stretch if it stays above about 28 C. It trims easily and grows quickly, so cut it back regularly to keep it bushy.",
           "conditions": [
             [
               "Light",
@@ -2573,7 +2473,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-30 cm"
+              "20 to 50 cm"
             ]
           ],
           "saNote": null,
@@ -2672,7 +2572,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Water Rose (Samolus parviflorus)",
           "scientific": "Samolus parviflorus",
           "difficulty": "Easy",
-          "about": "Rosette-forming stem plant with soft green leaves. Easy and compact.",
+          "about": "Light green, spoon-shaped leaves in a low, dense rosette that looks like a small open rose. It prefers cooler water and tolerates harder, more alkaline water, so it suits low-tech and room-temperature tanks. CO2 and good light give fuller, better-coloured leaves. Remove old outer leaves and replant offsets to propagate.",
           "conditions": [
             [
               "Light",
@@ -2688,7 +2588,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "5 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -2733,9 +2633,9 @@ globalThis.PLANT_CATALOGUE = {
         {
           "id": 98,
           "name": "Samolus 'Red'",
-          "scientific": "Samolus parviflorus 'Red'",
+          "scientific": "Lysimachia parvifolia",
           "difficulty": "Moderate",
-          "about": "Red-leaved form of Samolus, also sold as Red Lysimachia. Needs more light for good colour.",
+          "about": "Small, rounded leaves in red, orange and bronze on short stems that slowly build into compact bushes. Higher light, around 150 PAR, brings out the deepest reds, and lower light gives greens and oranges. A rich substrate gives fuller, rounder leaves. It grows at a moderate pace, so it needs little pruning.",
           "conditions": [
             [
               "Light",
@@ -2751,7 +2651,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -2798,7 +2698,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Ludwigia ovalis",
           "scientific": "Ludwigia ovalis",
           "difficulty": "Easy",
-          "about": "Low-growing Ludwigia with oval leaves. Easy stem plant for the midground.",
+          "about": "Small, oval leaves in opposite pairs on creeping-to-upright stems that form a low, bushy clump. Leaves range from green and gold to orange and pink, depending on light and iron. Medium light is enough to grow it without CO2, but stronger light, CO2 and iron give richer red tones. Trim and replant tops to keep it dense.",
           "conditions": [
             [
               "Light",
@@ -2814,7 +2714,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -2848,7 +2748,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Ludwigia 'Super Mini Red'",
           "scientific": "Ludwigia palustris 'Super Red Mini'",
           "difficulty": "Moderate",
-          "about": "Short, compact red Ludwigia for the midground. Needs strong light for colour.",
+          "about": "A compact form of Ludwigia palustris with small, oval leaves around 1 cm long that turn deep wine red in strong light. It branches readily and makes a low, bushy red accent in the midground. Colour depends on strong light and a good iron supply, and regular topping keeps the group dense.",
           "conditions": [
             [
               "Light",
@@ -2864,7 +2764,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-25 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -2950,7 +2850,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Rotala indica",
           "scientific": "Rotala indica",
           "difficulty": "Easy",
-          "about": "Small, rounded-leaf Rotala that stays fairly compact. Easy under medium light.",
+          "about": "Upright stems carry small, rounded, cupped leaves in opposite pairs, light green below with pink to orange tips under strong light. Planted in groups it forms a soft, fine-textured bush for the midground. Trimming the tops when they near the surface keeps it dense, and iron dosing brings out the colour.",
           "conditions": [
             [
               "Light",
@@ -2966,7 +2866,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-30 cm"
+              "15 to 30 cm"
             ]
           ],
           "saNote": null,
@@ -3000,7 +2900,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Limnophila aromatica 'Kalimantan Mini'",
           "scientific": "Limnophila aromatica",
           "difficulty": "Easy",
-          "about": "Compact Limnophila that goes purple underneath in strong light. Easy.",
+          "about": "A dwarf form of Limnophila aromatica, thought to come from Borneo, with narrow serrated leaves 1 to 2.5 cm long in light green to brown-red. It suits small midground groups and grows easily from cuttings. Strong light gives the best colour, and it looks best trimmed to a low group.",
           "conditions": [
             [
               "Light",
@@ -3016,7 +2916,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "15-30 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -3058,8 +2958,8 @@ globalThis.PLANT_CATALOGUE = {
           "id": 161,
           "name": "Ammannia senegalensis",
           "scientific": "Ammannia senegalensis",
-          "difficulty": "Demanding",
-          "about": "Red-leaved Ammannia that needs strong light and nutrients. Sold as tissue culture.",
+          "difficulty": "Moderate",
+          "about": "Stem plant with opposite, slightly wavy lanceolate leaves that shift from olive and gold to copper-red under strong light. It makes a warm-coloured accent group in the midground or background. It needs strong light, a good iron supply and a nutrient-rich substrate, and prefers soft, slightly acidic water.",
           "conditions": [
             [
               "Light",
@@ -3075,7 +2975,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-40 cm"
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -3109,7 +3009,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Lindernia rotundifolia",
           "scientific": "Lindernia rotundifolia",
           "difficulty": "Easy",
-          "about": "Compact stem plant with small round leaves, pink-tinged in good light. Easy midground filler.",
+          "about": "Stem plant with small, round, light green leaves set closely along the stems. It forms compact groups quickly and works well in the midground or as a low background. It is undemanding, growing in low to medium light without CO2, and is kept tidy by pruning and replanting the tops.",
           "conditions": [
             [
               "Light",
@@ -3125,7 +3025,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-25 cm"
+              "15 to 30 cm"
             ]
           ],
           "saNote": null,
@@ -3197,16 +3097,16 @@ globalThis.PLANT_CATALOGUE = {
           "id": 165,
           "name": "Tonina fluviatilis",
           "scientific": "Tonina fluviatilis",
-          "difficulty": "Moderate",
-          "about": "Unusual rosette-like stem plant with round, pale green leaves. Needs decent light and stable conditions.",
+          "difficulty": "Demanding",
+          "about": "Upright stem plant with narrow, pointed, fresh green leaves packed densely around the stem, giving a star-like look from above. It needs soft, acidic water with low KH, strong light and steady CO2. It is easily outgrown by faster neighbours and may rot if conditions are unstable.",
           "conditions": [
             [
               "Light",
-              "Medium to high"
+              "High"
             ],
             [
               "CO2",
-              "Recommended"
+              "Required"
             ],
             [
               "Growth",
@@ -3214,7 +3114,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-25 cm"
+              "10 to 30 cm"
             ]
           ],
           "saNote": null,
@@ -3260,16 +3160,16 @@ globalThis.PLANT_CATALOGUE = {
           "id": 172,
           "name": "Cuphea anagalloidea",
           "scientific": "Cuphea anagalloidea",
-          "difficulty": "Moderate",
-          "about": "Compact stem plant with small rounded leaves. Wants good light.",
+          "difficulty": "Demanding",
+          "about": "A small stem plant with fine leaves, the shoots only about 1.5 to 2 cm across, that turn strong red under high light, often with green flecks. It suits small accent groups in the midground. It is a delicate plant that needs high light, CO2, a good nutrient supply and soft, slightly acidic water.",
           "conditions": [
             [
               "Light",
-              "Medium to high"
+              "High"
             ],
             [
               "CO2",
-              "Recommended"
+              "Required"
             ],
             [
               "Growth",
@@ -3277,7 +3177,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-25 cm"
+              "10 to 25 cm"
             ]
           ],
           "saNote": null,
@@ -3310,8 +3210,8 @@ globalThis.PLANT_CATALOGUE = {
           "id": 175,
           "name": "Eriocaulon 'Vietnam'",
           "scientific": "Eriocaulon sp. 'Vietnam'",
-          "difficulty": "Demanding",
-          "about": "Grassy Eriocaulon with a pincushion look. Needs soft, acidic water, good light and CO2.",
+          "difficulty": "Moderate",
+          "about": "Rosette plant with bright green, needle-like leaves that form a pincushion-like clump. Over time it splits at the base into a dense tuft that can be divided. It is one of the easier Eriocaulon, but still does best with good light, CO2, a rich aquasoil and soft, slightly acidic water.",
           "conditions": [
             [
               "Light",
@@ -3327,7 +3227,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-15 cm"
+              "5 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -3370,11 +3270,11 @@ globalThis.PLANT_CATALOGUE = {
           ]
         },
         {
-          "id": 177,
-          "name": "Eriocaulon 'Ratnagiri'",
-          "scientific": "Eriocaulon sp. 'Ratnagiri'",
+          "id": 176,
+          "name": "Eriocaulon breviscapum",
+          "scientific": "Eriocaulon breviscapum",
           "difficulty": "Demanding",
-          "about": "Rare Eriocaulon from India with a tight rosette. Needs soft water, strong light and CO2.",
+          "about": "Very narrow, flexible leaves about 1 mm wide, set in a spiral, build a fine, feathery rosette that grows much taller under water than when emersed. Daughter rosettes form at the base. Use it as a soft specimen among low plants. It wants soft water, a rich aqua soil, strong light and CO2 reaching the substrate.",
           "conditions": [
             [
               "Light",
@@ -3386,11 +3286,61 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Growth",
+              "Slow"
+            ],
+            [
+              "Height",
+              "10 to 25 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/eriocaulon-breviscapum",
+              "unit": "pot",
+              "price": 2995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/eriocaulon-breviscapum"
+            }
+          ]
+        },
+        {
+          "id": 177,
+          "name": "Eriocaulon 'Ratnagiri'",
+          "scientific": "Eriocaulon sp. 'Ratnagiri'",
+          "difficulty": "Demanding",
+          "about": "One of the smallest Eriocaulon, forming a tight rosette of thin, needle-like leaves only a few centimetres tall. It is a heavy root feeder that grows best in a deep, rich aquasoil with low KH, plenty of light and good flow at the substrate. Flower stalks should be removed, and large rosettes can be split in two.",
+          "conditions": [
+            [
+              "Light",
+              "High"
+            ],
+            [
+              "CO2",
+              "Required"
+            ],
+            [
+              "Growth",
               "Very slow"
             ],
             [
               "Height",
-              "5-12 cm"
+              "5 to 8 cm"
             ]
           ],
           "saNote": null,
@@ -3424,7 +3374,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Blyxa aubertii",
           "scientific": "Blyxa aubertii",
           "difficulty": "Moderate",
-          "about": "Grassy rosette plant with long, soft leaves. Likes soft water and good light.",
+          "about": "Rosette plant with long, narrow, soft green leaves that can take on red-brown tints in strong light. It gives a grassy, loose texture in the midground or behind lower plants. It needs medium to high light, CO2 and regular fertilising, and tends to stay smaller under strong light; in poor light it stalls and rots.",
           "conditions": [
             [
               "Light",
@@ -3440,7 +3390,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "15-30 cm"
+              "15 to 30 cm"
             ]
           ],
           "saNote": null,
@@ -3474,7 +3424,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Juncus repens",
           "scientific": "Juncus repens",
           "difficulty": "Easy",
-          "about": "Creeping rush with upright green blades. Easy and slow to spread.",
+          "about": "Creeping rush with thin, needle-like leaves that grow in bushy tufts along spreading stems. Under strong light the tips turn golden-orange to reddish brown. It gives a grassy texture in the midground and adapts to a wide range of water, though CO2 gives denser, faster growth.",
           "conditions": [
             [
               "Light",
@@ -3490,7 +3440,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "5-20 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -3533,82 +3483,19 @@ globalThis.PLANT_CATALOGUE = {
           ]
         },
         {
-          "id": 183,
-          "name": "Umbrella Hair Grass (Eleocharis vivipara)",
-          "scientific": "Eleocharis vivipara",
-          "difficulty": "Easy",
-          "about": "Taller hairgrass with arching, umbrella-like stems. Easy and spreads by runners.",
-          "conditions": [
-            [
-              "Light",
-              "Medium"
-            ],
-            [
-              "CO2",
-              "Optional"
-            ],
-            [
-              "Growth",
-              "Medium"
-            ],
-            [
-              "Height",
-              "15-30 cm"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
-            }
-          ],
-          "offers": [
-            {
-              "shop": "Aquatic Plants Australia",
-              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/eleocharis-vivipara-emersed-bunch-umbrella-hair-grass",
-              "unit": "emersed bunch",
-              "price": 895,
-              "was": null,
-              "soldOut": false,
-              "checked": "2026-10"
-            },
-            {
-              "shop": "Aquaristic Online",
-              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/eleocharis-vivipara-umbrella-hair-grass",
-              "unit": "portion",
-              "price": 1500,
-              "was": null,
-              "soldOut": false,
-              "checked": "2026-10"
-            }
-          ],
-          "defaultOffer": 0,
-          "sources": [
-            {
-              "label": "Aquatic Plants Australia: product page",
-              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/eleocharis-vivipara-emersed-bunch-umbrella-hair-grass"
-            },
-            {
-              "label": "Aquaristic Online: product page",
-              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/eleocharis-vivipara-umbrella-hair-grass"
-            }
-          ]
-        },
-        {
           "id": 184,
           "name": "Bacopa 'Japan'",
           "scientific": "Bacopa sp. 'Japan'",
-          "difficulty": "Easy",
-          "about": "Small-leaved Bacopa that grows as a creeping or upright stem. Easy.",
+          "difficulty": "Moderate",
+          "about": "Small Bacopa, usually identified as Bacopa serpyllifolia, with tiny rounded, lime green leaves. Unlike most Bacopa it grows mostly sideways at first, forming low clumps in the midground before slowly gaining height. It needs strong light, CO2 and plenty of iron, and new plants can take a while to settle in.",
           "conditions": [
             [
               "Light",
-              "Medium"
+              "Medium to high"
             ],
             [
               "CO2",
-              "Optional"
+              "Recommended"
             ],
             [
               "Growth",
@@ -3616,7 +3503,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-25 cm"
+              "5 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -3650,7 +3537,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Sagittaria natans",
           "scientific": "Sagittaria natans",
           "difficulty": "Easy",
-          "about": "Narrow-leaved Sagittaria that stays smaller than giant types. Easy root feeder.",
+          "about": "Grass-like rosette plant with narrow, bright green strap leaves a few millimetres wide, spreading by runners into a dense lawn for the midground. Height depends on light and density: strong light keeps it short, while crowded or dim plantings grow taller. It is a root feeder that needs iron.",
           "conditions": [
             [
               "Light",
@@ -3666,7 +3553,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "15-30 cm"
+              "10 to 30 cm"
             ]
           ],
           "saNote": null,
@@ -3700,7 +3587,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Staurogyne 'Porto Velho'",
           "scientific": "Staurogyne sp. 'Porto Velho'",
           "difficulty": "Easy",
-          "about": "Compact Staurogyne with slightly larger leaves than S. repens. Easy and forms a dense bush.",
+          "about": "Compact Staurogyne with narrow, lanceolate leaves ending in a long point, greyish green with a slight purple hue. It creeps low and branches into a dense bush, used in the foreground or low midground. Stronger light keeps it compact; CO2 and a good nutrient supply speed up growth.",
           "conditions": [
             [
               "Light",
@@ -3716,7 +3603,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -3763,7 +3650,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Cryptocoryne beckettii",
           "scientific": "Cryptocoryne beckettii",
           "difficulty": "Easy",
-          "about": "Easy crypt with olive green, wavy leaves. Slow, root feeding, and may melt when moved.",
+          "about": "Classic crypt with lanceolate, olive green to brown leaves with wavy edges and reddish undersides. It forms compact clumps in the midground and spreads slowly by runners. It is a root feeder that benefits from root tabs, and leaves may melt after planting or moving before new growth appears.",
           "conditions": [
             [
               "Light",
@@ -3779,7 +3666,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -3865,7 +3752,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Crypt 'Lutea'",
           "scientific": "Cryptocoryne x willisii 'Lutea'",
           "difficulty": "Easy",
-          "about": "Easy crypt with yellowish-green narrow leaves. Slow and root feeding.",
+          "about": "Easy crypt with narrow, pointed, light to yellowish green leaves on long stalks, sometimes with wavy margins. It forms tidy clumps in the midground and spreads slowly by runners. It grows in low light, feeds from the roots so benefits from root tabs, and may melt back if moved or after big water changes.",
           "conditions": [
             [
               "Light",
@@ -3881,7 +3768,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -3915,7 +3802,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Crypt undulata 'Red'",
           "scientific": "Cryptocoryne undulata 'Red'",
           "difficulty": "Easy",
-          "about": "Crypt with ruffled, reddish-brown leaves. Slow and root feeding.",
+          "about": "Narrow, lance-shaped leaves with wavy edges that grow tall and greenish-brown in low light, or shorter and reddish-brown with more light, nutrients and CO2. It forms a rosette that spreads by runners and suits the midground. It feeds mainly through its roots, so root tabs help, and it may melt back after planting.",
           "conditions": [
             [
               "Light",
@@ -3927,11 +3814,11 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Growth",
-              "Slow"
+              "Medium"
             ],
             [
               "Height",
-              "15-30 cm"
+              "15 to 30 cm"
             ]
           ],
           "saNote": null,
@@ -3965,7 +3852,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Cryptocoryne axelrodi",
           "scientific": "Cryptocoryne axelrodi",
           "difficulty": "Easy",
-          "about": "Crypt with long, narrow, dark green leaves. Slow and easy.",
+          "about": "Narrow, elongated leaves with crinkled, wavy edges in green to dark brown, often with a marbled pattern and reddish tones under stronger light. It forms upright rosettes that fill in slowly by runners in the midground. Give it a nutrient-rich substrate and avoid moving it, as sudden changes trigger crypt melt.",
           "conditions": [
             [
               "Light",
@@ -3981,7 +3868,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "15-25 cm"
+              "15 to 25 cm"
             ]
           ],
           "saNote": null,
@@ -4014,12 +3901,12 @@ globalThis.PLANT_CATALOGUE = {
           "id": 212,
           "name": "Crypt wendtii 'Flamingo'",
           "scientific": "Cryptocoryne wendtii 'Flamingo'",
-          "difficulty": "Easy",
-          "about": "Pink-tinged wendtii form. Currently sold out.",
+          "difficulty": "Moderate",
+          "about": "A pink-leaved form of C. wendtii with soft, slightly wavy leaves in a compact rosette, used as a colour accent in the fore or midground. The pink is strongest under brighter light and fades towards bronze in dim tanks. It is slower and touchier than green wendtii and dislikes being moved.",
           "conditions": [
             [
               "Light",
-              "Low to medium"
+              "Medium"
             ],
             [
               "CO2",
@@ -4031,7 +3918,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -4064,8 +3951,8 @@ globalThis.PLANT_CATALOGUE = {
           "id": 213,
           "name": "Crypt crispatula var. albida 'Brown'",
           "scientific": "Cryptocoryne crispatula var. albida",
-          "difficulty": "Moderate",
-          "about": "Tall crypt with narrow, rippled leaves. Slow and fussier about stable conditions.",
+          "difficulty": "Easy",
+          "about": "Narrow, red-brown leaves with dark striped markings and wavy edges, growing in slow, compact clumps that spread by runners. It works as a fine-textured accent in the foreground or midground. It copes with soft to hard water and low light, and grows best in a nutrient-rich substrate or with root tabs.",
           "conditions": [
             [
               "Light",
@@ -4081,7 +3968,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "15-30 cm"
+              "5 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -4115,11 +4002,11 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Echinodorus bolivianus",
           "scientific": "Echinodorus bolivianus (Helanthium bolivianum)",
           "difficulty": "Easy",
-          "about": "Narrow-leaved chain sword that spreads by runners and suits the foreground or midground. Sold as tissue culture cups.",
+          "about": "A small chain sword with narrow, grass-like bright green leaves that spreads by runners into a low lawn or loose group. It suits the foreground or the front of the midground. It stays compact under medium light and stretches taller in dim tanks; root tabs help it spread, and runners can be replanted to fill gaps.",
           "conditions": [
             [
               "Light",
-              "Moderate to high"
+              "Medium"
             ],
             [
               "CO2",
@@ -4131,7 +4018,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-15cm"
+              "10 to 15 cm"
             ]
           ],
           "saNote": "The Tech Den ships only tissue cultures. Its other live plants are pickup only.",
@@ -4191,11 +4078,11 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Chain Sword, broad (Echinodorus latifolius)",
           "scientific": "Echinodorus latifolius",
           "difficulty": "Easy",
-          "about": "Broader-leaved chain sword that carpets the foreground or midground by runners.",
+          "about": "A medium-sized chain sword with slightly broader, bright green leaves than the narrow types, forming rosettes that spread by many runners. It can make a lawn in the foreground or a group in the midground. Brighter light keeps it compact, while low light makes it leggy, and root tabs help it spread.",
           "conditions": [
             [
               "Light",
-              "Moderate"
+              "Medium"
             ],
             [
               "CO2",
@@ -4207,7 +4094,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "15cm"
+              "10 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -4267,7 +4154,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Cryptocoryne beckettii 'Petchii' (Dragons Flame)",
           "scientific": "Cryptocoryne beckettii 'Petchii'",
           "difficulty": "Easy",
-          "about": "Compact crypt with olive leaves and a reddish underside. It is slow to start but hardy.",
+          "about": "A small Sri Lankan crypt with narrow leaves that have slightly fluted edges, dark olive-brown on top and violet underneath. It forms full clumps by suckers in the midground or around wood and stone. It copes with low light, and a little more light, CO2 and root feeding make it grow faster and fuller.",
           "conditions": [
             [
               "Light",
@@ -4279,11 +4166,11 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Growth",
-              "Slow"
+              "Medium"
             ],
             [
               "Height",
-              "Midground"
+              "10 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -4329,8 +4216,8 @@ globalThis.PLANT_CATALOGUE = {
           "id": 232,
           "name": "Didiplis diandra (Water Hedge)",
           "scientific": "Didiplis diandra",
-          "difficulty": "Easy",
-          "about": "Fine-leaved stem plant that forms a bushy hedge.",
+          "difficulty": "Moderate",
+          "about": "Fine, needle-like light green leaves on slender upright stems that form a soft, bushy hedge, with tips turning orange to red under strong light. It works in the midground or as a fine-textured group. It needs good light and stable nutrients, or lower stems lose leaves, and it does best with CO2 and soft water.",
           "conditions": [
             [
               "Light",
@@ -4338,15 +4225,15 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "CO2",
-              "Optional"
+              "Recommended"
             ],
             [
               "Growth",
-              "Slow"
+              "Medium"
             ],
             [
               "Height",
-              "Background"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -4393,7 +4280,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Purple Bacopa (Bacopa salzmannii)",
           "scientific": "Bacopa salzmannii",
           "difficulty": "Moderate",
-          "about": "Stem plant with purple-bronze leaves under good light.",
+          "about": "Small, oval leaves set in pairs on upright stems, olive green turning purple to bronze under strong light. It suits groups in the midground or background. Regular trimming and replanting of tops keeps it bushy, and CO2 with iron and good light bring out the purple colour.",
           "conditions": [
             [
               "Light",
@@ -4409,7 +4296,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Midground"
+              "15 to 30 cm"
             ]
           ],
           "saNote": null,
@@ -4456,7 +4343,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Cryptocoryne wendtii 'Tropica'",
           "scientific": "Cryptocoryne wendtii 'Tropica'",
           "difficulty": "Easy",
-          "about": "Hardy crypt with brownish-green leaves. It is slow to settle after planting.",
+          "about": "A compact crypt with dark, hammered leaves in brownish green that form a dense rosette. It is one of the hardiest crypts and suits the foreground or midground and the base of hardscape. It copes with low light but colours best with more, may melt back after planting, and slowly fills in by runners.",
           "conditions": [
             [
               "Light",
@@ -4472,7 +4359,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "About 12cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -4517,9 +4404,9 @@ globalThis.PLANT_CATALOGUE = {
         {
           "id": 249,
           "name": "Cryptocoryne 'Mi Oya'",
-          "scientific": "Cryptocoryne sp. 'Mi Oya'",
+          "scientific": "Cryptocoryne wendtii 'Mi Oya'",
           "difficulty": "Easy",
-          "about": "Crypt with textured, bubbly leaves.",
+          "about": "A Sri Lankan form of C. wendtii with wavy-edged, hammered-textured leaves in reddish-bronze to olive green. It forms full rosettes in the midground and spreads slowly by runners. It copes with low light and no CO2, and benefits from root tabs and being left in place once planted.",
           "conditions": [
             [
               "Light",
@@ -4535,7 +4422,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Midground"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -4593,9 +4480,9 @@ globalThis.PLANT_CATALOGUE = {
         {
           "id": 251,
           "name": "Cryptocoryne nurii 'Rosen Maiden'",
-          "scientific": "Cryptocoryne nurii 'Rosen Maiden'",
+          "scientific": "Cryptocoryne nurii var. raubensis 'Rosen Maiden'",
           "difficulty": "Moderate",
-          "about": "Pink-toned form of C. nurii. It is slow to establish.",
+          "about": "A Malaysian crypt with ruffled bronze leaves marked by pink veins and spots, forming a flat, spreading rosette. It is a striking accent in the foreground or midground. Colour and pattern are strongest with good light and nutrition, and it is slow to bulk up, so plant it where it can stay undisturbed.",
           "conditions": [
             [
               "Light",
@@ -4611,7 +4498,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Midground"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -4645,7 +4532,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bacopa monnieri 'White'",
           "scientific": "Bacopa monnieri 'White'",
           "difficulty": "Demanding",
-          "about": "Rare white-leaved bacopa that needs high light and CO2. It is expensive.",
+          "about": "A bacopa with small, rounded leaves that are almost pure creamy white, the green fading further under strong light. It is used as a bright accent in small groups. With little chlorophyll it grows very slowly and needs high light, CO2 and a clean, stable tank, as it is prone to algae and leaf loss.",
           "conditions": [
             [
               "Light",
@@ -4657,11 +4544,11 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Growth",
-              "Medium"
+              "Slow"
             ],
             [
               "Height",
-              "Mid to back"
+              "5 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -4695,11 +4582,11 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Hygrophila sp. 'Chai'",
           "scientific": "Hygrophila sp. 'Chai'",
           "difficulty": "Demanding",
-          "about": "Rare, slow hygrophila for high-tech tanks.",
+          "about": "A Hygrophila lancea form with slender, narrow leaves that are olive to red at the base with pale pink margins and tips. It suits small groups in the midground. It needs strong light, CO2 and regular iron dosing to keep its pink colour, and older leaves pick up algae easily, so a clean, stable tank matters.",
           "conditions": [
             [
               "Light",
-              "Medium to high"
+              "High"
             ],
             [
               "CO2",
@@ -4711,7 +4598,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "15-20cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -4745,7 +4632,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Hyptis laciniata",
           "scientific": "Hyptis laciniata",
           "difficulty": "Moderate",
-          "about": "Fine-leaved stem plant for the foreground to midground.",
+          "about": "Bushy stem plant with deeply cut, feathery light green leaves whose tips turn light purple to pink under good light. It works in the foreground to midground as a fine-textured accent. It grows without CO2, but CO2 and good fertilising improve colour, and regular trimming keeps it dense.",
           "conditions": [
             [
               "Light",
@@ -4761,7 +4648,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Fore to mid"
+              "5 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -4795,7 +4682,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Ludwigia sphaerocarpa",
           "scientific": "Ludwigia sphaerocarpa",
           "difficulty": "Moderate",
-          "about": "Compact Ludwigia that colours up red under high light.",
+          "about": "A stem plant with narrow, pointed leaves that turn from olive green to copper and red under strong light. It forms upright, colourful groups in the midground. It needs high light and CO2 to colour and stay compact, and benefits from regular trimming and replanting of tops.",
           "conditions": [
             [
               "Light",
@@ -4811,7 +4698,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -4845,7 +4732,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Rotala mexicana",
           "scientific": "Rotala mexicana",
           "difficulty": "Moderate",
-          "about": "Fine-leaved Rotala for the midground.",
+          "about": "Very fine, needle-like leaves on thin stems that form a soft, bushy mass, green to orange or red under strong light. It suits the midground as a fine-textured group. It needs high light, CO2 and soft water, and frequent trimming keeps it dense, as the delicate stems are easily lost if growth stalls.",
           "conditions": [
             [
               "Light",
@@ -4861,7 +4748,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Midground"
+              "5 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -4980,7 +4867,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Rotala 'Blood Red'",
           "scientific": "Rotala sp. 'Blood Red'",
           "difficulty": "Moderate",
-          "about": "A Rotala selected for deep red colour. It needs strong light and lean nitrate to colour fully.",
+          "about": "Small, narrow leaves on slender stems that turn a uniform deep red to burgundy, with the darkest colour at the tips. It is planted in tight groups as a red accent in the mid to background. Full colour needs strong light, injected CO2, iron dosing and lean nitrate; without them it stays orange-pink or greenish.",
           "conditions": [
             [
               "Light",
@@ -5493,7 +5380,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Proserpinaca palustris (Mermaid weed)",
           "scientific": "Proserpinaca palustris",
           "difficulty": "Moderate",
-          "about": "Feathery, serrated leaves on upright stems, turning orange-red in strong light. Trim regularly.",
+          "about": "Narrow, comb-like serrated leaves on upright stems, green at first and turning orange to copper-red under good light. It reads as a fine-textured accent in the midground or background. Low nitrate with plenty of phosphate deepens the colour, and new plants take a few weeks to change from the emersed green form to the submerged form.",
           "conditions": [
             [
               "Light",
@@ -5509,7 +5396,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-40 cm"
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -5605,10 +5492,10 @@ globalThis.PLANT_CATALOGUE = {
         },
         {
           "id": 120,
-          "name": "Ludwigia 'Super Red' (inclinata 'Cuba')",
+          "name": "Ludwigia inclinata 'Cuba'",
           "scientific": "Ludwigia inclinata var. verticillata 'Cuba'",
-          "difficulty": "Easy",
-          "about": "Strongly red Ludwigia with a bushy habit. Easy under good light.",
+          "difficulty": "Moderate",
+          "about": "Narrow, pointed leaves set in whorls around the stem, with copper to deep red new growth under strong light. It forms a bushy red group for the background and grows quickly once settled. It needs injected CO2, a full nutrient supply and room to grow; without CO2 the leaves come in wider, greener and sparser.",
           "conditions": [
             [
               "Light",
@@ -5616,7 +5503,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "CO2",
-              "Optional"
+              "Required"
             ],
             [
               "Growth",
@@ -5624,7 +5511,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-40 cm"
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -5671,7 +5558,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Ludwigia brevipes",
           "scientific": "Ludwigia brevipes",
           "difficulty": "Easy",
-          "about": "Easy green Ludwigia with a tidy habit. Good filler stem.",
+          "about": "Short, narrow oval leaves packed closely on thin stems, green in most tanks and orange-red at the tips under strong light with low nitrate. It branches well and makes a tidy filler group. It is easy in soft or hard water, but without CO2 it grows thinner and branches less.",
           "conditions": [
             [
               "Light",
@@ -5687,7 +5574,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-40 cm"
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -5721,7 +5608,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Rotala 'H'ra'",
           "scientific": "Rotala sp. 'H'ra'",
           "difficulty": "Moderate",
-          "about": "Green to bronze Rotala with narrow, upright leaves. Shows best colour under strong light.",
+          "about": "A Rotala rotundifolia form with narrow, lance-shaped leaves in pairs on slender stems, moving from gold through orange to red under strong light. It is used in dense groups for warm colour in the background. Lower leaves drop if shaded, so trim and replant tops before the group gets crowded; leaves are fragile when handling.",
           "conditions": [
             [
               "Light",
@@ -5737,7 +5624,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "15-35 cm"
+              "15 to 35 cm"
             ]
           ],
           "saNote": null,
@@ -5810,7 +5697,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Rotala 'Green'",
           "scientific": "Rotala sp. 'Green'",
           "difficulty": "Easy",
-          "about": "Easy green Rotala for filling out the background. Fast and forgiving.",
+          "about": "Small, slightly pointed lime-green leaves set densely along fine stems. It fills the background with a soft, even texture and grows lower and more compact in stronger light. It grows without CO2 but is denser with it, and regular trimming keeps the group bushy.",
           "conditions": [
             [
               "Light",
@@ -5826,7 +5713,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-30 cm"
+              "20 to 30 cm"
             ]
           ],
           "saNote": null,
@@ -5873,7 +5760,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Rotala rotundifolia",
           "scientific": "Rotala rotundifolia",
           "difficulty": "Easy",
-          "about": "Classic easy Rotala with round leaves, going pink-red in strong light. Fast, trim often.",
+          "about": "Small rounded leaves on soft stems, green in modest light and pink to red at the tips in strong light. It is a common background stem that grows into a dense, fine-textured bush. It is fast and easy, so it needs frequent trimming, and topping encourages side shoots.",
           "conditions": [
             [
               "Light",
@@ -5889,7 +5776,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-40 cm"
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -5961,8 +5848,8 @@ globalThis.PLANT_CATALOGUE = {
           "id": 128,
           "name": "Rotala ramosior 'Florida'",
           "scientific": "Rotala ramosior",
-          "difficulty": "Moderate",
-          "about": "Bushy Rotala with thin leaves that colour up red-orange. Likes strong light.",
+          "difficulty": "Demanding",
+          "about": "Small, narrow oval leaves that turn red-violet to deep purple under strong light, on stems that branch into a compact bush. It is grown in groups as a colour accent in the mid to background. It needs CO2 and steady nutrients, and stable parameters with good flow help prevent loss of lower leaves.",
           "conditions": [
             [
               "Light",
@@ -5970,7 +5857,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "CO2",
-              "Recommended"
+              "Required"
             ],
             [
               "Growth",
@@ -5978,7 +5865,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-30 cm"
+              "20 to 30 cm"
             ]
           ],
           "saNote": null,
@@ -6012,11 +5899,11 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Rotala tulunadensis",
           "scientific": "Rotala tulunadensis",
           "difficulty": "Moderate",
-          "about": "Red Rotala with fine leaves. Needs strong light to colour up.",
+          "about": "Narrow leaves stacked densely on the stem, mostly green with a slight red or orange tint under stronger light. It forms a compact, fine-textured group for the mid to background. It is sensitive rather than light-hungry: it does best in soft water with steady, consistent nutrient levels and a rich substrate.",
           "conditions": [
             [
               "Light",
-              "High"
+              "Medium to high"
             ],
             [
               "CO2",
@@ -6024,11 +5911,11 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Growth",
-              "Fast"
+              "Medium"
             ],
             [
               "Height",
-              "20-30 cm"
+              "20 to 30 cm"
             ]
           ],
           "saNote": null,
@@ -6058,100 +5945,11 @@ globalThis.PLANT_CATALOGUE = {
           ]
         },
         {
-          "id": 132,
-          "name": "Myriophyllum 'Roraima'",
-          "scientific": "Myriophyllum sp. 'Roraima'",
-          "difficulty": "Moderate",
-          "about": "Bronze-red feathery milfoil. Fast and likes strong light.",
-          "conditions": [
-            [
-              "Light",
-              "Medium to high"
-            ],
-            [
-              "CO2",
-              "Recommended"
-            ],
-            [
-              "Growth",
-              "Fast"
-            ],
-            [
-              "Height",
-              "20-40 cm"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
-            }
-          ],
-          "offers": [
-            {
-              "shop": "Micro Aquatic Shop",
-              "url": "https://microaquaticshop.com.au/products/myriophyllum-sp-roraima",
-              "unit": "bunch",
-              "price": 1295,
-              "was": 1500,
-              "soldOut": false,
-              "checked": "2026-10"
-            },
-            {
-              "shop": "Beyond Aquatics",
-              "url": "https://www.beyondaquatics.com.au/product-page/myriophyllum-sp-roraimi-bronze-milfoil",
-              "unit": "bunch",
-              "price": 1450,
-              "was": null,
-              "soldOut": false,
-              "checked": "2026-10"
-            },
-            {
-              "shop": "Aquarzon",
-              "url": "https://www.aquarzon.com/stem-plants/539-myriophyllum-roraima.html",
-              "unit": "bunch",
-              "price": 990,
-              "was": null,
-              "soldOut": false,
-              "checked": "2026-10"
-            },
-            {
-              "shop": "The Online Aquarium Shop",
-              "url": "https://www.theonlineaquariumshop.com.au/product/milfoil-bronze-myriophyllum-sp-roraimi/",
-              "unit": "bunch",
-              "price": 980,
-              "was": null,
-              "soldOut": false,
-              "checked": "2026-10"
-            }
-          ],
-          "defaultOffer": 3,
-          "sources": [
-            {
-              "label": "Micro Aquatic Shop: product page",
-              "url": "https://microaquaticshop.com.au/products/myriophyllum-sp-roraima"
-            },
-            {
-              "label": "Beyond Aquatics: product page",
-              "url": "https://www.beyondaquatics.com.au/product-page/myriophyllum-sp-roraimi-bronze-milfoil"
-            },
-            {
-              "label": "Aquarzon: product page",
-              "url": "https://www.aquarzon.com/stem-plants/539-myriophyllum-roraima.html"
-            },
-            {
-              "label": "The Online Aquarium Shop: product page",
-              "url": "https://www.theonlineaquariumshop.com.au/product/milfoil-bronze-myriophyllum-sp-roraimi/"
-            }
-          ]
-        },
-        {
           "id": 133,
           "name": "Myriophyllum 'Guyana'",
           "scientific": "Myriophyllum sp. 'Guyana'",
           "difficulty": "Moderate",
-          "about": "Fine-leaved green-red milfoil. Fast and wants good light.",
+          "about": "Soft, needle-like leaves in whorls, green with red to orange tints at the tips in good light. It makes a fine, feathery background group. It is fairly hardy and grows without CO2, but performs best with CO2, aquasoil and regular fertilising, and fast growth means frequent trimming.",
           "conditions": [
             [
               "Light",
@@ -6167,7 +5965,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-40 cm"
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -6240,7 +6038,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Myriophyllum mattogrossense",
           "scientific": "Myriophyllum mattogrossense",
           "difficulty": "Moderate",
-          "about": "Bushy, feathery milfoil with green to reddish stems. Fast grower.",
+          "about": "Fine, feathery bright green leaves in whorls, with stems and tips that can take on reddish tones. It grows quickly into a soft, bushy background group. It copes with medium light without CO2, but CO2 and rich nutrients make it denser and bring out the warmer colour.",
           "conditions": [
             [
               "Light",
@@ -6256,7 +6054,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "30-50 cm"
+              "30 to 50 cm"
             ]
           ],
           "saNote": null,
@@ -6316,7 +6114,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Myriophyllum simulans",
           "scientific": "Myriophyllum simulans",
           "difficulty": "Moderate",
-          "about": "Australian native milfoil with fine leaves. Sold as tissue culture.",
+          "about": "Australian native milfoil with comb-like leaves split into many hair-thin segments, held in whorls of four or five. It gives a very fine, soft texture in the background. It grows fast and feeds from the water column, so regular liquid fertiliser matters; CO2 is optional, and stems planted too close lose their lower leaves.",
           "conditions": [
             [
               "Light",
@@ -6332,7 +6130,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-40 cm"
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -6379,7 +6177,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Mayaca fluviatilis",
           "scientific": "Mayaca fluviatilis",
           "difficulty": "Moderate",
-          "about": "Soft, moss-like fine-leaved stem plant. Fast but can melt if conditions swing.",
+          "about": "Very fine, hair-like leaves along soft stems give it an almost moss-like look. It forms light green, feathery groups in the background. It prefers soft, slightly acidic water and needs steady iron, as pale new shoots are an early sign of shortage, and it can melt if conditions change suddenly.",
           "conditions": [
             [
               "Light",
@@ -6395,7 +6193,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-40 cm"
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -6455,7 +6253,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Stargrass",
           "scientific": "Heteranthera zosterifolia",
           "difficulty": "Easy",
-          "about": "Easy, grassy-leaved stem plant that grows fast. Bends and sprawls if light is low.",
+          "about": "Narrow, grass-like leaves in star-shaped whorls on stems that throw out many side shoots. It quickly forms a bushy, light green group, and can also be trained low as a loose midground plant in strong light. It is easy and fast, but stems lean and sprawl in weak light, and dense groups need thinning so light reaches the lower leaves.",
           "conditions": [
             [
               "Light",
@@ -6471,7 +6269,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-40 cm"
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -6544,7 +6342,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Nesaea triflora",
           "scientific": "Nesaea triflora",
           "difficulty": "Moderate",
-          "about": "Fast, bushy stem plant with red-tinged leaves. Likes good light and CO2.",
+          "about": "Small, narrow lance-shaped leaves on upright stems, bright green with red to pink tones in strong light. It forms a bushy background or midground group. It needs good light, CO2 and a nutrient-rich substrate to colour and stay compact, and regular trimming keeps it dense.",
           "conditions": [
             [
               "Light",
@@ -6560,7 +6358,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-40 cm"
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -6594,7 +6392,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Hottonia palustris (water violet)",
           "scientific": "Hottonia palustris",
           "difficulty": "Moderate",
-          "about": "Feathery temperate stem plant that likes cooler water. Can struggle in warm tanks.",
+          "about": "Bright green, finely divided comb-like leaves on upright stems, giving a light, feathery texture. It is a temperate plant that does best below about 22 degrees and often struggles in warm tropical water. It likes good light and a steady supply of nitrate and phosphate, and emersed-grown plants need time to form submerged leaves.",
           "conditions": [
             [
               "Light",
@@ -6610,7 +6408,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-40 cm"
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -6643,16 +6441,16 @@ globalThis.PLANT_CATALOGUE = {
           "id": 189,
           "name": "Eichhornia diversifolia",
           "scientific": "Eichhornia diversifolia",
-          "difficulty": "Easy",
-          "about": "Submerged stem plant relative of water hyacinth. Easy and fast.",
+          "difficulty": "Moderate",
+          "about": "Narrow, light green, strap-like leaves sit alternately along upright stems, giving a soft, palm-like look. It forms a bushy group that suits the background and grows quickly to the surface, so it needs regular trimming. Strong light and CO2 keep the stems sturdy; in shade or with low nitrate and phosphate the leaves turn transparent and drop.",
           "conditions": [
             [
               "Light",
-              "Medium"
+              "Medium to high"
             ],
             [
               "CO2",
-              "Optional"
+              "Recommended"
             ],
             [
               "Growth",
@@ -6660,7 +6458,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-40 cm"
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -6694,7 +6492,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Guppy Grass",
           "scientific": "Najas guadalupensis",
           "difficulty": "Easy",
-          "about": "Fine, bushy, fast-growing stem plant that floats or is planted. Good cover for fry.",
+          "about": "Thin, branching stems carry very fine, narrow leaves about 1 to 2 cm long in a soft, bright green tangle. It can be planted as a loose background bunch or left floating, where it gives shelter to fry and shrimp. It grows fast in most water and soaks up nutrients, but the stems are brittle and need thinning often.",
           "conditions": [
             [
               "Light",
@@ -6710,7 +6508,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "30-60 cm"
+              "30 to 60 cm"
             ]
           ],
           "saNote": null,
@@ -6744,7 +6542,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Hydrilla verticillata",
           "scientific": "Hydrilla verticillata",
           "difficulty": "Easy",
-          "about": "Fast-growing, tall stem plant that is good for soaking up nutrients in a new tank. It needs regular trimming.",
+          "about": "Small, finely toothed leaves grow in whorls along long, branching stems, giving a fine, bright green texture. It is often used in new tanks to take up excess nutrients and compete with algae. It grows quickly to the surface and needs frequent trimming; fragments root easily, so remove loose cuttings.",
           "conditions": [
             [
               "Light",
@@ -6760,7 +6558,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Tall"
+              "30 to 60 cm"
             ]
           ],
           "saNote": "Roxy does not state SA shipping. Aquatic Plants Australia excludes Tasmania only. Confirm SA is allowed at checkout.",
@@ -6807,11 +6605,11 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Corkscrew Vallisneria (Contortionist)",
           "scientific": "Vallisneria spiralis 'Contortionist'",
           "difficulty": "Easy",
-          "about": "Vallisneria with twisted, corkscrew leaves. It spreads by runners into a tall background screen.",
+          "about": "Long, narrow, ribbon leaves twist into tight corkscrew spirals and form a loose, textured screen at the back of a layout. It spreads by runners and is a heavy root feeder, so it does best in a nutrient-rich substrate with root tabs. Leaves that reach the surface can be cut off at the base to keep it tidy.",
           "conditions": [
             [
               "Light",
-              "Low to moderate"
+              "Low to medium"
             ],
             [
               "CO2",
@@ -6823,7 +6621,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Tall"
+              "30 to 50 cm"
             ]
           ],
           "saNote": null,
@@ -6892,15 +6690,15 @@ globalThis.PLANT_CATALOGUE = {
           ]
         },
         {
-          "id": 226,
-          "name": "Pine Needle (Hydrotriche)",
-          "scientific": "Hydrotriche hottoniiflora",
-          "difficulty": "Moderate",
-          "about": "Feathery, needle-leaved stem plant. It needs clean water and good light.",
+          "id": 183,
+          "name": "Umbrella Hair Grass (Eleocharis vivipara)",
+          "scientific": "Eleocharis vivipara",
+          "difficulty": "Easy",
+          "about": "Tall, very fine hairgrass whose stems reach the surface and then sprout clusters of thin shoots at the tips, forming an umbrella-like canopy. It suits the back of a layout or a single feature clump. It spreads by runners, benefits from a rich substrate and fertilising, and needs regular trimming.",
           "conditions": [
             [
               "Light",
-              "Moderate to high"
+              "Medium"
             ],
             [
               "CO2",
@@ -6912,7 +6710,70 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "20-30cm"
+              "30 to 50 cm"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "no-photo.svg",
+              "caption": "No photo yet."
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/eleocharis-vivipara-emersed-bunch-umbrella-hair-grass",
+              "unit": "emersed bunch",
+              "price": 895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/eleocharis-vivipara-umbrella-hair-grass",
+              "unit": "portion",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/collections/bunches/products/eleocharis-vivipara-emersed-bunch-umbrella-hair-grass"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/collections/plant-background/products/eleocharis-vivipara-umbrella-hair-grass"
+            }
+          ]
+        },
+        {
+          "id": 226,
+          "name": "Pine Needle (Hydrotriche)",
+          "scientific": "Hydrotriche hottoniiflora",
+          "difficulty": "Moderate",
+          "about": "Bright green, needle-like leaves in dense whorls give the stems a soft, pine-like look. It works as a fine-textured background group and can flower at the surface. It prefers soft, slightly acidic water, a rich substrate and CO2, and it drops its needles quickly when conditions change or nutrients run low.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to high"
+            ],
+            [
+              "CO2",
+              "Recommended"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ],
+            [
+              "Height",
+              "20 to 40 cm"
             ]
           ],
           "saNote": null,
@@ -6959,7 +6820,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Rotala macrandra 'Mini Type 2'",
           "scientific": "Rotala macrandra 'Mini Type 2'",
           "difficulty": "Demanding",
-          "about": "Compact, curled-leaf Rotala macrandra with red colour under strong light.",
+          "about": "A compact form of Rotala macrandra with small, wavy leaves on short internodes that turn orange to pink under strong light. It suits a small group in the midground or a low background. It needs high light, CO2 and steady nutrients; remove any shoots that revert to the larger wild-type leaves, and take cuttings only from small-leaved stems.",
           "conditions": [
             [
               "Light",
@@ -6975,7 +6836,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "15-20cm"
+              "10 to 30 cm"
             ]
           ],
           "saNote": null,
@@ -7158,7 +7019,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Java fern 'Needle Leaf'",
           "scientific": "Microsorum pteropus 'Needle Leaf'",
           "difficulty": "Easy",
-          "about": "A Java fern with thin, narrow fronds that give a fine texture on wood. It is as hardy as standard Java fern.",
+          "about": "A Java fern with very narrow, almost grass-like fronds well under 1 cm wide that grow in dense, upright clusters. It gives a fine texture on wood or rock and is as hardy as standard Java fern. Tie or glue the rhizome to hardscape rather than burying it, and expect new plantlets to form on older fronds.",
           "conditions": [
             [
               "Light",
@@ -7174,7 +7035,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "15 to 20 cm"
+              "15 to 25 cm"
             ]
           ],
           "saNote": null,
@@ -7306,7 +7167,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Subwassertang",
           "scientific": "Lomariopsis lineata",
           "difficulty": "Easy",
-          "about": "The juvenile form of a fern that grows as lacy, flat clumps. It wedges into crevices and holds on with little help. It is a good filler where moss would look too fine.",
+          "about": "Small, lacy, dark green fronds grow as flat, branching clumps; it is the juvenile form of a fern and stays in that form underwater. It wedges into crevices and holds on with little help, making it a good filler on wood and rock where moss would look too fine. It is very tolerant and grows slowly, so clumps rarely need trimming.",
           "conditions": [
             [
               "Light",
@@ -7322,7 +7183,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Forms flat clumps"
+              "3 to 8 cm"
             ]
           ],
           "saNote": null,
@@ -7406,7 +7267,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias 'Paco'",
           "scientific": "Anubias barteri 'Paco'",
           "difficulty": "Easy",
-          "about": "Small Anubias with narrow, pointed leaves on a compact rhizome. Good for tying onto hardscape.",
+          "about": "A compact Anubias barteri form with broad, glossy, dark green leaves that are often slightly wavy. Like other Anubias it is tied or glued to wood or rock with the rhizome kept clear of the substrate. It grows slowly and tolerates low light, but strong light lets spot algae settle on the long-lived leaves.",
           "conditions": [
             [
               "Light",
@@ -7422,7 +7283,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-15 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -7482,7 +7343,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias 'Lucy'",
           "scientific": "Anubias barteri 'Lucy'",
           "difficulty": "Easy",
-          "about": "Compact Anubias with rounded, glossy leaves. A tough shade plant for wood and rock.",
+          "about": "A compact Anubias barteri form with dark, glossy, slightly wavy leaves that build a dense, rounded plant. It suits shaded spots on wood and rock and is tough enough to resist most plant-nibbling fish. Keep the rhizome above the substrate and give gentle flow, as strong light encourages algae on the slow leaves.",
           "conditions": [
             [
               "Light",
@@ -7498,7 +7359,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-15 cm"
+              "10 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -7545,7 +7406,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias 'Emerald Heart'",
           "scientific": "Anubias barteri var. nana 'Emerald Heart'",
           "difficulty": "Easy",
-          "about": "Heart-shaped bright green Anubias leaves on a small rhizome. Tie to hardscape and keep the rhizome above the substrate.",
+          "about": "A form of Anubias nana with bright green, heart-shaped leaves on a short rhizome. It is very hardy and grows in low light without CO2, which suits shaded spots on wood or rock. Tie or glue it in place and keep the rhizome uncovered, as a buried rhizome will rot.",
           "conditions": [
             [
               "Light",
@@ -7561,7 +7422,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -7621,7 +7482,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias 'Isabelle'",
           "scientific": "Anubias sp. 'Isabelle'",
           "difficulty": "Easy",
-          "about": "Small Anubias with rounded leaves that suits nano tanks. Attach to wood or rock.",
+          "about": "A small Anubias with rounded, dark green leaves on a short rhizome, suited to tight spots on wood and rock. It is grown like other dwarf Anubias: attached to hardscape, rhizome uncovered, in low to medium light. New leaves appear only every few weeks, so avoid strong light that lets algae build up.",
           "conditions": [
             [
               "Light",
@@ -7637,7 +7498,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-15 cm"
+              "10 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -7671,7 +7532,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias 'Pangolino'",
           "scientific": "Anubias barteri var. nana 'Pangolino'",
           "difficulty": "Easy",
-          "about": "Compact Anubias with narrow, pointed leaves. Slow and easy on hardscape.",
+          "about": "One of the smallest Anubias, with dark green, spoon to lance-shaped leaves about 0.5 to 1.5 cm long that overlap like scales on a short, thick rhizome. It suits small details on wood and rock, or crevices between stones. Growth is very slow, so give it low to medium light and good flow to keep algae off the leaves.",
           "conditions": [
             [
               "Light",
@@ -7687,7 +7548,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-15 cm"
+              "3 to 5 cm"
             ]
           ],
           "saNote": null,
@@ -7747,11 +7608,11 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias 'Pinto'",
           "scientific": "Anubias barteri var. nana 'Pinto'",
           "difficulty": "Easy",
-          "about": "Anubias with white and green marbled new leaves. Slow growing and easy on wood or rock.",
+          "about": "A variegated Anubias nana with new leaves marbled in white and green, with no two leaves alike. It is grown on wood or rock like other Anubias, with the rhizome uncovered. It is slower than plain Anubias nana because the white areas lack chlorophyll, and it needs moderate light to keep its pattern; too much light invites algae.",
           "conditions": [
             [
               "Light",
-              "Low to medium"
+              "Medium"
             ],
             [
               "CO2",
@@ -7763,7 +7624,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-15 cm"
+              "10 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -7836,7 +7697,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias nana 'Bonsai'",
           "scientific": "Anubias barteri var. nana 'Bonsai'",
           "difficulty": "Easy",
-          "about": "Very small Anubias for nano tanks and tight hardscape. Attach to wood or rock.",
+          "about": "A very small form of Anubias nana with teardrop-shaped, dark green leaves about 1 to 2 cm long held close to the rhizome in tight clusters. It suits small gaps in hardscape and nano layouts. Attach it to wood or rock, keep the rhizome uncovered and avoid strong light, which lets algae settle on the slow leaves.",
           "conditions": [
             [
               "Light",
@@ -7852,7 +7713,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "5-10 cm"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -7886,7 +7747,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias minima 'Dragon Claw'",
           "scientific": "Anubias minima",
           "difficulty": "Easy",
-          "about": "Tiny Anubias with narrow, claw-like leaves. Suits nano scapes on wood or rock.",
+          "about": "A small Anubias with elongated, slightly crinkled dark green leaves that curve like claws. It is usually listed as a form derived from Anubias barteri var. glabra. It grows in low to medium light without CO2 and is attached to wood or tucked into gaps between stones, where its roots grip on their own over time.",
           "conditions": [
             [
               "Light",
@@ -7902,7 +7763,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "5-10 cm"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -7962,7 +7823,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias 'Gold'",
           "scientific": "Anubias barteri var. nana 'Gold'",
           "difficulty": "Easy",
-          "about": "Anubias with yellow-green new leaves that brighten with light. Slow and hardy on hardscape.",
+          "about": "An Anubias nana form whose new leaves open bright lime-yellow and mature to a warmer gold-green, giving a light accent among darker plants. It is as hardy as standard Anubias nana. Moderate light keeps the colour bright, since weak light darkens the leaves, but strong light brings algae, so a gently lit spot with some flow suits it best.",
           "conditions": [
             [
               "Light",
@@ -7978,7 +7839,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-15 cm"
+              "10 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -8025,7 +7886,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias 'Jade'",
           "scientific": "Anubias barteri 'Jade'",
           "difficulty": "Easy",
-          "about": "Compact Anubias with dark, rounded leaves. Hardy shade plant for hardscape.",
+          "about": "Compact nana-type Anubias with small, rounded leaves in mixed shades of green, often marked with fine veins, streaks or spots like jade. It stays low and slowly forms a tight clump on wood or rock. Leave the rhizome uncovered, and give it some shade or flow so slow-growing leaves do not collect algae.",
           "conditions": [
             [
               "Light",
@@ -8041,7 +7902,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-15 cm"
+              "3 to 8 cm"
             ]
           ],
           "saNote": null,
@@ -8088,7 +7949,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias 'Coin'",
           "scientific": "Anubias barteri 'Coin'",
           "difficulty": "Easy",
-          "about": "Small Anubias with round, coin-shaped leaves. Attach to wood or rock.",
+          "about": "Anubias with nearly circular, deep green leaves about 4 to 6 cm across on short stalks. It branches into a neat, rounded clump and suits wood, rock and gaps in the hardscape. Tie or glue the rhizome in place rather than burying it, which causes rot. Shade or gentle flow helps keep algae off the slow leaves.",
           "conditions": [
             [
               "Light",
@@ -8104,7 +7965,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "5-10 cm"
+              "5 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -8138,7 +7999,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias glabra Micro",
           "scientific": "Anubias barteri var. glabra",
           "difficulty": "Easy",
-          "about": "Small form of Anubias glabra with smooth, narrow leaves. Tie to wood or rock.",
+          "about": "Small form of Anubias glabra with smooth, narrow, lance-shaped dark green leaves on a creeping rhizome. Its spreading growth fills gaps along wood and rock and adds a finer texture than broad-leaved Anubias. Keep the rhizome above the substrate and dose some nutrients for darker, healthier leaves.",
           "conditions": [
             [
               "Light",
@@ -8154,7 +8015,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "5-10 cm"
+              "5 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -8188,7 +8049,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias congensis Mini",
           "scientific": "Anubias congensis",
           "difficulty": "Easy",
-          "about": "Anubias with lance-shaped leaves, a bit more upright than nana types. Attach to hardscape.",
+          "about": "Compact Anubias with narrow, lance-shaped green leaves held more upright than nana types. It suits the midground, tied to wood or rock or planted with the rhizome left above the substrate, since burying it causes rot. It tolerates a wide range of water and grows slowly under low to moderate light.",
           "conditions": [
             [
               "Light",
@@ -8204,7 +8065,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -8237,12 +8098,12 @@ globalThis.PLANT_CATALOGUE = {
           "id": 75,
           "name": "Anubias 'Panda'",
           "scientific": "Anubias barteri 'Panda'",
-          "difficulty": "Easy",
-          "about": "Variegated Anubias with white-splashed leaves. Currently sold out; the shop takes pre-orders.",
+          "difficulty": "Moderate",
+          "about": "Anubias nana selection with green leaves splashed and speckled in creamy white, a less even pattern than 'Pinto' or 'White'. Growth is very slow, even for an Anubias. Attach it to wood or rock with the rhizome exposed. It needs somewhat more light than green forms to keep the variegation on new leaves.",
           "conditions": [
             [
               "Light",
-              "Low to medium"
+              "Medium"
             ],
             [
               "CO2",
@@ -8254,7 +8115,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -8288,7 +8149,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Spoon Leaf Java Fern",
           "scientific": "Microsorum pteropus 'Spoon Leaf'",
           "difficulty": "Easy",
-          "about": "Java fern with rounded, spoon-shaped fronds. Tie to hardscape and leave the rhizome uncovered.",
+          "about": "Java fern with broad, rounded fronds that curve slightly like the bowl of a spoon. It forms a dense clump on wood or rock and suits the midground or hardscape edges. Tie the rhizome on rather than burying it. It grows slowly and does well in low light without CO2.",
           "conditions": [
             [
               "Light",
@@ -8304,7 +8165,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": null,
@@ -8338,7 +8199,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Java Fern 'Trident'",
           "scientific": "Microsorum pteropus 'Trident'",
           "difficulty": "Easy",
-          "about": "Java fern with fronds that split into three tips. Tough and slow on wood or rock.",
+          "about": "Narrow-leaved form of java fern whose fronds usually split into three or more slender lobes, which gives a finer, lacier look than the standard plant. It forms a bushy clump on wood or rock in the midground. Keep the rhizome uncovered. It is undemanding and grows slowly in low light.",
           "conditions": [
             [
               "Light",
@@ -8354,7 +8215,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "15-25 cm"
+              "15 to 25 cm"
             ]
           ],
           "saNote": null,
@@ -8427,7 +8288,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Java Fern 'Mini Coral'",
           "scientific": "Microsorum sp. 'Mini Coral'",
           "difficulty": "Easy",
-          "about": "Small, finely divided java fern with a coral-like look. Good for nano scapes.",
+          "about": "Small java fern with short, forked fronds that resemble a compact 'Trident' with more defined lobes, giving a coral-like outline. The small leaves help create a sense of scale on wood or between stones. Attach it to hardscape and keep the rhizome exposed. It prefers shaded spots and grows slowly.",
           "conditions": [
             [
               "Light",
@@ -8443,7 +8304,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "5-10 cm"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -8477,7 +8338,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Java Fern 'Micro'",
           "scientific": "Microsorum pteropus 'Micro'",
           "difficulty": "Easy",
-          "about": "Very compact java fern with small leaves. Suits nano tanks on wood or rock.",
+          "about": "The smallest java fern in the hobby, with narrow leaves about 2 to 6 cm long forming a tiny, tight clump. It suits fine detail work on small stones and branches. Tie it to hardscape with the rhizome uncovered. Some plants sold under this name are young standard or 'Mini' ferns that grow larger.",
           "conditions": [
             [
               "Light",
@@ -8493,7 +8354,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "5-8 cm"
+              "3 to 6 cm"
             ]
           ],
           "saNote": null,
@@ -8540,7 +8401,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Java Fern 'Mini'",
           "scientific": "Microsorum pteropus 'Mini'",
           "difficulty": "Easy",
-          "about": "Compact java fern, a little larger than 'Micro'. Attach to wood or rock.",
+          "about": "Compact java fern with narrow, pointed green leaves, roughly twice the size of 'Micro' and much smaller than the standard plant. It forms a dense clump on wood or rock in the foreground or midground. Keep the rhizome above the substrate. It is undemanding and grows slowly in low to moderate light.",
           "conditions": [
             [
               "Light",
@@ -8556,7 +8417,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "5-10 cm"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -8590,7 +8451,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Mini Bolbitis (Baby Leaf)",
           "scientific": "Bolbitis heteroclita 'Difformis'",
           "difficulty": "Moderate",
-          "about": "Small bolbitis with delicate fronds. Attach to wood or rock in flow, and avoid burying the rhizome.",
+          "about": "Dwarf Bolbitis with small, finely divided, translucent green fronds on a thin creeping rhizome. It grows into a delicate, fern-like cover on wood or rock and adds fine texture. Remove any rock wool and attach the rhizome above the substrate. It grows slowly and does best with good flow and clean water.",
           "conditions": [
             [
               "Light",
@@ -8606,7 +8467,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-20 cm"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -8640,7 +8501,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Filmy Fern (Crepidomanes auriculatum)",
           "scientific": "Crepidomanes auriculatum",
           "difficulty": "Moderate",
-          "about": "Small filmy fern that carpets wood and rock. Likes steady, low to moderate light.",
+          "about": "Tiny filmy fern with thin, translucent fronds on fine creeping rhizomes that slowly spread over wood and rock. Under water it grows very slowly and stays much smaller than when emersed. Keep it off the substrate and clear of mosses that can smother it. Soft water, flow and steady nutrients help.",
           "conditions": [
             [
               "Light",
@@ -8652,11 +8513,11 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Growth",
-              "Slow"
+              "Very slow"
             ],
             [
               "Height",
-              "5-10 cm"
+              "2 to 5 cm"
             ]
           ],
           "saNote": null,
@@ -8703,11 +8564,11 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Catherinae'",
           "scientific": "Bucephalandra sp. 'Catherinae'",
           "difficulty": "Easy",
-          "about": "Slow rhizome plant for attaching to wood or rock.",
+          "about": "Bucephalandra with long, very narrow, dark green leaves with rippled edges that can show a blue-green sheen or reddish tints in stronger light. Its fine, wavy leaves add detail to hardscape. Attach the rhizome to wood or rock, never buried, and keep conditions stable to avoid melting.",
           "conditions": [
             [
               "Light",
-              "Low"
+              "Low to medium"
             ],
             [
               "CO2",
@@ -8719,7 +8580,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Short"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -8753,7 +8614,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Gorilla'",
           "scientific": "Bucephalandra sp. 'Gorilla'",
           "difficulty": "Easy",
-          "about": "Slow rhizome plant for attaching to wood or rock.",
+          "about": "Bucephalandra with small to medium, narrow and wavy leaves. It looks mostly green under white light and shows more colour and sheen under RGB lighting. It forms a low clump on wood or rock with the rhizome left exposed. Growth is very slow, so place it where algae and faster plants will not crowd it.",
           "conditions": [
             [
               "Light",
@@ -8769,7 +8630,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Short"
+              "4 to 8 cm"
             ]
           ],
           "saNote": null,
@@ -8803,7 +8664,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Dark Blue'",
           "scientific": "Bucephalandra sp. 'Dark Blue'",
           "difficulty": "Easy",
-          "about": "Slow rhizome plant with dark, blue-tinted leaves.",
+          "about": "Bucephalandra with long, narrow leaves in very dark green to near-black blue, with a metallic blue sheen under good light. New leaves often start green and darken as the plant settles. It forms a low clump on wood or rock with the rhizome exposed. Avoid sudden changes, which can cause melting.",
           "conditions": [
             [
               "Light",
@@ -8819,7 +8680,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Short"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -8853,7 +8714,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Brownie Phantom Mini'",
           "scientific": "Bucephalandra sp. 'Brownie Phantom Mini'",
           "difficulty": "Easy",
-          "about": "Small, slow rhizome plant for wood or rock.",
+          "about": "Very small Bucephalandra with oblong leaves about 1 to 2 cm long in dark olive to deep brown, with a blue iridescent sheen under good light. Its tiny leaves suit small stones and fine detail on wood. Attach the rhizome to hardscape rather than burying it. It is hardy and does well in shaded spots.",
           "conditions": [
             [
               "Light",
@@ -8869,7 +8730,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Short"
+              "2 to 5 cm"
             ]
           ],
           "saNote": null,
@@ -8903,7 +8764,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Dark Lamandau'",
           "scientific": "Bucephalandra sp. 'Dark Lamandau'",
           "difficulty": "Easy",
-          "about": "Slow rhizome plant for attaching to wood or rock.",
+          "about": "Compact Bucephalandra with small, rounded to oval dark leaves, from deep green to brownish, often with fine white dots and a sheen under good light. It stays low and suits the foreground or small accents on wood and rock. Keep the rhizome exposed, and give it stable conditions to avoid melting.",
           "conditions": [
             [
               "Light",
@@ -8919,7 +8780,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Short"
+              "3 to 6 cm"
             ]
           ],
           "saNote": null,
@@ -8953,7 +8814,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Theia'",
           "scientific": "Bucephalandra sp. 'Theia'",
           "difficulty": "Easy",
-          "about": "Slow rhizome plant for attaching to wood or rock.",
+          "about": "Soft, rounded leaves up to about 3.5 cm long that turn reddish brown to purple under water, often with a bluish sheen and fine silvery dots. It forms a low, slow-spreading clump on wood or rock. Keep the rhizome above the substrate and give it gentle flow so the leaves stay clean of algae.",
           "conditions": [
             [
               "Light",
@@ -8969,7 +8830,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Short"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -9003,7 +8864,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Wavy Green'",
           "scientific": "Bucephalandra sp. 'Wavy Green'",
           "difficulty": "Easy",
-          "about": "Slow rhizome plant with wavy leaves.",
+          "about": "Bright green, elongated leaves with ruffled, wavy edges and fine white spots, held on a thin creeping rhizome. It makes a low, textured clump for wood and rock in the foreground or midground. Attach it rather than burying the rhizome, and expect slow growth that leaves room for patience over trimming.",
           "conditions": [
             [
               "Light",
@@ -9019,7 +8880,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Short"
+              "5 to 10 cm"
             ]
           ],
           "saNote": "Micro Aquatic Shop restricts several Bucephalandra to SA, but this page notes no SA restriction. Verify at checkout.",
@@ -9053,7 +8914,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Pandora'",
           "scientific": "Bucephalandra sp. 'Pandora'",
           "difficulty": "Easy",
-          "about": "Slow rhizome plant, grown emersed.",
+          "about": "Small, rounded leaves with strong iridescence that shifts between green, blue and purple, and shows best under cooler or blue-toned lighting. It stays low and compact on wood or rock and spreads slowly along its rhizome. Tie or glue it in place with the rhizome exposed, and keep algae down with steady flow.",
           "conditions": [
             [
               "Light",
@@ -9069,7 +8930,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Short"
+              "5 to 8 cm"
             ]
           ],
           "saNote": null,
@@ -9103,7 +8964,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Palm Tree'",
           "scientific": "Bucephalandra sp. 'Palm Tree'",
           "difficulty": "Easy",
-          "about": "Slow rhizome plant, grown emersed.",
+          "about": "Elongated, slightly wavy leaves that arch and curve down at the tips, giving each rosette the look of a tiny palm. It grows a little faster than many Bucephalandra and clumps well on rock or wood. It is undemanding about light and CO2, but the rhizome must stay above the substrate or it may rot.",
           "conditions": [
             [
               "Light",
@@ -9119,7 +8980,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Short"
+              "5 to 12 cm"
             ]
           ],
           "saNote": null,
@@ -9153,7 +9014,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Kedagang Red'",
           "scientific": "Bucephalandra sp. 'Kedagang Red'",
           "difficulty": "Easy",
-          "about": "Slow rhizome plant with reddish tones, grown emersed.",
+          "about": "Long, narrow, slightly curled leaves about 4 to 5.5 cm long, very dark green to bronze with a bluish sheen and silvery dots, while new leaves come in red. It stays compact and spreads outward across rock or wood. Colour is strongest with medium light, CO2 and steady nutrients, though it survives in low-tech tanks.",
           "conditions": [
             [
               "Light",
@@ -9169,7 +9030,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Short"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -9203,7 +9064,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Bucephalandra 'Purple Diamond'",
           "scientific": "Bucephalandra sp. 'Purple Diamond'",
           "difficulty": "Easy",
-          "about": "Slow rhizome plant with purple-tinted leaves, grown emersed.",
+          "about": "Small leaves about 1 to 2 cm long that shimmer purple, blue and velvet green from above and show pink beneath. It is one of the more compact Bucephalandra and suits detailed placement on small stones and wood. Growth is very slow, so start with a good-sized clump and keep the rhizome uncovered.",
           "conditions": [
             [
               "Light",
@@ -9219,7 +9080,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Short"
+              "3 to 8 cm"
             ]
           ],
           "saNote": null,
@@ -9253,7 +9114,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias 'White'",
           "scientific": "Anubias barteri 'White'",
           "difficulty": "Moderate",
-          "about": "Anubias with white-variegated leaves. It is slow and best attached to wood or rock.",
+          "about": "A compact Anubias barteri form with leaves marbled or splashed with white, and some leaves almost entirely white. It is slower and a little touchier than green anubias because the pale tissue has less chlorophyll. Attach it to wood or rock in low to medium light; strong light invites algae on the slow leaves.",
           "conditions": [
             [
               "Light",
@@ -9269,7 +9130,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Short"
+              "5 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -9303,7 +9164,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Anubias 'Jenny'",
           "scientific": "Anubias barteri 'Jenny'",
           "difficulty": "Easy",
-          "about": "Compact anubias for attaching to wood or rock, up to about 20cm.",
+          "about": "An Australian-bred anubias cultivar with broad, dark green leaves and lighter new growth on a sturdy rhizome. It is hardy, tolerates shade under ledges, and suits wood or rock in the midground. Keep the rhizome out of the substrate and avoid strong light on the slow leaves to limit algae.",
           "conditions": [
             [
               "Light",
@@ -9319,7 +9180,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Up to 20cm"
+              "10 to 20 cm"
             ]
           ],
           "saNote": "The shop does not explicitly confirm plant shipping to SA. Verify at checkout.",
@@ -9360,7 +9221,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Christmas moss",
           "scientific": "Vesicularia montagnei",
           "difficulty": "Easy",
-          "about": "Neat, layered fronds shaped like small fir trees. It is tidier than Java moss and the usual choice for moss trees on wood. Regular trimming keeps it dense.",
+          "about": "Neat, layered fronds shaped like small fir trees, tidier than Java moss and a common choice for moss trees and covering wood. It grows slowly and is best tied on in a thin layer. Regular trimming keeps it dense, and it keeps its shape best in water below about 26°C.",
           "conditions": [
             [
               "Light",
@@ -9376,7 +9237,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Layered fronds"
+              "2 to 5 cm"
             ]
           ],
           "saNote": null,
@@ -9478,7 +9339,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Mini Christmas moss",
           "scientific": "Vesicularia sp. 'Mini Christmas'",
           "difficulty": "Easy",
-          "about": "A smaller leaved form of Christmas moss. Its finer scale suits a smaller tank and detailed wood. Growth is slow, so start with a generous portion.",
+          "about": "A smaller-leaved form of Christmas moss with tight, triangular fronds that give fine detail on wood and stone. Its small scale helps a layout look larger. Growth is slow, so start with a generous portion, tie it thinly and trim lightly to keep it compact.",
           "conditions": [
             [
               "Light",
@@ -9494,7 +9355,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Small layered fronds"
+              "1 to 3 cm"
             ]
           ],
           "saNote": null,
@@ -9565,7 +9426,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Flame moss",
           "scientific": "Taxiphyllum sp. 'Flame'",
           "difficulty": "Easy",
-          "about": "Grows straight up in twisting strands that look like flickering flames. It adds vertical texture on wood and rock.",
+          "about": "Dark green strands that grow straight up and twist like flickering flames, giving vertical texture on wood and rock. It is slow and stays in neat tufts rather than spreading sideways. Tie it on in small clumps and trim the tops if they start to flop over.",
           "conditions": [
             [
               "Light",
@@ -9581,7 +9442,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Upright twisting strands"
+              "3 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -9683,7 +9544,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Weeping moss",
           "scientific": "Vesicularia ferriei",
           "difficulty": "Moderate",
-          "about": "The only common aquarium moss that grows downward. It looks best on the undersides of branches and overhangs. Attach it high and let it hang.",
+          "about": "The common aquarium moss that grows downward, with branching fronds that hang in curtains. It looks best tied high on branches and overhangs. It grows slowly and is prone to algae in strong light, and it does best in cooler water with good flow.",
           "conditions": [
             [
               "Light",
@@ -9699,7 +9560,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Hanging fronds"
+              "3 to 8 cm"
             ]
           ],
           "saNote": null,
@@ -9796,7 +9657,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Taiwan moss",
           "scientific": "Taxiphyllum alternans",
           "difficulty": "Easy",
-          "about": "A soft, fluffy moss with branching fronds. The mini form is a tidier choice for small scale detail. It attaches readily to wood.",
+          "about": "A soft, fluffy moss with irregular branching fronds, similar to Java moss but finer and denser. It attaches readily to wood and stone and suits a natural, overgrown look. Trim it regularly so the lower layers stay healthy and debris does not build up inside.",
           "conditions": [
             [
               "Light",
@@ -9812,7 +9673,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Fluffy branching"
+              "2 to 5 cm"
             ]
           ],
           "saNote": null,
@@ -9896,7 +9757,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Spiky moss",
           "scientific": "Taxiphyllum sp. 'Spiky'",
           "difficulty": "Easy",
-          "about": "Long, pointed fronds with a sharper look than Christmas moss. It copes with warmer water better than Christmas moss, which helps during SA summer heatwaves.",
+          "about": "Long, pointed fronds with a sharper, more open look than Christmas moss. It grows a bit faster than most decorative mosses and attaches well to wood and rock. It copes with warmer water better than Christmas moss, and regular trimming keeps it from looking ragged.",
           "conditions": [
             [
               "Light",
@@ -9912,7 +9773,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Long pointed fronds"
+              "2 to 6 cm"
             ]
           ],
           "saNote": null,
@@ -9978,7 +9839,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Fissidens",
           "scientific": "Fissidens fontanus, F. nobilis, F. 'Mini'",
           "difficulty": "Moderate",
-          "about": "A true aquatic moss with tiny fronds like miniature ferns that form dense domes. It attaches slowly and can be fiddly to tie on. It looks natural on branch shaped wood and at the base of rocks.",
+          "about": "A true aquatic moss with tiny fronds like miniature ferns that form dense, low domes. It grows very slowly and can be fiddly to tie on, but once established it needs little care. It looks natural on branch-shaped wood and at the base of rocks; keep algae down with steady flow.",
           "conditions": [
             [
               "Light",
@@ -9994,7 +9855,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Tiny fern shaped fronds"
+              "1 to 3 cm"
             ]
           ],
           "saNote": null,
@@ -10105,7 +9966,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Peacock moss",
           "scientific": "Taxiphyllum sp. 'Peacock'",
           "difficulty": "Easy",
-          "about": "Fronds spread in flat, layered fans. It gives a fuller look than Christmas moss on large surfaces.",
+          "about": "Fronds spread in flat, layered fans with a fuller look than Christmas moss, good for covering larger wood and rock surfaces. It grows slowly and stays fairly neat. Tie it on thinly and trim the outer layer so light reaches the base.",
           "conditions": [
             [
               "Light",
@@ -10121,7 +9982,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Fanned fronds"
+              "2 to 5 cm"
             ]
           ],
           "saNote": null,
@@ -10179,7 +10040,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Stringy moss",
           "scientific": "Leptodictyum riparium",
           "difficulty": "Easy",
-          "about": "Fine strands that grow fast and move in the flow. It suits a wilder look and fills spaces quickly. It can spread onto plants where it is not wanted, so trim it often.",
+          "about": "Fine, light green strands that grow quickly and sway in the current, giving a wild, flowing look. It fills gaps fast and tolerates a wide range of light and temperature. It can spread onto nearby plants, so trim it often and remove stray pieces.",
           "conditions": [
             [
               "Light",
@@ -10195,7 +10056,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Fine flowing strands"
+              "3 to 10 cm"
             ]
           ],
           "saNote": null,
@@ -10266,7 +10127,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Mini Pellia",
           "scientific": "Riccardia chamedryfolia",
           "difficulty": "Moderate",
-          "about": "A liverwort, not a true moss, with branching growth that looks like small coral. It gives a distinctive texture on wood and rock. It also grows well emersed in damp spots near the waterline.",
+          "about": "A liverwort rather than a true moss, with fine, translucent green, branching thalli that build into small coral-like cushions. It is tied or glued to wood and rock and stays compact without much trimming. Growth is slow, so keep the cushion clear of algae and faster mosses, and give it good light and stable conditions for dense growth.",
           "conditions": [
             [
               "Light",
@@ -10282,7 +10143,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Branching, coral shape"
+              "1 to 4 cm"
             ]
           ],
           "saNote": null,
@@ -10349,7 +10210,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Marimo Moss Ball",
           "scientific": "Aegagropila linnaei",
           "difficulty": "Easy",
-          "about": "Slow-growing spherical algae. Roll occasionally and keep out of strong light.",
+          "about": "A slow-growing green alga that forms soft, velvety balls of dense filaments rather than a moss. Balls can sit loose on the substrate or be pulled apart and spread as a short carpet. It prefers cool water, ideally below about 24 °C, and moderate light; turn it now and then so all sides stay green.",
           "conditions": [
             [
               "Light",
@@ -10365,7 +10226,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "3-5 cm"
+              "3 to 5 cm"
             ]
           ],
           "saNote": null,
@@ -10399,7 +10260,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Willow Moss",
           "scientific": "Fontinalis antipyretica",
           "difficulty": "Easy",
-          "about": "Dark green, branching aquatic moss that likes cooler water and flow. Tie to wood or rock.",
+          "about": "A dark green aquatic moss with long, branching strands of small, pointed leaves that trail in the current. It is tied to wood or rock and suits stream-style layouts, and the dense strands give good cover for shrimp and fry. It does best in cool, clean, moving water and slows down above about 24 °C; trim long strands to keep it bushy.",
           "conditions": [
             [
               "Light",
@@ -10415,7 +10276,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "5-15 cm"
+              "5 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -10475,7 +10336,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Crystalwort (Riccia fluitans)",
           "scientific": "Riccia fluitans",
           "difficulty": "Easy",
-          "about": "Floating or pinned-down liverwort that forms dense mats. Can be tied to hardscape or mesh.",
+          "about": "A liverwort with narrow, forking bright green thalli that float in loose clumps or can be held down to form a dense mat. Tied to stone or mesh it makes a bright, fine-textured cushion that pearls under strong light. Pinned mats need good light and CO2 and lift as they thicken, so they need regular trimming and re-tying.",
           "conditions": [
             [
               "Light",
@@ -10491,7 +10352,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "Floating or mat"
+              "1 to 3 cm"
             ]
           ],
           "saNote": null,
@@ -10564,7 +10425,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Phoenix Moss",
           "scientific": "Fissidens fontanus",
           "difficulty": "Easy",
-          "about": "Low, fern-like Fissidens moss that forms neat cushions. Slow, attach to wood or rock.",
+          "about": "A small Fissidens moss with flat, feathery fronds arranged in a fan, forming neat, low tufts. It suits wood, rock and gaps in hardscape where a fine, tidy texture is wanted. Growth is slow, so keep algae in check while it establishes; it handles low light and does best in slightly cooler water.",
           "conditions": [
             [
               "Light",
@@ -10580,7 +10441,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "2-5 cm"
+              "2 to 5 cm"
             ]
           ],
           "saNote": null,
@@ -10627,7 +10488,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Java Moss",
           "scientific": "Taxiphyllum barbieri",
           "difficulty": "Easy",
-          "about": "The classic easy aquarium moss. Tie to wood or rock and trim to shape.",
+          "about": "A hardy moss with irregular, branching strands of tiny leaves that form a loose, untidy mat. It is tied or glued to wood and rock and is often used for natural-looking cover or as shelter for shrimp. It grows in almost any conditions but becomes shaggy and traps debris, so trim it regularly to keep it dense.",
           "conditions": [
             [
               "Light",
@@ -10643,7 +10504,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "2-5 cm"
+              "2 to 5 cm"
             ]
           ],
           "saNote": null,
@@ -10716,7 +10577,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Pearl Moss",
           "scientific": "Plagiomnium cf. affine",
           "difficulty": "Moderate",
-          "about": "Upright, leafy moss with larger rounded leaves. Slow to establish; attach to hardscape.",
+          "about": "An upright moss with small, rounded, bright green leaves that have a clear midrib, giving the stems a beaded look. It is attached to wood or rock and gives a softer, leafier texture than most mosses. It grows very slowly and needs stable conditions and patience; extra light and CO2 help it fill in faster.",
           "conditions": [
             [
               "Light",
@@ -10732,7 +10593,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "3-6 cm"
+              "3 to 6 cm"
             ]
           ],
           "saNote": null,
@@ -11073,7 +10934,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Earth Star (Cryptanthus bivittatus)",
           "scientific": "Cryptanthus bivittatus",
           "difficulty": "Easy",
-          "about": "Terrestrial bromeliad with striped, wavy leaves. For emersed or paludarium use only, not submerged.",
+          "about": "A small terrestrial bromeliad that forms a flat rosette of wavy, pointed leaves striped in green, cream and pink. It is used above the waterline in paludariums and on emersed hardscape, and must not be submerged. Give it bright, indirect light, high humidity and a moist but free-draining spot, since constant waterlogging rots the base.",
           "conditions": [
             [
               "Light",
@@ -11089,7 +10950,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "10-15 cm"
+              "10 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -11123,7 +10984,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Cryptanthus acaulis var. ruber",
           "scientific": "Cryptanthus acaulis var. ruber",
           "difficulty": "Easy",
-          "about": "Red-toned terrestrial bromeliad. For emersed or paludarium use only.",
+          "about": "A compact terrestrial bromeliad with a low, star-shaped rosette of wavy leaves in reddish bronze to purple, with silvery scales on the undersides. It suits damp, shaded spots above the waterline in paludariums and must not be submerged. Colour is best in bright, indirect light; keep the medium moist but well drained and the air humid.",
           "conditions": [
             [
               "Light",
@@ -11139,7 +11000,7 @@ globalThis.PLANT_CATALOGUE = {
             ],
             [
               "Height",
-              "8-15 cm"
+              "5 to 15 cm"
             ]
           ],
           "saNote": null,
@@ -11374,7 +11235,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Red Root Floater",
           "scientific": "Phyllanthus fluitans",
           "difficulty": "Easy",
-          "about": "Floating plant with roots that turn red in strong light. Shades the tank and soaks up nutrients.",
+          "about": "A floating plant with round, water-repellent leaves about 1 to 3 cm across, with fine roots below. In strong light and lean nitrate the leaves and roots turn deep red; in weaker light it stays green. It shades the water and takes up excess nutrients, and dislikes splashing, so keep surface flow gentle.",
           "conditions": [
             [
               "Light",
@@ -11476,7 +11337,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Duckweed",
           "scientific": "Lemna minor",
           "difficulty": "Easy",
-          "about": "Tiny, fast floating plant that covers the surface quickly. Hard to remove once added.",
+          "about": "A tiny floating plant with single oval fronds a few millimetres long, each with one short root. It doubles quickly and soon covers still surfaces, shading plants below and taking up nitrate. It is very hard to remove once added, so it is best kept in a separate tank or contained with a surface ring.",
           "conditions": [
             [
               "Light",
@@ -11552,7 +11413,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Giant Duckweed",
           "scientific": "Spirodela polyrhiza",
           "difficulty": "Easy",
-          "about": "Larger floating duckweed with bigger, rounder fronds. Fast but easier to net out than Lemna.",
+          "about": "A floating duckweed with rounded fronds about 0.5 to 1 cm across, green above and purple-red below, each with a tuft of fine roots. It spreads quickly over calm water and needs a good supply of nitrate, phosphate and potassium. The larger fronds make it much easier to net out than common duckweed, but it still needs regular thinning.",
           "conditions": [
             [
               "Light",
@@ -11602,7 +11463,7 @@ globalThis.PLANT_CATALOGUE = {
           "name": "Azolla",
           "scientific": "Azolla filiculoides",
           "difficulty": "Easy",
-          "about": "Tiny floating fern that turns red in strong light. Fast and spreads across the surface.",
+          "about": "A tiny floating fern with overlapping, scale-like leaves forming small branching fronds about 1 to 2 cm across. It is green in moderate light and turns red to bronze in strong light or when nitrate is low. It spreads quickly over calm surfaces and is easily damaged by splashing or condensation dripping from the lid, so keep flow gentle.",
           "conditions": [
             [
               "Light",
@@ -11674,70 +11535,11 @@ globalThis.PLANT_CATALOGUE = {
           ]
         },
         {
-          "id": 203,
-          "name": "Frogbit",
-          "scientific": "Limnobium laevigatum",
-          "difficulty": "Easy",
-          "about": "Floating plant with round leaves and long dangling roots. Fast and good for shading.",
-          "conditions": [
-            [
-              "Light",
-              "Medium to high"
-            ],
-            [
-              "CO2",
-              "Optional"
-            ],
-            [
-              "Growth",
-              "Fast"
-            ],
-            [
-              "Height",
-              "Floating"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "no-photo.svg",
-              "caption": "No photo yet."
-            }
-          ],
-          "offers": [
-            {
-              "shop": "Roxy Aquarium",
-              "url": "https://roxyaquarium.com.au/product/frogbit-floating-plant/",
-              "unit": "plant (from)",
-              "price": 199,
-              "was": null,
-              "soldOut": false,
-              "checked": "2026-10"
-            },
-            {
-              "shop": "Roxy Aquarium",
-              "url": "https://roxyaquarium.com.au/product/amazonian-frogbit/",
-              "unit": "portion (bulk discounts)",
-              "price": 500,
-              "was": null,
-              "soldOut": true,
-              "checked": "2026-10"
-            }
-          ],
-          "defaultOffer": 0,
-          "sources": [
-            {
-              "label": "Roxy Aquarium: product page",
-              "url": "https://roxyaquarium.com.au/product/frogbit-floating-plant/"
-            }
-          ]
-        },
-        {
           "id": 205,
           "name": "Bladderwort",
           "scientific": "Utricularia gibba",
           "difficulty": "Easy",
-          "about": "Floating, thread-like carnivorous plant with tiny bladder traps. Easy and fast in still water.",
+          "about": "A carnivorous plant with fine, thread-like branching stems carrying tiny bladder traps, and small yellow flowers above the surface in bright light. It floats in tangles or weaves through other plants. It grows fast in still, soft water with good light but spreads through a layout and is hard to remove, and the traps can catch newborn shrimp.",
           "conditions": [
             [
               "Light",

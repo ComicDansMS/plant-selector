@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28e62453-6f13-472d-b75c-864ab2dbbfee" name="Changes" comment="updates and new plants">
-      <change beforePath="$PROJECT_DIR$/plants-2420.js" beforeDir="false" />
+    <list default="true" id="28e62453-6f13-472d-b75c-864ab2dbbfee" name="Changes" comment="remove plants file that had big plants too">
+      <change beforePath="$PROJECT_DIR$/plants.js" beforeDir="false" afterPath="$PROJECT_DIR$/plants.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +84,7 @@
     <MESSAGE value="remove idea dir" />
     <MESSAGE value="updates" />
     <MESSAGE value="updates and new plants" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates and new plants" />
+    <MESSAGE value="remove plants file that had big plants too" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove plants file that had big plants too" />
   </component>
 </project>
