@@ -13262,204 +13262,10 @@ globalThis.PLANT_CATALOGUE = {
       ]
     },
     {
-      "id": "waterline",
-      "name": "Waterline",
-      "intro": "Roots in the water, leaves above it.",
+      "id": "floating",
+      "name": "Floating",
+      "intro": "Plants that float at the surface, with roots trailing in the water. They shade the tank and take up excess nutrients.",
       "plants": [
-        {
-          "id": 52,
-          "name": "Nerve plant",
-          "scientific": "Fittonia",
-          "difficulty": "Easy",
-          "about": "Leaves with strongly marked white or pink veins. It wilts quickly in dry air, so it does best close to the water surface.",
-          "conditions": [
-            [
-              "Light",
-              "Medium, indirect"
-            ],
-            [
-              "Roots",
-              "Tolerates wet roots"
-            ],
-            [
-              "Humidity",
-              "High"
-            ],
-            [
-              "Growth",
-              "Medium"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "https://cdn.salla.sa/YRYGw/a12b3251-8662-4cd3-91f1-22d8ebe4c7ed-914.90963855422x1000-clHrcrGGRUiXVbeCPH3MOHem48j36Dz2o5BpzSXm.jpg",
-              "caption": "Glass Terrarium Gift",
-              "credit": "soullleaf.com",
-              "creditUrl": "https://soullleaf.com/zozyxlr"
-            },
-            {
-              "src": "https://i.pinimg.com/originals/71/a2/f1/71a2f1c91aa86745adf8b001f1d45aa4.jpg",
-              "caption": "Large Fittonia Terrarium",
-              "credit": "www.pinterest.com",
-              "creditUrl": "https://www.pinterest.com/pin/large-fittonia-terrarium-in-2024--648307308887749992/"
-            },
-            {
-              "src": "https://i.etsystatic.com/23597110/r/il/f67f0c/6877385368/il_570xN.6877385368_btzi.jpg",
-              "caption": "Tropical Fittonia Terrarium",
-              "credit": "www.etsy.com",
-              "creditUrl": "https://www.etsy.com/listing/1681860023/tropical-fittonia-terrarium-ready-made"
-            },
-            {
-              "src": "https://flowerandtwignursery.com.au/cdn/shop/files/fittonia-skeleton-819173_1200x1200.jpg?v=1717506172",
-              "caption": "Original reference photo.",
-              "credit": "flowerandtwignursery.com.au",
-              "creditUrl": "https://flowerandtwignursery.com.au/products/fittonia-skeleton"
-            }
-          ],
-          "offers": [],
-          "defaultOffer": null,
-          "sources": [
-            {
-              "label": "Photo source: flowerandtwignursery.com.au",
-              "url": "https://flowerandtwignursery.com.au/products/fittonia-skeleton"
-            }
-          ]
-        },
-        {
-          "id": 53,
-          "name": "Japanese sweet flag",
-          "scientific": "Acorus gramineus",
-          "difficulty": "Easy",
-          "about": "Short, grassy tufts that add fine texture at the waterline. It is a bog plant, not a true aquatic, so the crown must stay above the water or it rots.",
-          "conditions": [
-            [
-              "Light",
-              "Medium to bright"
-            ],
-            [
-              "Roots",
-              "Wet, crown above water"
-            ],
-            [
-              "Humidity",
-              "Any"
-            ],
-            [
-              "Growth",
-              "Slow"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/acorus-gramineus-621759f28da99.jpg",
-              "caption": "Acorus gramineus, United States Botanic Garden",
-              "credit": "© David J. Stang, 6. Nov. 2005 (CC BY-SA 4.0)",
-              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/acorus-gramineus"
-            },
-            {
-              "src": "https://www.flowgrow.de/db/images/tanks/detail/carnivorous-bank-56b371cabd9bf.jpg",
-              "caption": "Aquascape: carnivorous bank (plant included in the aquascape’s plant list)",
-              "credit": "Flowgrow community",
-              "creditUrl": "https://www.flowgrow.de/db/tanks/carnivorous-bank"
-            },
-            {
-              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/acorus-gramineus-5155ddfeaadff.jpg",
-              "caption": "Acorus gramineus 'Pusillus' in an aquarium",
-              "credit": "© moss-maniac",
-              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/acorus-gramineus"
-            },
-            {
-              "src": "https://www.nurserywarehouse.com.au/cdn/shop/files/Acorus_Gramineus_Ogon_Golden_Sweet_Flag_1.jpg?v=1774351062",
-              "caption": "Original reference photo. Acorus gramineus 'Ogon' cultivar.",
-              "credit": "nurserywarehouse.com.au",
-              "creditUrl": "https://www.nurserywarehouse.com.au/products/acorus-gramineus-ogon-golden-sweet-flag"
-            }
-          ],
-          "offers": [],
-          "defaultOffer": null,
-          "sources": [
-            {
-              "label": "Photo source: nurserywarehouse.com.au",
-              "url": "https://www.nurserywarehouse.com.au/products/acorus-gramineus-ogon-golden-sweet-flag"
-            }
-          ]
-        },
-        {
-          "id": 55,
-          "name": "Bacopa caroliniana",
-          "scientific": "Bacopa caroliniana (grown out of water)",
-          "difficulty": "Easy",
-          "about": "An aquarium stem plant that keeps growing once it reaches the surface and produces small blue flowers above water. Left to grow out, it carries the planting up past the waterline.",
-          "conditions": [
-            [
-              "Light",
-              "Bright"
-            ],
-            [
-              "Roots",
-              "Submerged stems"
-            ],
-            [
-              "Humidity",
-              "Any"
-            ],
-            [
-              "Growth",
-              "Medium"
-            ]
-          ],
-          "saNote": null,
-          "photos": [
-            {
-              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/bacopa-caroliniana-4f7a0145ddd50.jpg",
-              "caption": "Bacopa caroliniana",
-              "credit": "Svennovitch (2005)",
-              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/bacopa-caroliniana"
-            },
-            {
-              "src": "https://www.flowgrow.de/db/images/tanks/detail/unterwassergarten-52f8d59d65769.jpg",
-              "caption": "Aquascape: unterwassergarten (plant included in the aquascape’s plant list)",
-              "credit": "Flowgrow community",
-              "creditUrl": "https://www.flowgrow.de/db/tanks/unterwassergarten"
-            },
-            {
-              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/bacopa-caroliniana-4f7a014654b9f.jpg",
-              "caption": "Bacopa caroliniana",
-              "credit": "Svennovitch (2005)",
-              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/bacopa-caroliniana"
-            },
-            {
-              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/043%20BDT/4.png&crop=resize&class=product",
-              "caption": "Original reference photo.",
-              "credit": "tropica.com",
-              "creditUrl": "https://tropica.com/en/plants/plantdetails/Bacopacaroliniana(043BDT)/4465"
-            }
-          ],
-          "offers": [
-            {
-              "shop": "Live Fish",
-              "url": "https://www.livefish.com.au/aquarium-plants/tissue-culture-plants.html",
-              "unit": "Tissue culture tub",
-              "price": 1250,
-              "was": null,
-              "soldOut": false,
-              "checked": "2026-10"
-            }
-          ],
-          "defaultOffer": 0,
-          "sources": [
-            {
-              "label": "Live Fish: tissue culture range",
-              "url": "https://www.livefish.com.au/aquarium-plants/tissue-culture-plants.html"
-            },
-            {
-              "label": "Photo source: tropica.com",
-              "url": "https://tropica.com/en/plants/plantdetails/Bacopacaroliniana(043BDT)/4465"
-            }
-          ]
-        },
         {
           "id": 139,
           "name": "Red Root Floater",
@@ -13911,6 +13717,2061 @@ globalThis.PLANT_CATALOGUE = {
             {
               "label": "Aquafy: product page",
               "url": "https://aquafy.com.au/products/utricularia-gibba"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "waterline",
+      "name": "Waterline",
+      "intro": "Roots in the water, leaves above it. Several are houseplants that grow happily with their roots in an aquarium.",
+      "plants": [
+        {
+          "id": 52,
+          "name": "Nerve plant",
+          "scientific": "Fittonia",
+          "difficulty": "Easy",
+          "about": "Leaves with strongly marked white or pink veins. It wilts quickly in dry air, so it does best close to the water surface.",
+          "conditions": [
+            [
+              "Light",
+              "Medium, indirect"
+            ],
+            [
+              "Roots",
+              "Tolerates wet roots"
+            ],
+            [
+              "Humidity",
+              "High"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "https://cdn.salla.sa/YRYGw/a12b3251-8662-4cd3-91f1-22d8ebe4c7ed-914.90963855422x1000-clHrcrGGRUiXVbeCPH3MOHem48j36Dz2o5BpzSXm.jpg",
+              "caption": "Glass Terrarium Gift",
+              "credit": "soullleaf.com",
+              "creditUrl": "https://soullleaf.com/zozyxlr"
+            },
+            {
+              "src": "https://i.pinimg.com/originals/71/a2/f1/71a2f1c91aa86745adf8b001f1d45aa4.jpg",
+              "caption": "Large Fittonia Terrarium",
+              "credit": "www.pinterest.com",
+              "creditUrl": "https://www.pinterest.com/pin/large-fittonia-terrarium-in-2024--648307308887749992/"
+            },
+            {
+              "src": "https://i.etsystatic.com/23597110/r/il/f67f0c/6877385368/il_570xN.6877385368_btzi.jpg",
+              "caption": "Tropical Fittonia Terrarium",
+              "credit": "www.etsy.com",
+              "creditUrl": "https://www.etsy.com/listing/1681860023/tropical-fittonia-terrarium-ready-made"
+            },
+            {
+              "src": "https://flowerandtwignursery.com.au/cdn/shop/files/fittonia-skeleton-819173_1200x1200.jpg?v=1717506172",
+              "caption": "Original reference photo.",
+              "credit": "flowerandtwignursery.com.au",
+              "creditUrl": "https://flowerandtwignursery.com.au/products/fittonia-skeleton"
+            }
+          ],
+          "offers": [],
+          "defaultOffer": null,
+          "sources": [
+            {
+              "label": "Photo source: flowerandtwignursery.com.au",
+              "url": "https://flowerandtwignursery.com.au/products/fittonia-skeleton"
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "name": "Japanese sweet flag",
+          "scientific": "Acorus gramineus",
+          "difficulty": "Easy",
+          "about": "Short, grassy tufts that add fine texture at the waterline. It is a bog plant, not a true aquatic, so the crown must stay above the water or it rots.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright"
+            ],
+            [
+              "Roots",
+              "Wet, crown above water"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/acorus-gramineus-621759f28da99.jpg",
+              "caption": "Acorus gramineus, United States Botanic Garden",
+              "credit": "© David J. Stang, 6. Nov. 2005 (CC BY-SA 4.0)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/acorus-gramineus"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/carnivorous-bank-56b371cabd9bf.jpg",
+              "caption": "Aquascape: carnivorous bank (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/carnivorous-bank"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/acorus-gramineus-5155ddfeaadff.jpg",
+              "caption": "Acorus gramineus 'Pusillus' in an aquarium",
+              "credit": "© moss-maniac",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/acorus-gramineus"
+            },
+            {
+              "src": "https://www.nurserywarehouse.com.au/cdn/shop/files/Acorus_Gramineus_Ogon_Golden_Sweet_Flag_1.jpg?v=1774351062",
+              "caption": "Original reference photo. Acorus gramineus 'Ogon' cultivar.",
+              "credit": "nurserywarehouse.com.au",
+              "creditUrl": "https://www.nurserywarehouse.com.au/products/acorus-gramineus-ogon-golden-sweet-flag"
+            }
+          ],
+          "offers": [],
+          "defaultOffer": null,
+          "sources": [
+            {
+              "label": "Photo source: nurserywarehouse.com.au",
+              "url": "https://www.nurserywarehouse.com.au/products/acorus-gramineus-ogon-golden-sweet-flag"
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "name": "Bacopa caroliniana",
+          "scientific": "Bacopa caroliniana (grown out of water)",
+          "difficulty": "Easy",
+          "about": "An aquarium stem plant that keeps growing once it reaches the surface and produces small blue flowers above water. Left to grow out, it carries the planting up past the waterline.",
+          "conditions": [
+            [
+              "Light",
+              "Bright"
+            ],
+            [
+              "Roots",
+              "Submerged stems"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/bacopa-caroliniana-4f7a0145ddd50.jpg",
+              "caption": "Bacopa caroliniana",
+              "credit": "Svennovitch (2005)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/bacopa-caroliniana"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/tanks/detail/unterwassergarten-52f8d59d65769.jpg",
+              "caption": "Aquascape: unterwassergarten (plant included in the aquascape’s plant list)",
+              "credit": "Flowgrow community",
+              "creditUrl": "https://www.flowgrow.de/db/tanks/unterwassergarten"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/bacopa-caroliniana-4f7a014654b9f.jpg",
+              "caption": "Bacopa caroliniana",
+              "credit": "Svennovitch (2005)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/bacopa-caroliniana"
+            },
+            {
+              "src": "https://tropica.com/imagegen.ashx?height=720&image=/Plants/043%20BDT/4.png&crop=resize&class=product",
+              "caption": "Original reference photo.",
+              "credit": "tropica.com",
+              "creditUrl": "https://tropica.com/en/plants/plantdetails/Bacopacaroliniana(043BDT)/4465"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Live Fish",
+              "url": "https://www.livefish.com.au/aquarium-plants/tissue-culture-plants.html",
+              "unit": "Tissue culture tub",
+              "price": 1250,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Live Fish: tissue culture range",
+              "url": "https://www.livefish.com.au/aquarium-plants/tissue-culture-plants.html"
+            },
+            {
+              "label": "Photo source: tropica.com",
+              "url": "https://tropica.com/en/plants/plantdetails/Bacopacaroliniana(043BDT)/4465"
+            }
+          ]
+        },
+        {
+          "id": 266,
+          "name": "Syngonium 'Pixie'",
+          "scientific": "Syngonium podophyllum 'Pixie'",
+          "difficulty": "Easy",
+          "about": "A dwarf arrowhead plant with small, arrow-shaped leaves in pale green marbled with cream. It stays low and bushy rather than climbing, and its cuttings root readily in water, so it grows well with bare roots hanging into an aquarium from a planter, ledge or gap in the wood. Keep the stems and leaves above the surface, and pinch out any long runners to keep it compact. Sold as a houseplant, so look for it at nurseries and garden centres rather than aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright, indirect"
+            ],
+            [
+              "Roots",
+              "Roots in water, stems and leaves above"
+            ],
+            [
+              "Humidity",
+              "Medium to high"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ]
+          ],
+          "saNote": "Potted plants sent to SA from interstate must meet PIRSA quarantine conditions (plants in potting mix from Queensland need red imported fire ant certification), so some sellers send them bare-root or won't ship them to SA. Wash the potting mix off the roots before putting the plant on the aquarium.",
+          "photos": [
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0248/6983/products/SyngoniumPodophyllumPixie_single_8083675c-c7b9-408e-bf59-a856f695e68e.jpg?v=1656385418",
+              "caption": "A young Syngonium 'Pixie' in a tube pot.",
+              "credit": "Plants in a Box",
+              "creditUrl": "https://plantsinabox.com.au/products/syngonium-pixie"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0248/6983/products/SyngoniumPodophyllumPixie_detail_6157a71e-c2aa-4ecc-872c-a77423b80ed8.jpg?v=1653649282",
+              "caption": "Small arrow-shaped leaves marbled cream and green.",
+              "credit": "Plants in a Box",
+              "creditUrl": "https://plantsinabox.com.au/products/syngonium-pixie"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0928/0805/2920/files/syngonium-p68synpix-pixie-p10synpix.jpg?v=1785388279",
+              "caption": "A dense mound of 'Pixie' foliage.",
+              "credit": "Garden Express",
+              "creditUrl": "https://gardenexpress.com.au/products/syngonium-pixie"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Plants in a Box",
+              "url": "https://plantsinabox.com.au/products/syngonium-pixie",
+              "unit": "Tube, 1 plant",
+              "price": 1595,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Garden Express",
+              "url": "https://gardenexpress.com.au/products/syngonium-pixie",
+              "unit": "Pot, 1 plant",
+              "price": 1090,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": null,
+          "sources": [
+            {
+              "label": "Plants in a Box: product page",
+              "url": "https://plantsinabox.com.au/products/syngonium-pixie"
+            },
+            {
+              "label": "Plants in a Box: shipping (ships plants to QLD, NSW, ACT, SA and VIC)",
+              "url": "https://plantsinabox.com.au/pages/shipping"
+            },
+            {
+              "label": "Garden Express: product page",
+              "url": "https://gardenexpress.com.au/products/syngonium-pixie"
+            },
+            {
+              "label": "Garden Express: FAQ (delivers Australia-wide, quarantine surcharge only for TAS, NT and WA)",
+              "url": "https://www.gardenexpress.com.au/faq/"
+            },
+            {
+              "label": "Aquafy: Syngonium sold bare-root for ripariums and paludariums",
+              "url": "https://aquafy.com.au/products/synogium-various-colours"
+            },
+            {
+              "label": "Josh's Frogs: Syngonium 'Mini Pixie' growing profile",
+              "url": "https://joshsfrogs.com/sp/syngonium-podophyllum-mini-pixie-super-dwarf-butterfly-plant-plant547"
+            },
+            {
+              "label": "PIRSA: red imported fire ant entry conditions",
+              "url": "https://pir.sa.gov.au/biosecurity/plant_health/emergency_and_significant_plant_pests/exotic_invasive_ants/red_imported_fire_ant"
+            }
+          ]
+        },
+        {
+          "id": 267,
+          "name": "Dwarf peace lily",
+          "scientific": "Spathiphyllum 'Power Petite'",
+          "difficulty": "Easy",
+          "about": "A very small peace lily cultivar with glossy, lance-shaped leaves and white spathes, staying far shorter than the common forms. Peace lilies are often grown with bare roots in aquarium water from a planter or ledge, where they cope well with low light. The crown and leaves must stay above the waterline: despite sometimes being sold as aquarium plants, submerged peace lilies slowly rot. Its leaves are broader than most waterline plants, so one plant is usually enough. Sold as a houseplant, so look for it at nurseries and garden centres rather than aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium, indirect"
+            ],
+            [
+              "Roots",
+              "Roots in water, crown above"
+            ],
+            [
+              "Humidity",
+              "Medium"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ]
+          ],
+          "saNote": "Potted plants sent to SA from interstate must meet PIRSA quarantine conditions (plants in potting mix from Queensland need red imported fire ant certification), so some sellers send them bare-root or won't ship them to SA. Wash the potting mix off the roots before putting the plant on the aquarium.",
+          "photos": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Spathiphyllum_wallisii_hydroponically_grown.jpg/1280px-Spathiphyllum_wallisii_hydroponically_grown.jpg",
+              "caption": "A peace lily growing with its roots in water.",
+              "credit": "Kephalian, CC BY-SA 4.0, via Wikimedia Commons",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Spathiphyllum_wallisii_hydroponically_grown.jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0248/6983/products/SpathiphlllumSuperPetite_single_5a4b5e26-18ea-4d90-93a9-fbcc11e8c20b.jpg?v=1657760442",
+              "caption": "'Power Petite' in a tube pot.",
+              "credit": "Plants in a Box",
+              "creditUrl": "https://plantsinabox.com.au/products/peace-lily-petite"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0248/6983/products/SpathiphyllumSuperPetite85mm_single_1.jpg?v=1657760442",
+              "caption": "'Power Petite' in an 85 mm pot.",
+              "credit": "Plants in a Box",
+              "creditUrl": "https://plantsinabox.com.au/products/peace-lily-petite"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Spathiphyllum_wallisii.001_-_Aquarium_Finisterrae.jpg/1280px-Spathiphyllum_wallisii.001_-_Aquarium_Finisterrae.jpg",
+              "caption": "Peace lily spathe and flower spike.",
+              "credit": "Fernando Losada Rodríguez, CC BY-SA 4.0, via Wikimedia Commons",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Spathiphyllum_wallisii.001_-_Aquarium_Finisterrae.jpg"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Plants in a Box",
+              "url": "https://plantsinabox.com.au/products/peace-lily-petite",
+              "unit": "Tube, 1 plant",
+              "price": 1595,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": null,
+          "sources": [
+            {
+              "label": "Plants in a Box: product page",
+              "url": "https://plantsinabox.com.au/products/peace-lily-petite"
+            },
+            {
+              "label": "Plants in a Box: shipping (ships plants to QLD, NSW, ACT, SA and VIC)",
+              "url": "https://plantsinabox.com.au/pages/shipping"
+            },
+            {
+              "label": "Aquarium Co-Op forum: peace lily riparium planter",
+              "url": "https://forum.aquariumcoop.com/topic/24614-riparium-plants-peace-lily-planter/"
+            },
+            {
+              "label": "UKAPS forum: peace lily planting",
+              "url": "https://www.ukaps.org/forum/threads/peace-lily-planting.75013"
+            },
+            {
+              "label": "PIRSA: red imported fire ant entry conditions",
+              "url": "https://pir.sa.gov.au/biosecurity/plant_health/emergency_and_significant_plant_pests/exotic_invasive_ants/red_imported_fire_ant"
+            }
+          ]
+        },
+        {
+          "id": 276,
+          "name": "Turtle vine",
+          "scientific": "Callisia repens",
+          "difficulty": "Easy",
+          "about": "A creeping relative of Tradescantia with tiny, fleshy leaves, green above and often purple underneath, on thin trailing stems. Cuttings root within days in water, and the plant grows on with its roots in the water and stems spilling over wood or a ledge as a dense, fine-textured mat. Pinch it back often to keep it compact. Sold as a houseplant, so look for it at nurseries and garden centres rather than aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright, indirect"
+            ],
+            [
+              "Roots",
+              "Roots in water, stems above"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ]
+          ],
+          "saNote": "Not a declared plant in SA, but its sale is banned in WA because it spreads easily, so bin trimmings rather than composting them. Plants sent into SA from interstate must arrive bare-rooted or in soil-free potting mix, so some sellers wash the roots or send cuttings.",
+          "photos": [
+            {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Turtle_Vine_%28Callisia_repens%29.jpg/1280px-Turtle_Vine_%28Callisia_repens%29.jpg",
+              "caption": "Callisia repens trailing stems",
+              "credit": "© Mokkie (CC BY-SA 3.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Turtle_Vine_(Callisia_repens).jpg"
+            },
+            {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Callisia_repens_0zz.jpg/1280px-Callisia_repens_0zz.jpg",
+              "caption": "Callisia repens at a nursery",
+              "credit": "© David J. Stang (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Callisia_repens_0zz.jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0437/8653/5076/products/CallisiaRepens_PinkPanther_ChaletBoutique_Australia_1.jpg?v=1757331148",
+              "caption": "Callisia repens 'Pink Panther' in a nursery pot",
+              "credit": "chaletboutique.com.au",
+              "creditUrl": "https://chaletboutique.com.au/products/callisia-pink-lady-pink-panther"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Chalet Boutique",
+              "url": "https://chaletboutique.com.au/products/callisia-pink-lady-pink-panther",
+              "unit": "13cm pot ('Pink Panther')",
+              "price": 2495,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": null,
+          "sources": [
+            {
+              "label": "Chalet Boutique: product page",
+              "url": "https://chaletboutique.com.au/products/callisia-pink-lady-pink-panther"
+            },
+            {
+              "label": "DPIRD WA: Callisia repens declared pest notice",
+              "url": "https://www.agric.wa.gov.au/node/7498"
+            },
+            {
+              "label": "PIRSA: Plant Quarantine Standard",
+              "url": "https://pir.sa.gov.au/biosecurity/plant_health/plant_quarantine_standard_and_updated_conditions"
+            }
+          ]
+        },
+        {
+          "id": 277,
+          "name": "Inch plant",
+          "scientific": "Tradescantia zebrina",
+          "difficulty": "Easy",
+          "about": "A trailing plant with pointed leaves striped silver and green on top and purple underneath. Stems root at every node and grow happily with their roots in the water, so a few cuttings tucked into wood or a ledge soon trail over the edge. It stretches and loses colour in low light, so give it good light and pinch the tips to keep it bushy. The sap can irritate skin. Sold as a houseplant, so look for it at nurseries and garden centres rather than aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Bright, indirect"
+            ],
+            [
+              "Roots",
+              "Roots in water, stems above"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ]
+          ],
+          "saNote": "Not a declared plant in SA, but it naturalises in moist bushland in warmer parts of Australia, so bin trimmings rather than composting them. Plants sent into SA from interstate must arrive bare-rooted or in soil-free potting mix, so some sellers wash the roots or send cuttings.",
+          "photos": [
+            {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Tradescantia_zebrina_01.jpg/1280px-Tradescantia_zebrina_01.jpg",
+              "caption": "Tradescantia zebrina foliage",
+              "credit": "© Syrio (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Tradescantia_zebrina_01.jpg"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Zebrina_pendula_20060521_2_closer.jpg",
+              "caption": "Close view of the striped leaves",
+              "credit": "© Ruestz (CC BY-SA 3.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Zebrina_pendula_20060521_2_closer.jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0437/8653/5076/files/Tradescantia-Zebrina_1.webp?v=1740378493",
+              "caption": "Tradescantia zebrina in a nursery pot",
+              "credit": "chaletboutique.com.au",
+              "creditUrl": "https://chaletboutique.com.au/products/tradescantia-zebrina-1"
+            },
+            {
+              "src": "https://ajgardennursery.com.au/wp-content/uploads/2020/10/Tradescantia-zebrina-Spiderwort-14cm-HB-2-AJGN.jpg",
+              "caption": "Tradescantia zebrina in a hanging basket",
+              "credit": "ajgardennursery.com.au",
+              "creditUrl": "https://ajgardennursery.com.au/product/tradescantia-spiderwort/"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Chalet Boutique",
+              "url": "https://chaletboutique.com.au/products/tradescantia-zebrina-1",
+              "unit": "10cm pot",
+              "price": 2495,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "A&J Garden Nursery",
+              "url": "https://ajgardennursery.com.au/product/tradescantia-spiderwort/",
+              "unit": "14cm hanging basket",
+              "price": 1199,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": null,
+          "sources": [
+            {
+              "label": "Chalet Boutique: product page",
+              "url": "https://chaletboutique.com.au/products/tradescantia-zebrina-1"
+            },
+            {
+              "label": "A&J Garden Nursery: product page",
+              "url": "https://ajgardennursery.com.au/product/tradescantia-spiderwort/"
+            },
+            {
+              "label": "PIRSA: Plant Quarantine Standard",
+              "url": "https://pir.sa.gov.au/biosecurity/plant_health/plant_quarantine_standard_and_updated_conditions"
+            }
+          ]
+        },
+        {
+          "id": 278,
+          "name": "Variegated wandering trad",
+          "scientific": "Tradescantia fluminensis",
+          "difficulty": "Easy",
+          "about": "A small-leaved trailing Tradescantia, sold mostly in striped forms such as 'Quicksilver' (green and white) and 'Tricolour' (green, white and pink). Its leaves are smaller and softer than the inch plant's, and the stems root readily and grow on with their roots in the water. Remove any all-green shoots, which grow faster and take over the variegated ones. Sold as a houseplant, so look for it at nurseries and garden centres rather than aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright, indirect"
+            ],
+            [
+              "Roots",
+              "Roots in water, stems above"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ]
+          ],
+          "saNote": "Wandering trad is an environmental weed in SA and the eastern states, though not a declared plant. Keep it indoors and put trimmings in the general waste bin, since any stem piece can root. Plants sent into SA from interstate must arrive bare-rooted or in soil-free potting mix, so some sellers wash the roots or send cuttings.",
+          "photos": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/20040413_Tradescantia_Tricolor.JPG",
+              "caption": "Tradescantia fluminensis 'Variegata'",
+              "credit": "© Semnoz at French Wikipedia (CC BY-SA 3.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:20040413_Tradescantia_Tricolor.JPG"
+            },
+            {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Tradescantia.fluminensis.JPG/1280px-Tradescantia.fluminensis.JPG",
+              "caption": "Two variegated forms of Tradescantia fluminensis",
+              "credit": "© LucaLuca (CC BY-SA 3.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Tradescantia.fluminensis.JPG"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0437/8653/5076/products/TradescantiaQuicksilver_ChaletBoutique_Australia_1.jpg?v=1712454054",
+              "caption": "Tradescantia 'Quicksilver' in a nursery pot",
+              "credit": "chaletboutique.com.au",
+              "creditUrl": "https://chaletboutique.com.au/products/tradescantia-quicksilver"
+            },
+            {
+              "src": "https://ajgardennursery.com.au/wp-content/uploads/2023/09/Tradescantia-fluminensis-Tricolour-14cm-HB-AJGN.jpg",
+              "caption": "Tradescantia fluminensis 'Tricolour' in a hanging basket",
+              "credit": "ajgardennursery.com.au",
+              "creditUrl": "https://ajgardennursery.com.au/product/tradescantia-tricolour/"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Chalet Boutique",
+              "url": "https://chaletboutique.com.au/products/tradescantia-fluminensis-tricolour",
+              "unit": "10cm pot ('Tricolour')",
+              "price": 2000,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Chalet Boutique",
+              "url": "https://chaletboutique.com.au/products/tradescantia-quicksilver",
+              "unit": "pot ('Quicksilver')",
+              "price": 1695,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "A&J Garden Nursery",
+              "url": "https://ajgardennursery.com.au/product/tradescantia-quicksilver/",
+              "unit": "10cm pot ('Quicksilver')",
+              "price": 799,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "A&J Garden Nursery",
+              "url": "https://ajgardennursery.com.au/product/tradescantia-tricolour/",
+              "unit": "14cm hanging basket ('Tricolour')",
+              "price": 1499,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": null,
+          "sources": [
+            {
+              "label": "Chalet Boutique: product page",
+              "url": "https://chaletboutique.com.au/products/tradescantia-fluminensis-tricolour"
+            },
+            {
+              "label": "Chalet Boutique: product page",
+              "url": "https://chaletboutique.com.au/products/tradescantia-quicksilver"
+            },
+            {
+              "label": "A&J Garden Nursery: product page",
+              "url": "https://ajgardennursery.com.au/product/tradescantia-quicksilver/"
+            },
+            {
+              "label": "A&J Garden Nursery: product page",
+              "url": "https://ajgardennursery.com.au/product/tradescantia-tricolour/"
+            },
+            {
+              "label": "Weeds of Australia: Tradescantia fluminensis",
+              "url": "https://keyserver.lucidcentral.org/weeds/data/media/Html/tradescantia_fluminensis.htm"
+            },
+            {
+              "label": "PIRSA: Plant Quarantine Standard",
+              "url": "https://pir.sa.gov.au/biosecurity/plant_health/plant_quarantine_standard_and_updated_conditions"
+            }
+          ]
+        },
+        {
+          "id": 279,
+          "name": "Creeping Jenny",
+          "scientific": "Lysimachia nummularia",
+          "difficulty": "Easy",
+          "about": "A creeping bog plant with pairs of small, round leaves, in green or the golden form 'Aurea'. It grows from stream and pond edges, so it is happy with its roots in the water and its stems trailing over wood or rock, and it tolerates being submerged for a while. Above water it grows denser and brighter, and may carry small yellow flowers. Also sold as a pond-edge and groundcover plant at nurseries and garden centres, as well as by aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright"
+            ],
+            [
+              "Roots",
+              "Roots in water, stems above"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ]
+          ],
+          "saNote": "Not a declared plant in SA. Plants sent into SA from interstate must arrive bare-rooted or in soil-free potting mix, so some sellers wash the roots or send cuttings.",
+          "photos": [
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/lysimachia-nummularia-513ee334a5e5a.jpg",
+              "caption": "Lysimachia nummularia grown emersed, in flower",
+              "credit": "© Heiko Muth (2010)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/lysimachia-nummularia"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/lysimachia-nummularia-aurea-4f7a01f014abc.jpg",
+              "caption": "Lysimachia nummularia 'Aurea'",
+              "credit": "© Svennovitch (2004)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/lysimachia-nummularia-aurea"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Lysimachia_nummularia_5zz.jpg",
+              "caption": "Lysimachia nummularia at a water garden nursery",
+              "credit": "© David J. Stang (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Lysimachia_nummularia_5zz.jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0375/7557/products/DSC_1028_2.jpg?v=1651205145",
+              "caption": "Gold pennywort sold as an aquarium bunch",
+              "credit": "natureaquariums.com.au",
+              "creditUrl": "https://www.natureaquariums.com.au/products/gold-pennywort-bunch"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Chloe's Aquatic Centre",
+              "url": "https://chloesaquaticcentre.com.au/products/gold-pennywort-lysimacia-nummularia-terrarium-only-plant",
+              "unit": "portion ('Aurea')",
+              "price": 895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Chloe's Aquatic Centre",
+              "url": "https://chloesaquaticcentre.com.au/products/green-pennywort-lysimacia-nummularia",
+              "unit": "portion (green)",
+              "price": 895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nature Aquariums",
+              "url": "https://www.natureaquariums.com.au/products/gold-pennywort-bunch",
+              "unit": "bunch ('Aurea')",
+              "price": 995,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "We Know Water Gardens",
+              "url": "https://weknowwatergardens.com.au/products/creeping-jenny-lysimachia-aurea-7cm-pot",
+              "unit": "7cm pot ('Aurea')",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Herb Cottage",
+              "url": "https://www.herbcottage.com.au/products/golden-moneywort",
+              "unit": "50 x 75mm tube ('Aurea')",
+              "price": 750,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 4,
+          "sources": [
+            {
+              "label": "Chloe's Aquatic Centre: product page",
+              "url": "https://chloesaquaticcentre.com.au/products/gold-pennywort-lysimacia-nummularia-terrarium-only-plant"
+            },
+            {
+              "label": "Chloe's Aquatic Centre: product page",
+              "url": "https://chloesaquaticcentre.com.au/products/green-pennywort-lysimacia-nummularia"
+            },
+            {
+              "label": "Nature Aquariums: product page",
+              "url": "https://www.natureaquariums.com.au/products/gold-pennywort-bunch"
+            },
+            {
+              "label": "We Know Water Gardens: product page",
+              "url": "https://weknowwatergardens.com.au/products/creeping-jenny-lysimachia-aurea-7cm-pot"
+            },
+            {
+              "label": "Herb Cottage: product page",
+              "url": "https://www.herbcottage.com.au/products/golden-moneywort"
+            },
+            {
+              "label": "Flowgrow: Lysimachia nummularia",
+              "url": "https://www.flowgrow.de/db/aquaticplants/lysimachia-nummularia"
+            },
+            {
+              "label": "PIRSA: Plant Quarantine Standard",
+              "url": "https://pir.sa.gov.au/biosecurity/plant_health/plant_quarantine_standard_and_updated_conditions"
+            }
+          ]
+        },
+        {
+          "id": 280,
+          "name": "Small-leaved English ivy",
+          "scientific": "Hedera helix (miniature cultivars)",
+          "difficulty": "Easy",
+          "about": "Ivy comes in many miniature cultivars, such as 'Needlepoint' and 'Star Dust', with small, finely lobed leaves on wiry trailing stems. Cuttings root in water and keep growing with their roots submerged, clinging to wood or rock above the waterline. It grows slowly at first and is easy to trim; all parts are toxic if eaten. Sold as a houseplant, so look for it at nurseries and garden centres rather than aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Low to bright, indirect"
+            ],
+            [
+              "Roots",
+              "Roots in water, stems above"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ]
+          ],
+          "saNote": "English ivy is an environmental weed in the Adelaide Hills and other parts of southern Australia, though not a declared plant. Keep it indoors and bin the trimmings. Plants sent into SA from interstate must arrive bare-rooted or in soil-free potting mix, so some sellers wash the roots or send cuttings.",
+          "photos": [
+            {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Hedera_helix_%27Needlepoint%27_kz01.jpg/1280px-Hedera_helix_%27Needlepoint%27_kz01.jpg",
+              "caption": "Hedera helix 'Needlepoint'",
+              "credit": "© Krzysztof Ziarnek, Kenraiz (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Hedera_helix_%27Needlepoint%27_kz01.jpg"
+            },
+            {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Hedera_helix_%27Needlepoint%27_Bluszcz_pospolity_2017-05-21_01.jpg/1280px-Hedera_helix_%27Needlepoint%27_Bluszcz_pospolity_2017-05-21_01.jpg",
+              "caption": "Small, finely lobed leaves of 'Needlepoint'",
+              "credit": "© Agnieszka Kwiecień, Nova (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Hedera_helix_%27Needlepoint%27_Bluszcz_pospolity_2017-05-21_01.jpg"
+            },
+            {
+              "src": "https://ajgardennursery.com.au/wp-content/uploads/2021/09/Hedera-helix-variegata-Star-Dust-Ivy-9cm-AJGN.jpg",
+              "caption": "Hedera helix 'Star Dust' in a nursery pot",
+              "credit": "ajgardennursery.com.au",
+              "creditUrl": "https://ajgardennursery.com.au/product/star-dust-ivy/"
+            },
+            {
+              "src": "https://ajgardennursery.com.au/wp-content/uploads/2021/10/Hedera-helix-variegata-Goldchild-14cm-AJGN.jpg",
+              "caption": "Hedera helix 'Goldchild' in a nursery pot",
+              "credit": "ajgardennursery.com.au",
+              "creditUrl": "https://ajgardennursery.com.au/product/goldchild-ivy/"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "A&J Garden Nursery",
+              "url": "https://ajgardennursery.com.au/product/star-dust-ivy/",
+              "unit": "10cm pot ('Star Dust')",
+              "price": 999,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "A&J Garden Nursery",
+              "url": "https://ajgardennursery.com.au/product/goldchild-ivy/",
+              "unit": "14cm pot ('Goldchild')",
+              "price": 2299,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Uprooted",
+              "url": "https://www.uprooted.com.au/products/hedera-goldheart",
+              "unit": "pot ('Goldheart')",
+              "price": 2000,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "A&J Garden Nursery: product page",
+              "url": "https://ajgardennursery.com.au/product/star-dust-ivy/"
+            },
+            {
+              "label": "A&J Garden Nursery: product page",
+              "url": "https://ajgardennursery.com.au/product/goldchild-ivy/"
+            },
+            {
+              "label": "Uprooted: product page",
+              "url": "https://www.uprooted.com.au/products/hedera-goldheart"
+            },
+            {
+              "label": "PIRSA: Plant Quarantine Standard",
+              "url": "https://pir.sa.gov.au/biosecurity/plant_health/plant_quarantine_standard_and_updated_conditions"
+            }
+          ]
+        },
+        {
+          "id": 281,
+          "name": "Dragon's tongue",
+          "scientific": "Hemigraphis repanda",
+          "difficulty": "Easy",
+          "about": "A low, spreading plant with narrow, toothed leaves, dark green to purple on top and wine red underneath. It roots readily and grows well with its roots in the water and its leaves in the air, but it dies within days if fully submerged. Aquarium shops sell it as a terrarium plant; it is also grown as a houseplant.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright, indirect"
+            ],
+            [
+              "Roots",
+              "Roots in water, leaves above"
+            ],
+            [
+              "Humidity",
+              "Medium to high"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hemigraphis-repanda-5092909b3405f.jpg",
+              "caption": "Hemigraphis repanda, rooted cuttings",
+              "credit": "© Robert (Big'K)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hemigraphis-repanda"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hemigraphis-repanda-50929215b5277.jpg",
+              "caption": "Hemigraphis repanda",
+              "credit": "© Robert (Big'K)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hemigraphis-repanda"
+            },
+            {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Hemigraphis_repanda_kz1.jpg/1280px-Hemigraphis_repanda_kz1.jpg",
+              "caption": "Hemigraphis repanda in a conservatory",
+              "credit": "© Krzysztof Ziarnek, Kenraiz (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Hemigraphis_repanda_kz1.jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0889/0128/8258/files/C0B0A7EE-6557-4A75-A4D9-62EA39EF3E7B.webp?v=1755138696",
+              "caption": "Hemigraphis repanda as sold",
+              "credit": "chloesaquaticcentre.com.au",
+              "creditUrl": "https://chloesaquaticcentre.com.au/products/dragons-flame-hemigraphis-repanda-terrarium-plant-only"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Chloe's Aquatic Centre",
+              "url": "https://chloesaquaticcentre.com.au/products/dragons-flame-hemigraphis-repanda-terrarium-plant-only",
+              "unit": "portion",
+              "price": 795,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Chloe's Aquatic Centre: product page",
+              "url": "https://chloesaquaticcentre.com.au/products/dragons-flame-hemigraphis-repanda-terrarium-plant-only"
+            },
+            {
+              "label": "Flowgrow: Hemigraphis repanda",
+              "url": "https://www.flowgrow.de/db/aquaticplants/hemigraphis-repanda"
+            }
+          ]
+        },
+        {
+          "id": 282,
+          "name": "Baby's tears",
+          "scientific": "Soleirolia soleirolii",
+          "difficulty": "Moderate",
+          "about": "Forms a soft, moss-like carpet of tiny round leaves on thread-thin stems. It needs constantly wet roots and humid air, so it suits a wet ledge or the top of wood just above the water, with its roots reaching down into it. Keep the leafy mat itself above the water, since the crown rots if it stays submerged. Sold as a houseplant, so look for it at nurseries and garden centres rather than aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Medium, indirect"
+            ],
+            [
+              "Roots",
+              "Wet, crown above water"
+            ],
+            [
+              "Humidity",
+              "High"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ]
+          ],
+          "saNote": "Plants sent into SA from interstate must arrive bare-rooted or in soil-free potting mix, so some sellers wash the roots or send cuttings.",
+          "photos": [
+            {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Soleirolia_soleirolii_kz03.jpg/1280px-Soleirolia_soleirolii_kz03.jpg",
+              "caption": "Soleirolia soleirolii forming a mat",
+              "credit": "© Krzysztof Ziarnek, Kenraiz (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Soleirolia_soleirolii_kz03.jpg"
+            },
+            {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Soleirolia_soleirolii_A.jpg/1280px-Soleirolia_soleirolii_A.jpg",
+              "caption": "Close view of the tiny leaves",
+              "credit": "© Wouter Hagens (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Soleirolia_soleirolii_A.jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0437/8653/5076/products/BabyTearsAbove.jpg?v=1712575918",
+              "caption": "Baby's tears in a nursery pot",
+              "credit": "chaletboutique.com.au",
+              "creditUrl": "https://chaletboutique.com.au/products/baby-tears"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Chalet Boutique",
+              "url": "https://chaletboutique.com.au/products/baby-tears",
+              "unit": "pot",
+              "price": 1495,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": null,
+          "sources": [
+            {
+              "label": "Chalet Boutique: product page",
+              "url": "https://chaletboutique.com.au/products/baby-tears"
+            },
+            {
+              "label": "PIRSA: Plant Quarantine Standard",
+              "url": "https://pir.sa.gov.au/biosecurity/plant_health/plant_quarantine_standard_and_updated_conditions"
+            }
+          ]
+        },
+        {
+          "id": 283,
+          "name": "Spikemoss",
+          "scientific": "Selaginella kraussiana",
+          "difficulty": "Moderate",
+          "about": "A creeping spikemoss with flat, finely divided, fern-like fronds that root as they spread. It grows along wet stream banks and needs constant moisture and humid air, so it suits wet wood or a ledge just above the water with its roots in the water. It dries out and browns quickly in dry air. Sold as a houseplant, so look for it at nurseries and garden centres rather than aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Low to medium, indirect"
+            ],
+            [
+              "Roots",
+              "Wet, fronds above water"
+            ],
+            [
+              "Humidity",
+              "High"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ]
+          ],
+          "saNote": "It has naturalised in damp, shady gullies in south-eastern Australia, so bin trimmings rather than composting them. Plants sent into SA from interstate must arrive bare-rooted or in soil-free potting mix, so some sellers wash the roots or send cuttings.",
+          "photos": [
+            {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Selaginella_kraussiana_qtl1.jpg/1280px-Selaginella_kraussiana_qtl1.jpg",
+              "caption": "Selaginella kraussiana in a botanic garden",
+              "credit": "© Quartl (CC BY-SA 3.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Selaginella_kraussiana_qtl1.jpg"
+            },
+            {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Selaginella_kraussiana_kz02.jpg/1280px-Selaginella_kraussiana_kz02.jpg",
+              "caption": "Selaginella kraussiana fronds",
+              "credit": "© Krzysztof Ziarnek, Kenraiz (CC BY 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Selaginella_kraussiana_kz02.jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0008/5858/7188/products/PXL_20230217_020308195-01.jpg?v=1676608352",
+              "caption": "Selaginella kraussiana 'Green' in a nursery pot",
+              "credit": "plantsmith.net.au",
+              "creditUrl": "https://plantsmith.net.au/products/selaginella-kraussiana-green-12cm"
+            },
+            {
+              "src": "https://wollongongnursery.com.au/image/cache/catalog/00-Groundcover-Creeping/selaginella-50mm-round-prop-pot-top-519x499.jpg",
+              "caption": "Selaginella in a propagation pot",
+              "credit": "wollongongnursery.com.au",
+              "creditUrl": "https://wollongongnursery.com.au/selaginella-selaginella-kraussiana-propagation-material"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Wollongong Nursery",
+              "url": "https://wollongongnursery.com.au/selaginella-selaginella-kraussiana-propagation-material",
+              "unit": "50mm propagation pot",
+              "price": 330,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": null,
+          "sources": [
+            {
+              "label": "Wollongong Nursery: product page",
+              "url": "https://wollongongnursery.com.au/selaginella-selaginella-kraussiana-propagation-material"
+            },
+            {
+              "label": "Wikipedia: Selaginella kraussiana",
+              "url": "https://en.wikipedia.org/wiki/Selaginella_kraussiana"
+            },
+            {
+              "label": "PIRSA: Plant Quarantine Standard",
+              "url": "https://pir.sa.gov.au/biosecurity/plant_health/plant_quarantine_standard_and_updated_conditions"
+            }
+          ]
+        },
+        {
+          "id": 286,
+          "name": "Dwarf mondo grass",
+          "scientific": "Ophiopogon japonicus 'Nana'",
+          "difficulty": "Easy",
+          "about": "Dense tufts of narrow, dark green leaves only about 10 cm tall, giving very fine texture at the water's edge. It is a garden groundcover, not an aquatic, so keep the roots in wet media with the crown just above the water, and never submerge it. Sold as a garden plant, so look for it at nurseries and garden centres rather than aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Low to bright"
+            ],
+            [
+              "Roots",
+              "Wet, crown above water"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Very slow"
+            ]
+          ],
+          "saNote": "Interstate nurseries send it bare-rooted or in potting mix to meet South Australia's plant quarantine rules (plants in garden soil can't come in), and some add a quarantine surcharge for SA orders.",
+          "photos": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ophiopogon_japonicus_%27Nana%27_-_Huntington_Botanical_Gardens_-_San_Marino%2C_CA_-_DSC01259.jpg/1280px-Ophiopogon_japonicus_%27Nana%27_-_Huntington_Botanical_Gardens_-_San_Marino%2C_CA_-_DSC01259.jpg",
+              "caption": "Ophiopogon japonicus 'Nana', Huntington Botanical Gardens",
+              "credit": "Daderot (CC0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Ophiopogon_japonicus_%27Nana%27_-_Huntington_Botanical_Gardens_-_San_Marino,_CA_-_DSC01259.jpg"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Ophiopogon_japonicus_nana_0zz.jpg",
+              "caption": "Dwarf mondo grass tufts, United States National Arboretum",
+              "credit": "© David J. Stang (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Ophiopogon_japonicus_nana_0zz.jpg"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Ophiopogon_japonicus_nana_1zz.jpg",
+              "caption": "A close, lawn-like planting of dwarf mondo grass",
+              "credit": "© David J. Stang (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Ophiopogon_japonicus_nana_1zz.jpg"
+            },
+            {
+              "src": "https://pinemountainnursery.com.au/cdn/shop/products/mondo_mini__00127.jpg?v=1707006126&width=1200",
+              "caption": "Original reference photo.",
+              "credit": "pinemountainnursery.com.au",
+              "creditUrl": "https://pinemountainnursery.com.au/products/ophiopogon-japonicus-nana"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Garden Express",
+              "url": "https://gardenexpress.com.au/products/dwarf-green-mondo-grass",
+              "unit": "50mm pot",
+              "price": 690,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Pine Mountain Nursery",
+              "url": "https://pinemountainnursery.com.au/products/ophiopogon-japonicus-nana",
+              "unit": "68mm cell, sent bare-rooted",
+              "price": 176,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": null,
+          "sources": [
+            {
+              "label": "Garden Express: product page",
+              "url": "https://gardenexpress.com.au/products/dwarf-green-mondo-grass"
+            },
+            {
+              "label": "Pine Mountain Nursery: product page",
+              "url": "https://pinemountainnursery.com.au/products/ophiopogon-japonicus-nana"
+            },
+            {
+              "label": "Flowgrow: Ophiopogon japonicus (not suited to submerged growth)",
+              "url": "https://www.flowgrow.de/db/aquaticplants/ophiopogon-japonicus"
+            }
+          ]
+        },
+        {
+          "id": 287,
+          "name": "Fibre optic grass",
+          "scientific": "Isolepis cernua",
+          "difficulty": "Easy",
+          "about": "A soft, arching mop of thread-thin stems, each tipped with a tiny pale flower head. It grows naturally in wet ground and shallow water, so it copes well with roots in water, and untidy clumps can be trimmed or divided. Sold as a garden and pond plant, so look for it at nurseries and garden centres rather than aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright"
+            ],
+            [
+              "Roots",
+              "Wet or in shallow water"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ]
+          ],
+          "saNote": "Native to southern Australia, including South Australia, and not a declared plant. Interstate nurseries post smaller pots in potting mix to meet SA's plant quarantine rules.",
+          "photos": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Isolepis_cernua_%28Scirpus_cernuus%29_-_Botanischer_Garten_-_Heidelberg%2C_Germany_-_DSC01260.jpg/1280px-Isolepis_cernua_%28Scirpus_cernuus%29_-_Botanischer_Garten_-_Heidelberg%2C_Germany_-_DSC01260.jpg",
+              "caption": "Isolepis cernua growing in water among duckweed, Botanischer Garten Heidelberg",
+              "credit": "Daderot (CC0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Isolepis_cernua_(Scirpus_cernuus)_-_Botanischer_Garten_-_Heidelberg,_Germany_-_DSC01260.jpg"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Isolepis_cernua_kz08.jpg/1280px-Isolepis_cernua_kz08.jpg",
+              "caption": "Isolepis cernua at the water's edge, Botanischer Garten Berlin-Dahlem",
+              "credit": "© Krzysztof Ziarnek, Kenraiz (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Isolepis_cernua_kz08.jpg"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Isolepis_cernua_Live_Wire_1zz.jpg",
+              "caption": "Isolepis cernua 'Live Wire', showing the flower-tipped stems",
+              "credit": "© David J. Stang (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Isolepis_cernua_Live_Wire_1zz.jpg"
+            },
+            {
+              "src": "https://mountainviewnursery.com.au/cdn/shop/files/master-ISOCER-1750483477-fibre_0edbdfab-4035-4f04-8b3b-10a8df51a3b9.jpg?v=1764816420&width=1200",
+              "caption": "Original reference photo.",
+              "credit": "mountainviewnursery.com.au",
+              "creditUrl": "https://mountainviewnursery.com.au/products/isocer"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Mountain View Nursery",
+              "url": "https://mountainviewnursery.com.au/products/isocer",
+              "unit": "140mm pot",
+              "price": 1700,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": null,
+          "sources": [
+            {
+              "label": "Mountain View Nursery: product page",
+              "url": "https://mountainviewnursery.com.au/products/isocer"
+            },
+            {
+              "label": "Mountain View Nursery: shipping (posts small pots to all states except WA, NT and Tas)",
+              "url": "https://mountainviewnursery.com.au/pages/shipping"
+            },
+            {
+              "label": "Atlas of Living Australia: Isolepis cernua",
+              "url": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920854"
+            }
+          ]
+        },
+        {
+          "id": 288,
+          "name": "Corkscrew rush",
+          "scientific": "Juncus effusus 'Spiralis'",
+          "difficulty": "Easy",
+          "about": "Thin, dark green stems that twist into corkscrews, making a loose, wiry clump rather than a mass of foliage. It grows with its roots and base in shallow water, and older stems can be cut out at the base to keep the clump low and open. Sold as a pond and garden plant, so look for it at water-garden nurseries rather than aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright"
+            ],
+            [
+              "Roots",
+              "Wet or in shallow water"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ]
+          ],
+          "saNote": "Soft rush (Juncus effusus) has naturalised in wet places in southern Australia but is not declared in SA; the rushes banned from sale are spiny rush (Juncus acutus) and a few other Juncus species. Put trimmings and seed heads in the bin, not in drains or creeks.",
+          "photos": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Juncus_effusus_%27Spiralis%27_-_North_Carolina_Arboretum.JPG/1280px-Juncus_effusus_%27Spiralis%27_-_North_Carolina_Arboretum.JPG",
+              "caption": "Corkscrew rush in a pot standing in a pond, North Carolina Arboretum",
+              "credit": "Daderot (public domain)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Juncus_effusus_%27Spiralis%27_-_North_Carolina_Arboretum.JPG"
+            },
+            {
+              "src": "https://weknowwatergardens.com.au/cdn/shop/products/Corkscrew_rush.jpg?v=1568695561&width=1200",
+              "caption": "Original reference photo. Supplied in a floating pond ring.",
+              "credit": "weknowwatergardens.com.au",
+              "creditUrl": "https://weknowwatergardens.com.au/products/corkscrew-rush-juncus-effusus-cv-spiralis"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Juncus_effusus_Spiralis_5zz.jpg/1280px-Juncus_effusus_Spiralis_5zz.jpg",
+              "caption": "Close-up of the twisted stems",
+              "credit": "© David J. Stang (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Juncus_effusus_Spiralis_5zz.jpg"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Juncus_effusus_Spiralis_0zz.jpg",
+              "caption": "Corkscrew rush, United States National Arboretum",
+              "credit": "© David J. Stang (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Juncus_effusus_Spiralis_0zz.jpg"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "We Know Water Gardens",
+              "url": "https://weknowwatergardens.com.au/products/corkscrew-rush-juncus-effusus-cv-spiralis",
+              "unit": "7cm pot with floating ring",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "We Know Water Gardens: product page",
+              "url": "https://weknowwatergardens.com.au/products/corkscrew-rush-juncus-effusus-cv-spiralis"
+            },
+            {
+              "label": "We Know Water Gardens: shipping (no plants to WA or Tas)",
+              "url": "https://weknowwatergardens.com.au/policies/shipping-policy"
+            },
+            {
+              "label": "Wikipedia: Juncus effusus 'Spiralis'",
+              "url": "https://en.wikipedia.org/wiki/Juncus_effusus_%27Spiralis%27"
+            },
+            {
+              "label": "Plants banned from sale in SA (Landscape SA)",
+              "url": "https://lc.landscape.sa.gov.au/what-we-do/weeds-and-pest-animals/weed-control/plants-banned-from-sale"
+            }
+          ]
+        },
+        {
+          "id": 289,
+          "name": "Dwarf papyrus",
+          "scientific": "Cyperus prolifer",
+          "difficulty": "Easy",
+          "about": "Thin, upright stems topped with small, fine starbursts of leafy bracts, usually 30 to 45 cm tall. It grows with its base in shallow water, and tall or tired stems can be cut out at the base to keep the clump light and in proportion. Sold as a pond plant, so look for it at water-garden nurseries rather than aquarium shops.",
+          "conditions": [
+            [
+              "Light",
+              "Bright"
+            ],
+            [
+              "Roots",
+              "Wet or in shallow water"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ]
+          ],
+          "saNote": "Not declared in SA, but it has become an environmental weed along waterways in south-east Queensland, so put trimmings and seed heads in the bin, never in drains or creeks. Some sellers list it as Cyperus papyrus 'Nanus'.",
+          "photos": [
+            {
+              "src": "https://static.wixstatic.com/media/642f51_16cf9a254277493386078b63c1b7accb~mv2.jpg",
+              "caption": "Original reference photo. Dwarf papyrus growing in shallow water.",
+              "credit": "triffidpark.com.au",
+              "creditUrl": "https://www.triffidpark.com.au/product-page/dwarf-papyrus-grass-cyperus-prolifera"
+            },
+            {
+              "src": "https://weknowwatergardens.com.au/cdn/shop/products/dwarf_papyrus_pond.jpg?v=1565843297&width=1200",
+              "caption": "The fine starburst heads up close",
+              "credit": "weknowwatergardens.com.au",
+              "creditUrl": "https://weknowwatergardens.com.au/products/dwarf-papyrus-cyperus-papyrus-nana-7cm-pot"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cyperus_prolifer_JRVdH_01.jpg/1280px-Cyperus_prolifer_JRVdH_01.jpg",
+              "caption": "Cyperus prolifer, Roger-Van den Hende botanical garden, Université Laval",
+              "credit": "© Cephas (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Cyperus_prolifer_JRVdH_01.jpg"
+            },
+            {
+              "src": "https://weknowwatergardens.com.au/cdn/shop/products/dwarf_papyrus.jpg?v=1565843297&width=1200",
+              "caption": "Original reference photo. Supplied in a floating pond ring.",
+              "credit": "weknowwatergardens.com.au",
+              "creditUrl": "https://weknowwatergardens.com.au/products/dwarf-papyrus-cyperus-papyrus-nana-7cm-pot"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Triffid Park",
+              "url": "https://www.triffidpark.com.au/product-page/dwarf-papyrus-grass-cyperus-prolifera",
+              "unit": "140mm pot, sent bare-rooted",
+              "price": 2000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "We Know Water Gardens",
+              "url": "https://weknowwatergardens.com.au/products/dwarf-papyrus-cyperus-papyrus-nana-7cm-pot",
+              "unit": "7cm pot with floating ring",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 1,
+          "sources": [
+            {
+              "label": "Triffid Park: product page (ships Australia-wide except NT)",
+              "url": "https://www.triffidpark.com.au/product-page/dwarf-papyrus-grass-cyperus-prolifera"
+            },
+            {
+              "label": "We Know Water Gardens: product page",
+              "url": "https://weknowwatergardens.com.au/products/dwarf-papyrus-cyperus-papyrus-nana-7cm-pot"
+            },
+            {
+              "label": "Land for Wildlife SEQ: weed profile, dwarf papyrus",
+              "url": "https://www.lfwseq.org.au/weed-profile-dwarf-papyrus/"
+            },
+            {
+              "label": "Plants banned from sale in SA (Landscape SA)",
+              "url": "https://lc.landscape.sa.gov.au/what-we-do/weeds-and-pest-animals/weed-control/plants-banned-from-sale"
+            }
+          ]
+        },
+        {
+          "id": 290,
+          "name": "Cyperus helferi",
+          "scientific": "Cyperus helferi",
+          "difficulty": "Moderate",
+          "about": "An aquarium sedge with narrow, ribbon-like leaves. Left to grow, it reaches the surface and carries on above it as a fine, grassy tuft that can flower, so it links the planting below the water with the growth above. The roots can stay submerged permanently, but new emersed leaves need humid air while they adapt.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright"
+            ],
+            [
+              "Roots",
+              "Submerged or wet"
+            ],
+            [
+              "Humidity",
+              "High"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ]
+          ],
+          "saNote": null,
+          "photos": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Cyperus_helferi_kz01.jpg/1280px-Cyperus_helferi_kz01.jpg",
+              "caption": "Cyperus helferi grown emersed and flowering, Botanischer Garten Halle",
+              "credit": "© Krzysztof Ziarnek, Kenraiz (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Cyperus_helferi_kz01.jpg"
+            },
+            {
+              "src": "https://schoolofscape.com.au/cdn/shop/files/Cyperus-helferi-1024x682.jpg",
+              "caption": "Original reference photo. Leaves rising towards the surface in a planted tank.",
+              "credit": "schoolofscape.com.au",
+              "creditUrl": "https://schoolofscape.com.au/products/cyperus-helferi-elegant-grass-like-aquarium-plant"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/cyperus-helferi-4f7a016e3d9e2.jpg",
+              "caption": "Cyperus helferi growing submerged",
+              "credit": "© Svennovitch (2005)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/cyperus-helferi"
+            },
+            {
+              "src": "https://www.aquariumgallery.com.au/cdn/shop/files/cyperus-helferi-ee02.jpg?v=1691122882&width=1200",
+              "caption": "Original reference photo.",
+              "credit": "aquariumgallery.com.au",
+              "creditUrl": "https://www.aquariumgallery.com.au/products/cyperus-helferi"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/cyperus-helferi-elegant-grass-like-aquarium-plant",
+              "unit": "portion",
+              "price": 3000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/tissue-culture-cyperus-helferi-clumping-grass",
+              "unit": "tissue culture cup",
+              "price": 1495,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nature Aquariums",
+              "url": "https://natureaquariums.com.au/products/cyperus-helferi",
+              "unit": "pot",
+              "price": 995,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarium Gallery",
+              "url": "https://www.aquariumgallery.com.au/products/cyperus-helferi",
+              "unit": "pot",
+              "price": 1595,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "AB Quatics",
+              "url": "https://abquatics.shop/products/cyperus-helferi-5cm-pot",
+              "unit": "5cm pot",
+              "price": 1295,
+              "was": 1500,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/cyperus-helferi-elegant-grass-like-aquarium-plant"
+            },
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/tissue-culture-cyperus-helferi-clumping-grass"
+            },
+            {
+              "label": "Nature Aquariums: product page",
+              "url": "https://natureaquariums.com.au/products/cyperus-helferi"
+            },
+            {
+              "label": "Aquarium Gallery: product page",
+              "url": "https://www.aquariumgallery.com.au/products/cyperus-helferi"
+            },
+            {
+              "label": "AB Quatics: product page",
+              "url": "https://abquatics.shop/products/cyperus-helferi-5cm-pot"
+            },
+            {
+              "label": "Flowgrow: Cyperus helferi",
+              "url": "https://www.flowgrow.de/db/aquaticplants/cyperus-helferi"
+            }
+          ]
+        },
+        {
+          "id": 296,
+          "name": "Shield pennywort",
+          "scientific": "Hydrocotyle verticillata",
+          "difficulty": "Easy",
+          "about": "A creeping pennywort with round, umbrella-like leaves usually 1 to 3 cm across, held on thin upright stalks. Its runners grow happily out of the water across damp wood, rock or a planter at the surface, and stay compact if trimmed often. Pull back runners that wander under water so it doesn't spread through the planting.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright"
+            ],
+            [
+              "Roots",
+              "Submerged or wet"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ]
+          ],
+          "saNote": "Not a declared plant in SA. Don't confuse it with floating pennywort (Hydrocotyle ranunculoides), which is declared and can't be sold or moved in SA. Bin trimmings rather than dumping them near drains or waterways.",
+          "photos": [
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hydrocotyle-verticillata-513e3acc6c21b.jpg",
+              "caption": "Emersed-grown plant in a pot",
+              "credit": "Tobias Coring (2012)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hydrocotyle-verticillata"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0648/1038/5633/files/hydrocotyle-verticillata.jpg",
+              "caption": "Leaves above water",
+              "credit": "Aquafy",
+              "creditUrl": "https://aquafy.com.au/products/hydrocotyle-verticillata"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Hydrocotyle_verticillata_kz01.jpg/1280px-Hydrocotyle_verticillata_kz01.jpg",
+              "caption": "Growing in the wild, leaves held above wet ground",
+              "credit": "Krzysztof Ziarnek, Kenraiz (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Hydrocotyle_verticillata_kz01.jpg"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/hydrocotyle-verticillata-51da5df501d8b.jpg",
+              "caption": "Low clump in an aquarium",
+              "credit": "stern_nbg",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/hydrocotyle-verticillata"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquafy",
+              "url": "https://aquafy.com.au/products/hydrocotyle-verticillata",
+              "unit": "portion",
+              "price": 999,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Scapeshop",
+              "url": "https://scapeshop.com.au/products/hydrocotyle-verticillata-shield-penny-tissue-culture",
+              "unit": "Tissue culture cup",
+              "price": 1200,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "The Tech Den",
+              "url": "https://www.thetechden.com.au/products/true-aquatic-hydrocotyle-verticillata-shield-pennywort-live-plant-tissue-culture",
+              "unit": "Tissue culture cup",
+              "price": 1595,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/rare-tc-hydrocotyle-verticillata",
+              "unit": "Tissue culture cup",
+              "price": 1800,
+              "was": 2100,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/products/hydrocotyle-verticillata-carpeting-hydrocotyle",
+              "unit": "Tissue culture cup",
+              "price": 2000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquafy: product page",
+              "url": "https://aquafy.com.au/products/hydrocotyle-verticillata"
+            },
+            {
+              "label": "Scapeshop: product page",
+              "url": "https://scapeshop.com.au/products/hydrocotyle-verticillata-shield-penny-tissue-culture"
+            },
+            {
+              "label": "The Tech Den: product page",
+              "url": "https://www.thetechden.com.au/products/true-aquatic-hydrocotyle-verticillata-shield-pennywort-live-plant-tissue-culture"
+            },
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/rare-tc-hydrocotyle-verticillata"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/products/hydrocotyle-verticillata-carpeting-hydrocotyle"
+            },
+            {
+              "label": "Flowgrow: Hydrocotyle verticillata",
+              "url": "https://www.flowgrow.de/db/aquaticplants/hydrocotyle-verticillata"
+            },
+            {
+              "label": "PIRSA: Hydrocotyle ranunculoides policy",
+              "url": "https://pir.sa.gov.au/biosecurity/weeds/weed_management_programs/plant_policies/pest_weed_policies/declared_plants/hydrocotyle_policy.pdf"
+            }
+          ]
+        },
+        {
+          "id": 297,
+          "name": "River buttercup",
+          "scientific": "Ranunculus inundatus",
+          "difficulty": "Moderate",
+          "about": "An Australian native buttercup whose small round leaves are cut into fine, star-like lobes on long stalks. It is amphibious and grows naturally on wet mud and in shallow water, spreading slowly by runners, and above water it can carry small yellow flowers. It wants good light and is happiest with its roots kept constantly wet.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright"
+            ],
+            [
+              "Roots",
+              "Submerged or wet"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Slow"
+            ]
+          ],
+          "saNote": "Native to South Australia, including the Murray system. Not a declared plant.",
+          "photos": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ranunculus_inundatus_habit1_%2817985333071%29.jpg/1280px-Ranunculus_inundatus_habit1_%2817985333071%29.jpg",
+              "caption": "Flowering above water at a wetland edge",
+              "credit": "Harry Rose (CC BY 2.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Ranunculus_inundatus_habit1_(17985333071).jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0854/0866/files/RanunculusInundatus.jpg",
+              "caption": "Leaves rising above a planted carpet",
+              "credit": "Aquaristic Online",
+              "creditUrl": "https://www.aquaristiconline.com.au/products/pl012-ranunculus-inundatus"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Ranunculus_inundatus_kz01.jpg/1280px-Ranunculus_inundatus_kz01.jpg",
+              "caption": "Young plants with star-shaped leaves",
+              "credit": "Krzysztof Ziarnek, Kenraiz (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Ranunculus_inundatus_kz01.jpg"
+            },
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/ranunculus-inundatus-4f7a021be3433.jpg",
+              "caption": "Ranunculus inundatus, close up",
+              "credit": "SuperCTW (2004)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/ranunculus-inundatus"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/products/pl012-ranunculus-inundatus",
+              "unit": "portion",
+              "price": 1800,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/rotala-wallichii-s130-copy",
+              "unit": "portion",
+              "price": 1500,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarium Gallery",
+              "url": "https://www.aquariumgallery.com.au/products/ranunculus-inundatus",
+              "unit": "portion, emersed grown",
+              "price": 1595,
+              "was": null,
+              "soldOut": true,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/products/pl012-ranunculus-inundatus"
+            },
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/rotala-wallichii-s130-copy"
+            },
+            {
+              "label": "Aquarium Gallery: product page",
+              "url": "https://www.aquariumgallery.com.au/products/ranunculus-inundatus"
+            },
+            {
+              "label": "PlantNET: Ranunculus inundatus",
+              "url": "https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Ranunculus~inundatus"
+            },
+            {
+              "label": "Flowgrow: Ranunculus inundatus",
+              "url": "https://www.flowgrow.de/db/aquaticplants/ranunculus-inundatus"
+            }
+          ]
+        },
+        {
+          "id": 298,
+          "name": "Ludwigia repens 'Rubin'",
+          "scientific": "Ludwigia repens 'Rubin'",
+          "difficulty": "Easy",
+          "about": "A hardy stem plant with small oval leaves, deep red under water and greener with red undersides once it grows out. Stems that reach the surface keep growing into the air and can carry small yellow flowers, and roots form along the stems in the water. Pinch the tips often to keep it bushy and small-leaved.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright"
+            ],
+            [
+              "Roots",
+              "Submerged stems"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Fast"
+            ]
+          ],
+          "saNote": "Not a declared plant in SA. The declared one is primrose willow (Ludwigia peruviana), a large shrub that isn't sold for aquariums.",
+          "photos": [
+            {
+              "src": "https://www.flowgrow.de/db/images/aquaticplants/detail/ludwigia-repens-4f7a01e99f773.jpg",
+              "caption": "Ludwigia repens grown emersed, with flowers",
+              "credit": "Heiko Muth (2010)",
+              "creditUrl": "https://www.flowgrow.de/db/aquaticplants/ludwigia-repens"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ludwigia_repens_Ludwigia_2023-07-30_01.jpg/1280px-Ludwigia_repens_Ludwigia_2023-07-30_01.jpg",
+              "caption": "Stems growing out over the water surface",
+              "credit": "Agnieszka Kwiecień, Nova (CC BY-SA 4.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Ludwigia_repens_Ludwigia_2023-07-30_01.jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0802/8835/0528/files/ludwigiarepensrubin.jpg",
+              "caption": "'Rubin' grown under water, showing its red colour",
+              "credit": "Liverpool Creek Aquariums",
+              "creditUrl": "https://www.liverpoolcreekaquariums.com.au/products/ludwigia-repens-rubin"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0703/1003/5770/files/1c3a64e7-bcea-499e-ab4b-fbe713c51440.png",
+              "caption": "Potted 'Rubin'",
+              "credit": "School of Scape",
+              "creditUrl": "https://schoolofscape.com.au/products/ludwigia-repens-red-rubin"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/products/ludwigia-repens-emersed-bunch-rubin",
+              "unit": "emersed bunch",
+              "price": 895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Liverpool Creek Aquariums",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/ludwigia-repens-rubin",
+              "unit": "bunch (from price)",
+              "price": 999,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Nano Tanks Australia",
+              "url": "https://nanotanksaustralia.com.au/products/ludwigia-repens-rubin",
+              "unit": "per bunch",
+              "price": 1000,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarium Gallery",
+              "url": "https://www.aquariumgallery.com.au/products/ludwigia-glandulosa",
+              "unit": "bunch",
+              "price": 1195,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "School of Scape",
+              "url": "https://schoolofscape.com.au/products/ludwigia-repens-red-rubin",
+              "unit": "bunch",
+              "price": 1200,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/products/ludwigia-repens-emersed-bunch-rubin"
+            },
+            {
+              "label": "Liverpool Creek Aquariums: product page",
+              "url": "https://www.liverpoolcreekaquariums.com.au/products/ludwigia-repens-rubin"
+            },
+            {
+              "label": "Nano Tanks Australia: product page",
+              "url": "https://nanotanksaustralia.com.au/products/ludwigia-repens-rubin"
+            },
+            {
+              "label": "Aquarium Gallery: product page",
+              "url": "https://www.aquariumgallery.com.au/products/ludwigia-glandulosa"
+            },
+            {
+              "label": "School of Scape: product page",
+              "url": "https://schoolofscape.com.au/products/ludwigia-repens-red-rubin"
+            },
+            {
+              "label": "Flowgrow: Ludwigia repens",
+              "url": "https://www.flowgrow.de/db/aquaticplants/ludwigia-repens"
+            },
+            {
+              "label": "PIRSA: primrose willow",
+              "url": "https://pir.sa.gov.au/crops-and-plants/weeds-and-plant-pests/declared-weeds/primrose_willow"
+            }
+          ]
+        },
+        {
+          "id": 299,
+          "name": "Red milfoil",
+          "scientific": "Myriophyllum papillosum",
+          "difficulty": "Easy",
+          "about": "An Australian native milfoil with whorls of fine, needle-like leaves on red-tinged stems. It grows naturally in shallow water and on mud, and stems that reach the surface turn into stiff, bottlebrush-like tips held above the water. Trim the tops to keep it bushy, and replant cuttings if it gets leggy.",
+          "conditions": [
+            [
+              "Light",
+              "Medium to bright"
+            ],
+            [
+              "Roots",
+              "Submerged stems"
+            ],
+            [
+              "Humidity",
+              "Any"
+            ],
+            [
+              "Growth",
+              "Medium"
+            ]
+          ],
+          "saNote": "Native to South Australia's Murray system. Not a declared plant. Don't confuse it with parrot's feather (Myriophyllum aquaticum), which is declared and can't be sold or moved in SA.",
+          "photos": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Myriophyllum_papillosum_plant6_%2817013634341%29.jpg/1280px-Myriophyllum_papillosum_plant6_%2817013634341%29.jpg",
+              "caption": "Emergent shoots rising from shallow water",
+              "credit": "Harry Rose (CC BY 2.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Myriophyllum_papillosum_plant6_(17013634341).jpg"
+            },
+            {
+              "src": "https://cdn.shopify.com/s/files/1/0643/3239/8819/products/IMG_9799-P043-MILFOIL.jpg",
+              "caption": "Emersed-grown plant in a pot",
+              "credit": "Aquatic Plants Australia",
+              "creditUrl": "https://www.aquaticplantsaustralia.com.au/products/milfoil-myriophyllum-papillosum"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Myriophyllum_papillosum_plant4_-_Flickr_-_Macleay_Grass_Man.jpg/1280px-Myriophyllum_papillosum_plant4_-_Flickr_-_Macleay_Grass_Man.jpg",
+              "caption": "Shoot tip above the water",
+              "credit": "Harry Rose (CC BY 2.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Myriophyllum_papillosum_plant4_-_Flickr_-_Macleay_Grass_Man.jpg"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Myriophyllum_papillosum_plant1_%2816392106914%29.jpg/1280px-Myriophyllum_papillosum_plant1_%2816392106914%29.jpg",
+              "caption": "Whorled leaves and red-tinged stem",
+              "credit": "Harry Rose (CC BY 2.0)",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Myriophyllum_papillosum_plant1_(16392106914).jpg"
+            }
+          ],
+          "offers": [
+            {
+              "shop": "Aquatic Plants Australia",
+              "url": "https://www.aquaticplantsaustralia.com.au/products/milfoil-myriophyllum-papillosum",
+              "unit": "emersed bunch",
+              "price": 895,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquarium Gallery",
+              "url": "https://www.aquariumgallery.com.au/products/milfoil-red-myriophyllum-papillosum",
+              "unit": "bunch",
+              "price": 1195,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Micro Aquatic Shop",
+              "url": "https://microaquaticshop.com.au/products/myriophyllum-papillosum-red-milfoil",
+              "unit": "bunch",
+              "price": 1495,
+              "was": 1800,
+              "soldOut": false,
+              "checked": "2026-10"
+            },
+            {
+              "shop": "Aquaristic Online",
+              "url": "https://www.aquaristiconline.com.au/products/myriophyllum-papillosum-red-milfoil",
+              "unit": "bunch",
+              "price": 1500,
+              "was": null,
+              "soldOut": false,
+              "checked": "2026-10"
+            }
+          ],
+          "defaultOffer": 0,
+          "sources": [
+            {
+              "label": "Aquatic Plants Australia: product page",
+              "url": "https://www.aquaticplantsaustralia.com.au/products/milfoil-myriophyllum-papillosum"
+            },
+            {
+              "label": "Aquarium Gallery: product page",
+              "url": "https://www.aquariumgallery.com.au/products/milfoil-red-myriophyllum-papillosum"
+            },
+            {
+              "label": "Micro Aquatic Shop: product page",
+              "url": "https://microaquaticshop.com.au/products/myriophyllum-papillosum-red-milfoil"
+            },
+            {
+              "label": "Aquaristic Online: product page",
+              "url": "https://www.aquaristiconline.com.au/products/myriophyllum-papillosum-red-milfoil"
+            },
+            {
+              "label": "PlantNET: Myriophyllum papillosum",
+              "url": "https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Myriophyllum~papillosum"
+            },
+            {
+              "label": "PIRSA: parrot feather",
+              "url": "https://pir.sa.gov.au/biosecurity/weeds/declared-weeds/parrot_feather"
             }
           ]
         }
